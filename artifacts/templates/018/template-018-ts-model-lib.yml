@@ -10,13 +10,12 @@ lastUpdatedOn: 2024-03-07T20:58:30-08:00
 modifiedBy: https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95
 children:
   - name: My checkbox 1
-    type: templateField
+    type: checkbox-field
     id: https://repo.metadatacenter.org/template-fields/bc68d373-562f-4725-9e67-433999363deb
     label: My checkbox 1
     description: Help Text
     modelVersion: 1.6.0
     prefLabel: Required checkbox
-    inputType: checkbox
     datatype: xsd:string
     required: true
     values:
@@ -36,13 +35,12 @@ children:
       overrideLabel: My checkbox 1
       overrideDescription: Help Text
   - name: My checkbox 2
-    type: templateField
+    type: checkbox-field
     id: https://repo.metadatacenter.org/template-fields/bd25e554-c588-48ce-824f-8383cd3eafcc
     label: My checkbox 2
     description: Help Text
     modelVersion: 1.6.0
     prefLabel: Non-required checkbox
-    inputType: checkbox
     datatype: xsd:string
     values:
       - label: Radio 1

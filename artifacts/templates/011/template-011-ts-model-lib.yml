@@ -10,7 +10,7 @@ lastUpdatedOn: 2024-03-06T12:46:44-08:00
 modifiedBy: https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95
 children:
   - name: TextField1
-    type: templateField
+    type: text-field
     id: https://repo.metadatacenter.org/template-fields/372bc0d4-3ca4-46b6-b09b-04d4df12a0e1
     label: TextField1
     description: Help Text
@@ -19,7 +19,6 @@ children:
     altLabel:
       - TextField1 Alt1
       - TextField1 Alt2
-    inputType: textfield
     datatype: xsd:string
     createdOn: 2024-03-06T12:46:44-08:00
     createdBy: https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95

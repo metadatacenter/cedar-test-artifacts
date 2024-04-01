@@ -10,13 +10,12 @@ lastUpdatedOn: 2024-03-04T12:26:33-08:00
 modifiedBy: https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95
 children:
   - name: Page break field
-    type: staticTemplateField
+    type: static-page-break
     id: https://repo.metadatacenter.org/template-fields/61882375-7659-49e9-8c07-33f40d6fe4a5
     label: Page break field
     description: Help text
     modelVersion: 1.6.0
     prefLabel: Preferred label
-    inputType: page-break
     createdOn: 2024-03-04T12:26:33-08:00
     createdBy: https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95
     lastUpdatedOn: 2024-03-04T12:26:33-08:00
@@ -26,13 +25,12 @@ children:
       overrideLabel: Page break field
       overrideDescription: Help text
   - name: Section break
-    type: staticTemplateField
+    type: static-section-break
     id: https://repo.metadatacenter.org/template-fields/66d294ce-bdf5-4fa9-b3bb-424d972acd4f
     label: Section break
     description: Help Text
     modelVersion: 1.6.0
     prefLabel: Preferred label
-    inputType: section-break
     createdOn: 2024-03-04T12:26:33-08:00
     createdBy: https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95
     lastUpdatedOn: 2024-03-04T12:26:33-08:00
@@ -42,13 +40,12 @@ children:
       overrideLabel: Section break
       overrideDescription: Help Text
   - name: Image field
-    type: staticTemplateField
+    type: static-image
     id: https://repo.metadatacenter.org/template-fields/6d3e4f87-13cd-4c50-bee9-96c269d9f60e
     label: Image field
     description: Help Text
     modelVersion: 1.6.0
     prefLabel: Preferred label
-    inputType: image
     content: https://cedar.metadatacenter.org/img/close_modal.png
     createdOn: 2024-03-04T12:26:33-08:00
     createdBy: https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95
@@ -59,13 +56,12 @@ children:
       overrideLabel: Image field
       overrideDescription: Help Text
   - name: Rich text
-    type: staticTemplateField
+    type: static-rich-text
     id: https://repo.metadatacenter.org/template-fields/adc5e2fe-a9ba-46b8-aa38-64501fda73e8
     label: Rich text
     description: Help Text
     modelVersion: 1.6.0
     prefLabel: Preferred label
-    inputType: richtext
     content: |-
       <p><a class="share workspace ng-scope active" href="https://cedar.metadatacenter.org/#" ng-class="{active: dc.isHomeMode()}" ng-click="dc.goToMyWorkspace()" style="background-color: rgb(232, 232, 232); opacity: 1; margin: 10px 0px; display: block; font-size: 16px; font-weight: bold;" translate="">Workspace</a><a class="share shared ng-scope" href="https://cedar.metadatacenter.org/#" ng-class="{active: dc.isSharedWithMeMode()}" ng-click="dc.goToSharedWithMe()" style="background-color: rgb(232, 232, 232); outline: 0px; margin: 10px 0px; display: block; font-size: 16px;" translate="">Shared with Me</a></p>
 
@@ -78,12 +74,11 @@ children:
       overrideLabel: Rich text
       overrideDescription: Help Text
   - name: Video name
-    type: staticTemplateField
+    type: static-youtube-video
     id: https://repo.metadatacenter.org/template-fields/adc5e2fe-a9ba-46b8-aa38-64501fda8888
     label: Video name
     description: Help Text
     modelVersion: 1.6.0
-    inputType: youtube
     content: qf6-_JLZ3lw
     width: 192
     height: 108

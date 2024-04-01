@@ -10,7 +10,7 @@ lastUpdatedOn: 2024-03-12T12:24:23-07:00
 modifiedBy: https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95
 children:
   - name: #002 Element with three fields
-    type: templateElement
+    type: element
     id: https://repo.metadatacenter.org/template-elements/bdb047d1-0713-4ee9-9cf6-c09bb48022f5
     label: #002 Element with three fields
     status: draft
@@ -22,12 +22,11 @@ children:
     modifiedBy: https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95
     children:
       - name: Text field
-        type: templateField
+        type: text-field
         id: https://repo.metadatacenter.org/template-fields/fae6da00-d104-4787-bf62-1506a79ce4f8
         label: Text field
         description: Help Text
         modelVersion: 1.6.0
-        inputType: textfield
         datatype: xsd:string
         createdOn: 2024-03-12T12:23:36-07:00
         createdBy: https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95
@@ -38,12 +37,11 @@ children:
           overrideLabel: Text field
           overrideDescription: Help Text
       - name: Email
-        type: templateField
+        type: email-field
         id: https://repo.metadatacenter.org/template-fields/d1da1935-5bb8-4800-92f3-bd1020e551d0
         label: Email
         description: Help Text
         modelVersion: 1.6.0
-        inputType: email
         datatype: xsd:string
         createdOn: 2024-03-12T12:23:36-07:00
         createdBy: https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95
@@ -54,12 +52,11 @@ children:
           overrideLabel: Email
           overrideDescription: Help Text
       - name: Numeric
-        type: templateField
+        type: numeric-field
         id: https://repo.metadatacenter.org/template-fields/c200faae-8a7c-40a1-88ea-5d385230f242
         label: Numeric
         description: Help Text
         modelVersion: 1.6.0
-        inputType: numeric
         datatype: xsd:decimal
         createdOn: 2024-03-12T12:23:36-07:00
         createdBy: https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95

@@ -10,7 +10,7 @@ lastUpdatedOn: 2024-03-11T15:26:26-07:00
 modifiedBy: https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95
 children:
   - name: Controlled 1
-    type: templateField
+    type: controlled-term-field
     id: https://repo.metadatacenter.org/template-fields/ca4e4afa-ae85-4ac2-aa9b-5dd003f4ac8c
     label: Controlled 1
     description: Help Text
@@ -18,7 +18,6 @@ children:
     altLabel:
       - ALT label 1
       - ALT label 2
-    inputType: textfield
     datatype: xsd:anyURI
     default:
       value: http://purl.bioontology.org/ontology/MESH/C039047

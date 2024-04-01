@@ -10,12 +10,11 @@ lastUpdatedOn: 2024-03-11T16:27:51-07:00
 modifiedBy: https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95
 children:
   - name: Controlled
-    type: templateField
+    type: controlled-term-field
     id: https://repo.metadatacenter.org/template-fields/8fbf3e19-5c8a-4b72-9463-c1769fc73f96
     label: Controlled
     description: Help Text
     modelVersion: 1.6.0
-    inputType: textfield
     datatype: xsd:anyURI
     valueRecommendationEnabled: true
     required: true

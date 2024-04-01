@@ -10,12 +10,11 @@ lastUpdatedOn: 2024-02-29T00:03:54-08:00
 modifiedBy: https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95
 children:
   - name: Textfield
-    type: templateField
+    type: text-field
     id: https://repo.metadatacenter.org/template-fields/16ae272a-364c-4770-a6d2-f9c2685de5c4
     label: Textfield
     description: Help Text
     modelVersion: 1.6.0
-    inputType: textfield
     datatype: xsd:string
     createdOn: 2024-02-29T00:03:54-08:00
     createdBy: https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95
