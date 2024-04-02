@@ -1,6 +1,6 @@
 type: element
 id: https://repo.metadatacenter.org/template-elements/34c95bb0-d51a-416e-a6a8-08fa10f7c6eb
-label: #003 Element with another element
+label: "#003 Element with another element"
 status: draft
 version: 0.0.1
 modelVersion: 1.6.0
@@ -9,10 +9,10 @@ createdBy: https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95
 lastUpdatedOn: 2024-03-12T12:23:53-07:00
 modifiedBy: https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95
 children:
-  - name: #002 Element with three fields
+  - name: "#002 Element with three fields"
     type: element
     id: https://repo.metadatacenter.org/template-elements/bdb047d1-0713-4ee9-9cf6-c09bb48022f5
-    label: #002 Element with three fields
+    label: "#002 Element with three fields"
     status: draft
     version: 0.0.1
     modelVersion: 1.6.0
@@ -68,5 +68,5 @@ children:
           overrideDescription: Help Text
     configuration:
       propertyIRI: https://schema.metadatacenter.org/properties/b95c791b-d2b5-4845-a759-22028fc58be0
-      overrideLabel: #002 Element with three fields
+      overrideLabel: "#002 Element with three fields"
       overrideDescription: ""

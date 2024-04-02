@@ -1,6 +1,6 @@
 type: element
 id: https://repo.metadatacenter.org/template-elements/8a57aa93-3a95-41c1-97be-1cc43fba1634
-label: #001 Element with attribute-value
+label: "#001 Element with attribute-value"
 status: draft
 version: 0.0.1
 modelVersion: 1.6.0

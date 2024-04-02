@@ -1,6 +1,6 @@
 type: template
 id: https://repo.metadatacenter.org/templates/bd1b5602-ffd1-4696-885d-d727dba8a644
-label: #013 Template with Numeric Field
+label: "#013 Template with Numeric Field"
 status: draft
 version: 0.0.1
 modelVersion: 1.6.0

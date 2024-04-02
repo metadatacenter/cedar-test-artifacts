@@ -1,6 +1,6 @@
 type: text-area-field
 id: https://repo.metadatacenter.org/template-fields/a12db879-311a-41d6-91de-595ac45e835a
-label: #002 TextArea name
+label: "#002 TextArea name"
 description: TextArea help
 status: draft
 version: 0.0.1

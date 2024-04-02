@@ -1,6 +1,6 @@
 type: template
 id: https://repo.metadatacenter.org/templates/d58504c7-6926-4b12-a42e-776f99c7df60
-label: #010 Template with DateTime field
+label: "#010 Template with DateTime field"
 status: draft
 version: 0.0.1
 modelVersion: 1.6.0

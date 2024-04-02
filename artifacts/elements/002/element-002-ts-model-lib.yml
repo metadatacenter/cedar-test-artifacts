@@ -1,6 +1,6 @@
 type: element
 id: https://repo.metadatacenter.org/template-elements/bdb047d1-0713-4ee9-9cf6-c09bb48022f5
-label: #002 Element with three fields
+label: "#002 Element with three fields"
 status: draft
 version: 0.0.1
 modelVersion: 1.6.0

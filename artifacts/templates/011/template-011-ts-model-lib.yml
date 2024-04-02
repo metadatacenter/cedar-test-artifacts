@@ -1,6 +1,6 @@
 type: template
 id: https://repo.metadatacenter.org/templates/71ab8aa7-84fb-4f42-a863-25ae82146fca
-label: #11 Template with multi field with pref and alt labels
+label: "#11 Template with multi field with pref and alt labels"
 status: draft
 version: 0.0.1
 modelVersion: 1.6.0

@@ -29,7 +29,7 @@ children:
         id: https://repo.metadatacenter.org/template-fields/2e8e7338-5ecd-4028-a36f-aa34858bc505
         label: Read & Understood - RT
         modelVersion: 1.6.0
-        content: |-
+        content: |
           <p>Welcome to the Catalog form which follows the metadata schema set by DCAT. The DCAT Catalog&nbsp;<span id="docs-internal-guid-b8aefd18-7fff-e625-51b8-aef58b481e19"><span style="font-size: 11pt; font-family: Arial; color: rgb(67, 67, 67); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">is a collection of datasets, like a folder you might create in a directory to organize your results. The Catalog metadata describes attributes of this high-level collection and </span></span>helps to increase the FAIRness of your research outputs.</p>
 
           <p>Whenever you see a blue hyperlink in this form, use the right mouse button to open a new window.</p>
@@ -43,7 +43,6 @@ children:
           <p>&nbsp;</p>
 
           <p dir="ltr" style="margin-top: 12pt; margin-bottom: 0pt; line-height: 1.38; text-align: justify; background-color: rgb(255, 255, 255); padding: 0pt 0pt 12pt;">&nbsp;</p>
-
         createdOn: 2022-06-19T17:25:06-07:00
         createdBy: https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b
         lastUpdatedOn: 2022-06-19T17:25:06-07:00
@@ -81,9 +80,8 @@ children:
     label: catalogTitleRT
     modelVersion: 1.6.0
     prefLabel: Catalog Title RT
-    content: |-
+    content: |
       <p><span style="font-size: 16px; background-color: rgb(238, 238, 238);">Please provide a title of the catalog.</span></p>
-
     createdOn: 2022-06-19T21:59:19-07:00
     createdBy: https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b
     lastUpdatedOn: 2022-06-19T21:59:19-07:00
@@ -115,9 +113,8 @@ children:
     label: catalogDescriptionRT
     modelVersion: 1.6.0
     prefLabel: Catalog Description RT
-    content: |-
+    content: |
       <p>Please provide a description of the catalog.</p>
-
     createdOn: 2022-06-19T21:59:19-07:00
     createdBy: https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b
     lastUpdatedOn: 2022-06-19T21:59:19-07:00
@@ -149,9 +146,8 @@ children:
     label: publisherRT
     modelVersion: 1.6.0
     prefLabel: Publisher RT
-    content: |-
+    content: |
       <p>Please provide a URI (globally unique, persistent and resolvable identifier) of the entity that holds, archives, publishes prints, distributes, releases, issues, or produces the catalog being described.</p>
-
     createdOn: 2022-06-19T21:59:19-07:00
     createdBy: https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b
     lastUpdatedOn: 2022-06-19T21:59:19-07:00
@@ -184,9 +180,8 @@ children:
     description: Help Text
     modelVersion: 1.6.0
     prefLabel: License RT
-    content: |-
+    content: |
       <p><span style="background-color: rgb(255, 255, 255);">Please select a legal document under which the dataset is made reusable.</span></p>
-
     createdOn: 2022-06-19T21:59:19-07:00
     createdBy: https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b
     lastUpdatedOn: 2022-06-19T21:59:19-07:00
@@ -224,9 +219,8 @@ children:
     description: Help Text
     modelVersion: 1.6.0
     prefLabel: Dataset Metadata Instance ID RT
-    content: |-
+    content: |
       <p>Please provide the ID(s) of Dataset metadata instance(s). They can be found, only after you have created these instances. If you have not yet created them, or should more dataset be created in the future, you can return to this field later and update. Once Dataset metadata Instances are created, you will find them in your personal CEDAR workspace. After opening a Dataset metadata instance, you should&nbsp;copy the URL in the address bar of your web browser, taking only the part after &quot;..edit/&quot; but before the &quot;?&quot;.&nbsp;</p>
-
     createdOn: 2022-06-19T21:59:19-07:00
     createdBy: https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b
     lastUpdatedOn: 2022-06-19T21:59:19-07:00

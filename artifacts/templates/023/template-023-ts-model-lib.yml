@@ -1,6 +1,6 @@
 type: template
 id: https://repo.metadatacenter.org/templates/a35e97be-a5e7-4a28-a3c4-3ba62bf980e5
-label: #023 Template with controlled field
+label: "#023 Template with controlled field"
 status: draft
 version: 0.0.1
 modelVersion: 1.6.0

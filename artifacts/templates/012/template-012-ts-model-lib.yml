@@ -1,6 +1,6 @@
 type: template
 id: https://repo.metadatacenter.org/templates/64817890-6984-4cea-93b0-d97d60f81232
-label: #012 Template with Email field
+label: "#012 Template with Email field"
 status: draft
 version: 0.0.1
 modelVersion: 1.6.0

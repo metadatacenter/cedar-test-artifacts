@@ -1,6 +1,6 @@
 type: template
 id: https://repo.metadatacenter.org/templates/d942c27c-8c5f-420d-b540-a6e9400d5f55
-label: #024 Template with simple controlled field
+label: "#024 Template with simple controlled field"
 status: draft
 version: 0.0.1
 modelVersion: 1.6.0

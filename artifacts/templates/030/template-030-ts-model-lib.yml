@@ -1,6 +1,6 @@
 type: template
 id: https://repo.metadatacenter.org/templates/7563ef7a-c390-4a31-bcab-bb6ea27bfb7b
-label: #030 Template with actions
+label: "#030 Template with actions"
 status: draft
 version: 0.0.1
 modelVersion: 1.6.0
