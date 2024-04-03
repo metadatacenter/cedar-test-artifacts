@@ -18,7 +18,6 @@ children:
     altLabel:
       - Alt label 1
       - Alt label 2
-    required: true
     datatype: xsd:decimal
     minValue: 32
     maxValue: 1024

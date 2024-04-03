@@ -17,7 +17,6 @@ children:
     modelVersion: 1.6.0
     datatype: xsd:anyURI
     valueRecommendationEnabled: true
-    required: true
     values:
       - type: class
         label: Music

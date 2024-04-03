@@ -58,7 +58,6 @@ children:
         modelVersion: 1.6.0
         prefLabel: Read & Understood
         datatype: xsd:string
-        required: true
         values:
           - label: I have read & understood
         createdOn: 2022-06-19T17:25:06-07:00
@@ -97,7 +96,6 @@ children:
     modelVersion: 1.6.0
     prefLabel: Catalog Title
     datatype: xsd:string
-    required: true
     createdOn: 2022-06-19T21:59:19-07:00
     createdBy: https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b
     lastUpdatedOn: 2022-06-19T21:59:19-07:00
@@ -130,7 +128,6 @@ children:
     modelVersion: 1.6.0
     prefLabel: Catalog Description
     datatype: xsd:string
-    required: true
     createdOn: 2022-06-19T21:59:19-07:00
     createdBy: https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b
     lastUpdatedOn: 2022-06-19T21:59:19-07:00
@@ -163,7 +160,6 @@ children:
     modelVersion: 1.6.0
     prefLabel: Publisher
     datatype: xsd:string
-    required: true
     createdOn: 2022-06-19T21:59:19-07:00
     createdBy: https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b
     lastUpdatedOn: 2022-06-19T21:59:19-07:00
@@ -236,7 +232,6 @@ children:
     modelVersion: 1.6.0
     prefLabel: Dataset Metadata Instance ID (1..N)
     datatype: xsd:string
-    required: true
     createdOn: 2022-06-19T21:59:19-07:00
     createdBy: https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b
     lastUpdatedOn: 2022-06-19T21:59:19-07:00

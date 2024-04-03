@@ -58,7 +58,6 @@ children:
     timeZone: true
     timeFormat: 12h
     granularity: decimalSecond
-    required: true
     datatype: xsd:dateTime
     createdOn: 2024-03-06T14:35:02-08:00
     createdBy: https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95

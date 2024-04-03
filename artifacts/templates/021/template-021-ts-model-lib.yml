@@ -38,7 +38,6 @@ children:
     description: Help Text
     modelVersion: 1.6.0
     datatype: xsd:string
-    required: true
     values:
       - label: Option 1
       - label: Option2

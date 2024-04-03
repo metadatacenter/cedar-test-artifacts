@@ -16,7 +16,6 @@ children:
     description: Hidden field help text
     modelVersion: 1.6.0
     prefLabel: Hidden field preferred
-    hidden: true
     datatype: xsd:string
     default: default value
     createdOn: 2024-03-14T11:40:40-07:00
