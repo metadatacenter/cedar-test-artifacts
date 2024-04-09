@@ -48,7 +48,6 @@ children:
         lastUpdatedOn: 2022-06-19T17:25:06-07:00
         modifiedBy: https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b
         configuration:
-          propertyIRI: null
           overrideLabel: Read & Understood - RT
           overrideDescription: ""
       - name: Read & Understood
@@ -86,7 +85,6 @@ children:
     lastUpdatedOn: 2022-06-19T21:59:19-07:00
     modifiedBy: https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b
     configuration:
-      propertyIRI: null
       overrideLabel: catalogTitleRT
       overrideDescription: ""
   - name: catalogTitle
@@ -118,7 +116,6 @@ children:
     lastUpdatedOn: 2022-06-19T21:59:19-07:00
     modifiedBy: https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b
     configuration:
-      propertyIRI: null
       overrideLabel: catalogDescriptionRT
       overrideDescription: ""
   - name: catalogDescription
@@ -150,7 +147,6 @@ children:
     lastUpdatedOn: 2022-06-19T21:59:19-07:00
     modifiedBy: https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b
     configuration:
-      propertyIRI: null
       overrideLabel: publisherRT
       overrideDescription: ""
   - name: publisher
@@ -183,7 +179,6 @@ children:
     lastUpdatedOn: 2022-06-19T21:59:19-07:00
     modifiedBy: https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b
     configuration:
-      propertyIRI: null
       overrideLabel: licenseRT
       overrideDescription: Help Text
   - name: license
@@ -222,7 +217,6 @@ children:
     lastUpdatedOn: 2022-06-19T21:59:19-07:00
     modifiedBy: https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b
     configuration:
-      propertyIRI: null
       overrideLabel: datasetMetadataInstanceIDRT
       overrideDescription: Help Text
   - name: datasetMetadataInstanceIdentifier
