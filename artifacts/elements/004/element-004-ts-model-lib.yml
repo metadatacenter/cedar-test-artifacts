@@ -23,7 +23,7 @@ children:
     configuration:
       propertyIRI: https://schema.metadatacenter.net/properties/title
       overrideLabel: Title
-      overrideDescription: null
+      overrideDescription: Title description
   - name: description
     type: text-field
     id: https://repo.metadatacenter.net/template-fields/fb9e046f-e9ac-4e54-bc78-2603c9338152
@@ -37,7 +37,7 @@ children:
     configuration:
       propertyIRI: https://schema.metadatacenter.net/properties/description
       overrideLabel: Description
-      overrideDescription: null
+      overrideDescription: Description description
   - name: externalLink
     type: text-field
     id: https://repo.metadatacenter.net/template-fields/47d7a72d-e578-4106-8e9b-40a5a6f3ef84
@@ -51,4 +51,4 @@ children:
     configuration:
       propertyIRI: https://schema.metadatacenter.net/properties/externalLink
       overrideLabel: External Link
-      overrideDescription: null
+      overrideDescription: External Link description

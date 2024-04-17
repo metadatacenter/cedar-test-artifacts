@@ -51,21 +51,22 @@
     "nullEnabled": true
   },
   "properties": {
+    "@type": {
+      "type": "string",
+      "format": "uri"
+    },
     "@value": {
       "type": [
         "string",
         "null"
       ]
     },
-    "rdfs:label": {
+    "@language": {
       "type": [
         "string",
         "null"
-      ]
-    },
-    "@type": {
-      "type": "string",
-      "format": "uri"
+      ],
+      "minLength": 1
     }
   },
   "required": [

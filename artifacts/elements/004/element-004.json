@@ -5,6 +5,11 @@
       "title" : "Title",
       "description" : "Description",
       "externalLink" : "External Link"
+    },
+    "propertyDescriptions": {
+      "title" : "Title description",
+      "description" : "Description description",
+      "externalLink" : "External Link description"
     }
   },
   "schema:name" : "BioSample Descriptor",
@@ -77,23 +82,24 @@
       "title" : "Title field schema",
       "pav:createdBy" : "https://repo.metadatacenter.net/users/6d21a887-b704-49a9-922a-aa71632f3232",
       "@context" : {
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "pav": "http://purl.org/pav/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "oslc": "http://open-services.net/ns/core#",
+        "schema": "http://schema.org/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
         "schema:name" : {
           "@type" : "xsd:string"
         },
-        "schema" : "http://schema.org/",
-        "pav" : "http://purl.org/pav/",
-        "xsd" : "http://www.w3.org/2001/XMLSchema#",
         "pav:createdOn" : {
           "@type" : "xsd:dateTime"
         },
         "oslc:modifiedBy" : {
           "@type" : "@id"
         },
-        "skos" : "http://www.w3.org/2004/02/skos/core#",
         "pav:lastUpdatedOn" : {
           "@type" : "xsd:dateTime"
         },
-        "oslc" : "http://open-services.net/ns/core#",
         "skos:prefLabel" : {
           "@type" : "xsd:string"
         },
@@ -118,26 +124,23 @@
       },
       "required" : [ "@value" ],
       "schema:schemaVersion" : "1.6.0",
-      "properties" : {
-        "@value" : {
-          "type" : [ "string", "null" ]
+      "properties": {
+        "@type": {
+          "type": "string",
+          "format": "uri"
         },
-        "rdfs:label" : {
-          "type" : [ "string", "null" ]
+        "@value": {
+          "type": [
+            "string",
+            "null"
+          ]
         },
-        "@type" : {
-          "oneOf" : [ {
-            "type" : "string",
-            "format" : "uri"
-          }, {
-            "minItems" : 1,
-            "type" : "array",
-            "items" : {
-              "type" : "string",
-              "format" : "uri"
-            },
-            "uniqueItems" : true
-          } ]
+        "@language": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
         }
       },
       "schema:description" : "",
@@ -153,23 +156,24 @@
       "title" : "Description field schema",
       "pav:createdBy" : "https://repo.metadatacenter.net/users/6d21a887-b704-49a9-922a-aa71632f3232",
       "@context" : {
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "pav": "http://purl.org/pav/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "oslc": "http://open-services.net/ns/core#",
+        "schema": "http://schema.org/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
         "schema:name" : {
           "@type" : "xsd:string"
         },
-        "schema" : "http://schema.org/",
-        "pav" : "http://purl.org/pav/",
-        "xsd" : "http://www.w3.org/2001/XMLSchema#",
         "pav:createdOn" : {
           "@type" : "xsd:dateTime"
         },
         "oslc:modifiedBy" : {
           "@type" : "@id"
         },
-        "skos" : "http://www.w3.org/2004/02/skos/core#",
         "pav:lastUpdatedOn" : {
           "@type" : "xsd:dateTime"
         },
-        "oslc" : "http://open-services.net/ns/core#",
         "skos:prefLabel" : {
           "@type" : "xsd:string"
         },
@@ -194,26 +198,23 @@
       },
       "required" : [ "@value" ],
       "schema:schemaVersion" : "1.6.0",
-      "properties" : {
-        "@value" : {
-          "type" : [ "string", "null" ]
+      "properties": {
+        "@type": {
+          "type": "string",
+          "format": "uri"
         },
-        "rdfs:label" : {
-          "type" : [ "string", "null" ]
+        "@value": {
+          "type": [
+            "string",
+            "null"
+          ]
         },
-        "@type" : {
-          "oneOf" : [ {
-            "type" : "string",
-            "format" : "uri"
-          }, {
-            "minItems" : 1,
-            "type" : "array",
-            "items" : {
-              "type" : "string",
-              "format" : "uri"
-            },
-            "uniqueItems" : true
-          } ]
+        "@language": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
         }
       },
       "schema:description" : "",
@@ -243,23 +244,24 @@
       "title" : "External link field schema",
       "pav:createdBy" : "https://repo.metadatacenter.net/users/6d21a887-b704-49a9-922a-aa71632f3232",
       "@context" : {
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "pav": "http://purl.org/pav/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "oslc": "http://open-services.net/ns/core#",
+        "schema": "http://schema.org/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
         "schema:name" : {
           "@type" : "xsd:string"
         },
-        "schema" : "http://schema.org/",
-        "pav" : "http://purl.org/pav/",
-        "xsd" : "http://www.w3.org/2001/XMLSchema#",
         "pav:createdOn" : {
           "@type" : "xsd:dateTime"
         },
         "oslc:modifiedBy" : {
           "@type" : "@id"
         },
-        "skos" : "http://www.w3.org/2004/02/skos/core#",
         "pav:lastUpdatedOn" : {
           "@type" : "xsd:dateTime"
         },
-        "oslc" : "http://open-services.net/ns/core#",
         "skos:prefLabel" : {
           "@type" : "xsd:string"
         },
@@ -284,26 +286,23 @@
       },
       "required" : [ "@value" ],
       "schema:schemaVersion" : "1.6.0",
-      "properties" : {
-        "@value" : {
-          "type" : [ "string", "null" ]
+      "properties": {
+        "@type": {
+          "type": "string",
+          "format": "uri"
         },
-        "rdfs:label" : {
-          "type" : [ "string", "null" ]
+        "@value": {
+          "type": [
+            "string",
+            "null"
+          ]
         },
-        "@type" : {
-          "oneOf" : [ {
-            "type" : "string",
-            "format" : "uri"
-          }, {
-            "minItems" : 1,
-            "type" : "array",
-            "items" : {
-              "type" : "string",
-              "format" : "uri"
-            },
-            "uniqueItems" : true
-          } ]
+        "@language": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
         }
       },
       "schema:description" : "",
