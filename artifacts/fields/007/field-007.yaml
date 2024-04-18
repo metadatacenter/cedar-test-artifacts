@@ -1,5 +1,5 @@
 type: boolean
-label: Boolean Field
+name: Boolean Field
 description: Boolean Help
 status: draft
 version: 0.0.1
