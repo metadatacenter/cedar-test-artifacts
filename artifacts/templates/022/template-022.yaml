@@ -1,6 +1,6 @@
 type: template
+name: "#022 Template with AttributeValue"
 id: https://repo.metadatacenter.org/templates/7253af07-3704-466c-8ba5-249659faf7ca
-label: "#022 Template with AttributeValue"
 status: draft
 version: 0.0.1
 modelVersion: 1.6.0
@@ -9,11 +9,11 @@ createdBy: https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95
 lastUpdatedOn: 2024-03-07T23:22:25-08:00
 modifiedBy: https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95
 children:
-  - name: ATTR-Value
+  - key: ATTR-Value
     type: attribute-value-field
-    id: https://repo.metadatacenter.org/template-fields/bb91de17-9fa7-4cb2-885d-13617e7b3f08
-    label: ATTR-Value
+    name: ATTR-Value
     description: Some help text here
+    id: https://repo.metadatacenter.org/template-fields/bb91de17-9fa7-4cb2-885d-13617e7b3f08
     modelVersion: 1.6.0
     prefLabel: Attribute Value
     createdOn: 2024-03-07T23:22:25-08:00

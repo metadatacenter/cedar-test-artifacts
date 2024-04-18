@@ -1,6 +1,6 @@
 type: template
+name: Template with Static Fields
 id: https://repo.metadatacenter.org/templates/8ebf7294-7ae0-457c-b9c0-99df809176f8
-label: Template with Static Fields
 status: draft
 version: 0.0.1
 modelVersion: 1.6.0
@@ -9,11 +9,11 @@ createdBy: https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95
 lastUpdatedOn: 2024-03-04T12:26:33-08:00
 modifiedBy: https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95
 children:
-  - name: Page break field
+  - key: Page break field
     type: static-page-break
-    id: https://repo.metadatacenter.org/template-fields/61882375-7659-49e9-8c07-33f40d6fe4a5
-    label: Page break field
+    name: Page break field
     description: Help text
+    id: https://repo.metadatacenter.org/template-fields/61882375-7659-49e9-8c07-33f40d6fe4a5
     modelVersion: 1.6.0
     prefLabel: Preferred label
     createdOn: 2024-03-04T12:26:33-08:00
@@ -23,11 +23,11 @@ children:
     configuration:
       overrideLabel: Page break field
       overrideDescription: Help text
-  - name: Section break
+  - key: Section break
     type: static-section-break
-    id: https://repo.metadatacenter.org/template-fields/66d294ce-bdf5-4fa9-b3bb-424d972acd4f
-    label: Section break
+    name: Section break
     description: Help Text
+    id: https://repo.metadatacenter.org/template-fields/66d294ce-bdf5-4fa9-b3bb-424d972acd4f
     modelVersion: 1.6.0
     prefLabel: Preferred label
     createdOn: 2024-03-04T12:26:33-08:00
@@ -37,11 +37,11 @@ children:
     configuration:
       overrideLabel: Section break
       overrideDescription: Help Text
-  - name: Image field
+  - key: Image field
     type: static-image
-    id: https://repo.metadatacenter.org/template-fields/6d3e4f87-13cd-4c50-bee9-96c269d9f60e
-    label: Image field
+    name: Image field
     description: Help Text
+    id: https://repo.metadatacenter.org/template-fields/6d3e4f87-13cd-4c50-bee9-96c269d9f60e
     modelVersion: 1.6.0
     prefLabel: Preferred label
     content: https://cedar.metadatacenter.org/img/close_modal.png
@@ -52,11 +52,11 @@ children:
     configuration:
       overrideLabel: Image field
       overrideDescription: Help Text
-  - name: Rich text
+  - key: Rich text
     type: static-rich-text
-    id: https://repo.metadatacenter.org/template-fields/adc5e2fe-a9ba-46b8-aa38-64501fda73e8
-    label: Rich text
+    name: Rich text
     description: Help Text
+    id: https://repo.metadatacenter.org/template-fields/adc5e2fe-a9ba-46b8-aa38-64501fda73e8
     modelVersion: 1.6.0
     prefLabel: Preferred label
     content: |
@@ -68,11 +68,11 @@ children:
     configuration:
       overrideLabel: Rich text
       overrideDescription: Help Text
-  - name: Video name
+  - key: Video name
     type: static-youtube-video
-    id: https://repo.metadatacenter.org/template-fields/adc5e2fe-a9ba-46b8-aa38-64501fda8888
-    label: Video name
+    name: Video name
     description: Help Text
+    id: https://repo.metadatacenter.org/template-fields/adc5e2fe-a9ba-46b8-aa38-64501fda8888
     modelVersion: 1.6.0
     content: qf6-_JLZ3lw
     width: 192
