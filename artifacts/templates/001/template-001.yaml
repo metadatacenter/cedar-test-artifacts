@@ -1,12 +1,13 @@
 type: template
-label: Untitled
+name: Untitled
 description: Untitled description
 status: draft
 version: 0.0.1
 modelVersion: 1.6.0
 children:
-  - name: Textfield
+  - key: Textfield
     type: text-field
+    name: Textfield
     id: tmp-1708998934299-6744386
     label: Textfield
     description: Help Text

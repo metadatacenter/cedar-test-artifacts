@@ -1,22 +1,32 @@
-template: Template with Text Field 1
+type: template
+name: Template with Text Field 1
 id: https://repo.metadatacenter.org/templates/725246e2-346e-4d34-be49-43c110a30a7b
+status: draft
 version: 0.0.1
-status: bibo:draft
 modelVersion: 1.6.0
+createdOn: 2024-03-01T13:44:25-08:00
+createdBy: https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95
+lastUpdatedOn: 2024-03-01T13:44:25-08:00
+modifiedBy: https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95
 children:
-  - field: Text Field 1
+  - type: text-field
+    name: Text Field 1
     description: Help text for this field
     id: https://repo.metadatacenter.org/template-fields/e8a18dda-c0ba-443a-9fb9-18fa3f08c7bc
+    status: draft
     version: 0.0.1
-    status: bibo:draft
     modelVersion: 1.6.0
-    label: Preferred label value
-    inputType: textfield
-    datatype: xsd:string
-    default: Default Value
-    minLength: 10
-    maxLength: 100
-    altLabel:
+    prefLabel: Preferred label value
+    altLabels:
       - Alternate label 1
       - Alternate label 2
-    valueRecommendationEnabled: true
+    default: Default Value
+    regex: "^[A-Z][^A-Z]*$"
+    minLength: 10
+    maxLength: 100
+    createdOn: 2024-03-01T13:44:25-08:00
+    createdBy: https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95
+    lastUpdatedOn: 2024-03-01T13:44:25-08:00
+    modifiedBy: https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95
+    configuration:
+      propertyUri: https://schema.metadatacenter.org/properties/c329b4e2-95d9-4202-8103-09ee6be57486

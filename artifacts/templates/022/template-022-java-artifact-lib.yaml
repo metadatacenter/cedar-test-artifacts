@@ -1,14 +1,23 @@
-template: '#022 Template with AttributeValue'
+type: template
+name: '#022 Template with AttributeValue'
 id: https://repo.metadatacenter.org/templates/7253af07-3704-466c-8ba5-249659faf7ca
+status: draft
 version: 0.0.1
-status: bibo:draft
 modelVersion: 1.6.0
+createdOn: 2024-03-07T23:22:06-08:00
+createdBy: https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95
+lastUpdatedOn: 2024-03-07T23:22:25-08:00
+modifiedBy: https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95
 children:
-  - field: ATTR-Value
+  - type: attribute-value-field
+    name: ATTR-Value
     description: Some help text here
     id: https://repo.metadatacenter.org/template-fields/bb91de17-9fa7-4cb2-885d-13617e7b3f08
     modelVersion: 1.6.0
-    multiple: true
-    minItems: 0
-    label: Attribute Value
-    inputType: attribute-value
+    prefLabel: Attribute Value
+    createdOn: 2024-03-07T23:22:25-08:00
+    createdBy: https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95
+    lastUpdatedOn: 2024-03-07T23:22:25-08:00
+    modifiedBy: https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95
+    configuration:
+      propertyUri: https://schema.metadatacenter.org/properties/d4eb0536-f01a-4075-a624-1f6b1d436f4f

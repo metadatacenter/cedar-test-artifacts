@@ -1,33 +1,48 @@
-template: '#023 Template with controlled field'
+type: template
+name: '#023 Template with controlled field'
 id: https://repo.metadatacenter.org/templates/a35e97be-a5e7-4a28-a3c4-3ba62bf980e5
+status: draft
 version: 0.0.1
-status: bibo:draft
 modelVersion: 1.6.0
+createdOn: 2024-03-11T15:20:18-07:00
+createdBy: https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95
+lastUpdatedOn: 2024-03-11T15:26:26-07:00
+modifiedBy: https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95
 children:
-  - field: Controlled 1
+  - type: text-field
+    name: Controlled 1
     description: Help Text
     id: https://repo.metadatacenter.org/template-fields/ca4e4afa-ae85-4ac2-aa9b-5dd003f4ac8c
     modelVersion: 1.6.0
-    inputType: textfield
-    datatype: xsd:anyURI
-    default: http://purl.bioontology.org/ontology/MESH/C039047
-    altLabel:
+    altLabels:
       - ALT label 1
       - ALT label 2
+    datatype: iri
+    default: http://purl.bioontology.org/ontology/MESH/C039047
     values:
-      - ontology: Medical Subject Headings
+      - type: ontology
+        name: Medical Subject Headings
         acronym: MESH
-        termUri: https://data.bioontology.org/ontologies/MESH
-      - valueSet: Progressive Disease
-        collection: CADSR-VS
-        termUri: https://cadsr.nci.nih.gov/metadata/CADSR-VS/ad5886076616ec6c35558648aca5abf942d6147a
-      - class: Music UI Label added in the editor
-        termUri: http://purl.bioontology.org/ontology/MESH/D009146
-        label: Music
-        inputType: OntologyClass
+        iri: https://data.bioontology.org/ontologies/MESH
+        numTerms: 353825
+      - type: valueSet
+        name: Progressive Disease
+        acronym: CADSR-VS
+        iri: https://cadsr.nci.nih.gov/metadata/CADSR-VS/ad5886076616ec6c35558648aca5abf942d6147a
+      - type: class
         source: MESH
-      - branch: Mathematical Concepts
-        termUri: http://purl.bioontology.org/ontology/MESH/D055641
-        acronym: MESH
+        name: Music
+        iri: http://purl.bioontology.org/ontology/MESH/D009146
+        prefLabel: Music UI Label added in the editor
+      - type: branch
         source: Medical Subject Headings (MESH)
+        sourceName: Mathematical Concepts
+        sourceAcronym: MESH
+        sourceIri: http://purl.bioontology.org/ontology/MESH/D055641
         maxDepth: 0
+    createdOn: 2024-03-11T15:26:26-07:00
+    createdBy: https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95
+    lastUpdatedOn: 2024-03-11T15:26:26-07:00
+    modifiedBy: https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95
+    configuration:
+      propertyUri: https://schema.metadatacenter.org/properties/daa43c6f-8892-43fd-8877-63418aabf8c9
