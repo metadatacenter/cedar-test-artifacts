@@ -21,5 +21,3 @@ children:
     modelVersion: 1.6.0
     configuration:
       propertyIri: https://schema.metadatacenter.org/properties/5fa5e733-f503-4831-a4f9-b027b9ca204d
-      overrideLabel: Text field
-      overrideDescription: Help Text

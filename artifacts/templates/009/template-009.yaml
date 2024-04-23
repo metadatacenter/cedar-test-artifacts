@@ -20,9 +20,6 @@ children:
     createdBy: https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95
     lastUpdatedOn: 2024-03-04T12:26:33-08:00
     modifiedBy: https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95
-    configuration:
-      overrideLabel: Page break field
-      overrideDescription: Help text
   - key: Section break
     type: static-section-break
     name: Section break
@@ -34,9 +31,6 @@ children:
     createdBy: https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95
     lastUpdatedOn: 2024-03-04T12:26:33-08:00
     modifiedBy: https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95
-    configuration:
-      overrideLabel: Section break
-      overrideDescription: Help Text
   - key: Image field
     type: static-image
     name: Image field
@@ -49,9 +43,6 @@ children:
     createdBy: https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95
     lastUpdatedOn: 2024-03-04T12:26:33-08:00
     modifiedBy: https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95
-    configuration:
-      overrideLabel: Image field
-      overrideDescription: Help Text
   - key: Rich text
     type: static-rich-text
     name: Rich text
@@ -65,9 +56,6 @@ children:
     createdBy: https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95
     lastUpdatedOn: 2024-03-04T12:26:33-08:00
     modifiedBy: https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95
-    configuration:
-      overrideLabel: Rich text
-      overrideDescription: Help Text
   - key: Video name
     type: static-youtube-video
     name: Video name
@@ -81,6 +69,3 @@ children:
     createdBy: https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95
     lastUpdatedOn: 2024-03-04T12:26:33-08:00
     modifiedBy: https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95
-    configuration:
-      overrideLabel: Video name
-      overrideDescription: Help Text

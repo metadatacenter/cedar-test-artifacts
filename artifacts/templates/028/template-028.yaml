@@ -47,9 +47,6 @@ children:
         createdBy: https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b
         lastUpdatedOn: 2022-06-19T17:25:06-07:00
         modifiedBy: https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b
-        configuration:
-          overrideLabel: Read & Understood - RT
-          overrideDescription: ''
       - key: Read & Understood
         type: checkbox-field
         name: Read & Understood
@@ -65,12 +62,8 @@ children:
         configuration:
           required: true
           propertyIri: https://schema.metadatacenter.org/properties/95fb84a4-78bc-4922-9fa5-485ec44638af
-          overrideLabel: Read & Understood
-          overrideDescription: ''
     configuration:
       propertyIri: https://schema.metadatacenter.org/properties/a61ce8cd-37e7-4a0f-9035-5cd0e5f6756c
-      overrideLabel: Read & Understood Catalog
-      overrideDescription: ''
   - key: catalogTitleRT
     type: static-rich-text
     name: catalogTitleRT
@@ -83,9 +76,6 @@ children:
     createdBy: https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b
     lastUpdatedOn: 2022-06-19T21:59:19-07:00
     modifiedBy: https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b
-    configuration:
-      overrideLabel: catalogTitleRT
-      overrideDescription: ''
   - key: catalogTitle
     type: text-field
     name: catalogTitle
@@ -99,8 +89,6 @@ children:
     configuration:
       required: true
       propertyIri: http://purl.org/dc/terms/title
-      overrideLabel: catalogTitle
-      overrideDescription: ''
   - key: catalogDescriptionRT
     type: static-rich-text
     name: catalogDescriptionRT
@@ -113,9 +101,6 @@ children:
     createdBy: https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b
     lastUpdatedOn: 2022-06-19T21:59:19-07:00
     modifiedBy: https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b
-    configuration:
-      overrideLabel: catalogDescriptionRT
-      overrideDescription: ''
   - key: catalogDescription
     type: text-field
     name: catalogDescription
@@ -129,8 +114,6 @@ children:
     configuration:
       required: true
       propertyIri: http://purl.org/dc/terms/description
-      overrideLabel: catalogDescription
-      overrideDescription: ''
   - key: publisherRT
     type: static-rich-text
     name: publisherRT
@@ -143,9 +126,6 @@ children:
     createdBy: https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b
     lastUpdatedOn: 2022-06-19T21:59:19-07:00
     modifiedBy: https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b
-    configuration:
-      overrideLabel: publisherRT
-      overrideDescription: ''
   - key: publisher
     type: link-field
     name: publisher
@@ -159,8 +139,6 @@ children:
     configuration:
       required: true
       propertyIri: http://purl.org/dc/terms/publisher
-      overrideLabel: publisher
-      overrideDescription: ''
   - key: licenseRT
     type: static-rich-text
     name: licenseRT
@@ -174,9 +152,6 @@ children:
     createdBy: https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b
     lastUpdatedOn: 2022-06-19T21:59:19-07:00
     modifiedBy: https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b
-    configuration:
-      overrideLabel: licenseRT
-      overrideDescription: Help Text
   - key: license
     type: controlled-term-field
     name: license
@@ -197,8 +172,6 @@ children:
     modifiedBy: https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b
     configuration:
       propertyIri: https://schema.metadatacenter.org/properties/1872f17a-7791-4b24-b1cb-3de7ef4c31e6
-      overrideLabel: license
-      overrideDescription: ''
   - key: datasetMetadataInstanceIDRT
     type: static-rich-text
     name: datasetMetadataInstanceIDRT
@@ -212,9 +185,6 @@ children:
     createdBy: https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b
     lastUpdatedOn: 2022-06-19T21:59:19-07:00
     modifiedBy: https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b
-    configuration:
-      overrideLabel: datasetMetadataInstanceIDRT
-      overrideDescription: Help Text
   - key: datasetMetadataInstanceIdentifier
     type: link-field
     name: datasetMetadataInstanceIdentifier
@@ -228,7 +198,5 @@ children:
     configuration:
       required: true
       propertyIri: http://www.w3.org/ns/dcat#dataset
-      overrideLabel: datasetMetadataInstanceIdentifier
-      overrideDescription: ''
       multiple: true
       minItems: 1

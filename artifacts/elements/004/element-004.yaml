@@ -21,7 +21,6 @@ children:
     modifiedBy: https://repo.metadatacenter.net/users/6d21a887-b704-49a9-922a-aa71632f3232
     configuration:
       propertyIri: https://schema.metadatacenter.net/properties/title
-      overrideLabel: Title
       overrideDescription: Title description
   - key: description
     type: text-field
@@ -34,7 +33,6 @@ children:
     modifiedBy: https://repo.metadatacenter.net/users/6d21a887-b704-49a9-922a-aa71632f3232
     configuration:
       propertyIri: https://schema.metadatacenter.net/properties/description
-      overrideLabel: Description
       overrideDescription: Description description
   - key: externalLink
     type: text-field
@@ -47,5 +45,4 @@ children:
     modifiedBy: https://repo.metadatacenter.net/users/6d21a887-b704-49a9-922a-aa71632f3232
     configuration:
       propertyIri: https://schema.metadatacenter.net/properties/externalLink
-      overrideLabel: External Link
       overrideDescription: External Link description

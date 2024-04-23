@@ -24,5 +24,3 @@ children:
     configuration:
       hidden: true
       propertyIri: https://schema.metadatacenter.org/properties/4d26737a-cd1a-46c6-bd35-0fb1639bf267
-      overrideLabel: Hidden field
-      overrideDescription: Hidden field help text

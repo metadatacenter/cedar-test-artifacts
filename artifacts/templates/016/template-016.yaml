@@ -21,8 +21,6 @@ children:
     configuration:
       required: true
       propertyIri: https://schema.metadatacenter.org/properties/6e6e69b6-10eb-4236-bdee-ff077e283583
-      overrideLabel: Paragraph
-      overrideDescription: ''
       multiple: true
       minItems: 2
       maxItems: 2

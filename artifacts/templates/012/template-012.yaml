@@ -23,5 +23,3 @@ children:
     configuration:
       required: true
       propertyIri: https://schema.metadatacenter.org/properties/97c7d154-964b-4637-88a3-03a062cdb58b
-      overrideLabel: Email field
-      overrideDescription: Email field help text

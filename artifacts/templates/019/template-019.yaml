@@ -28,5 +28,3 @@ children:
     configuration:
       required: true
       propertyIri: https://schema.metadatacenter.org/properties/ea27696a-195b-4a90-a342-d8ba5524cfbe
-      overrideLabel: Pick from
-      overrideDescription: Help Text

@@ -30,5 +30,3 @@ children:
     configuration:
       required: true
       propertyIri: https://schema.metadatacenter.org/properties/90874c08-ca21-450d-a2e3-a489abebae39
-      overrideLabel: Complex number
-      overrideDescription: Help Text

@@ -21,8 +21,6 @@ children:
     modifiedBy: https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95
     configuration:
       propertyIri: https://schema.metadatacenter.org/properties/2bf4be45-b5d9-48b9-8c2e-b311b9a8e79e
-      overrideLabel: Field 1
-      overrideDescription: Help Text
   - key: Page break 1
     type: static-page-break
     name: Page break 1
@@ -33,9 +31,6 @@ children:
     createdBy: https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95
     lastUpdatedOn: 2024-02-27T11:42:36-08:00
     modifiedBy: https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95
-    configuration:
-      overrideLabel: Page break 1
-      overrideDescription: Help Text
   - key: Field 2
     type: text-field
     name: Field 2
@@ -48,8 +43,6 @@ children:
     modifiedBy: https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95
     configuration:
       propertyIri: https://schema.metadatacenter.org/properties/01001499-580e-4f64-a1ac-2a1a5d48e921
-      overrideLabel: Field 2
-      overrideDescription: Help Text
   - key: Page break 2
     type: static-page-break
     name: Page break 2
@@ -60,9 +53,6 @@ children:
     createdBy: https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95
     lastUpdatedOn: 2024-02-27T11:42:36-08:00
     modifiedBy: https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95
-    configuration:
-      overrideLabel: Page break 2
-      overrideDescription: Help Text
   - key: Field 3
     type: text-field
     name: Field 3
@@ -75,5 +65,3 @@ children:
     modifiedBy: https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95
     configuration:
       propertyIri: https://schema.metadatacenter.org/properties/9feeb333-717d-444d-9ba5-301069e33695
-      overrideLabel: Field 3
-      overrideDescription: Help Text

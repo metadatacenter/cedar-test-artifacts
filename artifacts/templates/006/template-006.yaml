@@ -21,5 +21,3 @@ children:
     modifiedBy: https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95
     configuration:
       propertyIri: https://schema.metadatacenter.org/properties/83dee10d-0c46-4650-9ce2-23e257801240
-      overrideLabel: Linkfield
-      overrideDescription: Help Text
