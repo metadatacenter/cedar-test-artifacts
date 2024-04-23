@@ -27,7 +27,7 @@ children:
     lastUpdatedOn: 2024-03-07T13:57:16-08:00
     modifiedBy: https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95
     configuration:
-      propertyIRI: https://schema.metadatacenter.org/properties/d01cb533-265c-474a-95f3-9afb4616a6e1
+      propertyIri: https://schema.metadatacenter.org/properties/d01cb533-265c-474a-95f3-9afb4616a6e1
   - key: Multiple choice without default
     type: radio-field
     name: Multiple choice without default
@@ -43,4 +43,4 @@ children:
     modifiedBy: https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95
     configuration:
       required: true
-      propertyIRI: https://schema.metadatacenter.org/properties/3b1a224d-0c1b-485c-ac74-89f15f608b99
+      propertyIri: https://schema.metadatacenter.org/properties/3b1a224d-0c1b-485c-ac74-89f15f608b99

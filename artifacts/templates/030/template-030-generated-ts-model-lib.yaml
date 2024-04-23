@@ -71,4 +71,4 @@ children:
     lastUpdatedOn: 2024-03-26T13:22:10-07:00
     modifiedBy: https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95
     configuration:
-      propertyIRI: https://schema.metadatacenter.org/properties/8f943150-91ed-4fb1-b766-f20efa0da516
+      propertyIri: https://schema.metadatacenter.org/properties/8f943150-91ed-4fb1-b766-f20efa0da516

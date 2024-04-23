@@ -61,9 +61,9 @@ children:
         modifiedBy: https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b
         configuration:
           required: true
-          propertyIRI: https://schema.metadatacenter.org/properties/95fb84a4-78bc-4922-9fa5-485ec44638af
+          propertyIri: https://schema.metadatacenter.org/properties/95fb84a4-78bc-4922-9fa5-485ec44638af
     configuration:
-      propertyIRI: https://schema.metadatacenter.org/properties/a61ce8cd-37e7-4a0f-9035-5cd0e5f6756c
+      propertyIri: https://schema.metadatacenter.org/properties/a61ce8cd-37e7-4a0f-9035-5cd0e5f6756c
   - key: catalogTitleRT
     type: static-rich-text
     name: catalogTitleRT
@@ -88,7 +88,7 @@ children:
     modifiedBy: https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b
     configuration:
       required: true
-      propertyIRI: http://purl.org/dc/terms/title
+      propertyIri: http://purl.org/dc/terms/title
   - key: catalogDescriptionRT
     type: static-rich-text
     name: catalogDescriptionRT
@@ -113,7 +113,7 @@ children:
     modifiedBy: https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b
     configuration:
       required: true
-      propertyIRI: http://purl.org/dc/terms/description
+      propertyIri: http://purl.org/dc/terms/description
   - key: publisherRT
     type: static-rich-text
     name: publisherRT
@@ -138,7 +138,7 @@ children:
     modifiedBy: https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b
     configuration:
       required: true
-      propertyIRI: http://purl.org/dc/terms/publisher
+      propertyIri: http://purl.org/dc/terms/publisher
   - key: licenseRT
     type: static-rich-text
     name: licenseRT
@@ -171,7 +171,7 @@ children:
     lastUpdatedOn: 2022-06-19T21:59:19-07:00
     modifiedBy: https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b
     configuration:
-      propertyIRI: https://schema.metadatacenter.org/properties/1872f17a-7791-4b24-b1cb-3de7ef4c31e6
+      propertyIri: https://schema.metadatacenter.org/properties/1872f17a-7791-4b24-b1cb-3de7ef4c31e6
   - key: datasetMetadataInstanceIDRT
     type: static-rich-text
     name: datasetMetadataInstanceIDRT
@@ -197,6 +197,6 @@ children:
     modifiedBy: https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b
     configuration:
       required: true
-      propertyIRI: http://www.w3.org/ns/dcat#dataset
+      propertyIri: http://www.w3.org/ns/dcat#dataset
       multiple: true
       minItems: 1
