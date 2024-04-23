@@ -20,7 +20,7 @@ children:
     lastUpdatedOn: 2024-02-27T11:42:36-08:00
     modifiedBy: https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95
     configuration:
-      propertyIRI: https://schema.metadatacenter.org/properties/2bf4be45-b5d9-48b9-8c2e-b311b9a8e79e
+      propertyIri: https://schema.metadatacenter.org/properties/2bf4be45-b5d9-48b9-8c2e-b311b9a8e79e
       overrideLabel: Field 1
       overrideDescription: Help Text
   - key: Page break 1
@@ -47,7 +47,7 @@ children:
     lastUpdatedOn: 2024-02-27T11:42:36-08:00
     modifiedBy: https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95
     configuration:
-      propertyIRI: https://schema.metadatacenter.org/properties/01001499-580e-4f64-a1ac-2a1a5d48e921
+      propertyIri: https://schema.metadatacenter.org/properties/01001499-580e-4f64-a1ac-2a1a5d48e921
       overrideLabel: Field 2
       overrideDescription: Help Text
   - key: Page break 2
@@ -74,6 +74,6 @@ children:
     lastUpdatedOn: 2024-02-27T11:42:36-08:00
     modifiedBy: https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95
     configuration:
-      propertyIRI: https://schema.metadatacenter.org/properties/9feeb333-717d-444d-9ba5-301069e33695
+      propertyIri: https://schema.metadatacenter.org/properties/9feeb333-717d-444d-9ba5-301069e33695
       overrideLabel: Field 3
       overrideDescription: Help Text

@@ -64,11 +64,11 @@ children:
         modifiedBy: https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b
         configuration:
           required: true
-          propertyIRI: https://schema.metadatacenter.org/properties/95fb84a4-78bc-4922-9fa5-485ec44638af
+          propertyIri: https://schema.metadatacenter.org/properties/95fb84a4-78bc-4922-9fa5-485ec44638af
           overrideLabel: Read & Understood
           overrideDescription: ''
     configuration:
-      propertyIRI: https://schema.metadatacenter.org/properties/a61ce8cd-37e7-4a0f-9035-5cd0e5f6756c
+      propertyIri: https://schema.metadatacenter.org/properties/a61ce8cd-37e7-4a0f-9035-5cd0e5f6756c
       overrideLabel: Read & Understood Catalog
       overrideDescription: ''
   - key: catalogTitleRT
@@ -98,7 +98,7 @@ children:
     modifiedBy: https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b
     configuration:
       required: true
-      propertyIRI: http://purl.org/dc/terms/title
+      propertyIri: http://purl.org/dc/terms/title
       overrideLabel: catalogTitle
       overrideDescription: ''
   - key: catalogDescriptionRT
@@ -128,7 +128,7 @@ children:
     modifiedBy: https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b
     configuration:
       required: true
-      propertyIRI: http://purl.org/dc/terms/description
+      propertyIri: http://purl.org/dc/terms/description
       overrideLabel: catalogDescription
       overrideDescription: ''
   - key: publisherRT
@@ -158,7 +158,7 @@ children:
     modifiedBy: https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b
     configuration:
       required: true
-      propertyIRI: http://purl.org/dc/terms/publisher
+      propertyIri: http://purl.org/dc/terms/publisher
       overrideLabel: publisher
       overrideDescription: ''
   - key: licenseRT
@@ -196,7 +196,7 @@ children:
     lastUpdatedOn: 2022-06-19T21:59:19-07:00
     modifiedBy: https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b
     configuration:
-      propertyIRI: https://schema.metadatacenter.org/properties/1872f17a-7791-4b24-b1cb-3de7ef4c31e6
+      propertyIri: https://schema.metadatacenter.org/properties/1872f17a-7791-4b24-b1cb-3de7ef4c31e6
       overrideLabel: license
       overrideDescription: ''
   - key: datasetMetadataInstanceIDRT
@@ -227,7 +227,7 @@ children:
     modifiedBy: https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b
     configuration:
       required: true
-      propertyIRI: http://www.w3.org/ns/dcat#dataset
+      propertyIri: http://www.w3.org/ns/dcat#dataset
       overrideLabel: datasetMetadataInstanceIdentifier
       overrideDescription: ''
       multiple: true

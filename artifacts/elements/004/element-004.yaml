@@ -20,7 +20,7 @@ children:
     lastUpdatedOn: 2016-09-13T10:32:26-07:00
     modifiedBy: https://repo.metadatacenter.net/users/6d21a887-b704-49a9-922a-aa71632f3232
     configuration:
-      propertyIRI: https://schema.metadatacenter.net/properties/title
+      propertyIri: https://schema.metadatacenter.net/properties/title
       overrideLabel: Title
       overrideDescription: Title description
   - key: description
@@ -33,7 +33,7 @@ children:
     lastUpdatedOn: 2016-09-13T10:32:26-07:00
     modifiedBy: https://repo.metadatacenter.net/users/6d21a887-b704-49a9-922a-aa71632f3232
     configuration:
-      propertyIRI: https://schema.metadatacenter.net/properties/description
+      propertyIri: https://schema.metadatacenter.net/properties/description
       overrideLabel: Description
       overrideDescription: Description description
   - key: externalLink
@@ -46,6 +46,6 @@ children:
     lastUpdatedOn: 2016-09-13T10:32:26-07:00
     modifiedBy: https://repo.metadatacenter.net/users/6d21a887-b704-49a9-922a-aa71632f3232
     configuration:
-      propertyIRI: https://schema.metadatacenter.net/properties/externalLink
+      propertyIri: https://schema.metadatacenter.net/properties/externalLink
       overrideLabel: External Link
       overrideDescription: External Link description

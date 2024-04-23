@@ -30,7 +30,7 @@ children:
     modifiedBy: https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95
     configuration:
       required: true
-      propertyIRI: https://schema.metadatacenter.org/properties/21a47ba3-18dc-4e6c-bcd3-63a4976f7658
+      propertyIri: https://schema.metadatacenter.org/properties/21a47ba3-18dc-4e6c-bcd3-63a4976f7658
       overrideLabel: Controlled
       overrideDescription: Help Text
       multiple: true

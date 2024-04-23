@@ -25,6 +25,6 @@ children:
     lastUpdatedOn: 2024-02-26T17:56:13-08:00
     modifiedBy: https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95
     configuration:
-      propertyIRI: https://schema.metadatacenter.org/properties/fac2de3a-937e-4573-810a-c1653e658cde
+      propertyIri: https://schema.metadatacenter.org/properties/fac2de3a-937e-4573-810a-c1653e658cde
       overrideLabel: Textfield
       overrideDescription: Help Text

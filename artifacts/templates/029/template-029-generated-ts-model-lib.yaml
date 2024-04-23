@@ -42,7 +42,7 @@ children:
         prefLabel: Title
         configuration:
           required: true
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/title
+          propertyIri: http://purl.org/radx-terms/metadata-terms/title
       - key: Language
         type: single-select-list-field
         name: Language
@@ -305,9 +305,9 @@ children:
           - label: zh-TW
           - label: zu
         configuration:
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/language
+          propertyIri: http://purl.org/radx-terms/metadata-terms/language
     configuration:
-      propertyIRI: https://schema.metadatacenter.org/properties/d5f514e9-3b38-40fe-a0cc-46f42e428a52
+      propertyIri: https://schema.metadatacenter.org/properties/d5f514e9-3b38-40fe-a0cc-46f42e428a52
       multiple: true
       minItems: 1
   - key: Data File Identity
@@ -340,7 +340,7 @@ children:
         modelVersion: 1.6.0
         prefLabel: Identifier
         configuration:
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/dataFileIdentifier
+          propertyIri: http://purl.org/radx-terms/metadata-terms/dataFileIdentifier
       - key: Identifier Type
         type: controlled-term-field
         name: Identifier Type
@@ -363,7 +363,7 @@ children:
             iri: http://vocab.fairdatacollective.org/gdmt/IdentifierType
             maxDepth: 2147483647
         configuration:
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/dataFileIdentifierType
+          propertyIri: http://purl.org/radx-terms/metadata-terms/dataFileIdentifierType
       - key: 'File Name '
         type: text-field
         name: 'File Name '
@@ -376,7 +376,7 @@ children:
         modelVersion: 1.6.0
         prefLabel: 'File Name '
         configuration:
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/dataFileFileName
+          propertyIri: http://purl.org/radx-terms/metadata-terms/dataFileFileName
       - key: SHA256 digest
         type: text-field
         name: SHA256 digest
@@ -397,9 +397,9 @@ children:
         modelVersion: 1.6.0
         prefLabel: SHA256 digest
         configuration:
-          propertyIRI: https://purl.org/radx-terms/dataFileSha256
+          propertyIri: https://purl.org/radx-terms/dataFileSha256
     configuration:
-      propertyIRI: https://schema.metadatacenter.org/properties/2cf35dad-e8fa-4d79-b9ef-1c22c5d83d07
+      propertyIri: https://schema.metadatacenter.org/properties/2cf35dad-e8fa-4d79-b9ef-1c22c5d83d07
   - key: Data File Content
     type: element
     name: Data File Content
@@ -413,7 +413,7 @@ children:
     lastUpdatedOn: 2022-10-13T12:45:10-07:00
     modifiedBy: https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014
     configuration:
-      propertyIRI: https://schema.metadatacenter.org/properties/082bb4ce-bf1e-41f5-9ee0-bd420ceb7cef
+      propertyIri: https://schema.metadatacenter.org/properties/082bb4ce-bf1e-41f5-9ee0-bd420ceb7cef
   - key: Data File Version
     type: element
     name: Data File Version
@@ -442,9 +442,9 @@ children:
         modelVersion: 1.6.0
         prefLabel: Version
         configuration:
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/dataFileVersion
+          propertyIri: http://purl.org/radx-terms/metadata-terms/dataFileVersion
     configuration:
-      propertyIRI: https://schema.metadatacenter.org/properties/f36b94d4-ed1d-4d75-9de4-05c06215726b
+      propertyIri: https://schema.metadatacenter.org/properties/f36b94d4-ed1d-4d75-9de4-05c06215726b
   - key: Data File Language
     type: element
     name: Data File Language
@@ -719,7 +719,7 @@ children:
           - label: zh-TW
           - label: zu
         configuration:
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/primaryLanguage
+          propertyIri: http://purl.org/radx-terms/metadata-terms/primaryLanguage
       - key: Other Language
         type: single-select-list-field
         name: Other Language
@@ -978,9 +978,9 @@ children:
           - label: zh-TW
           - label: zu
         configuration:
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/otherLanguage
+          propertyIri: http://purl.org/radx-terms/metadata-terms/otherLanguage
     configuration:
-      propertyIRI: https://schema.metadatacenter.org/properties/380eaafe-985f-4a10-b511-affbb2872fe1
+      propertyIri: https://schema.metadatacenter.org/properties/380eaafe-985f-4a10-b511-affbb2872fe1
   - key: Data File Subjects
     type: element
     name: Data File Subjects
@@ -1016,7 +1016,7 @@ children:
             iri: https://bioportal.bioontology.org/ontologies/MESH
             numTerms: 0
         configuration:
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/subjectIdentifier
+          propertyIri: http://purl.org/radx-terms/metadata-terms/subjectIdentifier
       - key: Subject Identifier Scheme
         type: text-field
         name: Subject Identifier Scheme
@@ -1029,7 +1029,7 @@ children:
         prefLabel: Subject Identifier Scheme
         configuration:
           hidden: true
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/subjectIdentifierScheme
+          propertyIri: http://purl.org/radx-terms/metadata-terms/subjectIdentifierScheme
       - key: Subject Identifier Scheme Identifier
         type: text-field
         name: Subject Identifier Scheme Identifier
@@ -1043,7 +1043,7 @@ children:
         prefLabel: Subject Identifier Scheme Identifier
         configuration:
           hidden: true
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/subjectIdentifierSchemeIdentifier
+          propertyIri: http://purl.org/radx-terms/metadata-terms/subjectIdentifierSchemeIdentifier
       - key: Keyword
         type: text-field
         name: Keyword
@@ -1059,9 +1059,9 @@ children:
         modelVersion: 1.6.0
         prefLabel: Keyword
         configuration:
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/keyword
+          propertyIri: http://purl.org/radx-terms/metadata-terms/keyword
     configuration:
-      propertyIRI: https://schema.metadatacenter.org/properties/c585cdb8-fc4b-4335-85bd-853a79ef00a5
+      propertyIri: https://schema.metadatacenter.org/properties/c585cdb8-fc4b-4335-85bd-853a79ef00a5
       multiple: true
       minItems: 1
   - key: Data File Description
@@ -1091,7 +1091,7 @@ children:
         modelVersion: 1.6.0
         prefLabel: Description
         configuration:
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/dataFileDescription
+          propertyIri: http://purl.org/radx-terms/metadata-terms/dataFileDescription
       - key: Description Language
         type: single-select-list-field
         name: Description Language
@@ -1351,7 +1351,7 @@ children:
           - label: zh-TW
           - label: zu
         configuration:
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/language
+          propertyIri: http://purl.org/radx-terms/metadata-terms/language
       - key: Type Of Content
         type: controlled-term-field
         name: Type Of Content
@@ -1376,9 +1376,9 @@ children:
             maxDepth: 2147483647
         configuration:
           hidden: true
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/typeOfContent
+          propertyIri: http://purl.org/radx-terms/metadata-terms/typeOfContent
     configuration:
-      propertyIRI: https://schema.metadatacenter.org/properties/dea181da-8dad-4fb8-bab0-61a1b654d77c
+      propertyIri: https://schema.metadatacenter.org/properties/dea181da-8dad-4fb8-bab0-61a1b654d77c
       multiple: true
       minItems: 1
   - key: Data File Dictionary
@@ -1409,9 +1409,9 @@ children:
         modelVersion: 1.6.0
         prefLabel: Data Dictionary File Name
         configuration:
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/dataDictionaryFielName
+          propertyIri: http://purl.org/radx-terms/metadata-terms/dataDictionaryFielName
     configuration:
-      propertyIRI: https://schema.metadatacenter.org/properties/c699580c-ec1f-4ff6-bafb-fc69ade5a167
+      propertyIri: https://schema.metadatacenter.org/properties/c699580c-ec1f-4ff6-bafb-fc69ade5a167
   - key: Data File Creator
     type: element
     name: Data File Creator
@@ -1448,7 +1448,7 @@ children:
             iri: http://vocab.fairdatacollective.org/gdmt/ResourceCreatorType
             maxDepth: 2147483647
         configuration:
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/creatorType
+          propertyIri: http://purl.org/radx-terms/metadata-terms/creatorType
       - key: Creator Name
         type: text-field
         name: Creator Name
@@ -1461,7 +1461,7 @@ children:
         modelVersion: 1.6.0
         prefLabel: Creator Name
         configuration:
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/creatorName
+          propertyIri: http://purl.org/radx-terms/metadata-terms/creatorName
       - key: Creator Given Name
         type: text-field
         name: Creator Given Name
@@ -1475,7 +1475,7 @@ children:
         modelVersion: 1.6.0
         prefLabel: Creator Given Name
         configuration:
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/creatorGivenName
+          propertyIri: http://purl.org/radx-terms/metadata-terms/creatorGivenName
       - key: Creator Family Name
         type: text-field
         name: Creator Family Name
@@ -1488,7 +1488,7 @@ children:
         modelVersion: 1.6.0
         prefLabel: Creator Family Name
         configuration:
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/creatorFamilyName
+          propertyIri: http://purl.org/radx-terms/metadata-terms/creatorFamilyName
       - key: Creator Identifier
         type: text-field
         name: Creator Identifier
@@ -1505,7 +1505,7 @@ children:
         modelVersion: 1.6.0
         prefLabel: Creator Identifier
         configuration:
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/language
+          propertyIri: http://purl.org/radx-terms/metadata-terms/language
       - key: Creator Identifier Scheme
         type: controlled-term-field
         name: Creator Identifier Scheme
@@ -1527,7 +1527,7 @@ children:
             iri: http://vocab.fairdatacollective.org/gdmt/IdentifierScheme
             maxDepth: 2147483647
         configuration:
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/creatorIdentifierScheme
+          propertyIri: http://purl.org/radx-terms/metadata-terms/creatorIdentifierScheme
       - key: Creator Identifier Scheme Identifier
         type: link-field
         name: Creator Identifier Scheme Identifier
@@ -1542,7 +1542,7 @@ children:
         prefLabel: Creator Identifier Scheme Identifier
         configuration:
           hidden: true
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/creatorIdentifierSchemeIdentifier
+          propertyIri: http://purl.org/radx-terms/metadata-terms/creatorIdentifierSchemeIdentifier
       - key: Creator Email
         type: email-field
         name: Creator Email
@@ -1554,7 +1554,7 @@ children:
         modelVersion: 1.6.0
         prefLabel: Creator Email
         configuration:
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/creatorEmail
+          propertyIri: http://purl.org/radx-terms/metadata-terms/creatorEmail
       - key: Creator Affiliation
         type: text-field
         name: Creator Affiliation
@@ -1567,7 +1567,7 @@ children:
         modelVersion: 1.6.0
         prefLabel: Creator Affiliation
         configuration:
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/creatorAffiliationSchemeIdentifier
+          propertyIri: http://purl.org/radx-terms/metadata-terms/creatorAffiliationSchemeIdentifier
       - key: Creator Affiliation Identifier
         type: text-field
         name: Creator Affiliation Identifier
@@ -1580,7 +1580,7 @@ children:
         modelVersion: 1.6.0
         prefLabel: Creator Affiliation Identifier
         configuration:
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/creatorAffiliationSchemeIdentifier
+          propertyIri: http://purl.org/radx-terms/metadata-terms/creatorAffiliationSchemeIdentifier
       - key: Creator Affiliation Identifier Scheme
         type: controlled-term-field
         name: Creator Affiliation Identifier Scheme
@@ -1601,7 +1601,7 @@ children:
             iri: http://vocab.fairdatacollective.org/gdmt/IdentifierScheme
             maxDepth: 2147483647
         configuration:
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/creatorAffiliationIdentifierScheme
+          propertyIri: http://purl.org/radx-terms/metadata-terms/creatorAffiliationIdentifierScheme
       - key: Creator Affiliation Identifier Scheme Identifier
         type: link-field
         name: Creator Affiliation Identifier Scheme Identifier
@@ -1615,7 +1615,7 @@ children:
         prefLabel: Creator Affiliation Identifier Scheme Identifier
         configuration:
           hidden: true
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/creatorAffiliationIdentifierSchemeIdentifier
+          propertyIri: http://purl.org/radx-terms/metadata-terms/creatorAffiliationIdentifierSchemeIdentifier
       - key: Creator Role
         type: controlled-term-field
         name: Creator Role
@@ -1636,9 +1636,9 @@ children:
             iri: http://vocab.fairdatacollective.org/gdmt/ContributorRole
             maxDepth: 2147483647
         configuration:
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/creatorRole
+          propertyIri: http://purl.org/radx-terms/metadata-terms/creatorRole
     configuration:
-      propertyIRI: https://schema.metadatacenter.org/properties/5c3e3712-cfcc-492c-bedd-74af18d49dd8
+      propertyIri: https://schema.metadatacenter.org/properties/5c3e3712-cfcc-492c-bedd-74af18d49dd8
       multiple: true
       minItems: 1
   - key: Data File Related Resource
@@ -1672,7 +1672,7 @@ children:
         modelVersion: 1.6.0
         prefLabel: Related Resource Identifier
         configuration:
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/relatedResourceIdentifier
+          propertyIri: http://purl.org/radx-terms/metadata-terms/relatedResourceIdentifier
       - key: Related Resource Identifier Type
         type: controlled-term-field
         name: Related Resource Identifier Type
@@ -1692,7 +1692,7 @@ children:
             iri: http://vocab.fairdatacollective.org/gdmt/IdentifierType
             maxDepth: 2147483647
         configuration:
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/relatedResourceIdentifierType
+          propertyIri: http://purl.org/radx-terms/metadata-terms/relatedResourceIdentifierType
       - key: Related Resource File Name
         type: text-field
         name: Related Resource File Name
@@ -1706,7 +1706,7 @@ children:
         modelVersion: 1.6.0
         prefLabel: Related Resource File Name
         configuration:
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/relatedResourceFileName
+          propertyIri: http://purl.org/radx-terms/metadata-terms/relatedResourceFileName
       - key: Resource Type Category
         type: controlled-term-field
         name: Resource Type Category
@@ -1729,7 +1729,7 @@ children:
             iri: http://vocab.fairdatacollective.org/gdmt/ResourceTypeCategory
             maxDepth: 2147483647
         configuration:
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/relatedResourceTypeCategory
+          propertyIri: http://purl.org/radx-terms/metadata-terms/relatedResourceTypeCategory
       - key: Relation of Resource to Data File
         type: text-field
         name: Relation of Resource to Data File
@@ -1742,9 +1742,9 @@ children:
         modelVersion: 1.6.0
         prefLabel: Relation of Resource to Data File
         configuration:
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/relatedResourceRelationship
+          propertyIri: http://purl.org/radx-terms/metadata-terms/relatedResourceRelationship
     configuration:
-      propertyIRI: https://schema.metadatacenter.org/properties/8676bf9d-fb43-42f9-8c54-550724d76f2d
+      propertyIri: https://schema.metadatacenter.org/properties/8676bf9d-fb43-42f9-8c54-550724d76f2d
       multiple: true
       minItems: 1
   - key: Data File Contributor
@@ -1787,7 +1787,7 @@ children:
             iri: http://vocab.fairdatacollective.org/gdmt/ResourceCreatorType
             maxDepth: 2147483647
         configuration:
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/contributorType
+          propertyIri: http://purl.org/radx-terms/metadata-terms/contributorType
       - key: Contributor Name
         type: text-field
         name: Contributor Name
@@ -1799,7 +1799,7 @@ children:
         modelVersion: 1.6.0
         prefLabel: Contributor Name
         configuration:
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/contributorName
+          propertyIri: http://purl.org/radx-terms/metadata-terms/contributorName
       - key: Contributor Given Name
         type: text-field
         name: Contributor Given Name
@@ -1813,7 +1813,7 @@ children:
         modelVersion: 1.6.0
         prefLabel: Contributor Given Name
         configuration:
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/contributorGivenName
+          propertyIri: http://purl.org/radx-terms/metadata-terms/contributorGivenName
       - key: Contributor Family Name
         type: text-field
         name: Contributor Family Name
@@ -1827,7 +1827,7 @@ children:
         modelVersion: 1.6.0
         prefLabel: Contributor Family Name
         configuration:
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/contributorFamilyName
+          propertyIri: http://purl.org/radx-terms/metadata-terms/contributorFamilyName
       - key: Contributor Identifier
         type: text-field
         name: Contributor Identifier
@@ -1840,7 +1840,7 @@ children:
         modelVersion: 1.6.0
         prefLabel: Contributor Identifier
         configuration:
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/contributorIdentifier
+          propertyIri: http://purl.org/radx-terms/metadata-terms/contributorIdentifier
       - key: Contributor Identifier Scheme
         type: controlled-term-field
         name: Contributor Identifier Scheme
@@ -1861,7 +1861,7 @@ children:
             iri: http://vocab.fairdatacollective.org/gdmt/IdentifierScheme
             maxDepth: 2147483647
         configuration:
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/contributorIdentifierScheme
+          propertyIri: http://purl.org/radx-terms/metadata-terms/contributorIdentifierScheme
       - key: Contributor Identifier Scheme IRI
         type: link-field
         name: Contributor Identifier Scheme IRI
@@ -1875,7 +1875,7 @@ children:
         prefLabel: Contributor Identifier Scheme IRI
         configuration:
           hidden: true
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/contributorIdentifierSchemeIdentifier
+          propertyIri: http://purl.org/radx-terms/metadata-terms/contributorIdentifierSchemeIdentifier
       - key: Contributor Affiliation
         type: text-field
         name: Contributor Affiliation
@@ -1888,7 +1888,7 @@ children:
         modelVersion: 1.6.0
         prefLabel: Contributor Affiliation
         configuration:
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/contributorAffiliation
+          propertyIri: http://purl.org/radx-terms/metadata-terms/contributorAffiliation
       - key: Contributor Affiliation Identifier
         type: text-field
         name: Contributor Affiliation Identifier
@@ -1901,7 +1901,7 @@ children:
         modelVersion: 1.6.0
         prefLabel: Contributor Affiliation Identifier
         configuration:
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/contributorAffiliationIdentifier
+          propertyIri: http://purl.org/radx-terms/metadata-terms/contributorAffiliationIdentifier
       - key: Contributor Affiliation Identifier Scheme
         type: controlled-term-field
         name: Contributor Affiliation Identifier Scheme
@@ -1922,7 +1922,7 @@ children:
             iri: http://vocab.fairdatacollective.org/gdmt/IdentifierScheme
             maxDepth: 2147483647
         configuration:
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/contributorAffiliationIdentifierScheme
+          propertyIri: http://purl.org/radx-terms/metadata-terms/contributorAffiliationIdentifierScheme
       - key: Contributor Affiliation Identifier Scheme IRI
         type: link-field
         name: Contributor Affiliation Identifier Scheme IRI
@@ -1936,7 +1936,7 @@ children:
         prefLabel: Contributor Affiliation Identifier Scheme IRI
         configuration:
           hidden: true
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/contributorAffiliationIdentifierSchemeIri
+          propertyIri: http://purl.org/radx-terms/metadata-terms/contributorAffiliationIdentifierSchemeIri
       - key: Contributor Email
         type: email-field
         name: Contributor Email
@@ -1948,7 +1948,7 @@ children:
         modelVersion: 1.6.0
         prefLabel: Contributor Email
         configuration:
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/contributorEmail
+          propertyIri: http://purl.org/radx-terms/metadata-terms/contributorEmail
       - key: Contributor Role
         type: controlled-term-field
         name: Contributor Role
@@ -1969,9 +1969,9 @@ children:
             iri: http://vocab.fairdatacollective.org/gdmt/ContributorRole
             maxDepth: 2147483647
         configuration:
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/contributorRole
+          propertyIri: http://purl.org/radx-terms/metadata-terms/contributorRole
     configuration:
-      propertyIRI: https://schema.metadatacenter.org/properties/efba37ff-3f70-4678-af83-70ccac233af7
+      propertyIri: https://schema.metadatacenter.org/properties/efba37ff-3f70-4678-af83-70ccac233af7
       multiple: true
       minItems: 1
   - key: Data File Rights
@@ -2007,7 +2007,7 @@ children:
             iri: http://vocab.fairdatacollective.org/gdmt/LicenseIdentifier
             maxDepth: 2147483647
         configuration:
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/licenseName
+          propertyIri: http://purl.org/radx-terms/metadata-terms/licenseName
       - key: License Identifier
         type: link-field
         name: License Identifier
@@ -2021,7 +2021,7 @@ children:
         prefLabel: License Identifier
         configuration:
           hidden: true
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/licenseIri
+          propertyIri: http://purl.org/radx-terms/metadata-terms/licenseIri
       - key: License Text
         type: text-field
         name: License Text
@@ -2036,9 +2036,9 @@ children:
         modelVersion: 1.6.0
         prefLabel: License Text
         configuration:
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/licenseText
+          propertyIri: http://purl.org/radx-terms/metadata-terms/licenseText
     configuration:
-      propertyIRI: https://schema.metadatacenter.org/properties/508703a8-ac0a-4852-be3f-338369d0681b
+      propertyIri: https://schema.metadatacenter.org/properties/508703a8-ac0a-4852-be3f-338369d0681b
       multiple: true
       minItems: 1
   - key: Data File Date
@@ -2082,7 +2082,7 @@ children:
             iri: http://vocab.fairdatacollective.org/gdmt/DateType
             maxDepth: 2147483647
         configuration:
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/dateType
+          propertyIri: http://purl.org/radx-terms/metadata-terms/dateType
       - key: Date
         type: temporal-field
         name: Date
@@ -2103,9 +2103,9 @@ children:
         datatype: xsd:date
         granularity: day
         configuration:
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/date
+          propertyIri: http://purl.org/radx-terms/metadata-terms/date
     configuration:
-      propertyIRI: https://schema.metadatacenter.org/properties/ea5f7980-6bcf-4088-aea0-fdaa0fef0fbc
+      propertyIri: https://schema.metadatacenter.org/properties/ea5f7980-6bcf-4088-aea0-fdaa0fef0fbc
       multiple: true
       minItems: 1
   - key: Data File Parent Study
@@ -2137,7 +2137,7 @@ children:
         prefLabel: PHS Identifier
         configuration:
           required: true
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/parentStudyPhsIdentifier
+          propertyIri: http://purl.org/radx-terms/metadata-terms/parentStudyPhsIdentifier
       - key: Study Identifier
         type: text-field
         name: Study Identifier
@@ -2150,7 +2150,7 @@ children:
         modelVersion: 1.6.0
         prefLabel: Study Identifier
         configuration:
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/ParentStudyIdentifier
+          propertyIri: http://purl.org/radx-terms/metadata-terms/ParentStudyIdentifier
       - key: Study Identifier Scheme
         type: controlled-term-field
         name: Study Identifier Scheme
@@ -2170,7 +2170,7 @@ children:
             iri: http://vocab.fairdatacollective.org/gdmt/IdentifierType
             maxDepth: 2147483647
         configuration:
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/parentStudyIdentifierScheme
+          propertyIri: http://purl.org/radx-terms/metadata-terms/parentStudyIdentifierScheme
       - key: Study Identifier Scheme IRI
         type: link-field
         name: Study Identifier Scheme IRI
@@ -2184,7 +2184,7 @@ children:
         prefLabel: Study Identifier Scheme IRI
         configuration:
           hidden: true
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/parentStudyIdentifierSchemeIri
+          propertyIri: http://purl.org/radx-terms/metadata-terms/parentStudyIdentifierSchemeIri
       - key: Study Name
         type: text-field
         name: Study Name
@@ -2196,7 +2196,7 @@ children:
         modelVersion: 1.6.0
         prefLabel: Study Name
         configuration:
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/parentStudyName
+          propertyIri: http://purl.org/radx-terms/metadata-terms/parentStudyName
       - key: Study Start Date
         type: temporal-field
         name: Study Start Date
@@ -2213,7 +2213,7 @@ children:
         datatype: xsd:date
         granularity: day
         configuration:
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/studyStartDate
+          propertyIri: http://purl.org/radx-terms/metadata-terms/studyStartDate
       - key: Study End Date
         type: temporal-field
         name: Study End Date
@@ -2230,9 +2230,9 @@ children:
         datatype: xsd:date
         granularity: day
         configuration:
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/studyEndDate
+          propertyIri: http://purl.org/radx-terms/metadata-terms/studyEndDate
     configuration:
-      propertyIRI: https://schema.metadatacenter.org/properties/4b4196c0-8aad-40dc-861c-8b9f38b47669
+      propertyIri: https://schema.metadatacenter.org/properties/4b4196c0-8aad-40dc-861c-8b9f38b47669
       multiple: true
       minItems: 1
   - key: Data File Funding Source
@@ -2263,7 +2263,7 @@ children:
         modelVersion: 1.6.0
         prefLabel: Award Title
         configuration:
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/awardTitle
+          propertyIri: http://purl.org/radx-terms/metadata-terms/awardTitle
       - key: Award Page URL
         type: link-field
         name: Award Page URL
@@ -2276,7 +2276,7 @@ children:
         modelVersion: 1.6.0
         prefLabel: Award Page URL
         configuration:
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/awardPageUrl
+          propertyIri: http://purl.org/radx-terms/metadata-terms/awardPageUrl
       - key: Award Local Identifier
         type: text-field
         name: Award Local Identifier
@@ -2289,7 +2289,7 @@ children:
         modelVersion: 1.6.0
         prefLabel: Award Local Identifier
         configuration:
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/awardIdentifier
+          propertyIri: http://purl.org/radx-terms/metadata-terms/awardIdentifier
       - key: Funder Name
         type: text-field
         name: Funder Name
@@ -2304,7 +2304,7 @@ children:
         modelVersion: 1.6.0
         prefLabel: Funder Name
         configuration:
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/funderName
+          propertyIri: http://purl.org/radx-terms/metadata-terms/funderName
       - key: Funder Identifier
         type: text-field
         name: Funder Identifier
@@ -2348,7 +2348,7 @@ children:
         modelVersion: 1.6.0
         prefLabel: Funder Identifier
         configuration:
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/funderIdentifier
+          propertyIri: http://purl.org/radx-terms/metadata-terms/funderIdentifier
       - key: Funder Identifier Scheme
         type: controlled-term-field
         name: Funder Identifier Scheme
@@ -2370,7 +2370,7 @@ children:
             iri: http://vocab.fairdatacollective.org/gdmt/IdentifierScheme
             maxDepth: 2147483647
         configuration:
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/funderIdentifierScheme
+          propertyIri: http://purl.org/radx-terms/metadata-terms/funderIdentifierScheme
       - key: Funder Identifier Scheme IRI
         type: link-field
         name: Funder Identifier Scheme IRI
@@ -2384,9 +2384,9 @@ children:
         prefLabel: Funder Identifier Scheme IRI
         configuration:
           hidden: true
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/funderIdentifierSchemeIri
+          propertyIri: http://purl.org/radx-terms/metadata-terms/funderIdentifierSchemeIri
     configuration:
-      propertyIRI: https://schema.metadatacenter.org/properties/db88405a-6a08-4c52-aa92-7297fe2c1e37
+      propertyIri: https://schema.metadatacenter.org/properties/db88405a-6a08-4c52-aa92-7297fe2c1e37
       multiple: true
       minItems: 1
   - key: Data File Distribution
@@ -2417,7 +2417,7 @@ children:
         modelVersion: 1.6.0
         prefLabel: Distribution Publisher
         configuration:
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/distributionPublisher
+          propertyIri: http://purl.org/radx-terms/metadata-terms/distributionPublisher
       - key: Distribution Publisher Identifier
         type: text-field
         name: Distribution Publisher Identifier
@@ -2429,7 +2429,7 @@ children:
         modelVersion: 1.6.0
         prefLabel: Distribution Publisher Identifier
         configuration:
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/distributionPublisherIdentifier
+          propertyIri: http://purl.org/radx-terms/metadata-terms/distributionPublisherIdentifier
       - key: Distribution Publisher Identifier Scheme
         type: controlled-term-field
         name: Distribution Publisher Identifier Scheme
@@ -2450,7 +2450,7 @@ children:
             iri: http://vocab.fairdatacollective.org/gdmt/IdentifierScheme
             maxDepth: 2147483647
         configuration:
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/distributionPublisherIdentifierScheme
+          propertyIri: http://purl.org/radx-terms/metadata-terms/distributionPublisherIdentifierScheme
       - key: Distribution Publisher Identifier Scheme IRI
         type: link-field
         name: Distribution Publisher Identifier Scheme IRI
@@ -2464,7 +2464,7 @@ children:
         prefLabel: Distribution Publisher Identifier Scheme IRI
         configuration:
           hidden: true
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/distributionPublisherIdentifierSchemeIri
+          propertyIri: http://purl.org/radx-terms/metadata-terms/distributionPublisherIdentifierSchemeIri
       - key: Distribution Identifier
         type: text-field
         name: Distribution Identifier
@@ -2476,7 +2476,7 @@ children:
         modelVersion: 1.6.0
         prefLabel: Distribution Identifier
         configuration:
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/distributionIdentifier
+          propertyIri: http://purl.org/radx-terms/metadata-terms/distributionIdentifier
       - key: Distribution Identifier Type
         type: controlled-term-field
         name: Distribution Identifier Type
@@ -2496,7 +2496,7 @@ children:
             iri: http://vocab.fairdatacollective.org/gdmt/IdentifierType
             maxDepth: 2147483647
         configuration:
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/distributionIdentifierType
+          propertyIri: http://purl.org/radx-terms/metadata-terms/distributionIdentifierType
       - key: Distribution Format
         type: text-field
         name: Distribution Format
@@ -2508,7 +2508,7 @@ children:
         modelVersion: 1.6.0
         prefLabel: Distribution Format
         configuration:
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/distributionFormat
+          propertyIri: http://purl.org/radx-terms/metadata-terms/distributionFormat
       - key: Distribution Media Type
         type: controlled-term-field
         name: Distribution Media Type
@@ -2531,7 +2531,7 @@ children:
             iri: http://vocab.fairdatacollective.org/gdmt/MIMEType
             maxDepth: 2147483647
         configuration:
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/distributionMediaType
+          propertyIri: http://purl.org/radx-terms/metadata-terms/distributionMediaType
       - key: Distribution Size
         type: text-field
         name: Distribution Size
@@ -2543,7 +2543,7 @@ children:
         modelVersion: 1.6.0
         prefLabel: Distribution Size
         configuration:
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/distributionSizeInBytes
+          propertyIri: http://purl.org/radx-terms/metadata-terms/distributionSizeInBytes
       - key: Distribution Access Protocol
         type: text-field
         name: Distribution Access Protocol
@@ -2555,7 +2555,7 @@ children:
         modelVersion: 1.6.0
         prefLabel: Distribution Access Protocol
         configuration:
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/distributionAccessProtocol
+          propertyIri: http://purl.org/radx-terms/metadata-terms/distributionAccessProtocol
       - key: Distribution Access Configuration
         type: text-field
         name: Distribution Access Configuration
@@ -2568,7 +2568,7 @@ children:
         modelVersion: 1.6.0
         prefLabel: Distribution Access Configuration
         configuration:
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/distributionAccessConfiguration
+          propertyIri: http://purl.org/radx-terms/metadata-terms/distributionAccessConfiguration
       - key: Distribution Query Statement
         type: text-field
         name: Distribution Query Statement
@@ -2580,7 +2580,7 @@ children:
         modelVersion: 1.6.0
         prefLabel: Distribution Query Statement
         configuration:
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/distributionQueryStatement
+          propertyIri: http://purl.org/radx-terms/metadata-terms/distributionQueryStatement
       - key: Data File Publication Date
         type: element
         name: Data File Publication Date
@@ -2604,7 +2604,7 @@ children:
             datatype: xsd:date
             granularity: day
             configuration:
-              propertyIRI: http://purl.org/radx-terms/metadata-terms/distributionPublicationDate
+              propertyIri: http://purl.org/radx-terms/metadata-terms/distributionPublicationDate
           - key: Publication Date Type
             type: controlled-term-field
             name: Publication Date Type
@@ -2628,11 +2628,11 @@ children:
                 maxDepth: 2147483647
             configuration:
               hidden: true
-              propertyIRI: http://purl.org/radx-terms/metadata-terms/distributionPublicationDateType
+              propertyIri: http://purl.org/radx-terms/metadata-terms/distributionPublicationDateType
         configuration:
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/distributionPublicationDateDescriptor
+          propertyIri: http://purl.org/radx-terms/metadata-terms/distributionPublicationDateDescriptor
     configuration:
-      propertyIRI: https://schema.metadatacenter.org/properties/352309db-088e-439d-b86d-aa408d7da2bd
+      propertyIri: https://schema.metadatacenter.org/properties/352309db-088e-439d-b86d-aa408d7da2bd
       multiple: true
       minItems: 1
   - key: Data Characteristics Summary
@@ -2663,7 +2663,7 @@ children:
         modelVersion: 1.6.0
         prefLabel: Data Characteristics Table in HTML
         configuration:
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/dataCharacteristicsTableInHtml
+          propertyIri: http://purl.org/radx-terms/metadata-terms/dataCharacteristicsTableInHtml
       - key: Data Characteristics Table in CSV
         type: text-area-field
         name: Data Characteristics Table in CSV
@@ -2676,7 +2676,7 @@ children:
         modelVersion: 1.6.0
         prefLabel: Data Characteristics Table in CSV
         configuration:
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/dataCharacteristicsTableInCsv
+          propertyIri: http://purl.org/radx-terms/metadata-terms/dataCharacteristicsTableInCsv
       - key: Data Characteristics Table in TSV
         type: text-field
         name: Data Characteristics Table in TSV
@@ -2689,7 +2689,7 @@ children:
         modelVersion: 1.6.0
         prefLabel: Data Characteristics Table in TSV
         configuration:
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/dataCharacteristicsTableInTsv
+          propertyIri: http://purl.org/radx-terms/metadata-terms/dataCharacteristicsTableInTsv
       - key: Data Characteristics Table in Key-Value Pairs
         type: attribute-value-field
         name: Data Characteristics Table in Key-Value Pairs
@@ -2704,7 +2704,7 @@ children:
         modelVersion: 1.6.0
         prefLabel: Data Characteristics Table in Key-Value Pairs
     configuration:
-      propertyIRI: https://schema.metadatacenter.org/properties/3b3b2079-ae91-4c3f-8681-7bc1928fef17
+      propertyIri: https://schema.metadatacenter.org/properties/3b3b2079-ae91-4c3f-8681-7bc1928fef17
   - key: Data Source
     type: element
     name: Data Source
@@ -2737,7 +2737,7 @@ children:
         modelVersion: 1.6.0
         prefLabel: Data Source Name
         configuration:
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/dataSourceName
+          propertyIri: http://purl.org/radx-terms/metadata-terms/dataSourceName
       - key: Data Source Identifier
         type: text-field
         name: Data Source Identifier
@@ -2751,7 +2751,7 @@ children:
         modelVersion: 1.6.0
         prefLabel: Data Source Identifier
         configuration:
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/dataSourceIdentifier
+          propertyIri: http://purl.org/radx-terms/metadata-terms/dataSourceIdentifier
       - key: Data Source Identifier Scheme
         type: controlled-term-field
         name: Data Source Identifier Scheme
@@ -2772,7 +2772,7 @@ children:
             iri: http://vocab.fairdatacollective.org/gdmt/IdentifierType
             maxDepth: 2147483647
         configuration:
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/dataSourceIdentifierScheme
+          propertyIri: http://purl.org/radx-terms/metadata-terms/dataSourceIdentifierScheme
       - key: Data Source Identifier Scheme IRI
         type: link-field
         name: Data Source Identifier Scheme IRI
@@ -2786,9 +2786,9 @@ children:
         prefLabel: Data Source Identifier Scheme IRI
         configuration:
           hidden: true
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/dataSourceIdentifierSchemeIri
+          propertyIri: http://purl.org/radx-terms/metadata-terms/dataSourceIdentifierSchemeIri
     configuration:
-      propertyIRI: https://schema.metadatacenter.org/properties/06bda00e-d0b7-4f10-852b-64dbf83d10ae
+      propertyIri: https://schema.metadatacenter.org/properties/06bda00e-d0b7-4f10-852b-64dbf83d10ae
       multiple: true
       minItems: 1
   - key: Data Stream
@@ -2821,7 +2821,7 @@ children:
         modelVersion: 1.6.0
         prefLabel: Data Stream Name
         configuration:
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/dataStreamName
+          propertyIri: http://purl.org/radx-terms/metadata-terms/dataStreamName
       - key: Data Stream Identifier
         type: text-field
         name: Data Stream Identifier
@@ -2834,7 +2834,7 @@ children:
         modelVersion: 1.6.0
         prefLabel: Data Stream Identifier
         configuration:
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/dataStreamIdentifier
+          propertyIri: http://purl.org/radx-terms/metadata-terms/dataStreamIdentifier
       - key: Data Stream Identifier Scheme
         type: controlled-term-field
         name: Data Stream Identifier Scheme
@@ -2855,7 +2855,7 @@ children:
             iri: http://vocab.fairdatacollective.org/gdmt/IdentifierType
             maxDepth: 2147483647
         configuration:
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/dataStreamIdentifierScheme
+          propertyIri: http://purl.org/radx-terms/metadata-terms/dataStreamIdentifierScheme
       - key: Data Stream Identifier Scheme IRI
         type: link-field
         name: Data Stream Identifier Scheme IRI
@@ -2869,7 +2869,7 @@ children:
         prefLabel: Data Stream Identifier Scheme IRI
         configuration:
           hidden: true
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/dataStreamIdentifierSchemeIri
+          propertyIri: http://purl.org/radx-terms/metadata-terms/dataStreamIdentifierSchemeIri
       - key: Data Stream Variable Name
         type: text-field
         name: Data Stream Variable Name
@@ -2881,7 +2881,7 @@ children:
         modelVersion: 1.6.0
         prefLabel: Data Stream Variable Name
         configuration:
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/dataStreamVariableName
+          propertyIri: http://purl.org/radx-terms/metadata-terms/dataStreamVariableName
           multiple: true
           minItems: 1
       - key: Data Stream Data Source Identifier
@@ -2896,9 +2896,9 @@ children:
         modelVersion: 1.6.0
         prefLabel: Data Stream Data Source Identifier
         configuration:
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/dataStreamDataSourceIdentifier
+          propertyIri: http://purl.org/radx-terms/metadata-terms/dataStreamDataSourceIdentifier
     configuration:
-      propertyIRI: https://schema.metadatacenter.org/properties/222c36cd-874c-4dd9-9008-5c66a633f747
+      propertyIri: https://schema.metadatacenter.org/properties/222c36cd-874c-4dd9-9008-5c66a633f747
       multiple: true
       minItems: 1
   - key: Data File Creation Process
@@ -2927,7 +2927,7 @@ children:
         modelVersion: 1.6.0
         prefLabel: Process Name
         configuration:
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/creationProcessName
+          propertyIri: http://purl.org/radx-terms/metadata-terms/creationProcessName
       - key: Process IRI
         type: text-field
         name: Process IRI
@@ -2940,7 +2940,7 @@ children:
         modelVersion: 1.6.0
         prefLabel: Process IRI
         configuration:
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/creationProcessIri
+          propertyIri: http://purl.org/radx-terms/metadata-terms/creationProcessIri
       - key: Process Version
         type: text-field
         name: Process Version
@@ -2954,7 +2954,7 @@ children:
         modelVersion: 1.6.0
         prefLabel: Process Version
         configuration:
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/creationProcessVersion
+          propertyIri: http://purl.org/radx-terms/metadata-terms/creationProcessVersion
       - key: Process Execution Identifier
         type: text-field
         name: Process Execution Identifier
@@ -2969,9 +2969,9 @@ children:
         modelVersion: 1.6.0
         prefLabel: Process Execution Identifier
         configuration:
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/creationProcessExecutionIdentifier
+          propertyIri: http://purl.org/radx-terms/metadata-terms/creationProcessExecutionIdentifier
     configuration:
-      propertyIRI: https://schema.metadatacenter.org/properties/1bf88975-65f3-49ce-894c-b4135fafa6ca
+      propertyIri: https://schema.metadatacenter.org/properties/1bf88975-65f3-49ce-894c-b4135fafa6ca
       multiple: true
       minItems: 1
   - key: Data File Temporal Coverage
@@ -3009,7 +3009,7 @@ children:
         datatype: xsd:date
         granularity: day
         configuration:
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/temporalExtentMinimumValue
+          propertyIri: http://purl.org/radx-terms/metadata-terms/temporalExtentMinimumValue
       - key: Temporal Extent Maximum Value
         type: temporal-field
         name: Temporal Extent Maximum Value
@@ -3030,7 +3030,7 @@ children:
         datatype: xsd:date
         granularity: day
         configuration:
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/temporalExtentMaximumValue
+          propertyIri: http://purl.org/radx-terms/metadata-terms/temporalExtentMaximumValue
       - key: Temporal Resolution
         type: text-field
         name: Temporal Resolution
@@ -3045,7 +3045,7 @@ children:
         modelVersion: 1.6.0
         prefLabel: Temporal Resolution
         configuration:
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/temporalResolution
+          propertyIri: http://purl.org/radx-terms/metadata-terms/temporalResolution
       - key: Duration
         type: text-field
         name: Duration
@@ -3070,9 +3070,9 @@ children:
         modelVersion: 1.6.0
         prefLabel: Duration
         configuration:
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/temporalCoverageDuration
+          propertyIri: http://purl.org/radx-terms/metadata-terms/temporalCoverageDuration
     configuration:
-      propertyIRI: https://schema.metadatacenter.org/properties/2b455707-123b-4524-8cc6-93d214d499f2
+      propertyIri: https://schema.metadatacenter.org/properties/2b455707-123b-4524-8cc6-93d214d499f2
       multiple: true
       minItems: 1
   - key: Data File Spatial Coverage
@@ -3119,7 +3119,7 @@ children:
             prefLabel: Maximum Latitude
             default: '85'
             configuration:
-              propertyIRI: https://schema.metadatacenter.org/properties/e8f3ce8b-353d-493f-b1f6-588e5b32c578
+              propertyIri: https://schema.metadatacenter.org/properties/e8f3ce8b-353d-493f-b1f6-588e5b32c578
           - key: Minimum Latitude
             type: text-field
             name: Minimum Latitude
@@ -3136,7 +3136,7 @@ children:
             modelVersion: 1.6.0
             prefLabel: Minimum Latitude
             configuration:
-              propertyIRI: http://purl.org/radx-terms/metadata-terms/minLat
+              propertyIri: http://purl.org/radx-terms/metadata-terms/minLat
           - key: Minimum Longitude
             type: text-field
             name: Minimum Longitude
@@ -3153,7 +3153,7 @@ children:
             modelVersion: 1.6.0
             prefLabel: Minimum Longitude
             configuration:
-              propertyIRI: http://purl.org/radx-terms/metadata-terms/minLon
+              propertyIri: http://purl.org/radx-terms/metadata-terms/minLon
           - key: Maximum Longitude
             type: text-field
             name: Maximum Longitude
@@ -3170,9 +3170,9 @@ children:
             modelVersion: 1.6.0
             prefLabel: Maximum Longitude
             configuration:
-              propertyIRI: http://purl.org/radx-terms/metadata-terms/maxLon
+              propertyIri: http://purl.org/radx-terms/metadata-terms/maxLon
         configuration:
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/boxCoverageDescriptor
+          propertyIri: http://purl.org/radx-terms/metadata-terms/boxCoverageDescriptor
           multiple: true
           minItems: 1
       - key: Bounding Shape
@@ -3203,7 +3203,7 @@ children:
             datatype: xsd:int
             unit: ''
             configuration:
-              propertyIRI: http://purl.org/radx-terms/metadata-terms/pointNumber
+              propertyIri: http://purl.org/radx-terms/metadata-terms/pointNumber
           - key: Latitude
             type: numeric-field
             name: Latitude
@@ -3222,7 +3222,7 @@ children:
             datatype: xsd:float
             unit: ''
             configuration:
-              propertyIRI: http://purl.org/radx-terms/metadata-terms/latitude
+              propertyIri: http://purl.org/radx-terms/metadata-terms/latitude
           - key: Longitude
             type: numeric-field
             name: Longitude
@@ -3241,9 +3241,9 @@ children:
             datatype: xsd:float
             unit: ''
             configuration:
-              propertyIRI: http://purl.org/radx-terms/metadata-terms/longitude
+              propertyIri: http://purl.org/radx-terms/metadata-terms/longitude
         configuration:
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/dataFileShapeCoverageDescriptor
+          propertyIri: http://purl.org/radx-terms/metadata-terms/dataFileShapeCoverageDescriptor
           multiple: true
           minItems: 1
       - key: Data File Geopolitical Coverage
@@ -3269,15 +3269,15 @@ children:
             modelVersion: 1.6.0
             prefLabel: 'Geopolitical region '
             configuration:
-              propertyIRI: http://purl.org/radx-terms/metadata-terms/geographicalPlaceName
+              propertyIri: http://purl.org/radx-terms/metadata-terms/geographicalPlaceName
               multiple: true
               minItems: 1
         configuration:
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/geographicalPlaceNameDescriptor
+          propertyIri: http://purl.org/radx-terms/metadata-terms/geographicalPlaceNameDescriptor
           multiple: true
           minItems: 1
     configuration:
-      propertyIRI: https://schema.metadatacenter.org/properties/87a8564b-228c-473f-8963-47895a23eb56
+      propertyIri: https://schema.metadatacenter.org/properties/87a8564b-228c-473f-8963-47895a23eb56
       multiple: true
       minItems: 1
   - key: Data File Elevation Coverage
@@ -3311,7 +3311,7 @@ children:
         datatype: xsd:float
         unit: ''
         configuration:
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/minElevation
+          propertyIri: http://purl.org/radx-terms/metadata-terms/minElevation
       - key: Vertical Extent Maximum Value
         type: numeric-field
         name: Vertical Extent Maximum Value
@@ -3328,7 +3328,7 @@ children:
         datatype: xsd:float
         unit: ''
         configuration:
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/maxElevation
+          propertyIri: http://purl.org/radx-terms/metadata-terms/maxElevation
       - key: Vertical Extent Datum
         type: text-field
         name: Vertical Extent Datum
@@ -3341,7 +3341,7 @@ children:
         modelVersion: 1.6.0
         prefLabel: Vertical Extent Datum
         configuration:
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/elevationReferenceFrame
+          propertyIri: http://purl.org/radx-terms/metadata-terms/elevationReferenceFrame
       - key: Vertical Extent Datum IRI
         type: link-field
         name: Vertical Extent Datum IRI
@@ -3354,9 +3354,9 @@ children:
         modelVersion: 1.6.0
         prefLabel: Vertical Extent Datum IRI
         configuration:
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/elevationReferenceFrameIri
+          propertyIri: http://purl.org/radx-terms/metadata-terms/elevationReferenceFrameIri
     configuration:
-      propertyIRI: https://schema.metadatacenter.org/properties/4dfa2247-cb9d-49e1-ab4c-83d559a14ea5
+      propertyIri: https://schema.metadatacenter.org/properties/4dfa2247-cb9d-49e1-ab4c-83d559a14ea5
       multiple: true
       minItems: 1
   - key: Auxiliary Metadata
@@ -3400,8 +3400,8 @@ children:
         modelVersion: 1.6.0
         prefLabel: Additional Commentary
         configuration:
-          propertyIRI: http://purl.org/radx-terms/metadata-terms/auxiliaryMetadataCommentary
+          propertyIri: http://purl.org/radx-terms/metadata-terms/auxiliaryMetadataCommentary
           multiple: true
           minItems: 1
     configuration:
-      propertyIRI: https://schema.metadatacenter.org/properties/60350e91-8896-4d8c-b11e-26b35370455b
+      propertyIri: https://schema.metadatacenter.org/properties/60350e91-8896-4d8c-b11e-26b35370455b

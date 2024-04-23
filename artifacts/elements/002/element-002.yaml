@@ -20,7 +20,7 @@ children:
     lastUpdatedOn: 2024-03-12T12:23:36-07:00
     modifiedBy: https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95
     configuration:
-      propertyIRI: https://schema.metadatacenter.org/properties/567002c1-5ce2-4c12-b468-86cb585e474a
+      propertyIri: https://schema.metadatacenter.org/properties/567002c1-5ce2-4c12-b468-86cb585e474a
       overrideLabel: Text field
       overrideDescription: Help Text
   - key: Email
@@ -34,7 +34,7 @@ children:
     lastUpdatedOn: 2024-03-12T12:23:36-07:00
     modifiedBy: https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95
     configuration:
-      propertyIRI: https://schema.metadatacenter.org/properties/148c1250-5416-45d5-852f-dc563939bd20
+      propertyIri: https://schema.metadatacenter.org/properties/148c1250-5416-45d5-852f-dc563939bd20
       overrideLabel: Email
       overrideDescription: Help Text
   - key: Numeric
@@ -49,6 +49,6 @@ children:
     lastUpdatedOn: 2024-03-12T12:23:36-07:00
     modifiedBy: https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95
     configuration:
-      propertyIRI: https://schema.metadatacenter.org/properties/4550b03e-9e19-4f33-894c-2ad0e8e02f54
+      propertyIri: https://schema.metadatacenter.org/properties/4550b03e-9e19-4f33-894c-2ad0e8e02f54
       overrideLabel: Numeric
       overrideDescription: Help Text

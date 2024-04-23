@@ -22,4 +22,4 @@ children:
     modifiedBy: https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95
     configuration:
       required: true
-      propertyIRI: https://schema.metadatacenter.org/properties/97c7d154-964b-4637-88a3-03a062cdb58b
+      propertyIri: https://schema.metadatacenter.org/properties/97c7d154-964b-4637-88a3-03a062cdb58b
