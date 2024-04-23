@@ -10,10 +10,9 @@ status: draft
 version: 0.9.1
 modelVersion: 1.6.0
 prefLabel: Study Start Date
-granularity: day
 datatype: xsd:date
+granularity: day
 createdOn: 2022-10-13T14:15:32-07:00
 createdBy: https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014
 lastUpdatedOn: 2022-10-13T14:15:32-07:00
 modifiedBy: https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014
-derivedFrom: ""

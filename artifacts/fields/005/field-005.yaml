@@ -8,6 +8,6 @@ prefLabel: Boolean Preferred
 datatype: xsd:boolean
 nullEnabled: true
 default: true
-trueLabel: "True"
-falseLabel: "False"
-nullLabel: "Null"
+trueLabel: 'True'
+falseLabel: 'False'
+nullLabel: 'Null'

@@ -1,5 +1,5 @@
 type: template
-name: "#016 Template with Paragraph"
+name: '#016 Template with Paragraph'
 id: https://repo.metadatacenter.org/templates/63a90e2a-eb03-40b8-a588-676909f45823
 status: draft
 version: 0.0.1
@@ -22,7 +22,7 @@ children:
       required: true
       propertyIRI: https://schema.metadatacenter.org/properties/6e6e69b6-10eb-4236-bdee-ff077e283583
       overrideLabel: Paragraph
-      overrideDescription: ""
+      overrideDescription: ''
       multiple: true
       minItems: 2
       maxItems: 2

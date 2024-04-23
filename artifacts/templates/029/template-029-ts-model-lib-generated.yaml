@@ -10,7 +10,6 @@ createdOn: 2022-10-13T12:45:10-07:00
 createdBy: https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014
 lastUpdatedOn: 2022-10-13T12:45:10-07:00
 modifiedBy: https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014
-derivedFrom: ""
 children:
   - key: Data File Title
     type: element
@@ -27,7 +26,6 @@ children:
     createdBy: https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014
     lastUpdatedOn: 2022-10-13T12:45:10-07:00
     modifiedBy: https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014
-    derivedFrom: ""
     children:
       - key: Title
         type: text-field
@@ -42,7 +40,6 @@ children:
         version: 0.9.1
         modelVersion: 1.6.0
         prefLabel: Title
-        derivedFrom: ""
         configuration:
           required: true
           propertyIRI: http://purl.org/radx-terms/metadata-terms/title
@@ -312,7 +309,6 @@ children:
           - label: zh-SG
           - label: zh-TW
           - label: zu
-        derivedFrom: ""
         configuration:
           propertyIRI: http://purl.org/radx-terms/metadata-terms/language
           overrideLabel: Language
@@ -341,7 +337,6 @@ children:
     createdBy: https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014
     lastUpdatedOn: 2022-10-13T12:45:10-07:00
     modifiedBy: https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014
-    derivedFrom: ""
     children:
       - key: Identifier
         type: text-field
@@ -358,7 +353,6 @@ children:
         version: 0.9.1
         modelVersion: 1.6.0
         prefLabel: Identifier
-        derivedFrom: ""
         configuration:
           propertyIRI: http://purl.org/radx-terms/metadata-terms/dataFileIdentifier
           overrideLabel: Identifier
@@ -389,7 +383,6 @@ children:
             termLabel: FDC-GDMT
             iri: http://vocab.fairdatacollective.org/gdmt/IdentifierType
             maxDepth: 2147483647
-        derivedFrom: ""
         configuration:
           propertyIRI: http://purl.org/radx-terms/metadata-terms/dataFileIdentifierType
           overrideLabel: Identifier Type
@@ -397,9 +390,9 @@ children:
             The identifier type used to identify the resource being described.
 
             This need not be provided if the identifier is either a DOI that begins with "doi:" or "http://doi.org/", or it is an IRI that begins with either "http://" or "https://" 
-      - key: "File Name "
+      - key: 'File Name '
         type: text-field
-        name: "File Name "
+        name: 'File Name '
         description: The local name of the resource (for example, in a file-based
           operating system or web service).
         identifier: file_name_
@@ -407,11 +400,10 @@ children:
         status: draft
         version: 0.9.1
         modelVersion: 1.6.0
-        prefLabel: "File Name "
-        derivedFrom: ""
+        prefLabel: 'File Name '
         configuration:
           propertyIRI: http://purl.org/radx-terms/metadata-terms/dataFileFileName
-          overrideLabel: "File Name "
+          overrideLabel: 'File Name '
           overrideDescription: The local name of the resource (for example, in a
             file-based operating system or web service).
       - key: SHA256 digest
@@ -433,7 +425,6 @@ children:
         version: 0.9.1
         modelVersion: 1.6.0
         prefLabel: SHA256 digest
-        derivedFrom: ""
         configuration:
           propertyIRI: https://purl.org/radx-terms/dataFileSha256
           overrideLabel: SHA256 digest
@@ -463,11 +454,10 @@ children:
     createdBy: https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014
     lastUpdatedOn: 2022-10-13T12:45:10-07:00
     modifiedBy: https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014
-    derivedFrom: ""
     configuration:
       propertyIRI: https://schema.metadatacenter.org/properties/082bb4ce-bf1e-41f5-9ee0-bd420ceb7cef
       overrideLabel: Data File Content
-      overrideDescription: ""
+      overrideDescription: ''
   - key: Data File Version
     type: element
     name: Data File Version
@@ -481,7 +471,6 @@ children:
     createdBy: https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014
     lastUpdatedOn: 2022-10-13T12:45:10-07:00
     modifiedBy: https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014
-    derivedFrom: ""
     children:
       - key: Version
         type: text-field
@@ -496,7 +485,6 @@ children:
         version: 0.9.1
         modelVersion: 1.6.0
         prefLabel: Version
-        derivedFrom: ""
         configuration:
           propertyIRI: http://purl.org/radx-terms/metadata-terms/dataFileVersion
           overrideLabel: Version
@@ -521,7 +509,6 @@ children:
     createdBy: https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014
     lastUpdatedOn: 2022-10-13T12:45:10-07:00
     modifiedBy: https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014
-    derivedFrom: ""
     children:
       - key: Primary Language
         type: single-select-list-field
@@ -782,7 +769,6 @@ children:
           - label: zh-SG
           - label: zh-TW
           - label: zu
-        derivedFrom: ""
         configuration:
           propertyIRI: http://purl.org/radx-terms/metadata-terms/primaryLanguage
           overrideLabel: Primary Language
@@ -1045,7 +1031,6 @@ children:
           - label: zh-SG
           - label: zh-TW
           - label: zu
-        derivedFrom: ""
         configuration:
           propertyIRI: http://purl.org/radx-terms/metadata-terms/otherLanguage
           overrideLabel: Other Language
@@ -1069,7 +1054,6 @@ children:
     createdBy: https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014
     lastUpdatedOn: 2022-10-13T12:45:10-07:00
     modifiedBy: https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014
-    derivedFrom: ""
     children:
       - key: Subject Identifier
         type: controlled-term-field
@@ -1089,7 +1073,6 @@ children:
             ontologyName: MESH
             iri: https://bioportal.bioontology.org/ontologies/MESH
             numTerms: 0
-        derivedFrom: ""
         configuration:
           propertyIRI: http://purl.org/radx-terms/metadata-terms/subjectIdentifier
           overrideLabel: Subject Identifier
@@ -1106,7 +1089,6 @@ children:
         version: 0.9.1
         modelVersion: 1.6.0
         prefLabel: Subject Identifier Scheme
-        derivedFrom: ""
         configuration:
           hidden: true
           propertyIRI: http://purl.org/radx-terms/metadata-terms/subjectIdentifierScheme
@@ -1123,7 +1105,6 @@ children:
         version: 0.9.1
         modelVersion: 1.6.0
         prefLabel: Subject Identifier Scheme Identifier
-        derivedFrom: ""
         configuration:
           hidden: true
           propertyIRI: http://purl.org/radx-terms/metadata-terms/subjectIdentifierSchemeIdentifier
@@ -1144,7 +1125,6 @@ children:
         version: 0.9.1
         modelVersion: 1.6.0
         prefLabel: Keyword
-        derivedFrom: ""
         configuration:
           propertyIRI: http://purl.org/radx-terms/metadata-terms/keyword
           overrideLabel: Keyword
@@ -1174,27 +1154,25 @@ children:
     createdBy: https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014
     lastUpdatedOn: 2022-10-13T12:45:10-07:00
     modifiedBy: https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014
-    derivedFrom: ""
     children:
       - key: Description
         type: text-area-field
         name: Description
-        description: "An account of the resource contained in the Data File; may include
+        description: 'An account of the resource contained in the Data File; may include
           but is not limited to: an abstract, a table of contents, a graphical
-          representation, or a free-text account of the resource."
+          representation, or a free-text account of the resource.'
         identifier: description
         id: https://repo.metadatacenter.org/template-fields/50a4280c-ef48-4277-a91b-1fd0caa192e5
         status: draft
         version: 0.9.1
         modelVersion: 1.6.0
         prefLabel: Description
-        derivedFrom: ""
         configuration:
           propertyIRI: http://purl.org/radx-terms/metadata-terms/dataFileDescription
           overrideLabel: Description
-          overrideDescription: "An account of the resource contained in the Data File; may
+          overrideDescription: 'An account of the resource contained in the Data File; may
             include but is not limited to: an abstract, a table of contents, a
-            graphical representation, or a free-text account of the resource."
+            graphical representation, or a free-text account of the resource.'
       - key: Description Language
         type: single-select-list-field
         name: Description Language
@@ -1453,7 +1431,6 @@ children:
           - label: zh-SG
           - label: zh-TW
           - label: zu
-        derivedFrom: ""
         configuration:
           propertyIRI: http://purl.org/radx-terms/metadata-terms/language
           overrideLabel: Description Language
@@ -1462,8 +1439,8 @@ children:
       - key: Type Of Content
         type: controlled-term-field
         name: Type Of Content
-        description: "This is the type of digital object being described, which for RADx
-          Data Files is always Dataset. "
+        description: 'This is the type of digital object being described, which for RADx
+          Data Files is always Dataset. '
         identifier: type_of_content
         id: https://repo.metadatacenter.org/template-fields/c7f2a1f5-e938-4733-a457-920a6cb3db43
         status: draft
@@ -1481,13 +1458,12 @@ children:
             termLabel: FDC-GDMT
             iri: http://vocab.fairdatacollective.org/gdmt/ResourceTypeCategory
             maxDepth: 2147483647
-        derivedFrom: ""
         configuration:
           hidden: true
           propertyIRI: http://purl.org/radx-terms/metadata-terms/typeOfContent
           overrideLabel: Type Of Content
-          overrideDescription: "This is the type of digital object being described, which
-            for RADx Data Files is always Dataset. "
+          overrideDescription: 'This is the type of digital object being described, which
+            for RADx Data Files is always Dataset. '
     configuration:
       propertyIRI: https://schema.metadatacenter.org/properties/dea181da-8dad-4fb8-bab0-61a1b654d77c
       overrideLabel: Data File Description
@@ -1507,7 +1483,6 @@ children:
     createdBy: https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014
     lastUpdatedOn: 2022-10-13T12:45:10-07:00
     modifiedBy: https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014
-    derivedFrom: ""
     children:
       - key: Data Dictionary File Name
         type: text-field
@@ -1522,7 +1497,6 @@ children:
         version: 0.9.1
         modelVersion: 1.6.0
         prefLabel: Data Dictionary File Name
-        derivedFrom: ""
         configuration:
           propertyIRI: http://purl.org/radx-terms/metadata-terms/dataDictionaryFielName
           overrideLabel: Data Dictionary File Name
@@ -1547,7 +1521,6 @@ children:
     createdBy: https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014
     lastUpdatedOn: 2022-10-13T12:45:10-07:00
     modifiedBy: https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014
-    derivedFrom: ""
     children:
       - key: Creator Type
         type: controlled-term-field
@@ -1570,7 +1543,6 @@ children:
             termLabel: FDC-GDMT
             iri: http://vocab.fairdatacollective.org/gdmt/ResourceCreatorType
             maxDepth: 2147483647
-        derivedFrom: ""
         configuration:
           propertyIRI: http://purl.org/radx-terms/metadata-terms/creatorType
           overrideLabel: Creator Type
@@ -1586,7 +1558,6 @@ children:
         version: 0.9.1
         modelVersion: 1.6.0
         prefLabel: Creator Name
-        derivedFrom: ""
         configuration:
           propertyIRI: http://purl.org/radx-terms/metadata-terms/creatorName
           overrideLabel: Creator Name
@@ -1605,7 +1576,6 @@ children:
         version: 0.9.1
         modelVersion: 1.6.0
         prefLabel: Creator Given Name
-        derivedFrom: ""
         configuration:
           propertyIRI: http://purl.org/radx-terms/metadata-terms/creatorGivenName
           overrideLabel: Creator Given Name
@@ -1623,7 +1593,6 @@ children:
         version: 0.9.1
         modelVersion: 1.6.0
         prefLabel: Creator Family Name
-        derivedFrom: ""
         configuration:
           propertyIRI: http://purl.org/radx-terms/metadata-terms/creatorFamilyName
           overrideLabel: Creator Family Name
@@ -1645,7 +1614,6 @@ children:
         version: 0.9.1
         modelVersion: 1.6.0
         prefLabel: Creator Identifier
-        derivedFrom: ""
         configuration:
           propertyIRI: http://purl.org/radx-terms/metadata-terms/language
           overrideLabel: Creator Identifier
@@ -1675,7 +1643,6 @@ children:
             termLabel: FDC-GDMT
             iri: http://vocab.fairdatacollective.org/gdmt/IdentifierScheme
             maxDepth: 2147483647
-        derivedFrom: ""
         configuration:
           propertyIRI: http://purl.org/radx-terms/metadata-terms/creatorIdentifierScheme
           overrideLabel: Creator Identifier Scheme
@@ -1694,7 +1661,6 @@ children:
         version: 0.9.1
         modelVersion: 1.6.0
         prefLabel: Creator Identifier Scheme Identifier
-        derivedFrom: ""
         configuration:
           hidden: true
           propertyIRI: http://purl.org/radx-terms/metadata-terms/creatorIdentifierSchemeIdentifier
@@ -1713,7 +1679,6 @@ children:
         version: 0.9.1
         modelVersion: 1.6.0
         prefLabel: Creator Email
-        derivedFrom: ""
         configuration:
           propertyIRI: http://purl.org/radx-terms/metadata-terms/creatorEmail
           overrideLabel: Creator Email
@@ -1729,7 +1694,6 @@ children:
         version: 0.9.1
         modelVersion: 1.6.0
         prefLabel: Creator Affiliation
-        derivedFrom: ""
         configuration:
           propertyIRI: http://purl.org/radx-terms/metadata-terms/creatorAffiliationSchemeIdentifier
           overrideLabel: Creator Affiliation
@@ -1746,7 +1710,6 @@ children:
         version: 0.9.1
         modelVersion: 1.6.0
         prefLabel: Creator Affiliation Identifier
-        derivedFrom: ""
         configuration:
           propertyIRI: http://purl.org/radx-terms/metadata-terms/creatorAffiliationSchemeIdentifier
           overrideLabel: Creator Affiliation Identifier
@@ -1771,7 +1734,6 @@ children:
             termLabel: FDC-GDMT
             iri: http://vocab.fairdatacollective.org/gdmt/IdentifierScheme
             maxDepth: 2147483647
-        derivedFrom: ""
         configuration:
           propertyIRI: http://purl.org/radx-terms/metadata-terms/creatorAffiliationIdentifierScheme
           overrideLabel: Creator Affiliation Identifier Scheme
@@ -1788,7 +1750,6 @@ children:
         version: 0.9.1
         modelVersion: 1.6.0
         prefLabel: Creator Affiliation Identifier Scheme Identifier
-        derivedFrom: ""
         configuration:
           hidden: true
           propertyIRI: http://purl.org/radx-terms/metadata-terms/creatorAffiliationIdentifierSchemeIdentifier
@@ -1814,7 +1775,6 @@ children:
             termLabel: FDC-GDMT
             iri: http://vocab.fairdatacollective.org/gdmt/ContributorRole
             maxDepth: 2147483647
-        derivedFrom: ""
         configuration:
           propertyIRI: http://purl.org/radx-terms/metadata-terms/creatorRole
           overrideLabel: Creator Role
@@ -1842,7 +1802,6 @@ children:
     createdBy: https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014
     lastUpdatedOn: 2022-10-13T12:45:10-07:00
     modifiedBy: https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014
-    derivedFrom: ""
     children:
       - key: Related Resource Identifier
         type: text-field
@@ -1857,7 +1816,6 @@ children:
         version: 0.9.1
         modelVersion: 1.6.0
         prefLabel: Related Resource Identifier
-        derivedFrom: ""
         configuration:
           propertyIRI: http://purl.org/radx-terms/metadata-terms/relatedResourceIdentifier
           overrideLabel: Related Resource Identifier
@@ -1883,7 +1841,6 @@ children:
             termLabel: FDC-GDMT
             iri: http://vocab.fairdatacollective.org/gdmt/IdentifierType
             maxDepth: 2147483647
-        derivedFrom: ""
         configuration:
           propertyIRI: http://purl.org/radx-terms/metadata-terms/relatedResourceIdentifierType
           overrideLabel: Related Resource Identifier Type
@@ -1900,7 +1857,6 @@ children:
         version: 0.9.1
         modelVersion: 1.6.0
         prefLabel: Related Resource File Name
-        derivedFrom: ""
         configuration:
           propertyIRI: http://purl.org/radx-terms/metadata-terms/relatedResourceFileName
           overrideLabel: Related Resource File Name
@@ -1928,7 +1884,6 @@ children:
             termLabel: FDC-GDMT
             iri: http://vocab.fairdatacollective.org/gdmt/ResourceTypeCategory
             maxDepth: 2147483647
-        derivedFrom: ""
         configuration:
           propertyIRI: http://purl.org/radx-terms/metadata-terms/relatedResourceTypeCategory
           overrideLabel: Resource Type Category
@@ -1948,7 +1903,6 @@ children:
         version: 0.9.1
         modelVersion: 1.6.0
         prefLabel: Relation of Resource to Data File
-        derivedFrom: ""
         configuration:
           propertyIRI: http://purl.org/radx-terms/metadata-terms/relatedResourceRelationship
           overrideLabel: Relation of Resource to Data File
@@ -1979,7 +1933,6 @@ children:
     createdBy: https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014
     lastUpdatedOn: 2022-10-13T12:45:10-07:00
     modifiedBy: https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014
-    derivedFrom: ""
     children:
       - key: Contributor Type
         type: controlled-term-field
@@ -2003,7 +1956,6 @@ children:
             termLabel: FDC-GDMT
             iri: http://vocab.fairdatacollective.org/gdmt/ResourceCreatorType
             maxDepth: 2147483647
-        derivedFrom: ""
         configuration:
           propertyIRI: http://purl.org/radx-terms/metadata-terms/contributorType
           overrideLabel: Contributor Type
@@ -2019,7 +1971,6 @@ children:
         version: 0.9.1
         modelVersion: 1.6.0
         prefLabel: Contributor Name
-        derivedFrom: ""
         configuration:
           propertyIRI: http://purl.org/radx-terms/metadata-terms/contributorName
           overrideLabel: Contributor Name
@@ -2036,7 +1987,6 @@ children:
         version: 0.9.1
         modelVersion: 1.6.0
         prefLabel: Contributor Given Name
-        derivedFrom: ""
         configuration:
           propertyIRI: http://purl.org/radx-terms/metadata-terms/contributorGivenName
           overrideLabel: Contributor Given Name
@@ -2055,7 +2005,6 @@ children:
         version: 0.9.1
         modelVersion: 1.6.0
         prefLabel: Contributor Family Name
-        derivedFrom: ""
         configuration:
           propertyIRI: http://purl.org/radx-terms/metadata-terms/contributorFamilyName
           overrideLabel: Contributor Family Name
@@ -2073,7 +2022,6 @@ children:
         version: 0.9.1
         modelVersion: 1.6.0
         prefLabel: Contributor Identifier
-        derivedFrom: ""
         configuration:
           propertyIRI: http://purl.org/radx-terms/metadata-terms/contributorIdentifier
           overrideLabel: Contributor Identifier
@@ -2098,7 +2046,6 @@ children:
             termLabel: FDC-GDMT
             iri: http://vocab.fairdatacollective.org/gdmt/IdentifierScheme
             maxDepth: 2147483647
-        derivedFrom: ""
         configuration:
           propertyIRI: http://purl.org/radx-terms/metadata-terms/contributorIdentifierScheme
           overrideLabel: Contributor Identifier Scheme
@@ -2115,7 +2062,6 @@ children:
         version: 0.9.1
         modelVersion: 1.6.0
         prefLabel: Contributor Identifier Scheme IRI
-        derivedFrom: ""
         configuration:
           hidden: true
           propertyIRI: http://purl.org/radx-terms/metadata-terms/contributorIdentifierSchemeIdentifier
@@ -2133,7 +2079,6 @@ children:
         version: 0.9.1
         modelVersion: 1.6.0
         prefLabel: Contributor Affiliation
-        derivedFrom: ""
         configuration:
           propertyIRI: http://purl.org/radx-terms/metadata-terms/contributorAffiliation
           overrideLabel: Contributor Affiliation
@@ -2150,7 +2095,6 @@ children:
         version: 0.9.1
         modelVersion: 1.6.0
         prefLabel: Contributor Affiliation Identifier
-        derivedFrom: ""
         configuration:
           propertyIRI: http://purl.org/radx-terms/metadata-terms/contributorAffiliationIdentifier
           overrideLabel: Contributor Affiliation Identifier
@@ -2175,7 +2119,6 @@ children:
             termLabel: FDC-GDMT
             iri: http://vocab.fairdatacollective.org/gdmt/IdentifierScheme
             maxDepth: 2147483647
-        derivedFrom: ""
         configuration:
           propertyIRI: http://purl.org/radx-terms/metadata-terms/contributorAffiliationIdentifierScheme
           overrideLabel: Contributor Affiliation Identifier Scheme
@@ -2192,7 +2135,6 @@ children:
         version: 0.9.1
         modelVersion: 1.6.0
         prefLabel: Contributor Affiliation Identifier Scheme IRI
-        derivedFrom: ""
         configuration:
           hidden: true
           propertyIRI: http://purl.org/radx-terms/metadata-terms/contributorAffiliationIdentifierSchemeIri
@@ -2209,7 +2151,6 @@ children:
         version: 0.9.1
         modelVersion: 1.6.0
         prefLabel: Contributor Email
-        derivedFrom: ""
         configuration:
           propertyIRI: http://purl.org/radx-terms/metadata-terms/contributorEmail
           overrideLabel: Contributor Email
@@ -2233,7 +2174,6 @@ children:
             termLabel: FDC-GDMT
             iri: http://vocab.fairdatacollective.org/gdmt/ContributorRole
             maxDepth: 2147483647
-        derivedFrom: ""
         configuration:
           propertyIRI: http://purl.org/radx-terms/metadata-terms/contributorRole
           overrideLabel: Contributor Role
@@ -2261,7 +2201,6 @@ children:
     createdBy: https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014
     lastUpdatedOn: 2022-10-13T12:45:10-07:00
     modifiedBy: https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014
-    derivedFrom: ""
     children:
       - key: License Name
         type: controlled-term-field
@@ -2281,7 +2220,6 @@ children:
             termLabel: FDC-GDMT
             iri: http://vocab.fairdatacollective.org/gdmt/LicenseIdentifier
             maxDepth: 2147483647
-        derivedFrom: ""
         configuration:
           propertyIRI: http://purl.org/radx-terms/metadata-terms/licenseName
           overrideLabel: License Name
@@ -2297,7 +2235,6 @@ children:
         version: 0.9.1
         modelVersion: 1.6.0
         prefLabel: License Identifier
-        derivedFrom: ""
         configuration:
           hidden: true
           propertyIRI: http://purl.org/radx-terms/metadata-terms/licenseIri
@@ -2317,7 +2254,6 @@ children:
         version: 0.9.1
         modelVersion: 1.6.0
         prefLabel: License Text
-        derivedFrom: ""
         configuration:
           propertyIRI: http://purl.org/radx-terms/metadata-terms/licenseText
           overrideLabel: License Text
@@ -2347,7 +2283,6 @@ children:
     createdBy: https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014
     lastUpdatedOn: 2022-10-13T12:45:10-07:00
     modifiedBy: https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014
-    derivedFrom: ""
     children:
       - key: Event Type
         type: controlled-term-field
@@ -2372,7 +2307,6 @@ children:
             termLabel: FDC-GDMT
             iri: http://vocab.fairdatacollective.org/gdmt/DateType
             maxDepth: 2147483647
-        derivedFrom: ""
         configuration:
           propertyIRI: http://purl.org/radx-terms/metadata-terms/dateType
           overrideLabel: Event Type
@@ -2399,9 +2333,8 @@ children:
         version: 0.9.1
         modelVersion: 1.6.0
         prefLabel: Date
-        granularity: day
         datatype: xsd:date
-        derivedFrom: ""
+        granularity: day
         configuration:
           propertyIRI: http://purl.org/radx-terms/metadata-terms/date
           overrideLabel: Date
@@ -2435,7 +2368,6 @@ children:
     createdBy: https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014
     lastUpdatedOn: 2022-10-13T12:45:10-07:00
     modifiedBy: https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014
-    derivedFrom: ""
     children:
       - key: PHS Identifier
         type: text-field
@@ -2450,7 +2382,6 @@ children:
         version: 0.9.1
         modelVersion: 1.6.0
         prefLabel: PHS Identifier
-        derivedFrom: ""
         configuration:
           required: true
           propertyIRI: http://purl.org/radx-terms/metadata-terms/parentStudyPhsIdentifier
@@ -2470,7 +2401,6 @@ children:
         version: 0.9.1
         modelVersion: 1.6.0
         prefLabel: Study Identifier
-        derivedFrom: ""
         configuration:
           propertyIRI: http://purl.org/radx-terms/metadata-terms/ParentStudyIdentifier
           overrideLabel: Study Identifier
@@ -2494,7 +2424,6 @@ children:
             termLabel: FDC-GDMT
             iri: http://vocab.fairdatacollective.org/gdmt/IdentifierType
             maxDepth: 2147483647
-        derivedFrom: ""
         configuration:
           propertyIRI: http://purl.org/radx-terms/metadata-terms/parentStudyIdentifierScheme
           overrideLabel: Study Identifier Scheme
@@ -2510,7 +2439,6 @@ children:
         version: 0.9.1
         modelVersion: 1.6.0
         prefLabel: Study Identifier Scheme IRI
-        derivedFrom: ""
         configuration:
           hidden: true
           propertyIRI: http://purl.org/radx-terms/metadata-terms/parentStudyIdentifierSchemeIri
@@ -2527,7 +2455,6 @@ children:
         version: 0.9.1
         modelVersion: 1.6.0
         prefLabel: Study Name
-        derivedFrom: ""
         configuration:
           propertyIRI: http://purl.org/radx-terms/metadata-terms/parentStudyName
           overrideLabel: Study Name
@@ -2545,9 +2472,8 @@ children:
         version: 0.9.1
         modelVersion: 1.6.0
         prefLabel: Study Start Date
-        granularity: day
         datatype: xsd:date
-        derivedFrom: ""
+        granularity: day
         configuration:
           propertyIRI: http://purl.org/radx-terms/metadata-terms/studyStartDate
           overrideLabel: Study Start Date
@@ -2568,9 +2494,8 @@ children:
         version: 0.9.1
         modelVersion: 1.6.0
         prefLabel: Study End Date
-        granularity: day
         datatype: xsd:date
-        derivedFrom: ""
+        granularity: day
         configuration:
           propertyIRI: http://purl.org/radx-terms/metadata-terms/studyEndDate
           overrideLabel: Study End Date
@@ -2599,7 +2524,6 @@ children:
     createdBy: https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014
     lastUpdatedOn: 2022-10-13T12:45:10-07:00
     modifiedBy: https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014
-    derivedFrom: ""
     children:
       - key: Award Title
         type: text-field
@@ -2612,7 +2536,6 @@ children:
         version: 0.9.1
         modelVersion: 1.6.0
         prefLabel: Award Title
-        derivedFrom: ""
         configuration:
           propertyIRI: http://purl.org/radx-terms/metadata-terms/awardTitle
           overrideLabel: Award Title
@@ -2629,7 +2552,6 @@ children:
         version: 0.9.1
         modelVersion: 1.6.0
         prefLabel: Award Page URL
-        derivedFrom: ""
         configuration:
           propertyIRI: http://purl.org/radx-terms/metadata-terms/awardPageUrl
           overrideLabel: Award Page URL
@@ -2646,7 +2568,6 @@ children:
         version: 0.9.1
         modelVersion: 1.6.0
         prefLabel: Award Local Identifier
-        derivedFrom: ""
         configuration:
           propertyIRI: http://purl.org/radx-terms/metadata-terms/awardIdentifier
           overrideLabel: Award Local Identifier
@@ -2665,7 +2586,6 @@ children:
         version: 0.9.1
         modelVersion: 1.6.0
         prefLabel: Funder Name
-        derivedFrom: ""
         configuration:
           propertyIRI: http://purl.org/radx-terms/metadata-terms/funderName
           overrideLabel: Funder Name
@@ -2715,7 +2635,6 @@ children:
         version: 0.9.1
         modelVersion: 1.6.0
         prefLabel: Funder Identifier
-        derivedFrom: ""
         configuration:
           propertyIRI: http://purl.org/radx-terms/metadata-terms/funderIdentifier
           overrideLabel: Funder Identifier
@@ -2772,7 +2691,6 @@ children:
             termLabel: FDC-GDMT
             iri: http://vocab.fairdatacollective.org/gdmt/IdentifierScheme
             maxDepth: 2147483647
-        derivedFrom: ""
         configuration:
           propertyIRI: http://purl.org/radx-terms/metadata-terms/funderIdentifierScheme
           overrideLabel: Funder Identifier Scheme
@@ -2790,7 +2708,6 @@ children:
         version: 0.9.1
         modelVersion: 1.6.0
         prefLabel: Funder Identifier Scheme IRI
-        derivedFrom: ""
         configuration:
           hidden: true
           propertyIRI: http://purl.org/radx-terms/metadata-terms/funderIdentifierSchemeIri
@@ -2821,7 +2738,6 @@ children:
     createdBy: https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014
     lastUpdatedOn: 2022-10-13T12:45:10-07:00
     modifiedBy: https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014
-    derivedFrom: ""
     children:
       - key: Distribution Publisher
         type: text-field
@@ -2834,7 +2750,6 @@ children:
         version: 0.9.1
         modelVersion: 1.6.0
         prefLabel: Distribution Publisher
-        derivedFrom: ""
         configuration:
           propertyIRI: http://purl.org/radx-terms/metadata-terms/distributionPublisher
           overrideLabel: Distribution Publisher
@@ -2850,7 +2765,6 @@ children:
         version: 0.9.1
         modelVersion: 1.6.0
         prefLabel: Distribution Publisher Identifier
-        derivedFrom: ""
         configuration:
           propertyIRI: http://purl.org/radx-terms/metadata-terms/distributionPublisherIdentifier
           overrideLabel: Distribution Publisher Identifier
@@ -2874,7 +2788,6 @@ children:
             termLabel: FDC-GDMT
             iri: http://vocab.fairdatacollective.org/gdmt/IdentifierScheme
             maxDepth: 2147483647
-        derivedFrom: ""
         configuration:
           propertyIRI: http://purl.org/radx-terms/metadata-terms/distributionPublisherIdentifierScheme
           overrideLabel: Distribution Publisher Identifier Scheme
@@ -2891,7 +2804,6 @@ children:
         version: 0.9.1
         modelVersion: 1.6.0
         prefLabel: Distribution Publisher Identifier Scheme IRI
-        derivedFrom: ""
         configuration:
           hidden: true
           propertyIRI: http://purl.org/radx-terms/metadata-terms/distributionPublisherIdentifierSchemeIri
@@ -2908,7 +2820,6 @@ children:
         version: 0.9.1
         modelVersion: 1.6.0
         prefLabel: Distribution Identifier
-        derivedFrom: ""
         configuration:
           propertyIRI: http://purl.org/radx-terms/metadata-terms/distributionIdentifier
           overrideLabel: Distribution Identifier
@@ -2931,7 +2842,6 @@ children:
             termLabel: FDC-GDMT
             iri: http://vocab.fairdatacollective.org/gdmt/IdentifierType
             maxDepth: 2147483647
-        derivedFrom: ""
         configuration:
           propertyIRI: http://purl.org/radx-terms/metadata-terms/distributionIdentifierType
           overrideLabel: Distribution Identifier Type
@@ -2946,7 +2856,6 @@ children:
         version: 0.9.1
         modelVersion: 1.6.0
         prefLabel: Distribution Format
-        derivedFrom: ""
         configuration:
           propertyIRI: http://purl.org/radx-terms/metadata-terms/distributionFormat
           overrideLabel: Distribution Format
@@ -2972,7 +2881,6 @@ children:
             termLabel: FDC-GDMT
             iri: http://vocab.fairdatacollective.org/gdmt/MIMEType
             maxDepth: 2147483647
-        derivedFrom: ""
         configuration:
           propertyIRI: http://purl.org/radx-terms/metadata-terms/distributionMediaType
           overrideLabel: Distribution Media Type
@@ -2990,7 +2898,6 @@ children:
         version: 0.9.1
         modelVersion: 1.6.0
         prefLabel: Distribution Size
-        derivedFrom: ""
         configuration:
           propertyIRI: http://purl.org/radx-terms/metadata-terms/distributionSizeInBytes
           overrideLabel: Distribution Size
@@ -3005,7 +2912,6 @@ children:
         version: 0.9.1
         modelVersion: 1.6.0
         prefLabel: Distribution Access Protocol
-        derivedFrom: ""
         configuration:
           propertyIRI: http://purl.org/radx-terms/metadata-terms/distributionAccessProtocol
           overrideLabel: Distribution Access Protocol
@@ -3021,7 +2927,6 @@ children:
         version: 0.9.1
         modelVersion: 1.6.0
         prefLabel: Distribution Access Configuration
-        derivedFrom: ""
         configuration:
           propertyIRI: http://purl.org/radx-terms/metadata-terms/distributionAccessConfiguration
           overrideLabel: Distribution Access Configuration
@@ -3037,7 +2942,6 @@ children:
         version: 0.9.1
         modelVersion: 1.6.0
         prefLabel: Distribution Query Statement
-        derivedFrom: ""
         configuration:
           propertyIRI: http://purl.org/radx-terms/metadata-terms/distributionQueryStatement
           overrideLabel: Distribution Query Statement
@@ -3051,7 +2955,6 @@ children:
         status: draft
         version: 0.0.1
         modelVersion: 1.6.0
-        derivedFrom: ""
         children:
           - key: Data File Publication Date
             type: temporal-field
@@ -3063,9 +2966,8 @@ children:
             version: 0.9.1
             modelVersion: 1.6.0
             prefLabel: Data File Publication Date
-            granularity: day
             datatype: xsd:date
-            derivedFrom: ""
+            granularity: day
             configuration:
               propertyIRI: http://purl.org/radx-terms/metadata-terms/distributionPublicationDate
               overrideLabel: Data File Publication Date
@@ -3091,7 +2993,6 @@ children:
                 termLabel: FDC-GDMT
                 iri: http://vocab.fairdatacollective.org/gdmt/DataType
                 maxDepth: 2147483647
-            derivedFrom: ""
             configuration:
               hidden: true
               propertyIRI: http://purl.org/radx-terms/metadata-terms/distributionPublicationDateType
@@ -3126,7 +3027,6 @@ children:
     createdBy: https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014
     lastUpdatedOn: 2022-10-13T12:45:10-07:00
     modifiedBy: https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014
-    derivedFrom: ""
     children:
       - key: Data Characteristics Table in HTML
         type: text-area-field
@@ -3138,7 +3038,6 @@ children:
         version: 0.9.1
         modelVersion: 1.6.0
         prefLabel: Data Characteristics Table in HTML
-        derivedFrom: ""
         configuration:
           propertyIRI: http://purl.org/radx-terms/metadata-terms/dataCharacteristicsTableInHtml
           overrideLabel: Data Characteristics Table in HTML
@@ -3154,7 +3053,6 @@ children:
         version: 0.9.1
         modelVersion: 1.6.0
         prefLabel: Data Characteristics Table in CSV
-        derivedFrom: ""
         configuration:
           propertyIRI: http://purl.org/radx-terms/metadata-terms/dataCharacteristicsTableInCsv
           overrideLabel: Data Characteristics Table in CSV
@@ -3171,7 +3069,6 @@ children:
         version: 0.9.1
         modelVersion: 1.6.0
         prefLabel: Data Characteristics Table in TSV
-        derivedFrom: ""
         configuration:
           propertyIRI: http://purl.org/radx-terms/metadata-terms/dataCharacteristicsTableInTsv
           overrideLabel: Data Characteristics Table in TSV
@@ -3190,7 +3087,6 @@ children:
         version: 0.9.1
         modelVersion: 1.6.0
         prefLabel: Data Characteristics Table in Key-Value Pairs
-        derivedFrom: ""
         configuration:
           overrideLabel: Data Characteristics Table in Key-Value Pairs
           overrideDescription: Enter the name of the characteristic being described in the
@@ -3223,7 +3119,6 @@ children:
     createdBy: https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014
     lastUpdatedOn: 2022-10-13T12:45:10-07:00
     modifiedBy: https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014
-    derivedFrom: ""
     children:
       - key: Data Source Name
         type: text-field
@@ -3236,7 +3131,6 @@ children:
         version: 0.9.1
         modelVersion: 1.6.0
         prefLabel: Data Source Name
-        derivedFrom: ""
         configuration:
           propertyIRI: http://purl.org/radx-terms/metadata-terms/dataSourceName
           overrideLabel: Data Source Name
@@ -3254,7 +3148,6 @@ children:
         version: 0.9.1
         modelVersion: 1.6.0
         prefLabel: Data Source Identifier
-        derivedFrom: ""
         configuration:
           propertyIRI: http://purl.org/radx-terms/metadata-terms/dataSourceIdentifier
           overrideLabel: Data Source Identifier
@@ -3280,7 +3173,6 @@ children:
             termLabel: FDC-GDMT
             iri: http://vocab.fairdatacollective.org/gdmt/IdentifierType
             maxDepth: 2147483647
-        derivedFrom: ""
         configuration:
           propertyIRI: http://purl.org/radx-terms/metadata-terms/dataSourceIdentifierScheme
           overrideLabel: Data Source Identifier Scheme
@@ -3297,7 +3189,6 @@ children:
         version: 0.9.1
         modelVersion: 1.6.0
         prefLabel: Data Source Identifier Scheme IRI
-        derivedFrom: ""
         configuration:
           hidden: true
           propertyIRI: http://purl.org/radx-terms/metadata-terms/dataSourceIdentifierSchemeIri
@@ -3319,9 +3210,9 @@ children:
   - key: Data Stream
     type: element
     name: Data Stream
-    description: "A collection of one or more variable records that contribute to
+    description: 'A collection of one or more variable records that contribute to
       this data file. Each data stream originates from a single data source
-      (e.g., sensor, process, or person). A data stream can grow over time. "
+      (e.g., sensor, process, or person). A data stream can grow over time. '
     identifier: data_stream
     id: http://example.org/966c8dd1-86ae-460f-8019-02d834b64047
     status: draft
@@ -3331,7 +3222,6 @@ children:
     createdBy: https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014
     lastUpdatedOn: 2022-10-13T12:45:10-07:00
     modifiedBy: https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014
-    derivedFrom: ""
     children:
       - key: Data Stream Name
         type: text-field
@@ -3346,7 +3236,6 @@ children:
         version: 0.9.1
         modelVersion: 1.6.0
         prefLabel: Data Stream Name
-        derivedFrom: ""
         configuration:
           propertyIRI: http://purl.org/radx-terms/metadata-terms/dataStreamName
           overrideLabel: Data Stream Name
@@ -3365,7 +3254,6 @@ children:
         version: 0.9.1
         modelVersion: 1.6.0
         prefLabel: Data Stream Identifier
-        derivedFrom: ""
         configuration:
           propertyIRI: http://purl.org/radx-terms/metadata-terms/dataStreamIdentifier
           overrideLabel: Data Stream Identifier
@@ -3390,7 +3278,6 @@ children:
             termLabel: FDC-GDMT
             iri: http://vocab.fairdatacollective.org/gdmt/IdentifierType
             maxDepth: 2147483647
-        derivedFrom: ""
         configuration:
           propertyIRI: http://purl.org/radx-terms/metadata-terms/dataStreamIdentifierScheme
           overrideLabel: Data Stream Identifier Scheme
@@ -3407,7 +3294,6 @@ children:
         version: 0.9.1
         modelVersion: 1.6.0
         prefLabel: Data Stream Identifier Scheme IRI
-        derivedFrom: ""
         configuration:
           hidden: true
           propertyIRI: http://purl.org/radx-terms/metadata-terms/dataStreamIdentifierSchemeIri
@@ -3424,7 +3310,6 @@ children:
         version: 0.9.1
         modelVersion: 1.6.0
         prefLabel: Data Stream Variable Name
-        derivedFrom: ""
         configuration:
           propertyIRI: http://purl.org/radx-terms/metadata-terms/dataStreamVariableName
           overrideLabel: Data Stream Variable Name
@@ -3442,7 +3327,6 @@ children:
         version: 0.9.1
         modelVersion: 1.6.0
         prefLabel: Data Stream Data Source Identifier
-        derivedFrom: ""
         configuration:
           propertyIRI: http://purl.org/radx-terms/metadata-terms/dataStreamDataSourceIdentifier
           overrideLabel: Data Stream Data Source Identifier
@@ -3451,10 +3335,10 @@ children:
     configuration:
       propertyIRI: https://schema.metadatacenter.org/properties/222c36cd-874c-4dd9-9008-5c66a633f747
       overrideLabel: Data Stream
-      overrideDescription: "A collection of one or more variable records that
+      overrideDescription: 'A collection of one or more variable records that
         contribute to this data file. Each data stream originates from a single
         data source (e.g., sensor, process, or person). A data stream can grow
-        over time. "
+        over time. '
       multiple: true
       minItems: 1
   - key: Data File Creation Process
@@ -3470,7 +3354,6 @@ children:
     createdBy: https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014
     lastUpdatedOn: 2022-10-13T12:45:10-07:00
     modifiedBy: https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014
-    derivedFrom: ""
     children:
       - key: Process Name
         type: text-field
@@ -3483,7 +3366,6 @@ children:
         version: 0.9.1
         modelVersion: 1.6.0
         prefLabel: Process Name
-        derivedFrom: ""
         configuration:
           propertyIRI: http://purl.org/radx-terms/metadata-terms/creationProcessName
           overrideLabel: Process Name
@@ -3492,21 +3374,20 @@ children:
       - key: Process IRI
         type: text-field
         name: Process IRI
-        description: "Unique identifier (IRI) for the process used to make the data file
-          or product (preferably a resolvable and persistent identifier). "
+        description: 'Unique identifier (IRI) for the process used to make the data file
+          or product (preferably a resolvable and persistent identifier). '
         identifier: process_iri
         id: https://repo.metadatacenter.org/template-fields/8c82bea3-17a8-45e0-af8d-45b36ce4634e
         status: draft
         version: 0.9.1
         modelVersion: 1.6.0
         prefLabel: Process IRI
-        derivedFrom: ""
         configuration:
           propertyIRI: http://purl.org/radx-terms/metadata-terms/creationProcessIri
           overrideLabel: Process IRI
-          overrideDescription: "Unique identifier (IRI) for the process used to make the
+          overrideDescription: 'Unique identifier (IRI) for the process used to make the
             data file or product (preferably a resolvable and persistent
-            identifier). "
+            identifier). '
       - key: Process Version
         type: text-field
         name: Process Version
@@ -3519,7 +3400,6 @@ children:
         version: 0.9.1
         modelVersion: 1.6.0
         prefLabel: Process Version
-        derivedFrom: ""
         configuration:
           propertyIRI: http://purl.org/radx-terms/metadata-terms/creationProcessVersion
           overrideLabel: Process Version
@@ -3539,7 +3419,6 @@ children:
         version: 0.9.1
         modelVersion: 1.6.0
         prefLabel: Process Execution Identifier
-        derivedFrom: ""
         configuration:
           propertyIRI: http://purl.org/radx-terms/metadata-terms/creationProcessExecutionIdentifier
           overrideLabel: Process Execution Identifier
@@ -3567,7 +3446,6 @@ children:
     createdBy: https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014
     lastUpdatedOn: 2022-10-13T12:45:10-07:00
     modifiedBy: https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014
-    derivedFrom: ""
     children:
       - key: Temporal Extent Minimum Value
         type: temporal-field
@@ -3586,9 +3464,8 @@ children:
         version: 0.9.1
         modelVersion: 1.6.0
         prefLabel: Temporal Extent Minimum Value
-        granularity: day
         datatype: xsd:date
-        derivedFrom: ""
+        granularity: day
         configuration:
           propertyIRI: http://purl.org/radx-terms/metadata-terms/temporalExtentMinimumValue
           overrideLabel: Temporal Extent Minimum Value
@@ -3617,9 +3494,8 @@ children:
         version: 0.9.1
         modelVersion: 1.6.0
         prefLabel: Temporal Extent Maximum Value
-        granularity: day
         datatype: xsd:date
-        derivedFrom: ""
+        granularity: day
         configuration:
           propertyIRI: http://purl.org/radx-terms/metadata-terms/temporalExtentMaximumValue
           overrideLabel: Temporal Extent Maximum Value
@@ -3644,7 +3520,6 @@ children:
         version: 0.9.1
         modelVersion: 1.6.0
         prefLabel: Temporal Resolution
-        derivedFrom: ""
         configuration:
           propertyIRI: http://purl.org/radx-terms/metadata-terms/temporalResolution
           overrideLabel: Temporal Resolution
@@ -3675,7 +3550,6 @@ children:
         version: 0.9.1
         modelVersion: 1.6.0
         prefLabel: Duration
-        derivedFrom: ""
         configuration:
           propertyIRI: http://purl.org/radx-terms/metadata-terms/temporalCoverageDuration
           overrideLabel: Duration
@@ -3715,7 +3589,6 @@ children:
     createdBy: https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014
     lastUpdatedOn: 2022-10-13T12:45:10-07:00
     modifiedBy: https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014
-    derivedFrom: ""
     children:
       - key: Bounding Box
         type: element
@@ -3728,7 +3601,6 @@ children:
         status: draft
         version: 0.0.1
         modelVersion: 1.6.0
-        derivedFrom: ""
         children:
           - key: Maximum Latitude
             type: text-field
@@ -3745,8 +3617,7 @@ children:
             version: 0.9.1
             modelVersion: 1.6.0
             prefLabel: Maximum Latitude
-            default: "85"
-            derivedFrom: ""
+            default: '85'
             configuration:
               propertyIRI: https://schema.metadatacenter.org/properties/e8f3ce8b-353d-493f-b1f6-588e5b32c578
               overrideLabel: Maximum Latitude
@@ -3771,7 +3642,6 @@ children:
             version: 0.9.1
             modelVersion: 1.6.0
             prefLabel: Minimum Latitude
-            derivedFrom: ""
             configuration:
               propertyIRI: http://purl.org/radx-terms/metadata-terms/minLat
               overrideLabel: Minimum Latitude
@@ -3796,7 +3666,6 @@ children:
             version: 0.9.1
             modelVersion: 1.6.0
             prefLabel: Minimum Longitude
-            derivedFrom: ""
             configuration:
               propertyIRI: http://purl.org/radx-terms/metadata-terms/minLon
               overrideLabel: Minimum Longitude
@@ -3821,7 +3690,6 @@ children:
             version: 0.9.1
             modelVersion: 1.6.0
             prefLabel: Maximum Longitude
-            derivedFrom: ""
             configuration:
               propertyIRI: http://purl.org/radx-terms/metadata-terms/maxLon
               overrideLabel: Maximum Longitude
@@ -3850,7 +3718,6 @@ children:
         status: draft
         version: 0.0.1
         modelVersion: 1.6.0
-        derivedFrom: ""
         children:
           - key: Point Number
             type: numeric-field
@@ -3866,8 +3733,7 @@ children:
             modelVersion: 1.6.0
             prefLabel: Point Number
             datatype: xsd:int
-            unit: ""
-            derivedFrom: ""
+            unit: ''
             configuration:
               propertyIRI: http://purl.org/radx-terms/metadata-terms/pointNumber
               overrideLabel: Point Number
@@ -3891,8 +3757,7 @@ children:
             modelVersion: 1.6.0
             prefLabel: Latitude
             datatype: xsd:float
-            unit: ""
-            derivedFrom: ""
+            unit: ''
             configuration:
               propertyIRI: http://purl.org/radx-terms/metadata-terms/latitude
               overrideLabel: Latitude
@@ -3918,8 +3783,7 @@ children:
             modelVersion: 1.6.0
             prefLabel: Longitude
             datatype: xsd:float
-            unit: ""
-            derivedFrom: ""
+            unit: ''
             configuration:
               propertyIRI: http://purl.org/radx-terms/metadata-terms/longitude
               overrideLabel: Longitude
@@ -3946,11 +3810,10 @@ children:
         status: draft
         version: 0.0.1
         modelVersion: 1.6.0
-        derivedFrom: ""
         children:
-          - key: "Geopolitical region "
+          - key: 'Geopolitical region '
             type: text-field
-            name: "Geopolitical region "
+            name: 'Geopolitical region '
             description: Place name depicting a geopolitical region. Recommended practice is
               to use [Geonames](http://www.geonames.org/search.html) to find an
               identifier matching any particular place.
@@ -3959,11 +3822,10 @@ children:
             status: draft
             version: 0.9.1
             modelVersion: 1.6.0
-            prefLabel: "Geopolitical region "
-            derivedFrom: ""
+            prefLabel: 'Geopolitical region '
             configuration:
               propertyIRI: http://purl.org/radx-terms/metadata-terms/geographicalPlaceName
-              overrideLabel: "Geopolitical region "
+              overrideLabel: 'Geopolitical region '
               overrideDescription: Place name depicting a geopolitical region. Recommended
                 practice is to use
                 [Geonames](http://www.geonames.org/search.html) to find an
@@ -3998,7 +3860,6 @@ children:
     createdBy: https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014
     lastUpdatedOn: 2022-10-13T12:45:10-07:00
     modifiedBy: https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014
-    derivedFrom: ""
     children:
       - key: Vertical Extent Minimum Value
         type: numeric-field
@@ -4014,8 +3875,7 @@ children:
         modelVersion: 1.6.0
         prefLabel: Vertical Extent Minimum Value
         datatype: xsd:float
-        unit: ""
-        derivedFrom: ""
+        unit: ''
         configuration:
           propertyIRI: http://purl.org/radx-terms/metadata-terms/minElevation
           overrideLabel: Vertical Extent Minimum Value
@@ -4037,8 +3897,7 @@ children:
         modelVersion: 1.6.0
         prefLabel: Vertical Extent Maximum Value
         datatype: xsd:float
-        unit: ""
-        derivedFrom: ""
+        unit: ''
         configuration:
           propertyIRI: http://purl.org/radx-terms/metadata-terms/maxElevation
           overrideLabel: Vertical Extent Maximum Value
@@ -4057,7 +3916,6 @@ children:
         version: 0.9.1
         modelVersion: 1.6.0
         prefLabel: Vertical Extent Datum
-        derivedFrom: ""
         configuration:
           propertyIRI: http://purl.org/radx-terms/metadata-terms/elevationReferenceFrame
           overrideLabel: Vertical Extent Datum
@@ -4074,7 +3932,6 @@ children:
         version: 0.9.1
         modelVersion: 1.6.0
         prefLabel: Vertical Extent Datum IRI
-        derivedFrom: ""
         configuration:
           propertyIRI: http://purl.org/radx-terms/metadata-terms/elevationReferenceFrameIri
           overrideLabel: Vertical Extent Datum IRI
@@ -4101,7 +3958,6 @@ children:
     createdBy: https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014
     lastUpdatedOn: 2022-10-13T12:45:10-07:00
     modifiedBy: https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014
-    derivedFrom: ""
     children:
       - key: Data File Descriptive Key-Value Pair
         type: attribute-value-field
@@ -4116,7 +3972,6 @@ children:
         version: 0.9.1
         modelVersion: 1.6.0
         prefLabel: Data File Descriptive Key-Value Pair
-        derivedFrom: ""
         configuration:
           overrideLabel: Data File Descriptive Key-Value Pair
           overrideDescription: This field supports entry of both the metadata attribute
@@ -4135,7 +3990,6 @@ children:
         version: 0.9.1
         modelVersion: 1.6.0
         prefLabel: Additional Commentary
-        derivedFrom: ""
         configuration:
           propertyIRI: http://purl.org/radx-terms/metadata-terms/auxiliaryMetadataCommentary
           overrideLabel: Additional Commentary
