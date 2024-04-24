@@ -4,11 +4,11 @@ id: https://repo.metadatacenter.org/templates/e14f48e1-de0c-4263-b450-e791b10d27
 status: draft
 version: 0.0.2
 modelVersion: 1.6.0
+previousVersion: https://repo.metadatacenter.org/templates/a3b03fab-f5f1-49e1-8517-3c0eab1669f3
 createdOn: 2024-04-23T10:50:22-07:00
 createdBy: https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95
 lastUpdatedOn: 2024-04-23T10:51:00-07:00
 modifiedBy: https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95
-previousVersion: https://repo.metadatacenter.org/templates/a3b03fab-f5f1-49e1-8517-3c0eab1669f3
 children:
   - key: Field name
     type: text-field
