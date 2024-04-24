@@ -6,7 +6,7 @@ version: 0.0.1
 modelVersion: 1.6.0
 createdOn: 2024-02-27T11:42:36-08:00
 createdBy: https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95
-lastUpdatedOn: 2024-02-27T11:42:36-08:00
+modifiedOn: 2024-02-27T11:42:36-08:00
 modifiedBy: https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95
 children:
   - key: Field 1
@@ -17,7 +17,7 @@ children:
     modelVersion: 1.6.0
     createdOn: 2024-02-27T11:42:36-08:00
     createdBy: https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95
-    lastUpdatedOn: 2024-02-27T11:42:36-08:00
+    modifiedOn: 2024-02-27T11:42:36-08:00
     modifiedBy: https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95
     configuration:
       propertyIri: https://schema.metadatacenter.org/properties/2bf4be45-b5d9-48b9-8c2e-b311b9a8e79e
@@ -29,7 +29,7 @@ children:
     modelVersion: 1.6.0
     createdOn: 2024-02-27T11:42:36-08:00
     createdBy: https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95
-    lastUpdatedOn: 2024-02-27T11:42:36-08:00
+    modifiedOn: 2024-02-27T11:42:36-08:00
     modifiedBy: https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95
   - key: Field 2
     type: text-field
@@ -39,7 +39,7 @@ children:
     modelVersion: 1.6.0
     createdOn: 2024-02-27T11:42:36-08:00
     createdBy: https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95
-    lastUpdatedOn: 2024-02-27T11:42:36-08:00
+    modifiedOn: 2024-02-27T11:42:36-08:00
     modifiedBy: https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95
     configuration:
       propertyIri: https://schema.metadatacenter.org/properties/01001499-580e-4f64-a1ac-2a1a5d48e921
@@ -51,7 +51,7 @@ children:
     modelVersion: 1.6.0
     createdOn: 2024-02-27T11:42:36-08:00
     createdBy: https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95
-    lastUpdatedOn: 2024-02-27T11:42:36-08:00
+    modifiedOn: 2024-02-27T11:42:36-08:00
     modifiedBy: https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95
   - key: Field 3
     type: text-field
@@ -61,7 +61,7 @@ children:
     modelVersion: 1.6.0
     createdOn: 2024-02-27T11:42:36-08:00
     createdBy: https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95
-    lastUpdatedOn: 2024-02-27T11:42:36-08:00
+    modifiedOn: 2024-02-27T11:42:36-08:00
     modifiedBy: https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95
     configuration:
       propertyIri: https://schema.metadatacenter.org/properties/9feeb333-717d-444d-9ba5-301069e33695

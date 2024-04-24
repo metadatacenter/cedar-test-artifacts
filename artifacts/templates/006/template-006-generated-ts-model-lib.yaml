@@ -6,7 +6,7 @@ version: 0.0.1
 modelVersion: 1.6.0
 createdOn: 2024-02-29T00:22:05-08:00
 createdBy: https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95
-lastUpdatedOn: 2024-02-29T00:22:05-08:00
+modifiedOn: 2024-02-29T00:22:05-08:00
 modifiedBy: https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95
 children:
   - key: Linkfield
@@ -17,7 +17,7 @@ children:
     modelVersion: 1.6.0
     createdOn: 2024-02-29T00:22:05-08:00
     createdBy: https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95
-    lastUpdatedOn: 2024-02-29T00:22:05-08:00
+    modifiedOn: 2024-02-29T00:22:05-08:00
     modifiedBy: https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95
     configuration:
       propertyIri: https://schema.metadatacenter.org/properties/83dee10d-0c46-4650-9ce2-23e257801240
