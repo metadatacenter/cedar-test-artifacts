@@ -8,7 +8,7 @@ version: 0.0.1
 modelVersion: 1.6.0
 createdOn: 2022-10-13T12:45:10-07:00
 createdBy: https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014
-lastUpdatedOn: 2022-10-13T12:45:10-07:00
+modifiedOn: 2022-10-13T12:45:10-07:00
 modifiedBy: https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014
 children:
   - key: Data File Title
@@ -22,7 +22,7 @@ children:
     modelVersion: 1.6.0
     createdOn: 2022-10-13T12:45:10-07:00
     createdBy: https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014
-    lastUpdatedOn: 2022-10-13T12:45:10-07:00
+    modifiedOn: 2022-10-13T12:45:10-07:00
     modifiedBy: https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014
     children:
       - key: Title
@@ -320,7 +320,7 @@ children:
     modelVersion: 1.6.0
     createdOn: 2022-10-13T12:45:10-07:00
     createdBy: https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014
-    lastUpdatedOn: 2022-10-13T12:45:10-07:00
+    modifiedOn: 2022-10-13T12:45:10-07:00
     modifiedBy: https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014
     children:
       - key: Identifier
@@ -341,7 +341,7 @@ children:
         configuration:
           propertyIri: http://purl.org/radx-terms/metadata-terms/dataFileIdentifier
       - key: Identifier Type
-        type: text-field
+        type: controlled-term-field
         name: Identifier Type
         description: "The identifier type used to identify the resource being described.\n\nThis need not be provided if the identifier is either a DOI that begins with \"doi:\" or \"http://doi.org/\", or it is an IRI that begins with either \"http://\" or \"https://\" "
         identifier: identifier_type
@@ -353,10 +353,9 @@ children:
         datatype: iri
         values:
           - type: branch
-            source: https://bioportal.bioontology.org/ontologies/FDC-GDMT
-            sourceName: FDC-GDMT
-            sourceAcronym: FDC-GDMT
-            sourceIri: http://vocab.fairdatacollective.org/gdmt/IdentifierType
+            ontologyName: FDC-GDMT
+            acronym: FDC-GDMT
+            iri: http://vocab.fairdatacollective.org/gdmt/IdentifierType
             maxDepth: 2147483647
         configuration:
           propertyIri: http://purl.org/radx-terms/metadata-terms/dataFileIdentifierType
@@ -396,7 +395,7 @@ children:
     modelVersion: 1.6.0
     createdOn: 2022-10-13T12:45:10-07:00
     createdBy: https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014
-    lastUpdatedOn: 2022-10-13T12:45:10-07:00
+    modifiedOn: 2022-10-13T12:45:10-07:00
     modifiedBy: https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014
     configuration:
       propertyIri: https://schema.metadatacenter.org/properties/082bb4ce-bf1e-41f5-9ee0-bd420ceb7cef
@@ -411,7 +410,7 @@ children:
     modelVersion: 1.6.0
     createdOn: 2022-10-13T12:45:10-07:00
     createdBy: https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014
-    lastUpdatedOn: 2022-10-13T12:45:10-07:00
+    modifiedOn: 2022-10-13T12:45:10-07:00
     modifiedBy: https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014
     children:
       - key: Version
@@ -442,7 +441,7 @@ children:
     modelVersion: 1.6.0
     createdOn: 2022-10-13T12:45:10-07:00
     createdBy: https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014
-    lastUpdatedOn: 2022-10-13T12:45:10-07:00
+    modifiedOn: 2022-10-13T12:45:10-07:00
     modifiedBy: https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014
     children:
       - key: Primary Language
@@ -980,11 +979,11 @@ children:
     modelVersion: 1.6.0
     createdOn: 2022-10-13T12:45:10-07:00
     createdBy: https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014
-    lastUpdatedOn: 2022-10-13T12:45:10-07:00
+    modifiedOn: 2022-10-13T12:45:10-07:00
     modifiedBy: https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014
     children:
       - key: Subject Identifier
-        type: text-field
+        type: controlled-term-field
         name: Subject Identifier
         description: The Medical Subject Headings (MeSH) subject code that identifies a classification subject that is pertinent to the data file.
         identifier: subject_identifier
@@ -996,8 +995,8 @@ children:
         datatype: iri
         values:
           - type: ontology
-            name: MESH
             acronym: MESH
+            ontologyName: MESH
             iri: https://bioportal.bioontology.org/ontologies/MESH
         configuration:
           propertyIri: http://purl.org/radx-terms/metadata-terms/subjectIdentifier
@@ -1054,7 +1053,7 @@ children:
     modelVersion: 1.6.0
     createdOn: 2022-10-13T12:45:10-07:00
     createdBy: https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014
-    lastUpdatedOn: 2022-10-13T12:45:10-07:00
+    modifiedOn: 2022-10-13T12:45:10-07:00
     modifiedBy: https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014
     children:
       - key: Description
@@ -1330,7 +1329,7 @@ children:
           propertyIri: http://purl.org/radx-terms/metadata-terms/language
           multiple: false
       - key: Type Of Content
-        type: text-field
+        type: controlled-term-field
         name: Type Of Content
         description: "This is the type of digital object being described, which for RADx Data Files is always Dataset. "
         identifier: type_of_content
@@ -1340,13 +1339,14 @@ children:
         modelVersion: 1.6.0
         prefLabel: Type Of Content
         datatype: iri
-        default: http://vocab.fairdatacollective.org/gdmt/Dataset
+        default:
+          value: http://vocab.fairdatacollective.org/gdmt/Dataset
+          label: Dataset
         values:
           - type: branch
-            source: https://bioportal.bioontology.org/ontologies/FDC-GDMT
-            sourceName: FDC-GDMT
-            sourceAcronym: FDC-GDMT
-            sourceIri: http://vocab.fairdatacollective.org/gdmt/ResourceTypeCategory
+            ontologyName: FDC-GDMT
+            acronym: FDC-GDMT
+            iri: http://vocab.fairdatacollective.org/gdmt/ResourceTypeCategory
             maxDepth: 2147483647
         configuration:
           hidden: true
@@ -1366,7 +1366,7 @@ children:
     modelVersion: 1.6.0
     createdOn: 2022-10-13T12:45:10-07:00
     createdBy: https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014
-    lastUpdatedOn: 2022-10-13T12:45:10-07:00
+    modifiedOn: 2022-10-13T12:45:10-07:00
     modifiedBy: https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014
     children:
       - key: Data Dictionary File Name
@@ -1394,11 +1394,11 @@ children:
     modelVersion: 1.6.0
     createdOn: 2022-10-13T12:45:10-07:00
     createdBy: https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014
-    lastUpdatedOn: 2022-10-13T12:45:10-07:00
+    modifiedOn: 2022-10-13T12:45:10-07:00
     modifiedBy: https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014
     children:
       - key: Creator Type
-        type: text-field
+        type: controlled-term-field
         name: Creator Type
         description: The type of the creator. This is either a Person or an Organization.
         identifier: creator_type
@@ -1408,13 +1408,14 @@ children:
         modelVersion: 1.6.0
         prefLabel: Creator Type
         datatype: iri
-        default: http://vocab.fairdatacollective.org/gdmt/Person
+        default:
+          value: http://vocab.fairdatacollective.org/gdmt/Person
+          label: Person
         values:
           - type: branch
-            source: https://bioportal.bioontology.org/ontologies/FDC-GDMT
-            sourceName: FDC-GDMT
-            sourceAcronym: FDC-GDMT
-            sourceIri: http://vocab.fairdatacollective.org/gdmt/ResourceCreatorType
+            ontologyName: FDC-GDMT
+            acronym: FDC-GDMT
+            iri: http://vocab.fairdatacollective.org/gdmt/ResourceCreatorType
             maxDepth: 2147483647
         configuration:
           propertyIri: http://purl.org/radx-terms/metadata-terms/creatorType
@@ -1467,7 +1468,7 @@ children:
         configuration:
           propertyIri: http://purl.org/radx-terms/metadata-terms/language
       - key: Creator Identifier Scheme
-        type: text-field
+        type: controlled-term-field
         name: Creator Identifier Scheme
         description: The name of the scheme or authority used for the Creator Identifier. If the Creator Identiifier is an ORCID that starts with `https://orcid.org` then there is no need to fill out this field.
         identifier: creator_identifier_scheme
@@ -1479,10 +1480,9 @@ children:
         datatype: iri
         values:
           - type: branch
-            source: https://bioportal.bioontology.org/ontologies/FDC-GDMT
-            sourceName: FDC-GDMT
-            sourceAcronym: FDC-GDMT
-            sourceIri: http://vocab.fairdatacollective.org/gdmt/IdentifierScheme
+            ontologyName: FDC-GDMT
+            acronym: FDC-GDMT
+            iri: http://vocab.fairdatacollective.org/gdmt/IdentifierScheme
             maxDepth: 2147483647
         configuration:
           propertyIri: http://purl.org/radx-terms/metadata-terms/creatorIdentifierScheme
@@ -1536,7 +1536,7 @@ children:
         configuration:
           propertyIri: http://purl.org/radx-terms/metadata-terms/creatorAffiliationSchemeIdentifier
       - key: Creator Affiliation Identifier Scheme
-        type: text-field
+        type: controlled-term-field
         name: Creator Affiliation Identifier Scheme
         description: The name of the scheme or authority used for the Creator Affiliation Identifier.
         identifier: creator_affiliation_identifier_scheme
@@ -1548,10 +1548,9 @@ children:
         datatype: iri
         values:
           - type: branch
-            source: https://bioportal.bioontology.org/ontologies/FDC-GDMT
-            sourceName: FDC-GDMT
-            sourceAcronym: FDC-GDMT
-            sourceIri: http://vocab.fairdatacollective.org/gdmt/IdentifierScheme
+            ontologyName: FDC-GDMT
+            acronym: FDC-GDMT
+            iri: http://vocab.fairdatacollective.org/gdmt/IdentifierScheme
             maxDepth: 2147483647
         configuration:
           propertyIri: http://purl.org/radx-terms/metadata-terms/creatorAffiliationIdentifierScheme
@@ -1569,7 +1568,7 @@ children:
           hidden: true
           propertyIri: http://purl.org/radx-terms/metadata-terms/creatorAffiliationIdentifierSchemeIdentifier
       - key: Creator Role
-        type: text-field
+        type: controlled-term-field
         name: Creator Role
         description: The role of the Person or the Organization in relation to the data file creation.
         identifier: creator_role
@@ -1581,10 +1580,9 @@ children:
         datatype: iri
         values:
           - type: branch
-            source: https://bioportal.bioontology.org/ontologies/FDC-GDMT
-            sourceName: FDC-GDMT
-            sourceAcronym: FDC-GDMT
-            sourceIri: http://vocab.fairdatacollective.org/gdmt/ContributorRole
+            ontologyName: FDC-GDMT
+            acronym: FDC-GDMT
+            iri: http://vocab.fairdatacollective.org/gdmt/ContributorRole
             maxDepth: 2147483647
         configuration:
           propertyIri: http://purl.org/radx-terms/metadata-terms/creatorRole
@@ -1603,7 +1601,7 @@ children:
     modelVersion: 1.6.0
     createdOn: 2022-10-13T12:45:10-07:00
     createdBy: https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014
-    lastUpdatedOn: 2022-10-13T12:45:10-07:00
+    modifiedOn: 2022-10-13T12:45:10-07:00
     modifiedBy: https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014
     children:
       - key: Related Resource Identifier
@@ -1619,7 +1617,7 @@ children:
         configuration:
           propertyIri: http://purl.org/radx-terms/metadata-terms/relatedResourceIdentifier
       - key: Related Resource Identifier Type
-        type: text-field
+        type: controlled-term-field
         name: Related Resource Identifier Type
         description: The identifier type used to identify the related resource.
         identifier: related_resource_identifier_type
@@ -1631,10 +1629,9 @@ children:
         datatype: iri
         values:
           - type: branch
-            source: https://bioportal.bioontology.org/ontologies/FDC-GDMT
-            sourceName: FDC-GDMT
-            sourceAcronym: FDC-GDMT
-            sourceIri: http://vocab.fairdatacollective.org/gdmt/IdentifierType
+            ontologyName: FDC-GDMT
+            acronym: FDC-GDMT
+            iri: http://vocab.fairdatacollective.org/gdmt/IdentifierType
             maxDepth: 2147483647
         configuration:
           propertyIri: http://purl.org/radx-terms/metadata-terms/relatedResourceIdentifierType
@@ -1651,7 +1648,7 @@ children:
         configuration:
           propertyIri: http://purl.org/radx-terms/metadata-terms/relatedResourceFileName
       - key: Resource Type Category
-        type: text-field
+        type: controlled-term-field
         name: Resource Type Category
         description: "Categorical type of the resource being described. (Corresponds to DataCite's resourceTypeGeneral.) For publications about the Data File, choose Text; for any other related publications, choose Text. For the Data Dictionary, choose Other Resource. "
         identifier: resource_type_category
@@ -1663,10 +1660,9 @@ children:
         datatype: iri
         values:
           - type: branch
-            source: https://bioportal.bioontology.org/ontologies/FDC-GDMT
-            sourceName: FDC-GDMT
-            sourceAcronym: FDC-GDMT
-            sourceIri: http://vocab.fairdatacollective.org/gdmt/ResourceTypeCategory
+            ontologyName: FDC-GDMT
+            acronym: FDC-GDMT
+            iri: http://vocab.fairdatacollective.org/gdmt/ResourceTypeCategory
             maxDepth: 2147483647
         configuration:
           propertyIri: http://purl.org/radx-terms/metadata-terms/relatedResourceTypeCategory
@@ -1697,11 +1693,11 @@ children:
     modelVersion: 1.6.0
     createdOn: 2022-10-13T12:45:10-07:00
     createdBy: https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014
-    lastUpdatedOn: 2022-10-13T12:45:10-07:00
+    modifiedOn: 2022-10-13T12:45:10-07:00
     modifiedBy: https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014
     children:
       - key: Contributor Type
-        type: text-field
+        type: controlled-term-field
         name: Contributor Type
         description: The type of the contributor of the described data file (person or organization).
         identifier: contributor_type
@@ -1711,13 +1707,14 @@ children:
         modelVersion: 1.6.0
         prefLabel: Contributor Type
         datatype: iri
-        default: http://vocab.fairdatacollective.org/gdmt/Person
+        default:
+          value: http://vocab.fairdatacollective.org/gdmt/Person
+          label: Person
         values:
           - type: branch
-            source: https://bioportal.bioontology.org/ontologies/FDC-GDMT
-            sourceName: FDC-GDMT
-            sourceAcronym: FDC-GDMT
-            sourceIri: http://vocab.fairdatacollective.org/gdmt/ResourceCreatorType
+            ontologyName: FDC-GDMT
+            acronym: FDC-GDMT
+            iri: http://vocab.fairdatacollective.org/gdmt/ResourceCreatorType
             maxDepth: 2147483647
         configuration:
           propertyIri: http://purl.org/radx-terms/metadata-terms/contributorType
@@ -1770,7 +1767,7 @@ children:
         configuration:
           propertyIri: http://purl.org/radx-terms/metadata-terms/contributorIdentifier
       - key: Contributor Identifier Scheme
-        type: text-field
+        type: controlled-term-field
         name: Contributor Identifier Scheme
         description: The name of the scheme or authority used for the Contributor Identifier.
         identifier: contributor_identifier_scheme
@@ -1782,10 +1779,9 @@ children:
         datatype: iri
         values:
           - type: branch
-            source: https://bioportal.bioontology.org/ontologies/FDC-GDMT
-            sourceName: FDC-GDMT
-            sourceAcronym: FDC-GDMT
-            sourceIri: http://vocab.fairdatacollective.org/gdmt/IdentifierScheme
+            ontologyName: FDC-GDMT
+            acronym: FDC-GDMT
+            iri: http://vocab.fairdatacollective.org/gdmt/IdentifierScheme
             maxDepth: 2147483647
         configuration:
           propertyIri: http://purl.org/radx-terms/metadata-terms/contributorIdentifierScheme
@@ -1827,7 +1823,7 @@ children:
         configuration:
           propertyIri: http://purl.org/radx-terms/metadata-terms/contributorAffiliationIdentifier
       - key: Contributor Affiliation Identifier Scheme
-        type: text-field
+        type: controlled-term-field
         name: Contributor Affiliation Identifier Scheme
         description: The name of the scheme or authority used for the Contributor Affiliation Identifier.
         identifier: contributor_affiliation_identifier_scheme
@@ -1839,10 +1835,9 @@ children:
         datatype: iri
         values:
           - type: branch
-            source: https://bioportal.bioontology.org/ontologies/FDC-GDMT
-            sourceName: FDC-GDMT
-            sourceAcronym: FDC-GDMT
-            sourceIri: http://vocab.fairdatacollective.org/gdmt/IdentifierScheme
+            ontologyName: FDC-GDMT
+            acronym: FDC-GDMT
+            iri: http://vocab.fairdatacollective.org/gdmt/IdentifierScheme
             maxDepth: 2147483647
         configuration:
           propertyIri: http://purl.org/radx-terms/metadata-terms/contributorAffiliationIdentifierScheme
@@ -1872,7 +1867,7 @@ children:
         configuration:
           propertyIri: http://purl.org/radx-terms/metadata-terms/contributorEmail
       - key: Contributor Role
-        type: text-field
+        type: controlled-term-field
         name: Contributor Role
         description: The role of the contributor in bringing the described data file into existence.
         identifier: contributor_role
@@ -1884,10 +1879,9 @@ children:
         datatype: iri
         values:
           - type: branch
-            source: https://bioportal.bioontology.org/ontologies/FDC-GDMT
-            sourceName: FDC-GDMT
-            sourceAcronym: FDC-GDMT
-            sourceIri: http://vocab.fairdatacollective.org/gdmt/ContributorRole
+            ontologyName: FDC-GDMT
+            acronym: FDC-GDMT
+            iri: http://vocab.fairdatacollective.org/gdmt/ContributorRole
             maxDepth: 2147483647
         configuration:
           propertyIri: http://purl.org/radx-terms/metadata-terms/contributorRole
@@ -1906,11 +1900,11 @@ children:
     modelVersion: 1.6.0
     createdOn: 2022-10-13T12:45:10-07:00
     createdBy: https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014
-    lastUpdatedOn: 2022-10-13T12:45:10-07:00
+    modifiedOn: 2022-10-13T12:45:10-07:00
     modifiedBy: https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014
     children:
       - key: License Name
-        type: text-field
+        type: controlled-term-field
         name: License Name
         description: A standardized version of the license name.
         identifier: license_name
@@ -1922,10 +1916,9 @@ children:
         datatype: iri
         values:
           - type: branch
-            source: https://bioportal.bioontology.org/ontologies/FDC-GDMT
-            sourceName: FDC-GDMT
-            sourceAcronym: FDC-GDMT
-            sourceIri: http://vocab.fairdatacollective.org/gdmt/LicenseIdentifier
+            ontologyName: FDC-GDMT
+            acronym: FDC-GDMT
+            iri: http://vocab.fairdatacollective.org/gdmt/LicenseIdentifier
             maxDepth: 2147483647
         configuration:
           propertyIri: http://purl.org/radx-terms/metadata-terms/licenseName
@@ -1975,11 +1968,11 @@ children:
     modelVersion: 1.6.0
     createdOn: 2022-10-13T12:45:10-07:00
     createdBy: https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014
-    lastUpdatedOn: 2022-10-13T12:45:10-07:00
+    modifiedOn: 2022-10-13T12:45:10-07:00
     modifiedBy: https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014
     children:
       - key: Event Type
-        type: text-field
+        type: controlled-term-field
         name: Event Type
         description: "Type of Data File event that the date is associated with. The Event Type is usually considered with respect to the corresponding actor; for example, Created is typically the initial creation of the Data File by its originator, Accepted is when an ingested Data File is approved (e.g., by the Data Hub), and Updated is the time of the most recent change to the Data File."
         identifier: event_type
@@ -1991,10 +1984,9 @@ children:
         datatype: iri
         values:
           - type: branch
-            source: https://bioportal.bioontology.org/ontologies/FDC-GDMT
-            sourceName: FDC-GDMT
-            sourceAcronym: FDC-GDMT
-            sourceIri: http://vocab.fairdatacollective.org/gdmt/DateType
+            ontologyName: FDC-GDMT
+            acronym: FDC-GDMT
+            iri: http://vocab.fairdatacollective.org/gdmt/DateType
             maxDepth: 2147483647
         configuration:
           propertyIri: http://purl.org/radx-terms/metadata-terms/dateType
@@ -2027,7 +2019,7 @@ children:
     modelVersion: 1.6.0
     createdOn: 2022-10-13T12:45:10-07:00
     createdBy: https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014
-    lastUpdatedOn: 2022-10-13T12:45:10-07:00
+    modifiedOn: 2022-10-13T12:45:10-07:00
     modifiedBy: https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014
     children:
       - key: PHS Identifier
@@ -2059,7 +2051,7 @@ children:
         configuration:
           propertyIri: http://purl.org/radx-terms/metadata-terms/ParentStudyIdentifier
       - key: Study Identifier Scheme
-        type: text-field
+        type: controlled-term-field
         name: Study Identifier Scheme
         description: The name of the scheme or authority used for the Study Identifier.
         identifier: study_identifier_scheme
@@ -2071,10 +2063,9 @@ children:
         datatype: iri
         values:
           - type: branch
-            source: https://bioportal.bioontology.org/ontologies/FDC-GDMT
-            sourceName: FDC-GDMT
-            sourceAcronym: FDC-GDMT
-            sourceIri: http://vocab.fairdatacollective.org/gdmt/IdentifierType
+            ontologyName: FDC-GDMT
+            acronym: FDC-GDMT
+            iri: http://vocab.fairdatacollective.org/gdmt/IdentifierType
             maxDepth: 2147483647
         configuration:
           propertyIri: http://purl.org/radx-terms/metadata-terms/parentStudyIdentifierScheme
@@ -2152,7 +2143,7 @@ children:
     modelVersion: 1.6.0
     createdOn: 2022-10-13T12:45:10-07:00
     createdBy: https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014
-    lastUpdatedOn: 2022-10-13T12:45:10-07:00
+    modifiedOn: 2022-10-13T12:45:10-07:00
     modifiedBy: https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014
     children:
       - key: Award Title
@@ -2251,7 +2242,7 @@ children:
         configuration:
           propertyIri: http://purl.org/radx-terms/metadata-terms/funderIdentifier
       - key: Funder Identifier Scheme
-        type: text-field
+        type: controlled-term-field
         name: Funder Identifier Scheme
         description: Name of the scheme or authority for the Funder Identifier. This field is optional as in most cases it can be determined from the _Funder Identifier_ field.
         identifier: funder_identifier_scheme
@@ -2263,10 +2254,9 @@ children:
         datatype: iri
         values:
           - type: branch
-            source: https://bioportal.bioontology.org/ontologies/FDC-GDMT
-            sourceName: FDC-GDMT
-            sourceAcronym: FDC-GDMT
-            sourceIri: http://vocab.fairdatacollective.org/gdmt/IdentifierScheme
+            ontologyName: FDC-GDMT
+            acronym: FDC-GDMT
+            iri: http://vocab.fairdatacollective.org/gdmt/IdentifierScheme
             maxDepth: 2147483647
         configuration:
           propertyIri: http://purl.org/radx-terms/metadata-terms/funderIdentifierScheme
@@ -2298,7 +2288,7 @@ children:
     modelVersion: 1.6.0
     createdOn: 2022-10-13T12:45:10-07:00
     createdBy: https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014
-    lastUpdatedOn: 2022-10-13T12:45:10-07:00
+    modifiedOn: 2022-10-13T12:45:10-07:00
     modifiedBy: https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014
     children:
       - key: Distribution Publisher
@@ -2326,7 +2316,7 @@ children:
         configuration:
           propertyIri: http://purl.org/radx-terms/metadata-terms/distributionPublisherIdentifier
       - key: Distribution Publisher Identifier Scheme
-        type: text-field
+        type: controlled-term-field
         name: Distribution Publisher Identifier Scheme
         description: Name of the scheme or authority for the Distribution Publisher Identifier.
         identifier: distribution_publisher_identifier_scheme
@@ -2338,10 +2328,9 @@ children:
         datatype: iri
         values:
           - type: branch
-            source: https://bioportal.bioontology.org/ontologies/FDC-GDMT
-            sourceName: FDC-GDMT
-            sourceAcronym: FDC-GDMT
-            sourceIri: http://vocab.fairdatacollective.org/gdmt/IdentifierScheme
+            ontologyName: FDC-GDMT
+            acronym: FDC-GDMT
+            iri: http://vocab.fairdatacollective.org/gdmt/IdentifierScheme
             maxDepth: 2147483647
         configuration:
           propertyIri: http://purl.org/radx-terms/metadata-terms/distributionPublisherIdentifierScheme
@@ -2371,7 +2360,7 @@ children:
         configuration:
           propertyIri: http://purl.org/radx-terms/metadata-terms/distributionIdentifier
       - key: Distribution Identifier Type
-        type: text-field
+        type: controlled-term-field
         name: Distribution Identifier Type
         description: The identifier type used to identify the data file distribution.
         identifier: distribution_identifier_type
@@ -2383,10 +2372,9 @@ children:
         datatype: iri
         values:
           - type: branch
-            source: https://bioportal.bioontology.org/ontologies/FDC-GDMT
-            sourceName: FDC-GDMT
-            sourceAcronym: FDC-GDMT
-            sourceIri: http://vocab.fairdatacollective.org/gdmt/IdentifierType
+            ontologyName: FDC-GDMT
+            acronym: FDC-GDMT
+            iri: http://vocab.fairdatacollective.org/gdmt/IdentifierType
             maxDepth: 2147483647
         configuration:
           propertyIri: http://purl.org/radx-terms/metadata-terms/distributionIdentifierType
@@ -2403,7 +2391,7 @@ children:
         configuration:
           propertyIri: http://purl.org/radx-terms/metadata-terms/distributionFormat
       - key: Distribution Media Type
-        type: text-field
+        type: controlled-term-field
         name: Distribution Media Type
         description: "A media type (formerly known as a MIME type) of data file distribution. The most common media type for dataset distributions in the RADx Data Hub is [text/css](http://vocab.fairdatacollective.org/gdmt/text-css)"
         identifier: distribution_media_type
@@ -2415,10 +2403,9 @@ children:
         datatype: iri
         values:
           - type: branch
-            source: https://bioportal.bioontology.org/ontologies/FDC-GDMT
-            sourceName: FDC-GDMT
-            sourceAcronym: FDC-GDMT
-            sourceIri: http://vocab.fairdatacollective.org/gdmt/MIMEType
+            ontologyName: FDC-GDMT
+            acronym: FDC-GDMT
+            iri: http://vocab.fairdatacollective.org/gdmt/MIMEType
             maxDepth: 2147483647
         configuration:
           propertyIri: http://purl.org/radx-terms/metadata-terms/distributionMediaType
@@ -2495,7 +2482,7 @@ children:
             configuration:
               propertyIri: http://purl.org/radx-terms/metadata-terms/distributionPublicationDate
           - key: Publication Date Type
-            type: text-field
+            type: controlled-term-field
             name: Publication Date Type
             description: Type of the date ('Published') with respect to the data file.
             identifier: publication_date_type
@@ -2505,13 +2492,14 @@ children:
             modelVersion: 1.6.0
             prefLabel: Publication Date Type
             datatype: iri
-            default: http://vocab.fairdatacollective.org/gdmt/Published
+            default:
+              value: http://vocab.fairdatacollective.org/gdmt/Published
+              label: Published
             values:
               - type: branch
-                source: https://bioportal.bioontology.org/ontologies/FDC-GDMT
-                sourceName: FDC-GDMT
-                sourceAcronym: FDC-GDMT
-                sourceIri: http://vocab.fairdatacollective.org/gdmt/DataType
+                ontologyName: FDC-GDMT
+                acronym: FDC-GDMT
+                iri: http://vocab.fairdatacollective.org/gdmt/DataType
                 maxDepth: 2147483647
             configuration:
               hidden: true
@@ -2533,7 +2521,7 @@ children:
     modelVersion: 1.6.0
     createdOn: 2022-10-13T12:45:10-07:00
     createdBy: https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014
-    lastUpdatedOn: 2022-10-13T12:45:10-07:00
+    modifiedOn: 2022-10-13T12:45:10-07:00
     modifiedBy: https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014
     children:
       - key: Data Characteristics Table in HTML
@@ -2597,7 +2585,7 @@ children:
     modelVersion: 1.6.0
     createdOn: 2022-10-13T12:45:10-07:00
     createdBy: https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014
-    lastUpdatedOn: 2022-10-13T12:45:10-07:00
+    modifiedOn: 2022-10-13T12:45:10-07:00
     modifiedBy: https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014
     children:
       - key: Data Source Name
@@ -2625,7 +2613,7 @@ children:
         configuration:
           propertyIri: http://purl.org/radx-terms/metadata-terms/dataSourceIdentifier
       - key: Data Source Identifier Scheme
-        type: text-field
+        type: controlled-term-field
         name: Data Source Identifier Scheme
         description: The name of the scheme or authority used for the Data Source Identifier.
         identifier: data_source_identifier_scheme
@@ -2637,10 +2625,9 @@ children:
         datatype: iri
         values:
           - type: branch
-            source: https://bioportal.bioontology.org/ontologies/FDC-GDMT
-            sourceName: FDC-GDMT
-            sourceAcronym: FDC-GDMT
-            sourceIri: http://vocab.fairdatacollective.org/gdmt/IdentifierType
+            ontologyName: FDC-GDMT
+            acronym: FDC-GDMT
+            iri: http://vocab.fairdatacollective.org/gdmt/IdentifierType
             maxDepth: 2147483647
         configuration:
           propertyIri: http://purl.org/radx-terms/metadata-terms/dataSourceIdentifierScheme
@@ -2672,7 +2659,7 @@ children:
     modelVersion: 1.6.0
     createdOn: 2022-10-13T12:45:10-07:00
     createdBy: https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014
-    lastUpdatedOn: 2022-10-13T12:45:10-07:00
+    modifiedOn: 2022-10-13T12:45:10-07:00
     modifiedBy: https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014
     children:
       - key: Data Stream Name
@@ -2700,7 +2687,7 @@ children:
         configuration:
           propertyIri: http://purl.org/radx-terms/metadata-terms/dataStreamIdentifier
       - key: Data Stream Identifier Scheme
-        type: text-field
+        type: controlled-term-field
         name: Data Stream Identifier Scheme
         description: The name of the scheme or authority used for the Data Stream Identifier.
         identifier: data_stream_identifier_scheme
@@ -2712,10 +2699,9 @@ children:
         datatype: iri
         values:
           - type: branch
-            source: https://bioportal.bioontology.org/ontologies/FDC-GDMT
-            sourceName: FDC-GDMT
-            sourceAcronym: FDC-GDMT
-            sourceIri: http://vocab.fairdatacollective.org/gdmt/IdentifierType
+            ontologyName: FDC-GDMT
+            acronym: FDC-GDMT
+            iri: http://vocab.fairdatacollective.org/gdmt/IdentifierType
             maxDepth: 2147483647
         configuration:
           propertyIri: http://purl.org/radx-terms/metadata-terms/dataStreamIdentifierScheme
@@ -2773,7 +2759,7 @@ children:
     modelVersion: 1.6.0
     createdOn: 2022-10-13T12:45:10-07:00
     createdBy: https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014
-    lastUpdatedOn: 2022-10-13T12:45:10-07:00
+    modifiedOn: 2022-10-13T12:45:10-07:00
     modifiedBy: https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014
     children:
       - key: Process Name
@@ -2839,7 +2825,7 @@ children:
     modelVersion: 1.6.0
     createdOn: 2022-10-13T12:45:10-07:00
     createdBy: https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014
-    lastUpdatedOn: 2022-10-13T12:45:10-07:00
+    modifiedOn: 2022-10-13T12:45:10-07:00
     modifiedBy: https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014
     children:
       - key: Temporal Extent Minimum Value
@@ -2939,7 +2925,7 @@ children:
     modelVersion: 1.6.0
     createdOn: 2022-10-13T12:45:10-07:00
     createdBy: https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014
-    lastUpdatedOn: 2022-10-13T12:45:10-07:00
+    modifiedOn: 2022-10-13T12:45:10-07:00
     modifiedBy: https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014
     children:
       - key: Bounding Box
@@ -3134,7 +3120,7 @@ children:
     modelVersion: 1.6.0
     createdOn: 2022-10-13T12:45:10-07:00
     createdBy: https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014
-    lastUpdatedOn: 2022-10-13T12:45:10-07:00
+    modifiedOn: 2022-10-13T12:45:10-07:00
     modifiedBy: https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014
     children:
       - key: Vertical Extent Minimum Value
@@ -3204,7 +3190,7 @@ children:
     modelVersion: 1.6.0
     createdOn: 2022-10-13T12:45:10-07:00
     createdBy: https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014
-    lastUpdatedOn: 2022-10-13T12:45:10-07:00
+    modifiedOn: 2022-10-13T12:45:10-07:00
     modifiedBy: https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014
     children:
       - key: Data File Descriptive Key-Value Pair

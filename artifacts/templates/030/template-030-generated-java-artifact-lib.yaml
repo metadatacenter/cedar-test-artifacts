@@ -6,11 +6,11 @@ version: 0.0.1
 modelVersion: 1.6.0
 createdOn: 2024-03-26T13:22:10-07:00
 createdBy: https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95
-lastUpdatedOn: 2024-03-26T13:22:10-07:00
+modifiedOn: 2024-03-26T13:22:10-07:00
 modifiedBy: https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95
 children:
   - key: Untitled
-    type: text-field
+    type: controlled-term-field
     name: Untitled
     description: Help Text
     id: https://repo.metadatacenter.org/template-fields/ded5aa1e-b665-4897-b5b3-2084eff12a0c
@@ -18,20 +18,20 @@ children:
     datatype: iri
     values:
       - type: ontology
-        name: Health Ontology for Minority Equity
         acronym: HOME
+        ontologyName: Health Ontology for Minority Equity
         iri: https://data.bioontology.org/ontologies/HOME
         numTerms: 82
       - type: class
-        source: HOME
-        name: Verbal_Abuse
-        iri: http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Verbal_Abuse
         prefLabel: Verbal_Abuse
+        acronym: HOME
+        termType: OntologyClass
+        termLabel: Verbal_Abuse
+        iri: http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Verbal_Abuse
       - type: branch
-        source: undefined (CWD)
-        sourceName: calories
-        sourceAcronym: CWD
-        sourceIri: http://www.semanticweb.org/jbagwell/ontologies/2017/9/untitled-ontology-6#calories
+        ontologyName: calories
+        acronym: CWD
+        iri: http://www.semanticweb.org/jbagwell/ontologies/2017/9/untitled-ontology-6#calories
         maxDepth: 0
     actions:
       - action: delete
@@ -67,7 +67,7 @@ children:
         sourceIri: https://data.bioontology.org/ontologies/HOME
     createdOn: 2024-03-26T13:22:10-07:00
     createdBy: https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95
-    lastUpdatedOn: 2024-03-26T13:22:10-07:00
+    modifiedOn: 2024-03-26T13:22:10-07:00
     modifiedBy: https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95
     configuration:
       propertyIri: https://schema.metadatacenter.org/properties/8f943150-91ed-4fb1-b766-f20efa0da516

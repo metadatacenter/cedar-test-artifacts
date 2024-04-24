@@ -6,11 +6,11 @@ version: 0.0.1
 modelVersion: 1.6.0
 createdOn: 2024-03-11T16:27:51-07:00
 createdBy: https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95
-lastUpdatedOn: 2024-03-11T16:27:51-07:00
+modifiedOn: 2024-03-11T16:27:51-07:00
 modifiedBy: https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95
 children:
   - key: Controlled
-    type: text-field
+    type: controlled-term-field
     name: Controlled
     description: Help Text
     id: https://repo.metadatacenter.org/template-fields/8fbf3e19-5c8a-4b72-9463-c1769fc73f96
@@ -18,14 +18,15 @@ children:
     datatype: iri
     values:
       - type: class
-        source: MESH
-        name: Music
-        iri: http://purl.bioontology.org/ontology/MESH/D009146
         prefLabel: Music
+        acronym: MESH
+        termType: OntologyClass
+        termLabel: Music
+        iri: http://purl.bioontology.org/ontology/MESH/D009146
     valueRecommendation: true
     createdOn: 2024-03-11T16:27:51-07:00
     createdBy: https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95
-    lastUpdatedOn: 2024-03-11T16:27:51-07:00
+    modifiedOn: 2024-03-11T16:27:51-07:00
     modifiedBy: https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95
     configuration:
       required: true

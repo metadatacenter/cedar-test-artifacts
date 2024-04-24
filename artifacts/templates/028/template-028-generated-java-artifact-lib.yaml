@@ -8,7 +8,7 @@ modelVersion: 1.6.0
 derivedFrom: https://repo.metadatacenter.org/templates/2ef5e58f-0770-484d-80ae-23768cc1fda2
 createdOn: 2022-06-19T09:15:48-07:00
 createdBy: https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b
-lastUpdatedOn: 2022-06-19T21:59:19-07:00
+modifiedOn: 2022-06-19T21:59:19-07:00
 modifiedBy: https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b
 children:
   - key: Read & Understood Catalog
@@ -21,7 +21,7 @@ children:
     derivedFrom: https://repo.metadatacenter.org/template-elements/0f91041a-b334-41d2-abb4-ec1b5da6d180
     createdOn: 2022-06-19T21:59:19-07:00
     createdBy: https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b
-    lastUpdatedOn: 2022-06-19T21:59:19-07:00
+    modifiedOn: 2022-06-19T21:59:19-07:00
     modifiedBy: https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b
     children:
       - key: Read & Understood - RT
@@ -45,7 +45,7 @@ children:
           <p dir="ltr" style="margin-top: 12pt; margin-bottom: 0pt; line-height: 1.38; text-align: justify; background-color: rgb(255, 255, 255); padding: 0pt 0pt 12pt;">&nbsp;</p>
         createdOn: 2022-06-19T17:25:06-07:00
         createdBy: https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b
-        lastUpdatedOn: 2022-06-19T17:25:06-07:00
+        modifiedOn: 2022-06-19T17:25:06-07:00
         modifiedBy: https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b
       - key: Read & Understood
         type: checkbox-field
@@ -57,7 +57,7 @@ children:
           - label: I have read & understood
         createdOn: 2022-06-19T17:25:06-07:00
         createdBy: https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b
-        lastUpdatedOn: 2022-06-19T17:25:06-07:00
+        modifiedOn: 2022-06-19T17:25:06-07:00
         modifiedBy: https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b
         configuration:
           required: true
@@ -74,7 +74,7 @@ children:
       <p><span style="font-size: 16px; background-color: rgb(238, 238, 238);">Please provide a title of the catalog.</span></p>
     createdOn: 2022-06-19T21:59:19-07:00
     createdBy: https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b
-    lastUpdatedOn: 2022-06-19T21:59:19-07:00
+    modifiedOn: 2022-06-19T21:59:19-07:00
     modifiedBy: https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b
   - key: catalogTitle
     type: text-field
@@ -84,7 +84,7 @@ children:
     prefLabel: Catalog Title
     createdOn: 2022-06-19T21:59:19-07:00
     createdBy: https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b
-    lastUpdatedOn: 2022-06-19T21:59:19-07:00
+    modifiedOn: 2022-06-19T21:59:19-07:00
     modifiedBy: https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b
     configuration:
       required: true
@@ -99,7 +99,7 @@ children:
       <p>Please provide a description of the catalog.</p>
     createdOn: 2022-06-19T21:59:19-07:00
     createdBy: https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b
-    lastUpdatedOn: 2022-06-19T21:59:19-07:00
+    modifiedOn: 2022-06-19T21:59:19-07:00
     modifiedBy: https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b
   - key: catalogDescription
     type: text-field
@@ -109,7 +109,7 @@ children:
     prefLabel: Catalog Description
     createdOn: 2022-06-19T21:59:19-07:00
     createdBy: https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b
-    lastUpdatedOn: 2022-06-19T21:59:19-07:00
+    modifiedOn: 2022-06-19T21:59:19-07:00
     modifiedBy: https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b
     configuration:
       required: true
@@ -124,7 +124,7 @@ children:
       <p>Please provide a URI (globally unique, persistent and resolvable identifier) of the entity that holds, archives, publishes prints, distributes, releases, issues, or produces the catalog being described.</p>
     createdOn: 2022-06-19T21:59:19-07:00
     createdBy: https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b
-    lastUpdatedOn: 2022-06-19T21:59:19-07:00
+    modifiedOn: 2022-06-19T21:59:19-07:00
     modifiedBy: https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b
   - key: publisher
     type: link-field
@@ -134,7 +134,7 @@ children:
     prefLabel: Publisher
     createdOn: 2022-06-19T21:59:19-07:00
     createdBy: https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b
-    lastUpdatedOn: 2022-06-19T21:59:19-07:00
+    modifiedOn: 2022-06-19T21:59:19-07:00
     modifiedBy: https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b
     configuration:
       required: true
@@ -150,10 +150,10 @@ children:
       <p><span style="background-color: rgb(255, 255, 255);">Please select a legal document under which the dataset is made reusable.</span></p>
     createdOn: 2022-06-19T21:59:19-07:00
     createdBy: https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b
-    lastUpdatedOn: 2022-06-19T21:59:19-07:00
+    modifiedOn: 2022-06-19T21:59:19-07:00
     modifiedBy: https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b
   - key: license
-    type: text-field
+    type: controlled-term-field
     name: license
     id: https://repo.metadatacenter.org/template-fields/54d38f5c-dd5b-4b3e-82ef-7c2e577b1fba
     modelVersion: 1.6.0
@@ -161,14 +161,13 @@ children:
     datatype: iri
     values:
       - type: branch
-        source: Ontology for Generic Dataset Metadata Template (FDC-GDMT)
-        sourceName: License Identifier
-        sourceAcronym: FDC-GDMT
-        sourceIri: http://vocab.fairdatacollective.org/gdmt/LicenseIdentifier
+        ontologyName: License Identifier
+        acronym: FDC-GDMT
+        iri: http://vocab.fairdatacollective.org/gdmt/LicenseIdentifier
         maxDepth: 0
     createdOn: 2022-06-19T21:59:19-07:00
     createdBy: https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b
-    lastUpdatedOn: 2022-06-19T21:59:19-07:00
+    modifiedOn: 2022-06-19T21:59:19-07:00
     modifiedBy: https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b
     configuration:
       propertyIri: https://schema.metadatacenter.org/properties/1872f17a-7791-4b24-b1cb-3de7ef4c31e6
@@ -183,7 +182,7 @@ children:
       <p>Please provide the ID(s) of Dataset metadata instance(s). They can be found, only after you have created these instances. If you have not yet created them, or should more dataset be created in the future, you can return to this field later and update. Once Dataset metadata Instances are created, you will find them in your personal CEDAR workspace. After opening a Dataset metadata instance, you should&nbsp;copy the URL in the address bar of your web browser, taking only the part after &quot;..edit/&quot; but before the &quot;?&quot;.&nbsp;</p>
     createdOn: 2022-06-19T21:59:19-07:00
     createdBy: https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b
-    lastUpdatedOn: 2022-06-19T21:59:19-07:00
+    modifiedOn: 2022-06-19T21:59:19-07:00
     modifiedBy: https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b
   - key: datasetMetadataInstanceIdentifier
     type: link-field
@@ -193,7 +192,7 @@ children:
     prefLabel: Dataset Metadata Instance ID (1..N)
     createdOn: 2022-06-19T21:59:19-07:00
     createdBy: https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b
-    lastUpdatedOn: 2022-06-19T21:59:19-07:00
+    modifiedOn: 2022-06-19T21:59:19-07:00
     modifiedBy: https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b
     configuration:
       required: true
