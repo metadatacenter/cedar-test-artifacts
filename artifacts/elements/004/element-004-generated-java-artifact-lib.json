@@ -326,14 +326,14 @@
   "_ui" : {
     "order" : [ "title", "description", "externalLink" ],
     "propertyLabels" : {
-      "externalLink" : "External Link",
       "title" : "Title",
-      "description" : "Description"
+      "description" : "Description",
+      "externalLink" : "External Link"
     },
     "propertyDescriptions" : {
-      "externalLink" : "External Link description",
       "title" : "Title description",
-      "description" : "Description description"
+      "description" : "Description description",
+      "externalLink" : "External Link description"
     }
   }
 }

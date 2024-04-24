@@ -410,12 +410,12 @@
   "_ui" : {
     "order" : [ "My checkbox 1", "My checkbox 2" ],
     "propertyLabels" : {
-      "My checkbox 1" : "My checkbox 1",
-      "My checkbox 2" : "My checkbox 2"
+      "My checkbox 2" : "My checkbox 2",
+      "My checkbox 1" : "My checkbox 1"
     },
     "propertyDescriptions" : {
-      "My checkbox 1" : "Help Text",
-      "My checkbox 2" : "Help Text"
+      "My checkbox 2" : "Help Text",
+      "My checkbox 1" : "Help Text"
     }
   }
 }

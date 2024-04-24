@@ -327,14 +327,14 @@
   "_ui" : {
     "order" : [ "Text field", "Email", "Numeric" ],
     "propertyLabels" : {
+      "Text field" : "Text field",
       "Email" : "Email",
-      "Numeric" : "Numeric",
-      "Text field" : "Text field"
+      "Numeric" : "Numeric"
     },
     "propertyDescriptions" : {
+      "Text field" : "Help Text",
       "Email" : "Help Text",
-      "Numeric" : "Help Text",
-      "Text field" : "Help Text"
+      "Numeric" : "Help Text"
     }
   }
 }

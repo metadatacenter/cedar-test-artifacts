@@ -484,13 +484,13 @@
   "_ui" : {
     "order" : [ "Simple date", "Simple time", "Complex datetime" ],
     "propertyLabels" : {
-      "Simple time" : "Simple time",
       "Simple date" : "Simple date",
+      "Simple time" : "Simple time",
       "Complex datetime" : "Complex datetime"
     },
     "propertyDescriptions" : {
-      "Simple time" : "Help Text",
       "Simple date" : "Help text",
+      "Simple time" : "Help Text",
       "Complex datetime" : "Help Text 2"
     }
   }

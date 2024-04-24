@@ -637,18 +637,18 @@
   "_ui" : {
     "order" : [ "Decimal", "Long", "Integer", "Double", "Float" ],
     "propertyLabels" : {
-      "Decimal" : "Decimal",
       "Long" : "Long",
       "Integer" : "Integer",
+      "Double" : "Double",
       "Float" : "Float",
-      "Double" : "Double"
+      "Decimal" : "Decimal"
     },
     "propertyDescriptions" : {
-      "Decimal" : "Help Text",
       "Long" : "Help Text",
       "Integer" : "Help Text",
+      "Double" : "Help Text",
       "Float" : "Help Text",
-      "Double" : "Help Text"
+      "Decimal" : "Help Text"
     }
   }
 }

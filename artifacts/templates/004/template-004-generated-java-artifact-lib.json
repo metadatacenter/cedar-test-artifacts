@@ -514,18 +514,18 @@
   "_ui" : {
     "order" : [ "Field 1", "Page break 1", "Field 2", "Page break 2", "Field 3" ],
     "propertyLabels" : {
-      "Field 3" : "Field 3",
-      "Field 2" : "Field 2",
       "Field 1" : "Field 1",
+      "Page break 1" : "Page break 1",
+      "Field 2" : "Field 2",
       "Page break 2" : "Page break 2",
-      "Page break 1" : "Page break 1"
+      "Field 3" : "Field 3"
     },
     "propertyDescriptions" : {
-      "Field 3" : "Help Text",
-      "Field 2" : "Help Text",
       "Field 1" : "Help Text",
+      "Page break 1" : "Help Text",
+      "Field 2" : "Help Text",
       "Page break 2" : "Help Text",
-      "Page break 1" : "Help Text"
+      "Field 3" : "Help Text"
     }
   }
 }

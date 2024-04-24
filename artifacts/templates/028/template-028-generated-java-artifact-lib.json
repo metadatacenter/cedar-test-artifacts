@@ -987,30 +987,30 @@
   "_ui" : {
     "order" : [ "Read & Understood Catalog", "catalogTitleRT", "catalogTitle", "catalogDescriptionRT", "catalogDescription", "publisherRT", "publisher", "licenseRT", "license", "datasetMetadataInstanceIDRT", "datasetMetadataInstanceIdentifier" ],
     "propertyLabels" : {
-      "catalogTitleRT" : "catalogTitleRT",
       "catalogDescription" : "catalogDescription",
-      "license" : "license",
-      "Read & Understood Catalog" : "Read & Understood Catalog",
-      "licenseRT" : "licenseRT",
-      "catalogTitle" : "catalogTitle",
-      "datasetMetadataInstanceIdentifier" : "datasetMetadataInstanceIdentifier",
-      "catalogDescriptionRT" : "catalogDescriptionRT",
       "publisher" : "publisher",
+      "catalogDescriptionRT" : "catalogDescriptionRT",
       "publisherRT" : "publisherRT",
-      "datasetMetadataInstanceIDRT" : "datasetMetadataInstanceIDRT"
+      "datasetMetadataInstanceIdentifier" : "datasetMetadataInstanceIdentifier",
+      "datasetMetadataInstanceIDRT" : "datasetMetadataInstanceIDRT",
+      "catalogTitle" : "catalogTitle",
+      "catalogTitleRT" : "catalogTitleRT",
+      "license" : "license",
+      "licenseRT" : "licenseRT",
+      "Read & Understood Catalog" : "Read & Understood Catalog"
     },
     "propertyDescriptions" : {
-      "catalogTitleRT" : "",
       "catalogDescription" : "",
-      "license" : "",
-      "Read & Understood Catalog" : "",
-      "licenseRT" : "Help Text",
-      "catalogTitle" : "",
-      "datasetMetadataInstanceIdentifier" : "",
-      "catalogDescriptionRT" : "",
       "publisher" : "",
+      "catalogDescriptionRT" : "",
       "publisherRT" : "",
-      "datasetMetadataInstanceIDRT" : "Help Text"
+      "datasetMetadataInstanceIdentifier" : "",
+      "datasetMetadataInstanceIDRT" : "Help Text",
+      "catalogTitle" : "",
+      "catalogTitleRT" : "",
+      "Read & Understood Catalog" : "",
+      "license" : "",
+      "licenseRT" : "Help Text"
     }
   }
 }

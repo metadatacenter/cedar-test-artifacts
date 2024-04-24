@@ -344,18 +344,18 @@
   "_ui" : {
     "order" : [ "Page break field", "Section break", "Image field", "Rich text", "Video name" ],
     "propertyLabels" : {
-      "Video name" : "Video name",
-      "Image field" : "Image field",
       "Page break field" : "Page break field",
       "Section break" : "Section break",
-      "Rich text" : "Rich text"
+      "Image field" : "Image field",
+      "Rich text" : "Rich text",
+      "Video name" : "Video name"
     },
     "propertyDescriptions" : {
-      "Video name" : "Help Text",
-      "Image field" : "Help Text",
       "Page break field" : "Help text",
       "Section break" : "Help Text",
-      "Rich text" : "Help Text"
+      "Image field" : "Help Text",
+      "Rich text" : "Help Text",
+      "Video name" : "Help Text"
     }
   }
 }
