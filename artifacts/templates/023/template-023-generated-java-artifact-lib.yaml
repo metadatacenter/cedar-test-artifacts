@@ -28,21 +28,23 @@ children:
         ontologyName: Medical Subject Headings
         iri: https://data.bioontology.org/ontologies/MESH
         numTerms: 353825
+      - type: class
+        label: Music UI Label added in the editor
+        acronym: MESH
+        termType: class
+        termLabel: Music
+        iri: http://purl.bioontology.org/ontology/MESH/D009146
+      - type: branch
+        ontologyName: Medical Subject Headings (MESH)
+        acronym: MESH
+        termLabel: Mathematical Concepts
+        iri: http://purl.bioontology.org/ontology/MESH/D055641
+        maxDepth: 0
       - type: valueSet
         acronym: CADSR-VS
         valueSetName: Progressive Disease
         iri: https://cadsr.nci.nih.gov/metadata/CADSR-VS/ad5886076616ec6c35558648aca5abf942d6147a
-      - type: class
-        prefLabel: Music UI Label added in the editor
-        acronym: MESH
-        termType: OntologyClass
-        termLabel: Music
-        iri: http://purl.bioontology.org/ontology/MESH/D009146
-      - type: branch
-        ontologyName: Mathematical Concepts
-        acronym: MESH
-        iri: http://purl.bioontology.org/ontology/MESH/D055641
-        maxDepth: 0
+        numTerms: 0
     createdOn: 2024-03-11T15:26:26-07:00
     createdBy: https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95
     modifiedOn: 2024-03-11T15:26:26-07:00

@@ -18,9 +18,9 @@ children:
     datatype: iri
     values:
       - type: class
-        prefLabel: Music
+        label: Music
         acronym: MESH
-        termType: OntologyClass
+        termType: class
         termLabel: Music
         iri: http://purl.bioontology.org/ontology/MESH/D009146
     valueRecommendation: true

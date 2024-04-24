@@ -9,6 +9,7 @@ previousVersion: 0.0.1
 children:
   - key: Title
     type: text-field
+    language: en
     name: Title
     description: |-
       A title or descriptive name by which the Data File being described is known. This is a presentation name (i.e. title case with appropriate spacing) and is typically different from the actual file name of the data file.
@@ -18,7 +19,6 @@ children:
     status: draft
     version: 0.0.1
     modelVersion: 1.6.0
-    language: en
     createdOn: 2024-04-23T10:51:00-07:00
     createdBy: https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95
     modifiedOn: 2024-04-23T10:51:00-07:00

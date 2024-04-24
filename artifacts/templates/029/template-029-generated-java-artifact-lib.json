@@ -154,50 +154,17 @@
             }
           }
         },
-        "Data File Content" : {
-          "enum" : [ "https://schema.metadatacenter.org/properties/082bb4ce-bf1e-41f5-9ee0-bd420ceb7cef" ]
-        },
-        "Data Characteristics Summary" : {
-          "enum" : [ "https://schema.metadatacenter.org/properties/3b3b2079-ae91-4c3f-8681-7bc1928fef17" ]
-        },
-        "Data File Creation Process" : {
-          "enum" : [ "https://schema.metadatacenter.org/properties/1bf88975-65f3-49ce-894c-b4135fafa6ca" ]
-        },
-        "Data File Version" : {
-          "enum" : [ "https://schema.metadatacenter.org/properties/f36b94d4-ed1d-4d75-9de4-05c06215726b" ]
-        },
-        "Data File Rights" : {
-          "enum" : [ "https://schema.metadatacenter.org/properties/508703a8-ac0a-4852-be3f-338369d0681b" ]
+        "Data File Title" : {
+          "enum" : [ "https://schema.metadatacenter.org/properties/d5f514e9-3b38-40fe-a0cc-46f42e428a52" ]
         },
         "Data File Identity" : {
           "enum" : [ "https://schema.metadatacenter.org/properties/2cf35dad-e8fa-4d79-b9ef-1c22c5d83d07" ]
         },
-        "Data File Dictionary" : {
-          "enum" : [ "https://schema.metadatacenter.org/properties/c699580c-ec1f-4ff6-bafb-fc69ade5a167" ]
+        "Data File Content" : {
+          "enum" : [ "https://schema.metadatacenter.org/properties/082bb4ce-bf1e-41f5-9ee0-bd420ceb7cef" ]
         },
-        "Auxiliary Metadata" : {
-          "enum" : [ "https://schema.metadatacenter.org/properties/60350e91-8896-4d8c-b11e-26b35370455b" ]
-        },
-        "Data File Related Resource" : {
-          "enum" : [ "https://schema.metadatacenter.org/properties/8676bf9d-fb43-42f9-8c54-550724d76f2d" ]
-        },
-        "Data File Parent Study" : {
-          "enum" : [ "https://schema.metadatacenter.org/properties/4b4196c0-8aad-40dc-861c-8b9f38b47669" ]
-        },
-        "Data File Temporal Coverage" : {
-          "enum" : [ "https://schema.metadatacenter.org/properties/2b455707-123b-4524-8cc6-93d214d499f2" ]
-        },
-        "Data File Description" : {
-          "enum" : [ "https://schema.metadatacenter.org/properties/dea181da-8dad-4fb8-bab0-61a1b654d77c" ]
-        },
-        "Data File Date" : {
-          "enum" : [ "https://schema.metadatacenter.org/properties/ea5f7980-6bcf-4088-aea0-fdaa0fef0fbc" ]
-        },
-        "Data File Funding Source" : {
-          "enum" : [ "https://schema.metadatacenter.org/properties/db88405a-6a08-4c52-aa92-7297fe2c1e37" ]
-        },
-        "Data File Spatial Coverage" : {
-          "enum" : [ "https://schema.metadatacenter.org/properties/87a8564b-228c-473f-8963-47895a23eb56" ]
+        "Data File Version" : {
+          "enum" : [ "https://schema.metadatacenter.org/properties/f36b94d4-ed1d-4d75-9de4-05c06215726b" ]
         },
         "Data File Language" : {
           "enum" : [ "https://schema.metadatacenter.org/properties/380eaafe-985f-4a10-b511-affbb2872fe1" ]
@@ -205,29 +172,62 @@
         "Data File Subjects" : {
           "enum" : [ "https://schema.metadatacenter.org/properties/c585cdb8-fc4b-4335-85bd-853a79ef00a5" ]
         },
-        "Data File Distribution" : {
-          "enum" : [ "https://schema.metadatacenter.org/properties/352309db-088e-439d-b86d-aa408d7da2bd" ]
+        "Data File Description" : {
+          "enum" : [ "https://schema.metadatacenter.org/properties/dea181da-8dad-4fb8-bab0-61a1b654d77c" ]
         },
-        "Data Source" : {
-          "enum" : [ "https://schema.metadatacenter.org/properties/06bda00e-d0b7-4f10-852b-64dbf83d10ae" ]
-        },
-        "Data File Title" : {
-          "enum" : [ "https://schema.metadatacenter.org/properties/d5f514e9-3b38-40fe-a0cc-46f42e428a52" ]
-        },
-        "Data File Contributor" : {
-          "enum" : [ "https://schema.metadatacenter.org/properties/efba37ff-3f70-4678-af83-70ccac233af7" ]
-        },
-        "Data File Elevation Coverage" : {
-          "enum" : [ "https://schema.metadatacenter.org/properties/4dfa2247-cb9d-49e1-ab4c-83d559a14ea5" ]
+        "Data File Dictionary" : {
+          "enum" : [ "https://schema.metadatacenter.org/properties/c699580c-ec1f-4ff6-bafb-fc69ade5a167" ]
         },
         "Data File Creator" : {
           "enum" : [ "https://schema.metadatacenter.org/properties/5c3e3712-cfcc-492c-bedd-74af18d49dd8" ]
         },
+        "Data File Related Resource" : {
+          "enum" : [ "https://schema.metadatacenter.org/properties/8676bf9d-fb43-42f9-8c54-550724d76f2d" ]
+        },
+        "Data File Contributor" : {
+          "enum" : [ "https://schema.metadatacenter.org/properties/efba37ff-3f70-4678-af83-70ccac233af7" ]
+        },
+        "Data File Rights" : {
+          "enum" : [ "https://schema.metadatacenter.org/properties/508703a8-ac0a-4852-be3f-338369d0681b" ]
+        },
+        "Data File Date" : {
+          "enum" : [ "https://schema.metadatacenter.org/properties/ea5f7980-6bcf-4088-aea0-fdaa0fef0fbc" ]
+        },
+        "Data File Parent Study" : {
+          "enum" : [ "https://schema.metadatacenter.org/properties/4b4196c0-8aad-40dc-861c-8b9f38b47669" ]
+        },
+        "Data File Funding Source" : {
+          "enum" : [ "https://schema.metadatacenter.org/properties/db88405a-6a08-4c52-aa92-7297fe2c1e37" ]
+        },
+        "Data File Distribution" : {
+          "enum" : [ "https://schema.metadatacenter.org/properties/352309db-088e-439d-b86d-aa408d7da2bd" ]
+        },
+        "Data Characteristics Summary" : {
+          "enum" : [ "https://schema.metadatacenter.org/properties/3b3b2079-ae91-4c3f-8681-7bc1928fef17" ]
+        },
+        "Data Source" : {
+          "enum" : [ "https://schema.metadatacenter.org/properties/06bda00e-d0b7-4f10-852b-64dbf83d10ae" ]
+        },
         "Data Stream" : {
           "enum" : [ "https://schema.metadatacenter.org/properties/222c36cd-874c-4dd9-9008-5c66a633f747" ]
+        },
+        "Data File Creation Process" : {
+          "enum" : [ "https://schema.metadatacenter.org/properties/1bf88975-65f3-49ce-894c-b4135fafa6ca" ]
+        },
+        "Data File Temporal Coverage" : {
+          "enum" : [ "https://schema.metadatacenter.org/properties/2b455707-123b-4524-8cc6-93d214d499f2" ]
+        },
+        "Data File Spatial Coverage" : {
+          "enum" : [ "https://schema.metadatacenter.org/properties/87a8564b-228c-473f-8963-47895a23eb56" ]
+        },
+        "Data File Elevation Coverage" : {
+          "enum" : [ "https://schema.metadatacenter.org/properties/4dfa2247-cb9d-49e1-ab4c-83d559a14ea5" ]
+        },
+        "Auxiliary Metadata" : {
+          "enum" : [ "https://schema.metadatacenter.org/properties/60350e91-8896-4d8c-b11e-26b35370455b" ]
         }
       },
-      "required" : [ "xsd", "pav", "schema", "oslc", "schema:isBasedOn", "schema:name", "schema:description", "pav:createdOn", "pav:createdBy", "pav:lastUpdatedOn", "oslc:modifiedBy", "Data File Content", "Data Characteristics Summary", "Data File Creation Process", "Data File Version", "Data File Rights", "Data File Identity", "Data File Dictionary", "Auxiliary Metadata", "Data File Related Resource", "Data File Parent Study", "Data File Temporal Coverage", "Data File Description", "Data File Date", "Data File Funding Source", "Data File Spatial Coverage", "Data File Language", "Data File Subjects", "Data File Distribution", "Data Source", "Data File Title", "Data File Contributor", "Data File Elevation Coverage", "Data File Creator", "Data Stream" ],
+      "required" : [ "xsd", "pav", "schema", "oslc", "schema:isBasedOn", "schema:name", "schema:description", "pav:createdOn", "pav:createdBy", "pav:lastUpdatedOn", "oslc:modifiedBy", "Data File Title", "Data File Identity", "Data File Content", "Data File Version", "Data File Language", "Data File Subjects", "Data File Description", "Data File Dictionary", "Data File Creator", "Data File Related Resource", "Data File Contributor", "Data File Rights", "Data File Date", "Data File Parent Study", "Data File Funding Source", "Data File Distribution", "Data Characteristics Summary", "Data Source", "Data Stream", "Data File Creation Process", "Data File Temporal Coverage", "Data File Spatial Coverage", "Data File Elevation Coverage", "Auxiliary Metadata" ],
       "additionalProperties" : false
     },
     "@type" : {
@@ -331,14 +331,14 @@
               "skos:notation" : {
                 "enum" : [ "xsd:string" ]
               },
-              "Language" : {
-                "enum" : [ "http://purl.org/radx-terms/metadata-terms/language" ]
-              },
               "Title" : {
                 "enum" : [ "http://purl.org/radx-terms/metadata-terms/title" ]
+              },
+              "Language" : {
+                "enum" : [ "http://purl.org/radx-terms/metadata-terms/language" ]
               }
             },
-            "required" : [ "Language", "Title" ],
+            "required" : [ "Title", "Language" ],
             "additionalProperties" : false
           },
           "@type" : {
@@ -1089,20 +1089,20 @@
             "skos:notation" : {
               "enum" : [ "xsd:string" ]
             },
-            "Identifier Type" : {
-              "enum" : [ "http://purl.org/radx-terms/metadata-terms/dataFileIdentifierType" ]
-            },
             "Identifier" : {
               "enum" : [ "http://purl.org/radx-terms/metadata-terms/dataFileIdentifier" ]
             },
-            "SHA256 digest" : {
-              "enum" : [ "https://purl.org/radx-terms/dataFileSha256" ]
+            "Identifier Type" : {
+              "enum" : [ "http://purl.org/radx-terms/metadata-terms/dataFileIdentifierType" ]
             },
             "File Name " : {
               "enum" : [ "http://purl.org/radx-terms/metadata-terms/dataFileFileName" ]
+            },
+            "SHA256 digest" : {
+              "enum" : [ "https://purl.org/radx-terms/dataFileSha256" ]
             }
           },
-          "required" : [ "Identifier Type", "Identifier", "SHA256 digest", "File Name " ],
+          "required" : [ "Identifier", "Identifier Type", "File Name ", "SHA256 digest" ],
           "additionalProperties" : false
         },
         "@type" : {
@@ -3051,20 +3051,20 @@
               "skos:notation" : {
                 "enum" : [ "xsd:string" ]
               },
-              "Subject Identifier Scheme Identifier" : {
-                "enum" : [ "http://purl.org/radx-terms/metadata-terms/subjectIdentifierSchemeIdentifier" ]
-              },
-              "Keyword" : {
-                "enum" : [ "http://purl.org/radx-terms/metadata-terms/keyword" ]
-              },
               "Subject Identifier" : {
                 "enum" : [ "http://purl.org/radx-terms/metadata-terms/subjectIdentifier" ]
               },
               "Subject Identifier Scheme" : {
                 "enum" : [ "http://purl.org/radx-terms/metadata-terms/subjectIdentifierScheme" ]
+              },
+              "Subject Identifier Scheme Identifier" : {
+                "enum" : [ "http://purl.org/radx-terms/metadata-terms/subjectIdentifierSchemeIdentifier" ]
+              },
+              "Keyword" : {
+                "enum" : [ "http://purl.org/radx-terms/metadata-terms/keyword" ]
               }
             },
-            "required" : [ "Subject Identifier Scheme Identifier", "Keyword", "Subject Identifier", "Subject Identifier Scheme" ],
+            "required" : [ "Subject Identifier", "Subject Identifier Scheme", "Subject Identifier Scheme Identifier", "Keyword" ],
             "additionalProperties" : false
           },
           "@type" : {
@@ -3510,17 +3510,17 @@
               "skos:notation" : {
                 "enum" : [ "xsd:string" ]
               },
-              "Type Of Content" : {
-                "enum" : [ "http://purl.org/radx-terms/metadata-terms/typeOfContent" ]
-              },
               "Description" : {
                 "enum" : [ "http://purl.org/radx-terms/metadata-terms/dataFileDescription" ]
               },
               "Description Language" : {
                 "enum" : [ "http://purl.org/radx-terms/metadata-terms/language" ]
+              },
+              "Type Of Content" : {
+                "enum" : [ "http://purl.org/radx-terms/metadata-terms/typeOfContent" ]
               }
             },
-            "required" : [ "Type Of Content", "Description", "Description Language" ],
+            "required" : [ "Description", "Description Language", "Type Of Content" ],
             "additionalProperties" : false
           },
           "@type" : {
@@ -4547,47 +4547,47 @@
               "skos:notation" : {
                 "enum" : [ "xsd:string" ]
               },
-              "Creator Identifier Scheme Identifier" : {
-                "enum" : [ "http://purl.org/radx-terms/metadata-terms/creatorIdentifierSchemeIdentifier" ]
-              },
-              "Creator Role" : {
-                "enum" : [ "http://purl.org/radx-terms/metadata-terms/creatorRole" ]
-              },
               "Creator Type" : {
                 "enum" : [ "http://purl.org/radx-terms/metadata-terms/creatorType" ]
-              },
-              "Creator Identifier" : {
-                "enum" : [ "http://purl.org/radx-terms/metadata-terms/language" ]
-              },
-              "Creator Affiliation Identifier Scheme Identifier" : {
-                "enum" : [ "http://purl.org/radx-terms/metadata-terms/creatorAffiliationIdentifierSchemeIdentifier" ]
-              },
-              "Creator Identifier Scheme" : {
-                "enum" : [ "http://purl.org/radx-terms/metadata-terms/creatorIdentifierScheme" ]
-              },
-              "Creator Family Name" : {
-                "enum" : [ "http://purl.org/radx-terms/metadata-terms/creatorFamilyName" ]
-              },
-              "Creator Affiliation Identifier" : {
-                "enum" : [ "http://purl.org/radx-terms/metadata-terms/creatorAffiliationSchemeIdentifier" ]
-              },
-              "Creator Given Name" : {
-                "enum" : [ "http://purl.org/radx-terms/metadata-terms/creatorGivenName" ]
-              },
-              "Creator Email" : {
-                "enum" : [ "http://purl.org/radx-terms/metadata-terms/creatorEmail" ]
               },
               "Creator Name" : {
                 "enum" : [ "http://purl.org/radx-terms/metadata-terms/creatorName" ]
               },
+              "Creator Given Name" : {
+                "enum" : [ "http://purl.org/radx-terms/metadata-terms/creatorGivenName" ]
+              },
+              "Creator Family Name" : {
+                "enum" : [ "http://purl.org/radx-terms/metadata-terms/creatorFamilyName" ]
+              },
+              "Creator Identifier" : {
+                "enum" : [ "http://purl.org/radx-terms/metadata-terms/language" ]
+              },
+              "Creator Identifier Scheme" : {
+                "enum" : [ "http://purl.org/radx-terms/metadata-terms/creatorIdentifierScheme" ]
+              },
+              "Creator Identifier Scheme Identifier" : {
+                "enum" : [ "http://purl.org/radx-terms/metadata-terms/creatorIdentifierSchemeIdentifier" ]
+              },
+              "Creator Email" : {
+                "enum" : [ "http://purl.org/radx-terms/metadata-terms/creatorEmail" ]
+              },
               "Creator Affiliation" : {
+                "enum" : [ "http://purl.org/radx-terms/metadata-terms/creatorAffiliationSchemeIdentifier" ]
+              },
+              "Creator Affiliation Identifier" : {
                 "enum" : [ "http://purl.org/radx-terms/metadata-terms/creatorAffiliationSchemeIdentifier" ]
               },
               "Creator Affiliation Identifier Scheme" : {
                 "enum" : [ "http://purl.org/radx-terms/metadata-terms/creatorAffiliationIdentifierScheme" ]
+              },
+              "Creator Affiliation Identifier Scheme Identifier" : {
+                "enum" : [ "http://purl.org/radx-terms/metadata-terms/creatorAffiliationIdentifierSchemeIdentifier" ]
+              },
+              "Creator Role" : {
+                "enum" : [ "http://purl.org/radx-terms/metadata-terms/creatorRole" ]
               }
             },
-            "required" : [ "Creator Identifier Scheme Identifier", "Creator Role", "Creator Type", "Creator Identifier", "Creator Affiliation Identifier Scheme Identifier", "Creator Identifier Scheme", "Creator Family Name", "Creator Affiliation Identifier", "Creator Given Name", "Creator Email", "Creator Name", "Creator Affiliation", "Creator Affiliation Identifier Scheme" ],
+            "required" : [ "Creator Type", "Creator Name", "Creator Given Name", "Creator Family Name", "Creator Identifier", "Creator Identifier Scheme", "Creator Identifier Scheme Identifier", "Creator Email", "Creator Affiliation", "Creator Affiliation Identifier", "Creator Affiliation Identifier Scheme", "Creator Affiliation Identifier Scheme Identifier", "Creator Role" ],
             "additionalProperties" : false
           },
           "@type" : {
@@ -5843,14 +5843,14 @@
               "skos:notation" : {
                 "enum" : [ "xsd:string" ]
               },
-              "Related Resource File Name" : {
-                "enum" : [ "http://purl.org/radx-terms/metadata-terms/relatedResourceFileName" ]
+              "Related Resource Identifier" : {
+                "enum" : [ "http://purl.org/radx-terms/metadata-terms/relatedResourceIdentifier" ]
               },
               "Related Resource Identifier Type" : {
                 "enum" : [ "http://purl.org/radx-terms/metadata-terms/relatedResourceIdentifierType" ]
               },
-              "Related Resource Identifier" : {
-                "enum" : [ "http://purl.org/radx-terms/metadata-terms/relatedResourceIdentifier" ]
+              "Related Resource File Name" : {
+                "enum" : [ "http://purl.org/radx-terms/metadata-terms/relatedResourceFileName" ]
               },
               "Resource Type Category" : {
                 "enum" : [ "http://purl.org/radx-terms/metadata-terms/relatedResourceTypeCategory" ]
@@ -5859,7 +5859,7 @@
                 "enum" : [ "http://purl.org/radx-terms/metadata-terms/relatedResourceRelationship" ]
               }
             },
-            "required" : [ "Related Resource File Name", "Related Resource Identifier Type", "Related Resource Identifier", "Resource Type Category", "Relation of Resource to Data File" ],
+            "required" : [ "Related Resource Identifier", "Related Resource Identifier Type", "Related Resource File Name", "Resource Type Category", "Relation of Resource to Data File" ],
             "additionalProperties" : false
           },
           "@type" : {
@@ -6398,47 +6398,47 @@
               "skos:notation" : {
                 "enum" : [ "xsd:string" ]
               },
-              "Contributor Identifier Scheme IRI" : {
-                "enum" : [ "http://purl.org/radx-terms/metadata-terms/contributorIdentifierSchemeIdentifier" ]
-              },
-              "Contributor Identifier" : {
-                "enum" : [ "http://purl.org/radx-terms/metadata-terms/contributorIdentifier" ]
-              },
-              "Contributor Email" : {
-                "enum" : [ "http://purl.org/radx-terms/metadata-terms/contributorEmail" ]
+              "Contributor Type" : {
+                "enum" : [ "http://purl.org/radx-terms/metadata-terms/contributorType" ]
               },
               "Contributor Name" : {
                 "enum" : [ "http://purl.org/radx-terms/metadata-terms/contributorName" ]
               },
-              "Contributor Type" : {
-                "enum" : [ "http://purl.org/radx-terms/metadata-terms/contributorType" ]
-              },
-              "Contributor Affiliation Identifier Scheme" : {
-                "enum" : [ "http://purl.org/radx-terms/metadata-terms/contributorAffiliationIdentifierScheme" ]
-              },
-              "Contributor Affiliation Identifier" : {
-                "enum" : [ "http://purl.org/radx-terms/metadata-terms/contributorAffiliationIdentifier" ]
-              },
-              "Contributor Role" : {
-                "enum" : [ "http://purl.org/radx-terms/metadata-terms/contributorRole" ]
+              "Contributor Given Name" : {
+                "enum" : [ "http://purl.org/radx-terms/metadata-terms/contributorGivenName" ]
               },
               "Contributor Family Name" : {
                 "enum" : [ "http://purl.org/radx-terms/metadata-terms/contributorFamilyName" ]
               },
+              "Contributor Identifier" : {
+                "enum" : [ "http://purl.org/radx-terms/metadata-terms/contributorIdentifier" ]
+              },
               "Contributor Identifier Scheme" : {
                 "enum" : [ "http://purl.org/radx-terms/metadata-terms/contributorIdentifierScheme" ]
               },
-              "Contributor Given Name" : {
-                "enum" : [ "http://purl.org/radx-terms/metadata-terms/contributorGivenName" ]
+              "Contributor Identifier Scheme IRI" : {
+                "enum" : [ "http://purl.org/radx-terms/metadata-terms/contributorIdentifierSchemeIdentifier" ]
               },
               "Contributor Affiliation" : {
                 "enum" : [ "http://purl.org/radx-terms/metadata-terms/contributorAffiliation" ]
               },
+              "Contributor Affiliation Identifier" : {
+                "enum" : [ "http://purl.org/radx-terms/metadata-terms/contributorAffiliationIdentifier" ]
+              },
+              "Contributor Affiliation Identifier Scheme" : {
+                "enum" : [ "http://purl.org/radx-terms/metadata-terms/contributorAffiliationIdentifierScheme" ]
+              },
               "Contributor Affiliation Identifier Scheme IRI" : {
                 "enum" : [ "http://purl.org/radx-terms/metadata-terms/contributorAffiliationIdentifierSchemeIri" ]
+              },
+              "Contributor Email" : {
+                "enum" : [ "http://purl.org/radx-terms/metadata-terms/contributorEmail" ]
+              },
+              "Contributor Role" : {
+                "enum" : [ "http://purl.org/radx-terms/metadata-terms/contributorRole" ]
               }
             },
-            "required" : [ "Contributor Identifier Scheme IRI", "Contributor Identifier", "Contributor Email", "Contributor Name", "Contributor Type", "Contributor Affiliation Identifier Scheme", "Contributor Affiliation Identifier", "Contributor Role", "Contributor Family Name", "Contributor Identifier Scheme", "Contributor Given Name", "Contributor Affiliation", "Contributor Affiliation Identifier Scheme IRI" ],
+            "required" : [ "Contributor Type", "Contributor Name", "Contributor Given Name", "Contributor Family Name", "Contributor Identifier", "Contributor Identifier Scheme", "Contributor Identifier Scheme IRI", "Contributor Affiliation", "Contributor Affiliation Identifier", "Contributor Affiliation Identifier Scheme", "Contributor Affiliation Identifier Scheme IRI", "Contributor Email", "Contributor Role" ],
             "additionalProperties" : false
           },
           "@type" : {
@@ -8336,29 +8336,29 @@
               "skos:notation" : {
                 "enum" : [ "xsd:string" ]
               },
-              "Study Identifier Scheme" : {
-                "enum" : [ "http://purl.org/radx-terms/metadata-terms/parentStudyIdentifierScheme" ]
-              },
-              "Study End Date" : {
-                "enum" : [ "http://purl.org/radx-terms/metadata-terms/studyEndDate" ]
-              },
-              "Study Start Date" : {
-                "enum" : [ "http://purl.org/radx-terms/metadata-terms/studyStartDate" ]
-              },
-              "Study Identifier Scheme IRI" : {
-                "enum" : [ "http://purl.org/radx-terms/metadata-terms/parentStudyIdentifierSchemeIri" ]
+              "PHS Identifier" : {
+                "enum" : [ "http://purl.org/radx-terms/metadata-terms/parentStudyPhsIdentifier" ]
               },
               "Study Identifier" : {
                 "enum" : [ "http://purl.org/radx-terms/metadata-terms/ParentStudyIdentifier" ]
               },
-              "PHS Identifier" : {
-                "enum" : [ "http://purl.org/radx-terms/metadata-terms/parentStudyPhsIdentifier" ]
+              "Study Identifier Scheme" : {
+                "enum" : [ "http://purl.org/radx-terms/metadata-terms/parentStudyIdentifierScheme" ]
+              },
+              "Study Identifier Scheme IRI" : {
+                "enum" : [ "http://purl.org/radx-terms/metadata-terms/parentStudyIdentifierSchemeIri" ]
               },
               "Study Name" : {
                 "enum" : [ "http://purl.org/radx-terms/metadata-terms/parentStudyName" ]
+              },
+              "Study Start Date" : {
+                "enum" : [ "http://purl.org/radx-terms/metadata-terms/studyStartDate" ]
+              },
+              "Study End Date" : {
+                "enum" : [ "http://purl.org/radx-terms/metadata-terms/studyEndDate" ]
               }
             },
-            "required" : [ "Study Identifier Scheme", "Study End Date", "Study Start Date", "Study Identifier Scheme IRI", "Study Identifier", "PHS Identifier", "Study Name" ],
+            "required" : [ "PHS Identifier", "Study Identifier", "Study Identifier Scheme", "Study Identifier Scheme IRI", "Study Name", "Study Start Date", "Study End Date" ],
             "additionalProperties" : false
           },
           "@type" : {
@@ -9073,26 +9073,26 @@
               "Award Title" : {
                 "enum" : [ "http://purl.org/radx-terms/metadata-terms/awardTitle" ]
               },
-              "Funder Identifier" : {
-                "enum" : [ "http://purl.org/radx-terms/metadata-terms/funderIdentifier" ]
+              "Award Page URL" : {
+                "enum" : [ "http://purl.org/radx-terms/metadata-terms/awardPageUrl" ]
+              },
+              "Award Local Identifier" : {
+                "enum" : [ "http://purl.org/radx-terms/metadata-terms/awardIdentifier" ]
               },
               "Funder Name" : {
                 "enum" : [ "http://purl.org/radx-terms/metadata-terms/funderName" ]
               },
-              "Award Local Identifier" : {
-                "enum" : [ "http://purl.org/radx-terms/metadata-terms/awardIdentifier" ]
+              "Funder Identifier" : {
+                "enum" : [ "http://purl.org/radx-terms/metadata-terms/funderIdentifier" ]
               },
               "Funder Identifier Scheme" : {
                 "enum" : [ "http://purl.org/radx-terms/metadata-terms/funderIdentifierScheme" ]
               },
               "Funder Identifier Scheme IRI" : {
                 "enum" : [ "http://purl.org/radx-terms/metadata-terms/funderIdentifierSchemeIri" ]
-              },
-              "Award Page URL" : {
-                "enum" : [ "http://purl.org/radx-terms/metadata-terms/awardPageUrl" ]
               }
             },
-            "required" : [ "Award Title", "Funder Identifier", "Funder Name", "Award Local Identifier", "Funder Identifier Scheme", "Funder Identifier Scheme IRI", "Award Page URL" ],
+            "required" : [ "Award Title", "Award Page URL", "Award Local Identifier", "Funder Name", "Funder Identifier", "Funder Identifier Scheme", "Funder Identifier Scheme IRI" ],
             "additionalProperties" : false
           },
           "@type" : {
@@ -9794,20 +9794,17 @@
               "skos:notation" : {
                 "enum" : [ "xsd:string" ]
               },
-              "Data File Publication Date" : {
-                "enum" : [ "http://purl.org/radx-terms/metadata-terms/distributionPublicationDateDescriptor" ]
+              "Distribution Publisher" : {
+                "enum" : [ "http://purl.org/radx-terms/metadata-terms/distributionPublisher" ]
               },
               "Distribution Publisher Identifier" : {
                 "enum" : [ "http://purl.org/radx-terms/metadata-terms/distributionPublisherIdentifier" ]
               },
-              "Distribution Access Configuration" : {
-                "enum" : [ "http://purl.org/radx-terms/metadata-terms/distributionAccessConfiguration" ]
+              "Distribution Publisher Identifier Scheme" : {
+                "enum" : [ "http://purl.org/radx-terms/metadata-terms/distributionPublisherIdentifierScheme" ]
               },
-              "Distribution Format" : {
-                "enum" : [ "http://purl.org/radx-terms/metadata-terms/distributionFormat" ]
-              },
-              "Distribution Media Type" : {
-                "enum" : [ "http://purl.org/radx-terms/metadata-terms/distributionMediaType" ]
+              "Distribution Publisher Identifier Scheme IRI" : {
+                "enum" : [ "http://purl.org/radx-terms/metadata-terms/distributionPublisherIdentifierSchemeIri" ]
               },
               "Distribution Identifier" : {
                 "enum" : [ "http://purl.org/radx-terms/metadata-terms/distributionIdentifier" ]
@@ -9815,26 +9812,29 @@
               "Distribution Identifier Type" : {
                 "enum" : [ "http://purl.org/radx-terms/metadata-terms/distributionIdentifierType" ]
               },
-              "Distribution Publisher" : {
-                "enum" : [ "http://purl.org/radx-terms/metadata-terms/distributionPublisher" ]
+              "Distribution Format" : {
+                "enum" : [ "http://purl.org/radx-terms/metadata-terms/distributionFormat" ]
               },
-              "Distribution Publisher Identifier Scheme IRI" : {
-                "enum" : [ "http://purl.org/radx-terms/metadata-terms/distributionPublisherIdentifierSchemeIri" ]
+              "Distribution Media Type" : {
+                "enum" : [ "http://purl.org/radx-terms/metadata-terms/distributionMediaType" ]
               },
               "Distribution Size" : {
                 "enum" : [ "http://purl.org/radx-terms/metadata-terms/distributionSizeInBytes" ]
               },
-              "Distribution Publisher Identifier Scheme" : {
-                "enum" : [ "http://purl.org/radx-terms/metadata-terms/distributionPublisherIdentifierScheme" ]
-              },
               "Distribution Access Protocol" : {
                 "enum" : [ "http://purl.org/radx-terms/metadata-terms/distributionAccessProtocol" ]
               },
+              "Distribution Access Configuration" : {
+                "enum" : [ "http://purl.org/radx-terms/metadata-terms/distributionAccessConfiguration" ]
+              },
               "Distribution Query Statement" : {
                 "enum" : [ "http://purl.org/radx-terms/metadata-terms/distributionQueryStatement" ]
+              },
+              "Data File Publication Date" : {
+                "enum" : [ "http://purl.org/radx-terms/metadata-terms/distributionPublicationDateDescriptor" ]
               }
             },
-            "required" : [ "Data File Publication Date", "Distribution Publisher Identifier", "Distribution Access Configuration", "Distribution Format", "Distribution Media Type", "Distribution Identifier", "Distribution Identifier Type", "Distribution Publisher", "Distribution Publisher Identifier Scheme IRI", "Distribution Size", "Distribution Publisher Identifier Scheme", "Distribution Access Protocol", "Distribution Query Statement" ],
+            "required" : [ "Distribution Publisher", "Distribution Publisher Identifier", "Distribution Publisher Identifier Scheme", "Distribution Publisher Identifier Scheme IRI", "Distribution Identifier", "Distribution Identifier Type", "Distribution Format", "Distribution Media Type", "Distribution Size", "Distribution Access Protocol", "Distribution Access Configuration", "Distribution Query Statement", "Data File Publication Date" ],
             "additionalProperties" : false
           },
           "@type" : {
@@ -11273,6 +11273,9 @@
             "skos:notation" : {
               "enum" : [ "xsd:string" ]
             },
+            "Data Characteristics Table in HTML" : {
+              "enum" : [ "http://purl.org/radx-terms/metadata-terms/dataCharacteristicsTableInHtml" ]
+            },
             "Data Characteristics Table in CSV" : {
               "enum" : [ "http://purl.org/radx-terms/metadata-terms/dataCharacteristicsTableInCsv" ]
             },
@@ -11281,12 +11284,9 @@
             },
             "Data Characteristics Table in Key-Value Pairs" : {
               "enum" : [ "https://schema.metadatacenter.org/properties/7ca56d90-7c21-4a3e-8fa7-1a09060624ea" ]
-            },
-            "Data Characteristics Table in HTML" : {
-              "enum" : [ "http://purl.org/radx-terms/metadata-terms/dataCharacteristicsTableInHtml" ]
             }
           },
-          "required" : [ "Data Characteristics Table in CSV", "Data Characteristics Table in TSV", "Data Characteristics Table in Key-Value Pairs", "Data Characteristics Table in HTML" ],
+          "required" : [ "Data Characteristics Table in HTML", "Data Characteristics Table in CSV", "Data Characteristics Table in TSV", "Data Characteristics Table in Key-Value Pairs" ],
           "additionalProperties" : false
         },
         "@type" : {
@@ -11708,6 +11708,9 @@
               "skos:notation" : {
                 "enum" : [ "xsd:string" ]
               },
+              "Data Source Name" : {
+                "enum" : [ "http://purl.org/radx-terms/metadata-terms/dataSourceName" ]
+              },
               "Data Source Identifier" : {
                 "enum" : [ "http://purl.org/radx-terms/metadata-terms/dataSourceIdentifier" ]
               },
@@ -11716,12 +11719,9 @@
               },
               "Data Source Identifier Scheme IRI" : {
                 "enum" : [ "http://purl.org/radx-terms/metadata-terms/dataSourceIdentifierSchemeIri" ]
-              },
-              "Data Source Name" : {
-                "enum" : [ "http://purl.org/radx-terms/metadata-terms/dataSourceName" ]
               }
             },
-            "required" : [ "Data Source Identifier", "Data Source Identifier Scheme", "Data Source Identifier Scheme IRI", "Data Source Name" ],
+            "required" : [ "Data Source Name", "Data Source Identifier", "Data Source Identifier Scheme", "Data Source Identifier Scheme IRI" ],
             "additionalProperties" : false
           },
           "@type" : {
@@ -12163,26 +12163,26 @@
               "skos:notation" : {
                 "enum" : [ "xsd:string" ]
               },
+              "Data Stream Name" : {
+                "enum" : [ "http://purl.org/radx-terms/metadata-terms/dataStreamName" ]
+              },
               "Data Stream Identifier" : {
                 "enum" : [ "http://purl.org/radx-terms/metadata-terms/dataStreamIdentifier" ]
               },
-              "Data Stream Variable Name" : {
-                "enum" : [ "http://purl.org/radx-terms/metadata-terms/dataStreamVariableName" ]
+              "Data Stream Identifier Scheme" : {
+                "enum" : [ "http://purl.org/radx-terms/metadata-terms/dataStreamIdentifierScheme" ]
               },
               "Data Stream Identifier Scheme IRI" : {
                 "enum" : [ "http://purl.org/radx-terms/metadata-terms/dataStreamIdentifierSchemeIri" ]
               },
-              "Data Stream Name" : {
-                "enum" : [ "http://purl.org/radx-terms/metadata-terms/dataStreamName" ]
-              },
-              "Data Stream Identifier Scheme" : {
-                "enum" : [ "http://purl.org/radx-terms/metadata-terms/dataStreamIdentifierScheme" ]
+              "Data Stream Variable Name" : {
+                "enum" : [ "http://purl.org/radx-terms/metadata-terms/dataStreamVariableName" ]
               },
               "Data Stream Data Source Identifier" : {
                 "enum" : [ "http://purl.org/radx-terms/metadata-terms/dataStreamDataSourceIdentifier" ]
               }
             },
-            "required" : [ "Data Stream Identifier", "Data Stream Variable Name", "Data Stream Identifier Scheme IRI", "Data Stream Name", "Data Stream Identifier Scheme", "Data Stream Data Source Identifier" ],
+            "required" : [ "Data Stream Name", "Data Stream Identifier", "Data Stream Identifier Scheme", "Data Stream Identifier Scheme IRI", "Data Stream Variable Name", "Data Stream Data Source Identifier" ],
             "additionalProperties" : false
           },
           "@type" : {
@@ -12805,20 +12805,20 @@
               "skos:notation" : {
                 "enum" : [ "xsd:string" ]
               },
+              "Process Name" : {
+                "enum" : [ "http://purl.org/radx-terms/metadata-terms/creationProcessName" ]
+              },
+              "Process IRI" : {
+                "enum" : [ "http://purl.org/radx-terms/metadata-terms/creationProcessIri" ]
+              },
               "Process Version" : {
                 "enum" : [ "http://purl.org/radx-terms/metadata-terms/creationProcessVersion" ]
               },
               "Process Execution Identifier" : {
                 "enum" : [ "http://purl.org/radx-terms/metadata-terms/creationProcessExecutionIdentifier" ]
-              },
-              "Process IRI" : {
-                "enum" : [ "http://purl.org/radx-terms/metadata-terms/creationProcessIri" ]
-              },
-              "Process Name" : {
-                "enum" : [ "http://purl.org/radx-terms/metadata-terms/creationProcessName" ]
               }
             },
-            "required" : [ "Process Version", "Process Execution Identifier", "Process IRI", "Process Name" ],
+            "required" : [ "Process Name", "Process IRI", "Process Version", "Process Execution Identifier" ],
             "additionalProperties" : false
           },
           "@type" : {
@@ -13711,17 +13711,17 @@
               "skos:notation" : {
                 "enum" : [ "xsd:string" ]
               },
+              "Bounding Box" : {
+                "enum" : [ "http://purl.org/radx-terms/metadata-terms/boxCoverageDescriptor" ]
+              },
               "Bounding Shape" : {
                 "enum" : [ "http://purl.org/radx-terms/metadata-terms/dataFileShapeCoverageDescriptor" ]
               },
               "Data File Geopolitical Coverage" : {
                 "enum" : [ "http://purl.org/radx-terms/metadata-terms/geographicalPlaceNameDescriptor" ]
-              },
-              "Bounding Box" : {
-                "enum" : [ "http://purl.org/radx-terms/metadata-terms/boxCoverageDescriptor" ]
               }
             },
-            "required" : [ "Bounding Shape", "Data File Geopolitical Coverage", "Bounding Box" ],
+            "required" : [ "Bounding Box", "Bounding Shape", "Data File Geopolitical Coverage" ],
             "additionalProperties" : false
           },
           "@type" : {
@@ -13794,20 +13794,20 @@
                     "skos:notation" : {
                       "enum" : [ "xsd:string" ]
                     },
-                    "Minimum Latitude" : {
-                      "enum" : [ "http://purl.org/radx-terms/metadata-terms/minLat" ]
-                    },
                     "Maximum Latitude" : {
                       "enum" : [ "https://schema.metadatacenter.org/properties/e8f3ce8b-353d-493f-b1f6-588e5b32c578" ]
                     },
-                    "Maximum Longitude" : {
-                      "enum" : [ "http://purl.org/radx-terms/metadata-terms/maxLon" ]
+                    "Minimum Latitude" : {
+                      "enum" : [ "http://purl.org/radx-terms/metadata-terms/minLat" ]
                     },
                     "Minimum Longitude" : {
                       "enum" : [ "http://purl.org/radx-terms/metadata-terms/minLon" ]
+                    },
+                    "Maximum Longitude" : {
+                      "enum" : [ "http://purl.org/radx-terms/metadata-terms/maxLon" ]
                     }
                   },
-                  "required" : [ "Minimum Latitude", "Maximum Latitude", "Maximum Longitude", "Minimum Longitude" ],
+                  "required" : [ "Maximum Latitude", "Minimum Latitude", "Minimum Longitude", "Maximum Longitude" ],
                   "additionalProperties" : false
                 },
                 "@type" : {
@@ -14809,17 +14809,17 @@
               "Vertical Extent Minimum Value" : {
                 "enum" : [ "http://purl.org/radx-terms/metadata-terms/minElevation" ]
               },
+              "Vertical Extent Maximum Value" : {
+                "enum" : [ "http://purl.org/radx-terms/metadata-terms/maxElevation" ]
+              },
               "Vertical Extent Datum" : {
                 "enum" : [ "http://purl.org/radx-terms/metadata-terms/elevationReferenceFrame" ]
               },
               "Vertical Extent Datum IRI" : {
                 "enum" : [ "http://purl.org/radx-terms/metadata-terms/elevationReferenceFrameIri" ]
-              },
-              "Vertical Extent Maximum Value" : {
-                "enum" : [ "http://purl.org/radx-terms/metadata-terms/maxElevation" ]
               }
             },
-            "required" : [ "Vertical Extent Minimum Value", "Vertical Extent Datum", "Vertical Extent Datum IRI", "Vertical Extent Maximum Value" ],
+            "required" : [ "Vertical Extent Minimum Value", "Vertical Extent Maximum Value", "Vertical Extent Datum", "Vertical Extent Datum IRI" ],
             "additionalProperties" : false
           },
           "@type" : {

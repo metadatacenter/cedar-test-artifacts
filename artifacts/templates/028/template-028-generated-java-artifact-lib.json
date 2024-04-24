@@ -154,26 +154,26 @@
             }
           }
         },
-        "license" : {
-          "enum" : [ "https://schema.metadatacenter.org/properties/1872f17a-7791-4b24-b1cb-3de7ef4c31e6" ]
-        },
-        "datasetMetadataInstanceIdentifier" : {
-          "enum" : [ "http://www.w3.org/ns/dcat#dataset" ]
-        },
         "Read & Understood Catalog" : {
           "enum" : [ "https://schema.metadatacenter.org/properties/a61ce8cd-37e7-4a0f-9035-5cd0e5f6756c" ]
         },
         "catalogTitle" : {
           "enum" : [ "http://purl.org/dc/terms/title" ]
         },
+        "catalogDescription" : {
+          "enum" : [ "http://purl.org/dc/terms/description" ]
+        },
         "publisher" : {
           "enum" : [ "http://purl.org/dc/terms/publisher" ]
         },
-        "catalogDescription" : {
-          "enum" : [ "http://purl.org/dc/terms/description" ]
+        "license" : {
+          "enum" : [ "https://schema.metadatacenter.org/properties/1872f17a-7791-4b24-b1cb-3de7ef4c31e6" ]
+        },
+        "datasetMetadataInstanceIdentifier" : {
+          "enum" : [ "http://www.w3.org/ns/dcat#dataset" ]
         }
       },
-      "required" : [ "xsd", "pav", "schema", "oslc", "schema:isBasedOn", "schema:name", "schema:description", "pav:createdOn", "pav:createdBy", "pav:lastUpdatedOn", "oslc:modifiedBy", "license", "datasetMetadataInstanceIdentifier", "Read & Understood Catalog", "catalogTitle", "publisher", "catalogDescription" ],
+      "required" : [ "xsd", "pav", "schema", "oslc", "schema:isBasedOn", "schema:name", "schema:description", "pav:createdOn", "pav:createdBy", "pav:lastUpdatedOn", "oslc:modifiedBy", "Read & Understood Catalog", "catalogTitle", "catalogDescription", "publisher", "license", "datasetMetadataInstanceIdentifier" ],
       "additionalProperties" : false
     },
     "@type" : {

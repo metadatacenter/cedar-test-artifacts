@@ -46,17 +46,17 @@
         "skos:notation" : {
           "enum" : [ "xsd:string" ]
         },
-        "externalLink" : {
-          "enum" : [ "https://schema.metadatacenter.net/properties/externalLink" ]
+        "title" : {
+          "enum" : [ "https://schema.metadatacenter.net/properties/title" ]
         },
         "description" : {
           "enum" : [ "https://schema.metadatacenter.net/properties/description" ]
         },
-        "title" : {
-          "enum" : [ "https://schema.metadatacenter.net/properties/title" ]
+        "externalLink" : {
+          "enum" : [ "https://schema.metadatacenter.net/properties/externalLink" ]
         }
       },
-      "required" : [ "externalLink", "description", "title" ],
+      "required" : [ "title", "description", "externalLink" ],
       "additionalProperties" : false
     },
     "@type" : {

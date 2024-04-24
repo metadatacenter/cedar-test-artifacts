@@ -153,14 +153,14 @@
             }
           }
         },
-        "Multiple choice without default" : {
-          "enum" : [ "https://schema.metadatacenter.org/properties/3b1a224d-0c1b-485c-ac74-89f15f608b99" ]
-        },
         "Multiple choice with default" : {
           "enum" : [ "https://schema.metadatacenter.org/properties/d01cb533-265c-474a-95f3-9afb4616a6e1" ]
+        },
+        "Multiple choice without default" : {
+          "enum" : [ "https://schema.metadatacenter.org/properties/3b1a224d-0c1b-485c-ac74-89f15f608b99" ]
         }
       },
-      "required" : [ "xsd", "pav", "schema", "oslc", "schema:isBasedOn", "schema:name", "schema:description", "pav:createdOn", "pav:createdBy", "pav:lastUpdatedOn", "oslc:modifiedBy", "Multiple choice without default", "Multiple choice with default" ],
+      "required" : [ "xsd", "pav", "schema", "oslc", "schema:isBasedOn", "schema:name", "schema:description", "pav:createdOn", "pav:createdBy", "pav:lastUpdatedOn", "oslc:modifiedBy", "Multiple choice with default", "Multiple choice without default" ],
       "additionalProperties" : false
     },
     "@type" : {

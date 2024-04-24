@@ -153,14 +153,14 @@
             }
           }
         },
-        "My checkbox 2" : {
-          "enum" : [ "https://schema.metadatacenter.org/properties/ec9ef44d-7d97-4531-ae39-7e880880cfe7" ]
-        },
         "My checkbox 1" : {
           "enum" : [ "https://schema.metadatacenter.org/properties/2930dd2f-ba5e-4b8f-ba92-09fb8f7ab0c2" ]
+        },
+        "My checkbox 2" : {
+          "enum" : [ "https://schema.metadatacenter.org/properties/ec9ef44d-7d97-4531-ae39-7e880880cfe7" ]
         }
       },
-      "required" : [ "xsd", "pav", "schema", "oslc", "schema:isBasedOn", "schema:name", "schema:description", "pav:createdOn", "pav:createdBy", "pav:lastUpdatedOn", "oslc:modifiedBy", "My checkbox 2", "My checkbox 1" ],
+      "required" : [ "xsd", "pav", "schema", "oslc", "schema:isBasedOn", "schema:name", "schema:description", "pav:createdOn", "pav:createdBy", "pav:lastUpdatedOn", "oslc:modifiedBy", "My checkbox 1", "My checkbox 2" ],
       "additionalProperties" : false
     },
     "@type" : {
