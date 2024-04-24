@@ -158,7 +158,7 @@ children:
     id: https://repo.metadatacenter.org/template-fields/54d38f5c-dd5b-4b3e-82ef-7c2e577b1fba
     modelVersion: 1.6.0
     prefLabel: License
-    datatype: xsd:anyURI
+    datatype: iri
     values:
       - type: branch
         ontologyName: Ontology for Generic Dataset Metadata Template (FDC-GDMT)

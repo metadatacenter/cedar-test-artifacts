@@ -15,7 +15,7 @@ children:
     description: Help Text
     id: https://repo.metadatacenter.org/template-fields/8fbf3e19-5c8a-4b72-9463-c1769fc73f96
     modelVersion: 1.6.0
-    datatype: xsd:anyURI
+    datatype: iri
     values:
       - type: class
         label: Music

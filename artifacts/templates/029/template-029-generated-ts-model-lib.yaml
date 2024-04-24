@@ -354,7 +354,7 @@ children:
         version: 0.9.1
         modelVersion: 1.6.0
         prefLabel: Identifier Type
-        datatype: xsd:anyURI
+        datatype: iri
         values:
           - type: branch
             ontologyName: https://bioportal.bioontology.org/ontologies/FDC-GDMT
@@ -1008,7 +1008,7 @@ children:
         version: 0.9.1
         modelVersion: 1.6.0
         prefLabel: Subject Identifier
-        datatype: xsd:anyURI
+        datatype: iri
         values:
           - type: ontology
             acronym: MESH
@@ -1363,7 +1363,7 @@ children:
         version: 0.9.1
         modelVersion: 1.6.0
         prefLabel: Type Of Content
-        datatype: xsd:anyURI
+        datatype: iri
         default:
           value: http://vocab.fairdatacollective.org/gdmt/Dataset
           label: Dataset
@@ -1436,7 +1436,7 @@ children:
         version: 0.9.1
         modelVersion: 1.6.0
         prefLabel: Creator Type
-        datatype: xsd:anyURI
+        datatype: iri
         default:
           value: http://vocab.fairdatacollective.org/gdmt/Person
           label: Person
@@ -1518,7 +1518,7 @@ children:
         version: 0.9.1
         modelVersion: 1.6.0
         prefLabel: Creator Identifier Scheme
-        datatype: xsd:anyURI
+        datatype: iri
         values:
           - type: branch
             ontologyName: https://bioportal.bioontology.org/ontologies/FDC-GDMT
@@ -1592,7 +1592,7 @@ children:
         version: 0.9.1
         modelVersion: 1.6.0
         prefLabel: Creator Affiliation Identifier Scheme
-        datatype: xsd:anyURI
+        datatype: iri
         values:
           - type: branch
             ontologyName: https://bioportal.bioontology.org/ontologies/FDC-GDMT
@@ -1627,7 +1627,7 @@ children:
         version: 0.9.1
         modelVersion: 1.6.0
         prefLabel: Creator Role
-        datatype: xsd:anyURI
+        datatype: iri
         values:
           - type: branch
             ontologyName: https://bioportal.bioontology.org/ontologies/FDC-GDMT
@@ -1683,7 +1683,7 @@ children:
         version: 0.9.1
         modelVersion: 1.6.0
         prefLabel: Related Resource Identifier Type
-        datatype: xsd:anyURI
+        datatype: iri
         values:
           - type: branch
             ontologyName: https://bioportal.bioontology.org/ontologies/FDC-GDMT
@@ -1720,7 +1720,7 @@ children:
         version: 0.9.1
         modelVersion: 1.6.0
         prefLabel: Resource Type Category
-        datatype: xsd:anyURI
+        datatype: iri
         values:
           - type: branch
             ontologyName: https://bioportal.bioontology.org/ontologies/FDC-GDMT
@@ -1775,7 +1775,7 @@ children:
         version: 0.9.1
         modelVersion: 1.6.0
         prefLabel: Contributor Type
-        datatype: xsd:anyURI
+        datatype: iri
         default:
           value: http://vocab.fairdatacollective.org/gdmt/Person
           label: Person
@@ -1852,7 +1852,7 @@ children:
         version: 0.9.1
         modelVersion: 1.6.0
         prefLabel: Contributor Identifier Scheme
-        datatype: xsd:anyURI
+        datatype: iri
         values:
           - type: branch
             ontologyName: https://bioportal.bioontology.org/ontologies/FDC-GDMT
@@ -1913,7 +1913,7 @@ children:
         version: 0.9.1
         modelVersion: 1.6.0
         prefLabel: Contributor Affiliation Identifier Scheme
-        datatype: xsd:anyURI
+        datatype: iri
         values:
           - type: branch
             ontologyName: https://bioportal.bioontology.org/ontologies/FDC-GDMT
@@ -1960,7 +1960,7 @@ children:
         version: 0.9.1
         modelVersion: 1.6.0
         prefLabel: Contributor Role
-        datatype: xsd:anyURI
+        datatype: iri
         values:
           - type: branch
             ontologyName: https://bioportal.bioontology.org/ontologies/FDC-GDMT
@@ -1998,7 +1998,7 @@ children:
         version: 0.9.1
         modelVersion: 1.6.0
         prefLabel: License Name
-        datatype: xsd:anyURI
+        datatype: iri
         values:
           - type: branch
             ontologyName: https://bioportal.bioontology.org/ontologies/FDC-GDMT
@@ -2073,7 +2073,7 @@ children:
         version: 0.9.1
         modelVersion: 1.6.0
         prefLabel: Event Type
-        datatype: xsd:anyURI
+        datatype: iri
         values:
           - type: branch
             ontologyName: https://bioportal.bioontology.org/ontologies/FDC-GDMT
@@ -2161,7 +2161,7 @@ children:
         version: 0.9.1
         modelVersion: 1.6.0
         prefLabel: Study Identifier Scheme
-        datatype: xsd:anyURI
+        datatype: iri
         values:
           - type: branch
             ontologyName: https://bioportal.bioontology.org/ontologies/FDC-GDMT
@@ -2361,7 +2361,7 @@ children:
         version: 0.9.1
         modelVersion: 1.6.0
         prefLabel: Funder Identifier Scheme
-        datatype: xsd:anyURI
+        datatype: iri
         values:
           - type: branch
             ontologyName: https://bioportal.bioontology.org/ontologies/FDC-GDMT
@@ -2441,7 +2441,7 @@ children:
         version: 0.9.1
         modelVersion: 1.6.0
         prefLabel: Distribution Publisher Identifier Scheme
-        datatype: xsd:anyURI
+        datatype: iri
         values:
           - type: branch
             ontologyName: https://bioportal.bioontology.org/ontologies/FDC-GDMT
@@ -2487,7 +2487,7 @@ children:
         version: 0.9.1
         modelVersion: 1.6.0
         prefLabel: Distribution Identifier Type
-        datatype: xsd:anyURI
+        datatype: iri
         values:
           - type: branch
             ontologyName: https://bioportal.bioontology.org/ontologies/FDC-GDMT
@@ -2522,7 +2522,7 @@ children:
         version: 0.9.1
         modelVersion: 1.6.0
         prefLabel: Distribution Media Type
-        datatype: xsd:anyURI
+        datatype: iri
         values:
           - type: branch
             ontologyName: https://bioportal.bioontology.org/ontologies/FDC-GDMT
@@ -2615,7 +2615,7 @@ children:
             version: 0.9.1
             modelVersion: 1.6.0
             prefLabel: Publication Date Type
-            datatype: xsd:anyURI
+            datatype: iri
             default:
               value: http://vocab.fairdatacollective.org/gdmt/Published
               label: Published
@@ -2765,7 +2765,7 @@ children:
         version: 0.9.1
         modelVersion: 1.6.0
         prefLabel: Data Source Identifier Scheme
-        datatype: xsd:anyURI
+        datatype: iri
         values:
           - type: branch
             ontologyName: https://bioportal.bioontology.org/ontologies/FDC-GDMT
@@ -2848,7 +2848,7 @@ children:
         version: 0.9.1
         modelVersion: 1.6.0
         prefLabel: Data Stream Identifier Scheme
-        datatype: xsd:anyURI
+        datatype: iri
         values:
           - type: branch
             ontologyName: https://bioportal.bioontology.org/ontologies/FDC-GDMT
