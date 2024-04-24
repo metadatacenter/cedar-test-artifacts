@@ -7,7 +7,7 @@ version: 0.0.1
 modelVersion: 1.6.0
 createdOn: 2016-09-13T10:27:40-07:00
 createdBy: https://repo.metadatacenter.net/users/6d21a887-b704-49a9-922a-aa71632f3232
-lastUpdatedOn: 2016-09-13T10:32:26-07:00
+modifiedOn: 2016-09-13T10:32:26-07:00
 modifiedBy: https://repo.metadatacenter.net/users/6d21a887-b704-49a9-922a-aa71632f3232
 children:
   - key: title
@@ -17,7 +17,7 @@ children:
     modelVersion: 1.6.0
     createdOn: 2016-09-13T10:32:26-07:00
     createdBy: https://repo.metadatacenter.net/users/6d21a887-b704-49a9-922a-aa71632f3232
-    lastUpdatedOn: 2016-09-13T10:32:26-07:00
+    modifiedOn: 2016-09-13T10:32:26-07:00
     modifiedBy: https://repo.metadatacenter.net/users/6d21a887-b704-49a9-922a-aa71632f3232
     configuration:
       propertyIri: https://schema.metadatacenter.net/properties/title
@@ -29,7 +29,7 @@ children:
     modelVersion: 1.6.0
     createdOn: 2016-09-13T10:32:26-07:00
     createdBy: https://repo.metadatacenter.net/users/6d21a887-b704-49a9-922a-aa71632f3232
-    lastUpdatedOn: 2016-09-13T10:32:26-07:00
+    modifiedOn: 2016-09-13T10:32:26-07:00
     modifiedBy: https://repo.metadatacenter.net/users/6d21a887-b704-49a9-922a-aa71632f3232
     configuration:
       propertyIri: https://schema.metadatacenter.net/properties/description
@@ -41,7 +41,7 @@ children:
     modelVersion: 1.6.0
     createdOn: 2016-09-13T10:32:26-07:00
     createdBy: https://repo.metadatacenter.net/users/6d21a887-b704-49a9-922a-aa71632f3232
-    lastUpdatedOn: 2016-09-13T10:32:26-07:00
+    modifiedOn: 2016-09-13T10:32:26-07:00
     modifiedBy: https://repo.metadatacenter.net/users/6d21a887-b704-49a9-922a-aa71632f3232
     configuration:
       propertyIri: https://schema.metadatacenter.net/properties/externalLink
