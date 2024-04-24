@@ -17,7 +17,7 @@ children:
     modelVersion: 1.6.0
     datatype: xsd:decimal
     configuration:
-      propertyUri: https://schema.metadatacenter.org/properties/9195f216-1e3e-4b93-87c5-1b253f345a28
+      propertyIri: https://schema.metadatacenter.org/properties/9195f216-1e3e-4b93-87c5-1b253f345a28
   - key: Long
     type: numeric-field
     name: Long
@@ -26,7 +26,7 @@ children:
     modelVersion: 1.6.0
     datatype: xsd:long
     configuration:
-      propertyUri: https://schema.metadatacenter.org/properties/16803a8f-81fc-488b-b7af-000e0a5cabc9
+      propertyIri: https://schema.metadatacenter.org/properties/16803a8f-81fc-488b-b7af-000e0a5cabc9
   - key: Integer
     type: numeric-field
     name: Integer
@@ -35,7 +35,7 @@ children:
     modelVersion: 1.6.0
     datatype: xsd:int
     configuration:
-      propertyUri: https://schema.metadatacenter.org/properties/e3644868-b3ea-4f2d-864c-4b0237d59bf4
+      propertyIri: https://schema.metadatacenter.org/properties/e3644868-b3ea-4f2d-864c-4b0237d59bf4
   - key: Double
     type: numeric-field
     name: Double
@@ -44,7 +44,7 @@ children:
     modelVersion: 1.6.0
     datatype: xsd:double
     configuration:
-      propertyUri: https://schema.metadatacenter.org/properties/f2acffd9-7e37-47cf-b6b7-39d99cfd94e3
+      propertyIri: https://schema.metadatacenter.org/properties/f2acffd9-7e37-47cf-b6b7-39d99cfd94e3
   - key: Float
     type: numeric-field
     name: Float
@@ -53,4 +53,4 @@ children:
     modelVersion: 1.6.0
     datatype: xsd:float
     configuration:
-      propertyUri: https://schema.metadatacenter.org/properties/85f7c300-74f7-4e64-b915-b4c1d289300d
+      propertyIri: https://schema.metadatacenter.org/properties/85f7c300-74f7-4e64-b915-b4c1d289300d

@@ -12,7 +12,7 @@ modifiedBy: https://repo.metadatacenter.net/users/6d21a887-b704-49a9-922a-aa7163
 children:
   - key: title
     type: text-field
-    name: title
+    name: Title
     id: https://repo.metadatacenter.net/template-fields/34f6c221-667d-4255-93a8-dcabe46939d8
     modelVersion: 1.6.0
     createdOn: 2016-09-13T10:32:26-07:00
@@ -20,10 +20,11 @@ children:
     lastUpdatedOn: 2016-09-13T10:32:26-07:00
     modifiedBy: https://repo.metadatacenter.net/users/6d21a887-b704-49a9-922a-aa71632f3232
     configuration:
-      propertyUri: https://schema.metadatacenter.net/properties/title
+      propertyIri: https://schema.metadatacenter.net/properties/title
+      overrideDescription: Title description
   - key: description
     type: text-field
-    name: description
+    name: Description
     id: https://repo.metadatacenter.net/template-fields/fb9e046f-e9ac-4e54-bc78-2603c9338152
     modelVersion: 1.6.0
     createdOn: 2016-09-13T10:32:26-07:00
@@ -31,10 +32,11 @@ children:
     lastUpdatedOn: 2016-09-13T10:32:26-07:00
     modifiedBy: https://repo.metadatacenter.net/users/6d21a887-b704-49a9-922a-aa71632f3232
     configuration:
-      propertyUri: https://schema.metadatacenter.net/properties/description
+      propertyIri: https://schema.metadatacenter.net/properties/description
+      overrideDescription: Description description
   - key: externalLink
     type: text-field
-    name: externalLink
+    name: External Link
     id: https://repo.metadatacenter.net/template-fields/47d7a72d-e578-4106-8e9b-40a5a6f3ef84
     modelVersion: 1.6.0
     createdOn: 2016-09-13T10:32:26-07:00
@@ -42,4 +44,5 @@ children:
     lastUpdatedOn: 2016-09-13T10:32:26-07:00
     modifiedBy: https://repo.metadatacenter.net/users/6d21a887-b704-49a9-922a-aa71632f3232
     configuration:
-      propertyUri: https://schema.metadatacenter.net/properties/externalLink
+      propertyIri: https://schema.metadatacenter.net/properties/externalLink
+      overrideDescription: External Link description

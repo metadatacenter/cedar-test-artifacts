@@ -21,4 +21,4 @@ children:
     lastUpdatedOn: 2024-03-07T23:22:25-08:00
     modifiedBy: https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95
     configuration:
-      propertyUri: https://schema.metadatacenter.org/properties/d4eb0536-f01a-4075-a624-1f6b1d436f4f
+      propertyIri: https://schema.metadatacenter.org/properties/d4eb0536-f01a-4075-a624-1f6b1d436f4f

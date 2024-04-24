@@ -23,7 +23,7 @@ children:
     lastUpdatedOn: 2024-03-06T14:35:02-08:00
     modifiedBy: https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95
     configuration:
-      propertyUri: https://schema.metadatacenter.org/properties/94a247ff-5b4c-4fa0-91e5-dd07509d354d
+      propertyIri: https://schema.metadatacenter.org/properties/94a247ff-5b4c-4fa0-91e5-dd07509d354d
   - key: Simple time
     type: temporal-field
     name: Simple time
@@ -33,12 +33,14 @@ children:
     prefLabel: Simple time preferred
     datatype: xsd:time
     granularity: second
+    inputTimeFormat: 12h
+    inputTimeZone: true
     createdOn: 2024-03-06T14:35:02-08:00
     createdBy: https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95
     lastUpdatedOn: 2024-03-06T14:35:02-08:00
     modifiedBy: https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95
     configuration:
-      propertyUri: https://schema.metadatacenter.org/properties/79fc4226-7537-4548-a5a9-9ffc6827d322
+      propertyIri: https://schema.metadatacenter.org/properties/79fc4226-7537-4548-a5a9-9ffc6827d322
   - key: Complex datetime
     type: temporal-field
     name: Complex datetime
@@ -51,12 +53,14 @@ children:
       - Alt label 2
     datatype: xsd:dateTime
     granularity: decimalSecond
+    inputTimeFormat: 12h
+    inputTimeZone: true
     createdOn: 2024-03-06T14:35:02-08:00
     createdBy: https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95
     lastUpdatedOn: 2024-03-06T14:35:02-08:00
     modifiedBy: https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95
     configuration:
       required: true
+      propertyIri: https://schema.metadatacenter.org/properties/8d0b0f66-e14d-4257-8042-d0d65f44c4b1
       multiple: true
       minItems: 1
-      propertyUri: https://schema.metadatacenter.org/properties/8d0b0f66-e14d-4257-8042-d0d65f44c4b1
