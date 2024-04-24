@@ -31,10 +31,10 @@ children:
     id: https://repo.metadatacenter.org/template-fields/40db78e1-834d-46f8-92c3-d8a57571bf0a
     modelVersion: 1.6.0
     prefLabel: Simple time preferred
-    timeZone: true
-    timeFormat: 12h
     datatype: xsd:time
     granularity: second
+    inputTimeFormat: 12h
+    inputTimeZone: true
     createdOn: 2024-03-06T14:35:02-08:00
     createdBy: https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95
     lastUpdatedOn: 2024-03-06T14:35:02-08:00
@@ -51,10 +51,10 @@ children:
     altLabels:
       - Alt label 1
       - Alt label 2
-    timeZone: true
-    timeFormat: 12h
     datatype: xsd:dateTime
     granularity: decimalSecond
+    inputTimeFormat: 12h
+    inputTimeZone: true
     createdOn: 2024-03-06T14:35:02-08:00
     createdBy: https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95
     lastUpdatedOn: 2024-03-06T14:35:02-08:00

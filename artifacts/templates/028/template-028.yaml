@@ -5,11 +5,11 @@ id: https://repo.metadatacenter.org/templates/5a1651a1-7f30-497d-a1be-1ac62c9273
 status: published
 version: 0.0.1
 modelVersion: 1.6.0
+derivedFrom: https://repo.metadatacenter.org/templates/2ef5e58f-0770-484d-80ae-23768cc1fda2
 createdOn: 2022-06-19T09:15:48-07:00
 createdBy: https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b
 lastUpdatedOn: 2022-06-19T21:59:19-07:00
 modifiedBy: https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b
-derivedFrom: https://repo.metadatacenter.org/templates/2ef5e58f-0770-484d-80ae-23768cc1fda2
 children:
   - key: Read & Understood Catalog
     type: element
@@ -18,11 +18,11 @@ children:
     status: draft
     version: 0.0.1
     modelVersion: 1.6.0
+    derivedFrom: https://repo.metadatacenter.org/template-elements/0f91041a-b334-41d2-abb4-ec1b5da6d180
     createdOn: 2022-06-19T21:59:19-07:00
     createdBy: https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b
     lastUpdatedOn: 2022-06-19T21:59:19-07:00
     modifiedBy: https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b
-    derivedFrom: https://repo.metadatacenter.org/template-elements/0f91041a-b334-41d2-abb4-ec1b5da6d180
     children:
       - key: Read & Understood - RT
         type: static-rich-text
