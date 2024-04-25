@@ -15,7 +15,7 @@ children:
     description: Help Text
     id: https://repo.metadatacenter.org/template-fields/ded5aa1e-b665-4897-b5b3-2084eff12a0c
     modelVersion: 1.6.0
-    datatype: xsd:anyURI
+    datatype: iri
     values:
       - type: ontology
         acronym: HOME

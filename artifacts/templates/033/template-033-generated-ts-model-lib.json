@@ -318,7 +318,8 @@
         },
         "oslc:modifiedBy": {
           "@type": "@id"
-        }
+        },
+        "@language": "en"
       },
       "type": "object",
       "title": "Title field schema",

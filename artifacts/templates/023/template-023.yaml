@@ -18,7 +18,7 @@ children:
     altLabels:
       - ALT label 1
       - ALT label 2
-    datatype: xsd:anyURI
+    datatype: iri
     default:
       value: http://purl.bioontology.org/ontology/MESH/C039047
       label: 2,3,6-trichlorotoluene
