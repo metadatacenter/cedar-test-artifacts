@@ -329,10 +329,10 @@
       },
       "_valueConstraints": {
         "requiredValue": false,
+        "regex": "^[A-Z][^A-Z]*$",
         "defaultValue": "Default Value",
         "minLength": 10,
-        "maxLength": 100,
-        "regex": "^[A-Z][^A-Z]*$"
+        "maxLength": 100
       },
       "properties": {
         "@type": {
@@ -362,16 +362,16 @@
       "pav:createdBy": "https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95",
       "pav:lastUpdatedOn": "2024-03-01T13:44:25-08:00",
       "oslc:modifiedBy": "https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95",
+      "pav:version": "0.0.1",
+      "bibo:status": "bibo:draft",
       "schema:schemaVersion": "1.6.0",
       "additionalProperties": false,
-      "bibo:status": "bibo:draft",
-      "pav:version": "0.0.1",
-      "$schema": "http://json-schema.org/draft-04/schema#",
+      "skos:prefLabel": "Preferred label value",
       "skos:altLabel": [
         "Alternate label 1",
         "Alternate label 2"
       ],
-      "skos:prefLabel": "Preferred label value"
+      "$schema": "http://json-schema.org/draft-04/schema#"
     }
   },
   "required": [
@@ -392,9 +392,9 @@
   "pav:createdBy": "https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95",
   "pav:lastUpdatedOn": "2024-03-01T13:44:25-08:00",
   "oslc:modifiedBy": "https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95",
+  "pav:version": "0.0.1",
+  "bibo:status": "bibo:draft",
   "schema:schemaVersion": "1.6.0",
   "additionalProperties": false,
-  "bibo:status": "bibo:draft",
-  "pav:version": "0.0.1",
   "$schema": "http://json-schema.org/draft-04/schema#"
 }

@@ -71,11 +71,11 @@
   "pav:createdBy": "https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014",
   "pav:lastUpdatedOn": "2022-10-13T12:44:16-07:00",
   "oslc:modifiedBy": "https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014",
+  "pav:version": "0.9.1",
+  "bibo:status": "bibo:draft",
   "schema:schemaVersion": "1.6.0",
   "additionalProperties": false,
-  "bibo:status": "bibo:draft",
-  "pav:version": "0.9.1",
-  "$schema": "http://json-schema.org/draft-04/schema#",
   "skos:prefLabel": "Subject Identifier Scheme",
-  "schema:identifier": "subject_identifier_scheme"
+  "schema:identifier": "subject_identifier_scheme",
+  "$schema": "http://json-schema.org/draft-04/schema#"
 }

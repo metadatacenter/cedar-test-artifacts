@@ -291,10 +291,10 @@
   "pav:createdBy": "https://metadatacenter.org/users/68d898fd-2b81-492c-b68c-a80c8283fd8a",
   "pav:lastUpdatedOn": "2024-02-15T11:23:19-08:00",
   "oslc:modifiedBy": "https://metadatacenter.org/users/68d898fd-2b81-492c-b68c-a80c8283fd8a",
+  "pav:version": "0.0.1",
+  "bibo:status": "bibo:published",
   "schema:schemaVersion": "1.6.0",
   "additionalProperties": false,
-  "bibo:status": "bibo:published",
-  "pav:version": "0.0.1",
   "$schema": "http://json-schema.org/draft-04/schema#",
   "_annotations": {
     "https://datacite.com/doi": {

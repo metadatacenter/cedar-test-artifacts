@@ -42,10 +42,10 @@
   },
   "_valueConstraints": {
     "requiredValue": false,
+    "regex": "regex",
     "defaultValue": "default value",
     "minLength": 10,
-    "maxLength": 100,
-    "regex": "regex"
+    "maxLength": 100
   },
   "properties": {
     "@type": {
@@ -75,17 +75,17 @@
   "pav:createdBy": "https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95",
   "pav:lastUpdatedOn": "2024-03-12T10:05:02-07:00",
   "oslc:modifiedBy": "https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95",
+  "pav:version": "0.0.1",
+  "bibo:status": "bibo:draft",
   "schema:schemaVersion": "1.6.0",
   "additionalProperties": false,
-  "bibo:status": "bibo:draft",
-  "pav:version": "0.0.1",
-  "$schema": "http://json-schema.org/draft-04/schema#",
+  "skos:prefLabel": "Text field preferred",
   "skos:altLabel": [
     "alt label1",
     "alt label 2",
     "alt label 3"
   ],
-  "skos:prefLabel": "Text field preferred",
+  "$schema": "http://json-schema.org/draft-04/schema#",
   "_annotations": {
     "https://datacite.com/doi": {
       "@id": "https://doi.org/10.82658/8vc1-abcd"

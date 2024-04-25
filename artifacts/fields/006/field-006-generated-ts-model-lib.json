@@ -74,10 +74,10 @@
   "pav:createdBy": null,
   "pav:lastUpdatedOn": null,
   "oslc:modifiedBy": null,
+  "pav:version": "0.0.1",
+  "bibo:status": "bibo:draft",
   "schema:schemaVersion": "1.6.0",
   "additionalProperties": false,
-  "bibo:status": "bibo:draft",
-  "pav:version": "0.0.1",
-  "$schema": "http://json-schema.org/draft-04/schema#",
-  "skos:prefLabel": "Boolean Preferred"
+  "skos:prefLabel": "Boolean Preferred",
+  "$schema": "http://json-schema.org/draft-04/schema#"
 }

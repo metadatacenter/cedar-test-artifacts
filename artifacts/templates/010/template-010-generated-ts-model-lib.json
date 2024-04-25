@@ -379,8 +379,8 @@
       "oslc:modifiedBy": "https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95",
       "schema:schemaVersion": "1.6.0",
       "additionalProperties": false,
-      "$schema": "http://json-schema.org/draft-04/schema#",
-      "skos:prefLabel": "Simple date preferred"
+      "skos:prefLabel": "Simple date preferred",
+      "$schema": "http://json-schema.org/draft-04/schema#"
     },
     "Simple time": {
       "@id": "https://repo.metadatacenter.org/template-fields/40db78e1-834d-46f8-92c3-d8a57571bf0a",
@@ -460,8 +460,8 @@
       "oslc:modifiedBy": "https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95",
       "schema:schemaVersion": "1.6.0",
       "additionalProperties": false,
-      "$schema": "http://json-schema.org/draft-04/schema#",
-      "skos:prefLabel": "Simple time preferred"
+      "skos:prefLabel": "Simple time preferred",
+      "$schema": "http://json-schema.org/draft-04/schema#"
     },
     "Complex datetime": {
       "type": "array",
@@ -544,12 +544,12 @@
         "oslc:modifiedBy": "https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95",
         "schema:schemaVersion": "1.6.0",
         "additionalProperties": false,
-        "$schema": "http://json-schema.org/draft-04/schema#",
+        "skos:prefLabel": "Complex datetime preferred",
         "skos:altLabel": [
           "Alt label 1",
           "Alt label 2"
         ],
-        "skos:prefLabel": "Complex datetime preferred"
+        "$schema": "http://json-schema.org/draft-04/schema#"
       }
     }
   },
@@ -573,9 +573,9 @@
   "pav:createdBy": "https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95",
   "pav:lastUpdatedOn": "2024-03-06T14:35:02-08:00",
   "oslc:modifiedBy": "https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95",
+  "pav:version": "0.0.1",
+  "bibo:status": "bibo:draft",
   "schema:schemaVersion": "1.6.0",
   "additionalProperties": false,
-  "bibo:status": "bibo:draft",
-  "pav:version": "0.0.1",
   "$schema": "http://json-schema.org/draft-04/schema#"
 }

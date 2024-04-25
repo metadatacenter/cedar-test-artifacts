@@ -372,8 +372,8 @@
       "oslc:modifiedBy": "https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95",
       "schema:schemaVersion": "1.6.0",
       "additionalProperties": false,
-      "$schema": "http://json-schema.org/draft-04/schema#",
-      "skos:prefLabel": "Pick from a list"
+      "skos:prefLabel": "Pick from a list",
+      "$schema": "http://json-schema.org/draft-04/schema#"
     }
   },
   "required": [
@@ -394,9 +394,9 @@
   "pav:createdBy": "https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95",
   "pav:lastUpdatedOn": "2024-03-07T13:44:58-08:00",
   "oslc:modifiedBy": "https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95",
+  "pav:version": "0.0.1",
+  "bibo:status": "bibo:draft",
   "schema:schemaVersion": "1.6.0",
   "additionalProperties": false,
-  "bibo:status": "bibo:draft",
-  "pav:version": "0.0.1",
   "$schema": "http://json-schema.org/draft-04/schema#"
 }

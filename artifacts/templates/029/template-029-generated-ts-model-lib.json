@@ -655,13 +655,13 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "pav:version": "0.9.1",
+            "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "bibo:status": "bibo:draft",
-            "pav:version": "0.9.1",
-            "$schema": "http://json-schema.org/draft-04/schema#",
             "skos:prefLabel": "Title",
-            "schema:identifier": "title"
+            "schema:identifier": "title",
+            "$schema": "http://json-schema.org/draft-04/schema#"
           },
           "Language": {
             "@id": "https://repo.metadatacenter.org/template-fields/7b007251-52cd-49f4-bff5-e6d08c344805",
@@ -1477,13 +1477,13 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "pav:version": "0.9.1",
+            "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "bibo:status": "bibo:draft",
-            "pav:version": "0.9.1",
-            "$schema": "http://json-schema.org/draft-04/schema#",
             "skos:prefLabel": "Language",
-            "schema:identifier": "language"
+            "schema:identifier": "language",
+            "$schema": "http://json-schema.org/draft-04/schema#"
           }
         },
         "required": [
@@ -1498,12 +1498,12 @@
         "pav:createdBy": "https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014",
         "pav:lastUpdatedOn": "2022-10-13T12:45:10-07:00",
         "oslc:modifiedBy": "https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014",
+        "pav:version": "0.0.1",
+        "bibo:status": "bibo:draft",
         "schema:schemaVersion": "1.6.0",
         "additionalProperties": false,
-        "bibo:status": "bibo:draft",
-        "pav:version": "0.0.1",
-        "$schema": "http://json-schema.org/draft-04/schema#",
-        "schema:identifier": "data_file_title"
+        "schema:identifier": "data_file_title",
+        "$schema": "http://json-schema.org/draft-04/schema#"
       }
     },
     "Data File Identity": {
@@ -1684,13 +1684,13 @@
           "pav:createdBy": null,
           "pav:lastUpdatedOn": null,
           "oslc:modifiedBy": null,
+          "pav:version": "0.9.1",
+          "bibo:status": "bibo:draft",
           "schema:schemaVersion": "1.6.0",
           "additionalProperties": false,
-          "bibo:status": "bibo:draft",
-          "pav:version": "0.9.1",
-          "$schema": "http://json-schema.org/draft-04/schema#",
           "skos:prefLabel": "Identifier",
-          "schema:identifier": "identifier"
+          "schema:identifier": "identifier",
+          "$schema": "http://json-schema.org/draft-04/schema#"
         },
         "Identifier Type": {
           "@id": "https://repo.metadatacenter.org/template-fields/d90894d0-63e2-4768-b36b-f6a1cac21067",
@@ -1777,13 +1777,13 @@
           "pav:createdBy": null,
           "pav:lastUpdatedOn": null,
           "oslc:modifiedBy": null,
+          "pav:version": "0.9.1",
+          "bibo:status": "bibo:draft",
           "schema:schemaVersion": "1.6.0",
           "additionalProperties": false,
-          "bibo:status": "bibo:draft",
-          "pav:version": "0.9.1",
-          "$schema": "http://json-schema.org/draft-04/schema#",
           "skos:prefLabel": "Identifier Type",
-          "schema:identifier": "identifier_type"
+          "schema:identifier": "identifier_type",
+          "$schema": "http://json-schema.org/draft-04/schema#"
         },
         "File Name ": {
           "@id": "https://repo.metadatacenter.org/template-fields/1e6ee390-1c00-488c-868c-59f8cd3bab4d",
@@ -1858,13 +1858,13 @@
           "pav:createdBy": null,
           "pav:lastUpdatedOn": null,
           "oslc:modifiedBy": null,
+          "pav:version": "0.9.1",
+          "bibo:status": "bibo:draft",
           "schema:schemaVersion": "1.6.0",
           "additionalProperties": false,
-          "bibo:status": "bibo:draft",
-          "pav:version": "0.9.1",
-          "$schema": "http://json-schema.org/draft-04/schema#",
           "skos:prefLabel": "File Name ",
-          "schema:identifier": "file_name_"
+          "schema:identifier": "file_name_",
+          "$schema": "http://json-schema.org/draft-04/schema#"
         },
         "SHA256 digest": {
           "@id": "https://repo.metadatacenter.org/template-fields/acdcdc73-4e45-4c1f-978c-c6fb911cc1e3",
@@ -1939,13 +1939,13 @@
           "pav:createdBy": null,
           "pav:lastUpdatedOn": null,
           "oslc:modifiedBy": null,
+          "pav:version": "0.9.1",
+          "bibo:status": "bibo:draft",
           "schema:schemaVersion": "1.6.0",
           "additionalProperties": false,
-          "bibo:status": "bibo:draft",
-          "pav:version": "0.9.1",
-          "$schema": "http://json-schema.org/draft-04/schema#",
           "skos:prefLabel": "SHA256 digest",
-          "schema:identifier": "sha256_digest"
+          "schema:identifier": "sha256_digest",
+          "$schema": "http://json-schema.org/draft-04/schema#"
         }
       },
       "required": [
@@ -1962,12 +1962,12 @@
       "pav:createdBy": "https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014",
       "pav:lastUpdatedOn": "2022-10-13T12:45:10-07:00",
       "oslc:modifiedBy": "https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014",
+      "pav:version": "0.0.1",
+      "bibo:status": "bibo:draft",
       "schema:schemaVersion": "1.6.0",
       "additionalProperties": false,
-      "bibo:status": "bibo:draft",
-      "pav:version": "0.0.1",
-      "$schema": "http://json-schema.org/draft-04/schema#",
-      "schema:identifier": "data_file_identity"
+      "schema:identifier": "data_file_identity",
+      "$schema": "http://json-schema.org/draft-04/schema#"
     },
     "Data File Content": {
       "@id": "http://example.org/499c2665-465b-49da-b58a-a7e1348c7854",
@@ -2043,12 +2043,12 @@
       "pav:createdBy": "https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014",
       "pav:lastUpdatedOn": "2022-10-13T12:45:10-07:00",
       "oslc:modifiedBy": "https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014",
+      "pav:version": "0.0.1",
+      "bibo:status": "bibo:draft",
       "schema:schemaVersion": "1.6.0",
       "additionalProperties": false,
-      "bibo:status": "bibo:draft",
-      "pav:version": "0.0.1",
-      "$schema": "http://json-schema.org/draft-04/schema#",
-      "schema:identifier": "data_file_content"
+      "schema:identifier": "data_file_content",
+      "$schema": "http://json-schema.org/draft-04/schema#"
     },
     "Data File Version": {
       "@id": "http://example.org/15e4c2d4-6ed8-4af0-bb58-ecd7853c0402",
@@ -2201,13 +2201,13 @@
           "pav:createdBy": null,
           "pav:lastUpdatedOn": null,
           "oslc:modifiedBy": null,
+          "pav:version": "0.9.1",
+          "bibo:status": "bibo:draft",
           "schema:schemaVersion": "1.6.0",
           "additionalProperties": false,
-          "bibo:status": "bibo:draft",
-          "pav:version": "0.9.1",
-          "$schema": "http://json-schema.org/draft-04/schema#",
           "skos:prefLabel": "Version",
-          "schema:identifier": "version"
+          "schema:identifier": "version",
+          "$schema": "http://json-schema.org/draft-04/schema#"
         }
       },
       "required": [
@@ -2221,12 +2221,12 @@
       "pav:createdBy": "https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014",
       "pav:lastUpdatedOn": "2022-10-13T12:45:10-07:00",
       "oslc:modifiedBy": "https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014",
+      "pav:version": "0.0.1",
+      "bibo:status": "bibo:draft",
       "schema:schemaVersion": "1.6.0",
       "additionalProperties": false,
-      "bibo:status": "bibo:draft",
-      "pav:version": "0.0.1",
-      "$schema": "http://json-schema.org/draft-04/schema#",
-      "schema:identifier": "data_file_version"
+      "schema:identifier": "data_file_version",
+      "$schema": "http://json-schema.org/draft-04/schema#"
     },
     "Data File Language": {
       "@id": "http://example.org/4aa68b9d-d530-4c42-ba0c-5c6ff0dccf5d",
@@ -3129,13 +3129,13 @@
           "pav:createdBy": null,
           "pav:lastUpdatedOn": null,
           "oslc:modifiedBy": null,
+          "pav:version": "0.9.1",
+          "bibo:status": "bibo:draft",
           "schema:schemaVersion": "1.6.0",
           "additionalProperties": false,
-          "bibo:status": "bibo:draft",
-          "pav:version": "0.9.1",
-          "$schema": "http://json-schema.org/draft-04/schema#",
           "skos:prefLabel": "Primary Language",
-          "schema:identifier": "primary_language"
+          "schema:identifier": "primary_language",
+          "$schema": "http://json-schema.org/draft-04/schema#"
         },
         "Other Language": {
           "@id": "https://repo.metadatacenter.org/template-fields/de68511a-d791-45d8-bccf-cb06b5c758c8",
@@ -3950,13 +3950,13 @@
           "pav:createdBy": null,
           "pav:lastUpdatedOn": null,
           "oslc:modifiedBy": null,
+          "pav:version": "0.9.1",
+          "bibo:status": "bibo:draft",
           "schema:schemaVersion": "1.6.0",
           "additionalProperties": false,
-          "bibo:status": "bibo:draft",
-          "pav:version": "0.9.1",
-          "$schema": "http://json-schema.org/draft-04/schema#",
           "skos:prefLabel": "Other Language",
-          "schema:identifier": "other_language"
+          "schema:identifier": "other_language",
+          "$schema": "http://json-schema.org/draft-04/schema#"
         }
       },
       "required": [
@@ -3971,12 +3971,12 @@
       "pav:createdBy": "https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014",
       "pav:lastUpdatedOn": "2022-10-13T12:45:10-07:00",
       "oslc:modifiedBy": "https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014",
+      "pav:version": "0.0.1",
+      "bibo:status": "bibo:draft",
       "schema:schemaVersion": "1.6.0",
       "additionalProperties": false,
-      "bibo:status": "bibo:draft",
-      "pav:version": "0.0.1",
-      "$schema": "http://json-schema.org/draft-04/schema#",
-      "schema:identifier": "data_file_language"
+      "schema:identifier": "data_file_language",
+      "$schema": "http://json-schema.org/draft-04/schema#"
     },
     "Data File Subjects": {
       "type": "array",
@@ -4170,13 +4170,13 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "pav:version": "0.9.1",
+            "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "bibo:status": "bibo:draft",
-            "pav:version": "0.9.1",
-            "$schema": "http://json-schema.org/draft-04/schema#",
             "skos:prefLabel": "Subject Identifier",
-            "schema:identifier": "subject_identifier"
+            "schema:identifier": "subject_identifier",
+            "$schema": "http://json-schema.org/draft-04/schema#"
           },
           "Subject Identifier Scheme": {
             "@id": "https://repo.metadatacenter.org/template-fields/de2525eb-3b58-4aaf-9f99-5bd140145303",
@@ -4252,13 +4252,13 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "pav:version": "0.9.1",
+            "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "bibo:status": "bibo:draft",
-            "pav:version": "0.9.1",
-            "$schema": "http://json-schema.org/draft-04/schema#",
             "skos:prefLabel": "Subject Identifier Scheme",
-            "schema:identifier": "subject_identifier_scheme"
+            "schema:identifier": "subject_identifier_scheme",
+            "$schema": "http://json-schema.org/draft-04/schema#"
           },
           "Subject Identifier Scheme Identifier": {
             "@id": "https://repo.metadatacenter.org/template-fields/7cdeb977-6114-4e78-826f-fc0f79a26c3d",
@@ -4334,13 +4334,13 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "pav:version": "0.9.1",
+            "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "bibo:status": "bibo:draft",
-            "pav:version": "0.9.1",
-            "$schema": "http://json-schema.org/draft-04/schema#",
             "skos:prefLabel": "Subject Identifier Scheme Identifier",
-            "schema:identifier": "subject_identifier_scheme_identifier"
+            "schema:identifier": "subject_identifier_scheme_identifier",
+            "$schema": "http://json-schema.org/draft-04/schema#"
           },
           "Keyword": {
             "@id": "https://repo.metadatacenter.org/template-fields/934b07c0-679c-4ba0-98f1-ea42b3402afc",
@@ -4415,13 +4415,13 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "pav:version": "0.9.1",
+            "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "bibo:status": "bibo:draft",
-            "pav:version": "0.9.1",
-            "$schema": "http://json-schema.org/draft-04/schema#",
             "skos:prefLabel": "Keyword",
-            "schema:identifier": "keyword"
+            "schema:identifier": "keyword",
+            "$schema": "http://json-schema.org/draft-04/schema#"
           }
         },
         "required": [
@@ -4438,12 +4438,12 @@
         "pav:createdBy": "https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014",
         "pav:lastUpdatedOn": "2022-10-13T12:45:10-07:00",
         "oslc:modifiedBy": "https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014",
+        "pav:version": "0.0.1",
+        "bibo:status": "bibo:draft",
         "schema:schemaVersion": "1.6.0",
         "additionalProperties": false,
-        "bibo:status": "bibo:draft",
-        "pav:version": "0.0.1",
-        "$schema": "http://json-schema.org/draft-04/schema#",
-        "schema:identifier": "data_file_subjects"
+        "schema:identifier": "data_file_subjects",
+        "$schema": "http://json-schema.org/draft-04/schema#"
       }
     },
     "Data File Description": {
@@ -4617,13 +4617,13 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "pav:version": "0.9.1",
+            "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "bibo:status": "bibo:draft",
-            "pav:version": "0.9.1",
-            "$schema": "http://json-schema.org/draft-04/schema#",
             "skos:prefLabel": "Description",
-            "schema:identifier": "description"
+            "schema:identifier": "description",
+            "$schema": "http://json-schema.org/draft-04/schema#"
           },
           "Description Language": {
             "@id": "https://repo.metadatacenter.org/template-fields/0e763a42-c8b2-4f87-b1cf-05b3ed15f47b",
@@ -5438,13 +5438,13 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "pav:version": "0.9.1",
+            "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "bibo:status": "bibo:draft",
-            "pav:version": "0.9.1",
-            "$schema": "http://json-schema.org/draft-04/schema#",
             "skos:prefLabel": "Description Language",
-            "schema:identifier": "description_language"
+            "schema:identifier": "description_language",
+            "$schema": "http://json-schema.org/draft-04/schema#"
           },
           "Type Of Content": {
             "@id": "https://repo.metadatacenter.org/template-fields/c7f2a1f5-e938-4733-a457-920a6cb3db43",
@@ -5536,13 +5536,13 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "pav:version": "0.9.1",
+            "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "bibo:status": "bibo:draft",
-            "pav:version": "0.9.1",
-            "$schema": "http://json-schema.org/draft-04/schema#",
             "skos:prefLabel": "Type Of Content",
-            "schema:identifier": "type_of_content"
+            "schema:identifier": "type_of_content",
+            "$schema": "http://json-schema.org/draft-04/schema#"
           }
         },
         "required": [
@@ -5558,12 +5558,12 @@
         "pav:createdBy": "https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014",
         "pav:lastUpdatedOn": "2022-10-13T12:45:10-07:00",
         "oslc:modifiedBy": "https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014",
+        "pav:version": "0.0.1",
+        "bibo:status": "bibo:draft",
         "schema:schemaVersion": "1.6.0",
         "additionalProperties": false,
-        "bibo:status": "bibo:draft",
-        "pav:version": "0.0.1",
-        "$schema": "http://json-schema.org/draft-04/schema#",
-        "schema:identifier": "data_file_description"
+        "schema:identifier": "data_file_description",
+        "$schema": "http://json-schema.org/draft-04/schema#"
       }
     },
     "Data File Dictionary": {
@@ -5717,13 +5717,13 @@
           "pav:createdBy": null,
           "pav:lastUpdatedOn": null,
           "oslc:modifiedBy": null,
+          "pav:version": "0.9.1",
+          "bibo:status": "bibo:draft",
           "schema:schemaVersion": "1.6.0",
           "additionalProperties": false,
-          "bibo:status": "bibo:draft",
-          "pav:version": "0.9.1",
-          "$schema": "http://json-schema.org/draft-04/schema#",
           "skos:prefLabel": "Data Dictionary File Name",
-          "schema:identifier": "data_dictionary_file_name"
+          "schema:identifier": "data_dictionary_file_name",
+          "$schema": "http://json-schema.org/draft-04/schema#"
         }
       },
       "required": [
@@ -5737,12 +5737,12 @@
       "pav:createdBy": "https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014",
       "pav:lastUpdatedOn": "2022-10-13T12:45:10-07:00",
       "oslc:modifiedBy": "https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014",
+      "pav:version": "0.0.1",
+      "bibo:status": "bibo:draft",
       "schema:schemaVersion": "1.6.0",
       "additionalProperties": false,
-      "bibo:status": "bibo:draft",
-      "pav:version": "0.0.1",
-      "$schema": "http://json-schema.org/draft-04/schema#",
-      "schema:identifier": "data_file_dictionary"
+      "schema:identifier": "data_file_dictionary",
+      "$schema": "http://json-schema.org/draft-04/schema#"
     },
     "Data File Creator": {
       "type": "array",
@@ -6022,13 +6022,13 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "pav:version": "0.9.1",
+            "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "bibo:status": "bibo:draft",
-            "pav:version": "0.9.1",
-            "$schema": "http://json-schema.org/draft-04/schema#",
             "skos:prefLabel": "Creator Type",
-            "schema:identifier": "creator_type"
+            "schema:identifier": "creator_type",
+            "$schema": "http://json-schema.org/draft-04/schema#"
           },
           "Creator Name": {
             "@id": "https://repo.metadatacenter.org/template-fields/8b8ee48d-8c6d-469a-b8ca-529dc6b02db5",
@@ -6103,13 +6103,13 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "pav:version": "0.9.1",
+            "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "bibo:status": "bibo:draft",
-            "pav:version": "0.9.1",
-            "$schema": "http://json-schema.org/draft-04/schema#",
             "skos:prefLabel": "Creator Name",
-            "schema:identifier": "creator_name"
+            "schema:identifier": "creator_name",
+            "$schema": "http://json-schema.org/draft-04/schema#"
           },
           "Creator Given Name": {
             "@id": "https://repo.metadatacenter.org/template-fields/ac9a4b36-bd30-4ea2-a38d-b0091364163e",
@@ -6184,13 +6184,13 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "pav:version": "0.9.1",
+            "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "bibo:status": "bibo:draft",
-            "pav:version": "0.9.1",
-            "$schema": "http://json-schema.org/draft-04/schema#",
             "skos:prefLabel": "Creator Given Name",
-            "schema:identifier": "creator_given_name"
+            "schema:identifier": "creator_given_name",
+            "$schema": "http://json-schema.org/draft-04/schema#"
           },
           "Creator Family Name": {
             "@id": "https://repo.metadatacenter.org/template-fields/16be4b85-020d-47e8-a32a-ea037880cb70",
@@ -6265,13 +6265,13 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "pav:version": "0.9.1",
+            "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "bibo:status": "bibo:draft",
-            "pav:version": "0.9.1",
-            "$schema": "http://json-schema.org/draft-04/schema#",
             "skos:prefLabel": "Creator Family Name",
-            "schema:identifier": "creator_family_name"
+            "schema:identifier": "creator_family_name",
+            "$schema": "http://json-schema.org/draft-04/schema#"
           },
           "Creator Identifier": {
             "@id": "https://repo.metadatacenter.org/template-fields/59d87333-6402-4ff0-959d-9bf958bff158",
@@ -6346,13 +6346,13 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "pav:version": "0.9.1",
+            "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "bibo:status": "bibo:draft",
-            "pav:version": "0.9.1",
-            "$schema": "http://json-schema.org/draft-04/schema#",
             "skos:prefLabel": "Creator Identifier",
-            "schema:identifier": "creator_identifier"
+            "schema:identifier": "creator_identifier",
+            "$schema": "http://json-schema.org/draft-04/schema#"
           },
           "Creator Identifier Scheme": {
             "@id": "https://repo.metadatacenter.org/template-fields/fc97aeac-3302-4b49-87ec-f7ed1fa5d45c",
@@ -6439,13 +6439,13 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "pav:version": "0.9.1",
+            "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "bibo:status": "bibo:draft",
-            "pav:version": "0.9.1",
-            "$schema": "http://json-schema.org/draft-04/schema#",
             "skos:prefLabel": "Creator Identifier Scheme",
-            "schema:identifier": "creator_identifier_scheme"
+            "schema:identifier": "creator_identifier_scheme",
+            "$schema": "http://json-schema.org/draft-04/schema#"
           },
           "Creator Identifier Scheme Identifier": {
             "@id": "https://repo.metadatacenter.org/template-fields/1c75f7ca-3fa8-4614-a5e6-67b0fafc95f9",
@@ -6520,13 +6520,13 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "pav:version": "0.9.1",
+            "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "bibo:status": "bibo:draft",
-            "pav:version": "0.9.1",
-            "$schema": "http://json-schema.org/draft-04/schema#",
             "skos:prefLabel": "Creator Identifier Scheme Identifier",
-            "schema:identifier": "creator_identifier_scheme_identifier"
+            "schema:identifier": "creator_identifier_scheme_identifier",
+            "$schema": "http://json-schema.org/draft-04/schema#"
           },
           "Creator Email": {
             "@id": "https://repo.metadatacenter.org/template-fields/70dea6e1-26e8-4dd0-bf43-145a6abbed19",
@@ -6600,13 +6600,13 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "pav:version": "0.9.1",
+            "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "bibo:status": "bibo:draft",
-            "pav:version": "0.9.1",
-            "$schema": "http://json-schema.org/draft-04/schema#",
             "skos:prefLabel": "Creator Email",
-            "schema:identifier": "creator_email"
+            "schema:identifier": "creator_email",
+            "$schema": "http://json-schema.org/draft-04/schema#"
           },
           "Creator Affiliation": {
             "@id": "https://repo.metadatacenter.org/template-fields/b74a99bb-47b8-43a0-a6a6-89dc941eed52",
@@ -6681,13 +6681,13 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "pav:version": "0.9.1",
+            "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "bibo:status": "bibo:draft",
-            "pav:version": "0.9.1",
-            "$schema": "http://json-schema.org/draft-04/schema#",
             "skos:prefLabel": "Creator Affiliation",
-            "schema:identifier": "creator_affiliation"
+            "schema:identifier": "creator_affiliation",
+            "$schema": "http://json-schema.org/draft-04/schema#"
           },
           "Creator Affiliation Identifier": {
             "@id": "https://repo.metadatacenter.org/template-fields/07c831dc-fb6e-4a4d-880f-aebf8aca32a2",
@@ -6762,13 +6762,13 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "pav:version": "0.9.1",
+            "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "bibo:status": "bibo:draft",
-            "pav:version": "0.9.1",
-            "$schema": "http://json-schema.org/draft-04/schema#",
             "skos:prefLabel": "Creator Affiliation Identifier",
-            "schema:identifier": "creator_affiliation_identifier"
+            "schema:identifier": "creator_affiliation_identifier",
+            "$schema": "http://json-schema.org/draft-04/schema#"
           },
           "Creator Affiliation Identifier Scheme": {
             "@id": "https://repo.metadatacenter.org/template-fields/8dc059f9-db64-43ee-933f-68e977c18600",
@@ -6855,13 +6855,13 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "pav:version": "0.9.1",
+            "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "bibo:status": "bibo:draft",
-            "pav:version": "0.9.1",
-            "$schema": "http://json-schema.org/draft-04/schema#",
             "skos:prefLabel": "Creator Affiliation Identifier Scheme",
-            "schema:identifier": "creator_affiliation_identifier_scheme"
+            "schema:identifier": "creator_affiliation_identifier_scheme",
+            "$schema": "http://json-schema.org/draft-04/schema#"
           },
           "Creator Affiliation Identifier Scheme Identifier": {
             "@id": "https://repo.metadatacenter.org/template-fields/11017e4b-9acd-450d-accf-f5930e5aeaad",
@@ -6936,13 +6936,13 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "pav:version": "0.9.1",
+            "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "bibo:status": "bibo:draft",
-            "pav:version": "0.9.1",
-            "$schema": "http://json-schema.org/draft-04/schema#",
             "skos:prefLabel": "Creator Affiliation Identifier Scheme Identifier",
-            "schema:identifier": "creator_affiliation_identifier_scheme_identifier"
+            "schema:identifier": "creator_affiliation_identifier_scheme_identifier",
+            "$schema": "http://json-schema.org/draft-04/schema#"
           },
           "Creator Role": {
             "@id": "https://repo.metadatacenter.org/template-fields/5afe5563-ac7b-46f7-911f-39c85a824f75",
@@ -7029,13 +7029,13 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "pav:version": "0.9.1",
+            "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "bibo:status": "bibo:draft",
-            "pav:version": "0.9.1",
-            "$schema": "http://json-schema.org/draft-04/schema#",
             "skos:prefLabel": "Creator Role",
-            "schema:identifier": "creator_role"
+            "schema:identifier": "creator_role",
+            "$schema": "http://json-schema.org/draft-04/schema#"
           }
         },
         "required": [
@@ -7061,12 +7061,12 @@
         "pav:createdBy": "https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014",
         "pav:lastUpdatedOn": "2022-10-13T12:45:10-07:00",
         "oslc:modifiedBy": "https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014",
+        "pav:version": "0.0.1",
+        "bibo:status": "bibo:draft",
         "schema:schemaVersion": "1.6.0",
         "additionalProperties": false,
-        "bibo:status": "bibo:draft",
-        "pav:version": "0.0.1",
-        "$schema": "http://json-schema.org/draft-04/schema#",
-        "schema:identifier": "data_file_creator"
+        "schema:identifier": "data_file_creator",
+        "$schema": "http://json-schema.org/draft-04/schema#"
       }
     },
     "Data File Related Resource": {
@@ -7259,13 +7259,13 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "pav:version": "0.9.1",
+            "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "bibo:status": "bibo:draft",
-            "pav:version": "0.9.1",
-            "$schema": "http://json-schema.org/draft-04/schema#",
             "skos:prefLabel": "Related Resource Identifier",
-            "schema:identifier": "related_resource_identifier"
+            "schema:identifier": "related_resource_identifier",
+            "$schema": "http://json-schema.org/draft-04/schema#"
           },
           "Related Resource Identifier Type": {
             "@id": "https://repo.metadatacenter.org/template-fields/a67220ec-71df-4c9a-a614-60110a39622d",
@@ -7352,13 +7352,13 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "pav:version": "0.9.1",
+            "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "bibo:status": "bibo:draft",
-            "pav:version": "0.9.1",
-            "$schema": "http://json-schema.org/draft-04/schema#",
             "skos:prefLabel": "Related Resource Identifier Type",
-            "schema:identifier": "related_resource_identifier_type"
+            "schema:identifier": "related_resource_identifier_type",
+            "$schema": "http://json-schema.org/draft-04/schema#"
           },
           "Related Resource File Name": {
             "@id": "https://repo.metadatacenter.org/template-fields/0c285bd3-b7bc-45ee-aa81-134f4ab4dc00",
@@ -7433,13 +7433,13 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "pav:version": "0.9.1",
+            "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "bibo:status": "bibo:draft",
-            "pav:version": "0.9.1",
-            "$schema": "http://json-schema.org/draft-04/schema#",
             "skos:prefLabel": "Related Resource File Name",
-            "schema:identifier": "related_resource_file_name"
+            "schema:identifier": "related_resource_file_name",
+            "$schema": "http://json-schema.org/draft-04/schema#"
           },
           "Resource Type Category": {
             "@id": "https://repo.metadatacenter.org/template-fields/3a80e3e5-16f2-402a-8fc7-b4ebc15a0f26",
@@ -7526,13 +7526,13 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "pav:version": "0.9.1",
+            "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "bibo:status": "bibo:draft",
-            "pav:version": "0.9.1",
-            "$schema": "http://json-schema.org/draft-04/schema#",
             "skos:prefLabel": "Resource Type Category",
-            "schema:identifier": "resource_type_category"
+            "schema:identifier": "resource_type_category",
+            "$schema": "http://json-schema.org/draft-04/schema#"
           },
           "Relation of Resource to Data File": {
             "@id": "https://repo.metadatacenter.org/template-fields/fd5c92c1-5afb-48d0-9bce-e8a00e132739",
@@ -7607,13 +7607,13 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "pav:version": "0.9.1",
+            "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "bibo:status": "bibo:draft",
-            "pav:version": "0.9.1",
-            "$schema": "http://json-schema.org/draft-04/schema#",
             "skos:prefLabel": "Relation of Resource to Data File",
-            "schema:identifier": "relation_of_resource_to_data_file"
+            "schema:identifier": "relation_of_resource_to_data_file",
+            "$schema": "http://json-schema.org/draft-04/schema#"
           }
         },
         "required": [
@@ -7631,12 +7631,12 @@
         "pav:createdBy": "https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014",
         "pav:lastUpdatedOn": "2022-10-13T12:45:10-07:00",
         "oslc:modifiedBy": "https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014",
+        "pav:version": "0.0.1",
+        "bibo:status": "bibo:draft",
         "schema:schemaVersion": "1.6.0",
         "additionalProperties": false,
-        "bibo:status": "bibo:draft",
-        "pav:version": "0.0.1",
-        "$schema": "http://json-schema.org/draft-04/schema#",
-        "schema:identifier": "data_file_related_resource"
+        "schema:identifier": "data_file_related_resource",
+        "$schema": "http://json-schema.org/draft-04/schema#"
       }
     },
     "Data File Contributor": {
@@ -7917,13 +7917,13 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "pav:version": "0.9.1",
+            "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "bibo:status": "bibo:draft",
-            "pav:version": "0.9.1",
-            "$schema": "http://json-schema.org/draft-04/schema#",
             "skos:prefLabel": "Contributor Type",
-            "schema:identifier": "contributor_type"
+            "schema:identifier": "contributor_type",
+            "$schema": "http://json-schema.org/draft-04/schema#"
           },
           "Contributor Name": {
             "@id": "https://repo.metadatacenter.org/template-fields/5daa7724-46c6-4bb6-ae7f-b2dcae2262d1",
@@ -7998,13 +7998,13 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "pav:version": "0.9.1",
+            "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "bibo:status": "bibo:draft",
-            "pav:version": "0.9.1",
-            "$schema": "http://json-schema.org/draft-04/schema#",
             "skos:prefLabel": "Contributor Name",
-            "schema:identifier": "contributor_name"
+            "schema:identifier": "contributor_name",
+            "$schema": "http://json-schema.org/draft-04/schema#"
           },
           "Contributor Given Name": {
             "@id": "https://repo.metadatacenter.org/template-fields/afe7e110-88d6-4f2c-b4a4-f83ec3d04667",
@@ -8079,13 +8079,13 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "pav:version": "0.9.1",
+            "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "bibo:status": "bibo:draft",
-            "pav:version": "0.9.1",
-            "$schema": "http://json-schema.org/draft-04/schema#",
             "skos:prefLabel": "Contributor Given Name",
-            "schema:identifier": "contributor_given_name"
+            "schema:identifier": "contributor_given_name",
+            "$schema": "http://json-schema.org/draft-04/schema#"
           },
           "Contributor Family Name": {
             "@id": "https://repo.metadatacenter.org/template-fields/3f9a04ea-2db4-46fe-83dc-0d7ecac8db33",
@@ -8160,13 +8160,13 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "pav:version": "0.9.1",
+            "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "bibo:status": "bibo:draft",
-            "pav:version": "0.9.1",
-            "$schema": "http://json-schema.org/draft-04/schema#",
             "skos:prefLabel": "Contributor Family Name",
-            "schema:identifier": "contributor_family_name"
+            "schema:identifier": "contributor_family_name",
+            "$schema": "http://json-schema.org/draft-04/schema#"
           },
           "Contributor Identifier": {
             "@id": "https://repo.metadatacenter.org/template-fields/558832a6-5bd6-40fd-bfb8-f716f42b258a",
@@ -8241,13 +8241,13 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "pav:version": "0.9.1",
+            "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "bibo:status": "bibo:draft",
-            "pav:version": "0.9.1",
-            "$schema": "http://json-schema.org/draft-04/schema#",
             "skos:prefLabel": "Contributor Identifier",
-            "schema:identifier": "contributor_identifier"
+            "schema:identifier": "contributor_identifier",
+            "$schema": "http://json-schema.org/draft-04/schema#"
           },
           "Contributor Identifier Scheme": {
             "@id": "https://repo.metadatacenter.org/template-fields/8dfe5449-2414-49ef-9dc9-6c5b71292403",
@@ -8334,13 +8334,13 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "pav:version": "0.9.1",
+            "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "bibo:status": "bibo:draft",
-            "pav:version": "0.9.1",
-            "$schema": "http://json-schema.org/draft-04/schema#",
             "skos:prefLabel": "Contributor Identifier Scheme",
-            "schema:identifier": "contributor_identifier_scheme"
+            "schema:identifier": "contributor_identifier_scheme",
+            "$schema": "http://json-schema.org/draft-04/schema#"
           },
           "Contributor Identifier Scheme IRI": {
             "@id": "https://repo.metadatacenter.org/template-fields/53c4b783-a790-4d2d-bfd4-8ac531ff640d",
@@ -8415,13 +8415,13 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "pav:version": "0.9.1",
+            "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "bibo:status": "bibo:draft",
-            "pav:version": "0.9.1",
-            "$schema": "http://json-schema.org/draft-04/schema#",
             "skos:prefLabel": "Contributor Identifier Scheme IRI",
-            "schema:identifier": "contributor_identifier_scheme_iri"
+            "schema:identifier": "contributor_identifier_scheme_iri",
+            "$schema": "http://json-schema.org/draft-04/schema#"
           },
           "Contributor Affiliation": {
             "@id": "https://repo.metadatacenter.org/template-fields/81693d05-eceb-422e-b258-be66f3000db4",
@@ -8496,13 +8496,13 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "pav:version": "0.9.1",
+            "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "bibo:status": "bibo:draft",
-            "pav:version": "0.9.1",
-            "$schema": "http://json-schema.org/draft-04/schema#",
             "skos:prefLabel": "Contributor Affiliation",
-            "schema:identifier": "contributor_affiliation"
+            "schema:identifier": "contributor_affiliation",
+            "$schema": "http://json-schema.org/draft-04/schema#"
           },
           "Contributor Affiliation Identifier": {
             "@id": "https://repo.metadatacenter.org/template-fields/f7f3db58-5484-432c-a856-e59f529412a0",
@@ -8577,13 +8577,13 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "pav:version": "0.9.1",
+            "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "bibo:status": "bibo:draft",
-            "pav:version": "0.9.1",
-            "$schema": "http://json-schema.org/draft-04/schema#",
             "skos:prefLabel": "Contributor Affiliation Identifier",
-            "schema:identifier": "contributor_affiliation_identifier"
+            "schema:identifier": "contributor_affiliation_identifier",
+            "$schema": "http://json-schema.org/draft-04/schema#"
           },
           "Contributor Affiliation Identifier Scheme": {
             "@id": "https://repo.metadatacenter.org/template-fields/4ede2fda-3b2a-4e15-873e-95266cae7b76",
@@ -8670,13 +8670,13 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "pav:version": "0.9.1",
+            "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "bibo:status": "bibo:draft",
-            "pav:version": "0.9.1",
-            "$schema": "http://json-schema.org/draft-04/schema#",
             "skos:prefLabel": "Contributor Affiliation Identifier Scheme",
-            "schema:identifier": "contributor_affiliation_identifier_scheme"
+            "schema:identifier": "contributor_affiliation_identifier_scheme",
+            "$schema": "http://json-schema.org/draft-04/schema#"
           },
           "Contributor Affiliation Identifier Scheme IRI": {
             "@id": "https://repo.metadatacenter.org/template-fields/c5ce02cf-0d74-479e-87c1-d6999683c4a7",
@@ -8751,13 +8751,13 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "pav:version": "0.9.1",
+            "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "bibo:status": "bibo:draft",
-            "pav:version": "0.9.1",
-            "$schema": "http://json-schema.org/draft-04/schema#",
             "skos:prefLabel": "Contributor Affiliation Identifier Scheme IRI",
-            "schema:identifier": "contributor_affiliation_identifier_scheme_iri"
+            "schema:identifier": "contributor_affiliation_identifier_scheme_iri",
+            "$schema": "http://json-schema.org/draft-04/schema#"
           },
           "Contributor Email": {
             "@id": "https://repo.metadatacenter.org/template-fields/a6b66527-7d36-4e8a-b20e-24f54a4d26bb",
@@ -8831,13 +8831,13 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "pav:version": "0.9.1",
+            "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "bibo:status": "bibo:draft",
-            "pav:version": "0.9.1",
-            "$schema": "http://json-schema.org/draft-04/schema#",
             "skos:prefLabel": "Contributor Email",
-            "schema:identifier": "contributor_email"
+            "schema:identifier": "contributor_email",
+            "$schema": "http://json-schema.org/draft-04/schema#"
           },
           "Contributor Role": {
             "@id": "https://repo.metadatacenter.org/template-fields/ea9c62bd-9a91-4598-b25b-80bd5ad14423",
@@ -8924,13 +8924,13 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "pav:version": "0.9.1",
+            "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "bibo:status": "bibo:draft",
-            "pav:version": "0.9.1",
-            "$schema": "http://json-schema.org/draft-04/schema#",
             "skos:prefLabel": "Contributor Role",
-            "schema:identifier": "contributor_role"
+            "schema:identifier": "contributor_role",
+            "$schema": "http://json-schema.org/draft-04/schema#"
           }
         },
         "required": [
@@ -8956,12 +8956,12 @@
         "pav:createdBy": "https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014",
         "pav:lastUpdatedOn": "2022-10-13T12:45:10-07:00",
         "oslc:modifiedBy": "https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014",
+        "pav:version": "0.0.1",
+        "bibo:status": "bibo:draft",
         "schema:schemaVersion": "1.6.0",
         "additionalProperties": false,
-        "bibo:status": "bibo:draft",
-        "pav:version": "0.0.1",
-        "$schema": "http://json-schema.org/draft-04/schema#",
-        "schema:identifier": "data_file_contributor"
+        "schema:identifier": "data_file_contributor",
+        "$schema": "http://json-schema.org/draft-04/schema#"
       }
     },
     "Data File Rights": {
@@ -9148,13 +9148,13 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "pav:version": "0.9.1",
+            "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "bibo:status": "bibo:draft",
-            "pav:version": "0.9.1",
-            "$schema": "http://json-schema.org/draft-04/schema#",
             "skos:prefLabel": "License Name",
-            "schema:identifier": "license_name"
+            "schema:identifier": "license_name",
+            "$schema": "http://json-schema.org/draft-04/schema#"
           },
           "License Identifier": {
             "@id": "https://repo.metadatacenter.org/template-fields/3b17f49f-1d2a-4bf2-8c79-42867f89c09e",
@@ -9229,13 +9229,13 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "pav:version": "0.9.1",
+            "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "bibo:status": "bibo:draft",
-            "pav:version": "0.9.1",
-            "$schema": "http://json-schema.org/draft-04/schema#",
             "skos:prefLabel": "License Identifier",
-            "schema:identifier": "license_identifier"
+            "schema:identifier": "license_identifier",
+            "$schema": "http://json-schema.org/draft-04/schema#"
           },
           "License Text": {
             "@id": "https://repo.metadatacenter.org/template-fields/277ae17d-6600-4f53-94eb-587bf5a0557f",
@@ -9310,13 +9310,13 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "pav:version": "0.9.1",
+            "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "bibo:status": "bibo:draft",
-            "pav:version": "0.9.1",
-            "$schema": "http://json-schema.org/draft-04/schema#",
             "skos:prefLabel": "License Text",
-            "schema:identifier": "license_text"
+            "schema:identifier": "license_text",
+            "$schema": "http://json-schema.org/draft-04/schema#"
           }
         },
         "required": [
@@ -9332,12 +9332,12 @@
         "pav:createdBy": "https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014",
         "pav:lastUpdatedOn": "2022-10-13T12:45:10-07:00",
         "oslc:modifiedBy": "https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014",
+        "pav:version": "0.0.1",
+        "bibo:status": "bibo:draft",
         "schema:schemaVersion": "1.6.0",
         "additionalProperties": false,
-        "bibo:status": "bibo:draft",
-        "pav:version": "0.0.1",
-        "$schema": "http://json-schema.org/draft-04/schema#",
-        "schema:identifier": "data_file_rights"
+        "schema:identifier": "data_file_rights",
+        "$schema": "http://json-schema.org/draft-04/schema#"
       }
     },
     "Data File Date": {
@@ -9515,13 +9515,13 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "pav:version": "0.9.1",
+            "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "bibo:status": "bibo:draft",
-            "pav:version": "0.9.1",
-            "$schema": "http://json-schema.org/draft-04/schema#",
             "skos:prefLabel": "Event Type",
-            "schema:identifier": "event_type"
+            "schema:identifier": "event_type",
+            "$schema": "http://json-schema.org/draft-04/schema#"
           },
           "Date": {
             "@id": "https://repo.metadatacenter.org/template-fields/0051d6bf-1fd0-43ea-b78e-b5e076f107b4",
@@ -9597,13 +9597,13 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "pav:version": "0.9.1",
+            "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "bibo:status": "bibo:draft",
-            "pav:version": "0.9.1",
-            "$schema": "http://json-schema.org/draft-04/schema#",
             "skos:prefLabel": "Date",
-            "schema:identifier": "date"
+            "schema:identifier": "date",
+            "$schema": "http://json-schema.org/draft-04/schema#"
           }
         },
         "required": [
@@ -9618,12 +9618,12 @@
         "pav:createdBy": "https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014",
         "pav:lastUpdatedOn": "2022-10-13T12:45:10-07:00",
         "oslc:modifiedBy": "https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014",
+        "pav:version": "0.0.1",
+        "bibo:status": "bibo:draft",
         "schema:schemaVersion": "1.6.0",
         "additionalProperties": false,
-        "bibo:status": "bibo:draft",
-        "pav:version": "0.0.1",
-        "$schema": "http://json-schema.org/draft-04/schema#",
-        "schema:identifier": "data_file_date"
+        "schema:identifier": "data_file_date",
+        "$schema": "http://json-schema.org/draft-04/schema#"
       }
     },
     "Data File Parent Study": {
@@ -9834,13 +9834,13 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "pav:version": "0.9.1",
+            "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "bibo:status": "bibo:draft",
-            "pav:version": "0.9.1",
-            "$schema": "http://json-schema.org/draft-04/schema#",
             "skos:prefLabel": "PHS Identifier",
-            "schema:identifier": "phs_identifier"
+            "schema:identifier": "phs_identifier",
+            "$schema": "http://json-schema.org/draft-04/schema#"
           },
           "Study Identifier": {
             "@id": "https://repo.metadatacenter.org/template-fields/0f12f093-8625-4a0f-a0a6-4736a1bab1b9",
@@ -9915,13 +9915,13 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "pav:version": "0.9.1",
+            "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "bibo:status": "bibo:draft",
-            "pav:version": "0.9.1",
-            "$schema": "http://json-schema.org/draft-04/schema#",
             "skos:prefLabel": "Study Identifier",
-            "schema:identifier": "study_identifier"
+            "schema:identifier": "study_identifier",
+            "$schema": "http://json-schema.org/draft-04/schema#"
           },
           "Study Identifier Scheme": {
             "@id": "https://repo.metadatacenter.org/template-fields/46ccfa53-7b62-4fcb-9e58-141bea14fbe4",
@@ -10008,13 +10008,13 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "pav:version": "0.9.1",
+            "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "bibo:status": "bibo:draft",
-            "pav:version": "0.9.1",
-            "$schema": "http://json-schema.org/draft-04/schema#",
             "skos:prefLabel": "Study Identifier Scheme",
-            "schema:identifier": "study_identifier_scheme"
+            "schema:identifier": "study_identifier_scheme",
+            "$schema": "http://json-schema.org/draft-04/schema#"
           },
           "Study Identifier Scheme IRI": {
             "@id": "https://repo.metadatacenter.org/template-fields/b63154e8-1917-47bf-b3bc-9a31231f3c23",
@@ -10089,13 +10089,13 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "pav:version": "0.9.1",
+            "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "bibo:status": "bibo:draft",
-            "pav:version": "0.9.1",
-            "$schema": "http://json-schema.org/draft-04/schema#",
             "skos:prefLabel": "Study Identifier Scheme IRI",
-            "schema:identifier": "study_identifier_scheme_iri"
+            "schema:identifier": "study_identifier_scheme_iri",
+            "$schema": "http://json-schema.org/draft-04/schema#"
           },
           "Study Name": {
             "@id": "https://repo.metadatacenter.org/template-fields/38c1b7b1-9418-48a9-b1af-70667df39d5c",
@@ -10170,13 +10170,13 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "pav:version": "0.9.1",
+            "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "bibo:status": "bibo:draft",
-            "pav:version": "0.9.1",
-            "$schema": "http://json-schema.org/draft-04/schema#",
             "skos:prefLabel": "Study Name",
-            "schema:identifier": "study_name"
+            "schema:identifier": "study_name",
+            "$schema": "http://json-schema.org/draft-04/schema#"
           },
           "Study Start Date": {
             "@id": "https://repo.metadatacenter.org/template-fields/267a7b8b-ef2d-4ad9-9dbb-20feb094e6da",
@@ -10252,13 +10252,13 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "pav:version": "0.9.1",
+            "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "bibo:status": "bibo:draft",
-            "pav:version": "0.9.1",
-            "$schema": "http://json-schema.org/draft-04/schema#",
             "skos:prefLabel": "Study Start Date",
-            "schema:identifier": "study_start_date"
+            "schema:identifier": "study_start_date",
+            "$schema": "http://json-schema.org/draft-04/schema#"
           },
           "Study End Date": {
             "@id": "https://repo.metadatacenter.org/template-fields/69f66311-3b9e-4b97-841d-426ac5928e72",
@@ -10334,13 +10334,13 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "pav:version": "0.9.1",
+            "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "bibo:status": "bibo:draft",
-            "pav:version": "0.9.1",
-            "$schema": "http://json-schema.org/draft-04/schema#",
             "skos:prefLabel": "Study End Date",
-            "schema:identifier": "study_end_date"
+            "schema:identifier": "study_end_date",
+            "$schema": "http://json-schema.org/draft-04/schema#"
           }
         },
         "required": [
@@ -10360,12 +10360,12 @@
         "pav:createdBy": "https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014",
         "pav:lastUpdatedOn": "2022-10-13T12:45:10-07:00",
         "oslc:modifiedBy": "https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014",
+        "pav:version": "0.0.1",
+        "bibo:status": "bibo:draft",
         "schema:schemaVersion": "1.6.0",
         "additionalProperties": false,
-        "bibo:status": "bibo:draft",
-        "pav:version": "0.0.1",
-        "$schema": "http://json-schema.org/draft-04/schema#",
-        "schema:identifier": "data_file_parent_study"
+        "schema:identifier": "data_file_parent_study",
+        "$schema": "http://json-schema.org/draft-04/schema#"
       }
     },
     "Data File Funding Source": {
@@ -10576,13 +10576,13 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "pav:version": "0.9.1",
+            "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "bibo:status": "bibo:draft",
-            "pav:version": "0.9.1",
-            "$schema": "http://json-schema.org/draft-04/schema#",
             "skos:prefLabel": "Award Title",
-            "schema:identifier": "award_title"
+            "schema:identifier": "award_title",
+            "$schema": "http://json-schema.org/draft-04/schema#"
           },
           "Award Page URL": {
             "@id": "https://repo.metadatacenter.org/template-fields/0c472049-c2e2-4cb2-b861-a540e53d26aa",
@@ -10656,13 +10656,13 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "pav:version": "0.9.1",
+            "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "bibo:status": "bibo:draft",
-            "pav:version": "0.9.1",
-            "$schema": "http://json-schema.org/draft-04/schema#",
             "skos:prefLabel": "Award Page URL",
-            "schema:identifier": "award_page_url"
+            "schema:identifier": "award_page_url",
+            "$schema": "http://json-schema.org/draft-04/schema#"
           },
           "Award Local Identifier": {
             "@id": "https://repo.metadatacenter.org/template-fields/f3fc0eeb-2c2d-4fb4-97ae-549744706d9f",
@@ -10737,13 +10737,13 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "pav:version": "0.9.1",
+            "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "bibo:status": "bibo:draft",
-            "pav:version": "0.9.1",
-            "$schema": "http://json-schema.org/draft-04/schema#",
             "skos:prefLabel": "Award Local Identifier",
-            "schema:identifier": "award_local_identifier"
+            "schema:identifier": "award_local_identifier",
+            "$schema": "http://json-schema.org/draft-04/schema#"
           },
           "Funder Name": {
             "@id": "https://repo.metadatacenter.org/template-fields/fdf79f11-ec72-42db-a629-e925ee2845ba",
@@ -10818,13 +10818,13 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "pav:version": "0.9.1",
+            "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "bibo:status": "bibo:draft",
-            "pav:version": "0.9.1",
-            "$schema": "http://json-schema.org/draft-04/schema#",
             "skos:prefLabel": "Funder Name",
-            "schema:identifier": "funder_name"
+            "schema:identifier": "funder_name",
+            "$schema": "http://json-schema.org/draft-04/schema#"
           },
           "Funder Identifier": {
             "@id": "https://repo.metadatacenter.org/template-fields/dcf5da58-1f57-424a-8e2e-78d84c994b46",
@@ -10899,13 +10899,13 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "pav:version": "0.9.1",
+            "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "bibo:status": "bibo:draft",
-            "pav:version": "0.9.1",
-            "$schema": "http://json-schema.org/draft-04/schema#",
             "skos:prefLabel": "Funder Identifier",
-            "schema:identifier": "funder_identifier"
+            "schema:identifier": "funder_identifier",
+            "$schema": "http://json-schema.org/draft-04/schema#"
           },
           "Funder Identifier Scheme": {
             "@id": "https://repo.metadatacenter.org/template-fields/6c9dc35f-0a18-491a-9ab7-24f97e0ae946",
@@ -10992,13 +10992,13 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "pav:version": "0.9.1",
+            "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "bibo:status": "bibo:draft",
-            "pav:version": "0.9.1",
-            "$schema": "http://json-schema.org/draft-04/schema#",
             "skos:prefLabel": "Funder Identifier Scheme",
-            "schema:identifier": "funder_identifier_scheme"
+            "schema:identifier": "funder_identifier_scheme",
+            "$schema": "http://json-schema.org/draft-04/schema#"
           },
           "Funder Identifier Scheme IRI": {
             "@id": "https://repo.metadatacenter.org/template-fields/f32ad42b-8b5d-4070-b3d4-fcded2553b72",
@@ -11073,13 +11073,13 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "pav:version": "0.9.1",
+            "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "bibo:status": "bibo:draft",
-            "pav:version": "0.9.1",
-            "$schema": "http://json-schema.org/draft-04/schema#",
             "skos:prefLabel": "Funder Identifier Scheme IRI",
-            "schema:identifier": "funder_identifier_scheme_iri"
+            "schema:identifier": "funder_identifier_scheme_iri",
+            "$schema": "http://json-schema.org/draft-04/schema#"
           }
         },
         "required": [
@@ -11099,12 +11099,12 @@
         "pav:createdBy": "https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014",
         "pav:lastUpdatedOn": "2022-10-13T12:45:10-07:00",
         "oslc:modifiedBy": "https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014",
+        "pav:version": "0.0.1",
+        "bibo:status": "bibo:draft",
         "schema:schemaVersion": "1.6.0",
         "additionalProperties": false,
-        "bibo:status": "bibo:draft",
-        "pav:version": "0.0.1",
-        "$schema": "http://json-schema.org/draft-04/schema#",
-        "schema:identifier": "data_file_funding_source"
+        "schema:identifier": "data_file_funding_source",
+        "$schema": "http://json-schema.org/draft-04/schema#"
       }
     },
     "Data File Distribution": {
@@ -11369,13 +11369,13 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "pav:version": "0.9.1",
+            "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "bibo:status": "bibo:draft",
-            "pav:version": "0.9.1",
-            "$schema": "http://json-schema.org/draft-04/schema#",
             "skos:prefLabel": "Distribution Publisher",
-            "schema:identifier": "distribution_publisher"
+            "schema:identifier": "distribution_publisher",
+            "$schema": "http://json-schema.org/draft-04/schema#"
           },
           "Distribution Publisher Identifier": {
             "@id": "https://repo.metadatacenter.org/template-fields/940e4407-7942-415f-8ca6-e8fc1e3f7e81",
@@ -11450,13 +11450,13 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "pav:version": "0.9.1",
+            "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "bibo:status": "bibo:draft",
-            "pav:version": "0.9.1",
-            "$schema": "http://json-schema.org/draft-04/schema#",
             "skos:prefLabel": "Distribution Publisher Identifier",
-            "schema:identifier": "distribution_publisher_identifier"
+            "schema:identifier": "distribution_publisher_identifier",
+            "$schema": "http://json-schema.org/draft-04/schema#"
           },
           "Distribution Publisher Identifier Scheme": {
             "@id": "https://repo.metadatacenter.org/template-fields/13690914-772a-424c-be8a-285feaebc21d",
@@ -11543,13 +11543,13 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "pav:version": "0.9.1",
+            "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "bibo:status": "bibo:draft",
-            "pav:version": "0.9.1",
-            "$schema": "http://json-schema.org/draft-04/schema#",
             "skos:prefLabel": "Distribution Publisher Identifier Scheme",
-            "schema:identifier": "distribution_publisher_identifier_scheme"
+            "schema:identifier": "distribution_publisher_identifier_scheme",
+            "$schema": "http://json-schema.org/draft-04/schema#"
           },
           "Distribution Publisher Identifier Scheme IRI": {
             "@id": "https://repo.metadatacenter.org/template-fields/f988ab03-43dd-4a38-84f1-448882684088",
@@ -11624,13 +11624,13 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "pav:version": "0.9.1",
+            "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "bibo:status": "bibo:draft",
-            "pav:version": "0.9.1",
-            "$schema": "http://json-schema.org/draft-04/schema#",
             "skos:prefLabel": "Distribution Publisher Identifier Scheme IRI",
-            "schema:identifier": "distribution_publisher_identifier_scheme_iri"
+            "schema:identifier": "distribution_publisher_identifier_scheme_iri",
+            "$schema": "http://json-schema.org/draft-04/schema#"
           },
           "Distribution Identifier": {
             "@id": "https://repo.metadatacenter.org/template-fields/bc5bd9b6-fc6d-4aa1-8efe-56ab06c6b60d",
@@ -11705,13 +11705,13 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "pav:version": "0.9.1",
+            "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "bibo:status": "bibo:draft",
-            "pav:version": "0.9.1",
-            "$schema": "http://json-schema.org/draft-04/schema#",
             "skos:prefLabel": "Distribution Identifier",
-            "schema:identifier": "distribution_identifier"
+            "schema:identifier": "distribution_identifier",
+            "$schema": "http://json-schema.org/draft-04/schema#"
           },
           "Distribution Identifier Type": {
             "@id": "https://repo.metadatacenter.org/template-fields/17be52ef-e4bb-495a-a7de-136c955191ca",
@@ -11798,13 +11798,13 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "pav:version": "0.9.1",
+            "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "bibo:status": "bibo:draft",
-            "pav:version": "0.9.1",
-            "$schema": "http://json-schema.org/draft-04/schema#",
             "skos:prefLabel": "Distribution Identifier Type",
-            "schema:identifier": "distribution_identifier_type"
+            "schema:identifier": "distribution_identifier_type",
+            "$schema": "http://json-schema.org/draft-04/schema#"
           },
           "Distribution Format": {
             "@id": "https://repo.metadatacenter.org/template-fields/a7b04fbf-472c-4d40-b472-a8464fc5ce64",
@@ -11879,13 +11879,13 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "pav:version": "0.9.1",
+            "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "bibo:status": "bibo:draft",
-            "pav:version": "0.9.1",
-            "$schema": "http://json-schema.org/draft-04/schema#",
             "skos:prefLabel": "Distribution Format",
-            "schema:identifier": "distribution_format"
+            "schema:identifier": "distribution_format",
+            "$schema": "http://json-schema.org/draft-04/schema#"
           },
           "Distribution Media Type": {
             "@id": "https://repo.metadatacenter.org/template-fields/c8b4fd59-6e70-4e91-a5fc-8b4ef89e5bce",
@@ -11972,13 +11972,13 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "pav:version": "0.9.1",
+            "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "bibo:status": "bibo:draft",
-            "pav:version": "0.9.1",
-            "$schema": "http://json-schema.org/draft-04/schema#",
             "skos:prefLabel": "Distribution Media Type",
-            "schema:identifier": "distribution_media_type"
+            "schema:identifier": "distribution_media_type",
+            "$schema": "http://json-schema.org/draft-04/schema#"
           },
           "Distribution Size": {
             "@id": "https://repo.metadatacenter.org/template-fields/f40567a9-4a03-4e8e-b0cd-fb20f5a6899e",
@@ -12053,13 +12053,13 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "pav:version": "0.9.1",
+            "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "bibo:status": "bibo:draft",
-            "pav:version": "0.9.1",
-            "$schema": "http://json-schema.org/draft-04/schema#",
             "skos:prefLabel": "Distribution Size",
-            "schema:identifier": "distribution_size"
+            "schema:identifier": "distribution_size",
+            "$schema": "http://json-schema.org/draft-04/schema#"
           },
           "Distribution Access Protocol": {
             "@id": "https://repo.metadatacenter.org/template-fields/1faba5c3-74b7-4241-83f5-334980cc5962",
@@ -12134,13 +12134,13 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "pav:version": "0.9.1",
+            "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "bibo:status": "bibo:draft",
-            "pav:version": "0.9.1",
-            "$schema": "http://json-schema.org/draft-04/schema#",
             "skos:prefLabel": "Distribution Access Protocol",
-            "schema:identifier": "distribution_access_protocol"
+            "schema:identifier": "distribution_access_protocol",
+            "$schema": "http://json-schema.org/draft-04/schema#"
           },
           "Distribution Access Configuration": {
             "@id": "https://repo.metadatacenter.org/template-fields/1b932b76-5270-45f4-ba8c-f1f7dc153c59",
@@ -12215,13 +12215,13 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "pav:version": "0.9.1",
+            "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "bibo:status": "bibo:draft",
-            "pav:version": "0.9.1",
-            "$schema": "http://json-schema.org/draft-04/schema#",
             "skos:prefLabel": "Distribution Access Configuration",
-            "schema:identifier": "distribution_access_configuration"
+            "schema:identifier": "distribution_access_configuration",
+            "$schema": "http://json-schema.org/draft-04/schema#"
           },
           "Distribution Query Statement": {
             "@id": "https://repo.metadatacenter.org/template-fields/3646b53a-672f-4b31-b8b6-ff821de062a2",
@@ -12296,13 +12296,13 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "pav:version": "0.9.1",
+            "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "bibo:status": "bibo:draft",
-            "pav:version": "0.9.1",
-            "$schema": "http://json-schema.org/draft-04/schema#",
             "skos:prefLabel": "Distribution Query Statement",
-            "schema:identifier": "distribution_query_statement"
+            "schema:identifier": "distribution_query_statement",
+            "$schema": "http://json-schema.org/draft-04/schema#"
           },
           "Data File Publication Date": {
             "@id": "http://example.org/dca75cfd-b95c-476d-baaf-741051f8a964",
@@ -12465,13 +12465,13 @@
                 "pav:createdBy": null,
                 "pav:lastUpdatedOn": null,
                 "oslc:modifiedBy": null,
+                "pav:version": "0.9.1",
+                "bibo:status": "bibo:draft",
                 "schema:schemaVersion": "1.6.0",
                 "additionalProperties": false,
-                "bibo:status": "bibo:draft",
-                "pav:version": "0.9.1",
-                "$schema": "http://json-schema.org/draft-04/schema#",
                 "skos:prefLabel": "Data File Publication Date",
-                "schema:identifier": "data_file_publication_date"
+                "schema:identifier": "data_file_publication_date",
+                "$schema": "http://json-schema.org/draft-04/schema#"
               },
               "Publication Date Type": {
                 "@id": "https://repo.metadatacenter.org/template-fields/33f2258f-1a6a-4e31-805c-2066b1ab4d74",
@@ -12563,13 +12563,13 @@
                 "pav:createdBy": null,
                 "pav:lastUpdatedOn": null,
                 "oslc:modifiedBy": null,
+                "pav:version": "0.9.1",
+                "bibo:status": "bibo:draft",
                 "schema:schemaVersion": "1.6.0",
                 "additionalProperties": false,
-                "bibo:status": "bibo:draft",
-                "pav:version": "0.9.1",
-                "$schema": "http://json-schema.org/draft-04/schema#",
                 "skos:prefLabel": "Publication Date Type",
-                "schema:identifier": "publication_date_type"
+                "schema:identifier": "publication_date_type",
+                "$schema": "http://json-schema.org/draft-04/schema#"
               }
             },
             "required": [
@@ -12584,12 +12584,12 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "pav:version": "0.0.1",
+            "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "bibo:status": "bibo:draft",
-            "pav:version": "0.0.1",
-            "$schema": "http://json-schema.org/draft-04/schema#",
-            "schema:identifier": "data_file_publication_date"
+            "schema:identifier": "data_file_publication_date",
+            "$schema": "http://json-schema.org/draft-04/schema#"
           }
         },
         "required": [
@@ -12615,12 +12615,12 @@
         "pav:createdBy": "https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014",
         "pav:lastUpdatedOn": "2022-10-13T12:45:10-07:00",
         "oslc:modifiedBy": "https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014",
+        "pav:version": "0.0.1",
+        "bibo:status": "bibo:draft",
         "schema:schemaVersion": "1.6.0",
         "additionalProperties": false,
-        "bibo:status": "bibo:draft",
-        "pav:version": "0.0.1",
-        "$schema": "http://json-schema.org/draft-04/schema#",
-        "schema:identifier": "data_file_distribution"
+        "schema:identifier": "data_file_distribution",
+        "$schema": "http://json-schema.org/draft-04/schema#"
       }
     },
     "Data Characteristics Summary": {
@@ -12797,13 +12797,13 @@
           "pav:createdBy": null,
           "pav:lastUpdatedOn": null,
           "oslc:modifiedBy": null,
+          "pav:version": "0.9.1",
+          "bibo:status": "bibo:draft",
           "schema:schemaVersion": "1.6.0",
           "additionalProperties": false,
-          "bibo:status": "bibo:draft",
-          "pav:version": "0.9.1",
-          "$schema": "http://json-schema.org/draft-04/schema#",
           "skos:prefLabel": "Data Characteristics Table in HTML",
-          "schema:identifier": "data_characteristics_table_in_html"
+          "schema:identifier": "data_characteristics_table_in_html",
+          "$schema": "http://json-schema.org/draft-04/schema#"
         },
         "Data Characteristics Table in CSV": {
           "@id": "https://repo.metadatacenter.org/template-fields/23b1a194-2738-4188-9206-7bb435e950ee",
@@ -12877,13 +12877,13 @@
           "pav:createdBy": null,
           "pav:lastUpdatedOn": null,
           "oslc:modifiedBy": null,
+          "pav:version": "0.9.1",
+          "bibo:status": "bibo:draft",
           "schema:schemaVersion": "1.6.0",
           "additionalProperties": false,
-          "bibo:status": "bibo:draft",
-          "pav:version": "0.9.1",
-          "$schema": "http://json-schema.org/draft-04/schema#",
           "skos:prefLabel": "Data Characteristics Table in CSV",
-          "schema:identifier": "data_characteristics_table_in_csv"
+          "schema:identifier": "data_characteristics_table_in_csv",
+          "$schema": "http://json-schema.org/draft-04/schema#"
         },
         "Data Characteristics Table in TSV": {
           "@id": "https://repo.metadatacenter.org/template-fields/a6b5160d-7173-48a9-809a-50a58769a218",
@@ -12958,13 +12958,13 @@
           "pav:createdBy": null,
           "pav:lastUpdatedOn": null,
           "oslc:modifiedBy": null,
+          "pav:version": "0.9.1",
+          "bibo:status": "bibo:draft",
           "schema:schemaVersion": "1.6.0",
           "additionalProperties": false,
-          "bibo:status": "bibo:draft",
-          "pav:version": "0.9.1",
-          "$schema": "http://json-schema.org/draft-04/schema#",
           "skos:prefLabel": "Data Characteristics Table in TSV",
-          "schema:identifier": "data_characteristics_table_in_tsv"
+          "schema:identifier": "data_characteristics_table_in_tsv",
+          "$schema": "http://json-schema.org/draft-04/schema#"
         },
         "Data Characteristics Table in Key-Value Pairs": {
           "type": "array",
@@ -13016,13 +13016,13 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "pav:version": "0.9.1",
+            "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "bibo:status": "bibo:draft",
-            "pav:version": "0.9.1",
-            "$schema": "http://json-schema.org/draft-04/schema#",
             "skos:prefLabel": "Data Characteristics Table in Key-Value Pairs",
-            "schema:identifier": "data_characteristics_table_in_key-value_pairs"
+            "schema:identifier": "data_characteristics_table_in_key-value_pairs",
+            "$schema": "http://json-schema.org/draft-04/schema#"
           }
         }
       },
@@ -13039,6 +13039,8 @@
       "pav:createdBy": "https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014",
       "pav:lastUpdatedOn": "2022-10-13T12:45:10-07:00",
       "oslc:modifiedBy": "https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014",
+      "pav:version": "0.0.1",
+      "bibo:status": "bibo:draft",
       "schema:schemaVersion": "1.6.0",
       "additionalProperties": {
         "type": "object",
@@ -13059,10 +13061,8 @@
         ],
         "additionalProperties": false
       },
-      "bibo:status": "bibo:draft",
-      "pav:version": "0.0.1",
-      "$schema": "http://json-schema.org/draft-04/schema#",
-      "schema:identifier": "data_characteristics_summary"
+      "schema:identifier": "data_characteristics_summary",
+      "$schema": "http://json-schema.org/draft-04/schema#"
     },
     "Data Source": {
       "type": "array",
@@ -13245,13 +13245,13 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "pav:version": "0.9.1",
+            "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "bibo:status": "bibo:draft",
-            "pav:version": "0.9.1",
-            "$schema": "http://json-schema.org/draft-04/schema#",
             "skos:prefLabel": "Data Source Name",
-            "schema:identifier": "data_source_name"
+            "schema:identifier": "data_source_name",
+            "$schema": "http://json-schema.org/draft-04/schema#"
           },
           "Data Source Identifier": {
             "@id": "https://repo.metadatacenter.org/template-fields/ec9624e4-52ea-44d1-ab30-caf8ef2a49b7",
@@ -13326,13 +13326,13 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "pav:version": "0.9.1",
+            "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "bibo:status": "bibo:draft",
-            "pav:version": "0.9.1",
-            "$schema": "http://json-schema.org/draft-04/schema#",
             "skos:prefLabel": "Data Source Identifier",
-            "schema:identifier": "data_source_identifier"
+            "schema:identifier": "data_source_identifier",
+            "$schema": "http://json-schema.org/draft-04/schema#"
           },
           "Data Source Identifier Scheme": {
             "@id": "https://repo.metadatacenter.org/template-fields/195aae58-7790-4f66-b435-d29a25f885cf",
@@ -13419,13 +13419,13 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "pav:version": "0.9.1",
+            "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "bibo:status": "bibo:draft",
-            "pav:version": "0.9.1",
-            "$schema": "http://json-schema.org/draft-04/schema#",
             "skos:prefLabel": "Data Source Identifier Scheme",
-            "schema:identifier": "data_source_identifier_scheme"
+            "schema:identifier": "data_source_identifier_scheme",
+            "$schema": "http://json-schema.org/draft-04/schema#"
           },
           "Data Source Identifier Scheme IRI": {
             "@id": "https://repo.metadatacenter.org/template-fields/664947db-c430-4492-8273-4d3bed62017a",
@@ -13500,13 +13500,13 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "pav:version": "0.9.1",
+            "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "bibo:status": "bibo:draft",
-            "pav:version": "0.9.1",
-            "$schema": "http://json-schema.org/draft-04/schema#",
             "skos:prefLabel": "Data Source Identifier Scheme IRI",
-            "schema:identifier": "data_source_identifier_scheme_iri"
+            "schema:identifier": "data_source_identifier_scheme_iri",
+            "$schema": "http://json-schema.org/draft-04/schema#"
           }
         },
         "required": [
@@ -13523,12 +13523,12 @@
         "pav:createdBy": "https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014",
         "pav:lastUpdatedOn": "2022-10-13T12:45:10-07:00",
         "oslc:modifiedBy": "https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014",
+        "pav:version": "0.0.1",
+        "bibo:status": "bibo:draft",
         "schema:schemaVersion": "1.6.0",
         "additionalProperties": false,
-        "bibo:status": "bibo:draft",
-        "pav:version": "0.0.1",
-        "$schema": "http://json-schema.org/draft-04/schema#",
-        "schema:identifier": "data_source"
+        "schema:identifier": "data_source",
+        "$schema": "http://json-schema.org/draft-04/schema#"
       }
     },
     "Data Stream": {
@@ -13730,13 +13730,13 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "pav:version": "0.9.1",
+            "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "bibo:status": "bibo:draft",
-            "pav:version": "0.9.1",
-            "$schema": "http://json-schema.org/draft-04/schema#",
             "skos:prefLabel": "Data Stream Name",
-            "schema:identifier": "data_stream_name"
+            "schema:identifier": "data_stream_name",
+            "$schema": "http://json-schema.org/draft-04/schema#"
           },
           "Data Stream Identifier": {
             "@id": "https://repo.metadatacenter.org/template-fields/ab7ec0c7-357a-4365-b748-07e8d8ede35d",
@@ -13811,13 +13811,13 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "pav:version": "0.9.1",
+            "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "bibo:status": "bibo:draft",
-            "pav:version": "0.9.1",
-            "$schema": "http://json-schema.org/draft-04/schema#",
             "skos:prefLabel": "Data Stream Identifier",
-            "schema:identifier": "data_stream_identifier"
+            "schema:identifier": "data_stream_identifier",
+            "$schema": "http://json-schema.org/draft-04/schema#"
           },
           "Data Stream Identifier Scheme": {
             "@id": "https://repo.metadatacenter.org/template-fields/425ef35b-3386-4eb2-86eb-83d5355cf344",
@@ -13904,13 +13904,13 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "pav:version": "0.9.1",
+            "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "bibo:status": "bibo:draft",
-            "pav:version": "0.9.1",
-            "$schema": "http://json-schema.org/draft-04/schema#",
             "skos:prefLabel": "Data Stream Identifier Scheme",
-            "schema:identifier": "data_stream_identifier_scheme"
+            "schema:identifier": "data_stream_identifier_scheme",
+            "$schema": "http://json-schema.org/draft-04/schema#"
           },
           "Data Stream Identifier Scheme IRI": {
             "@id": "https://repo.metadatacenter.org/template-fields/5e181a12-5188-4997-8fed-83c785510d53",
@@ -13985,13 +13985,13 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "pav:version": "0.9.1",
+            "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "bibo:status": "bibo:draft",
-            "pav:version": "0.9.1",
-            "$schema": "http://json-schema.org/draft-04/schema#",
             "skos:prefLabel": "Data Stream Identifier Scheme IRI",
-            "schema:identifier": "data_stream_identifier_scheme_iri"
+            "schema:identifier": "data_stream_identifier_scheme_iri",
+            "$schema": "http://json-schema.org/draft-04/schema#"
           },
           "Data Stream Variable Name": {
             "type": "array",
@@ -14069,13 +14069,13 @@
               "pav:createdBy": null,
               "pav:lastUpdatedOn": null,
               "oslc:modifiedBy": null,
+              "pav:version": "0.9.1",
+              "bibo:status": "bibo:draft",
               "schema:schemaVersion": "1.6.0",
               "additionalProperties": false,
-              "bibo:status": "bibo:draft",
-              "pav:version": "0.9.1",
-              "$schema": "http://json-schema.org/draft-04/schema#",
               "skos:prefLabel": "Data Stream Variable Name",
-              "schema:identifier": "data_stream_variable_name"
+              "schema:identifier": "data_stream_variable_name",
+              "$schema": "http://json-schema.org/draft-04/schema#"
             }
           },
           "Data Stream Data Source Identifier": {
@@ -14151,13 +14151,13 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "pav:version": "0.9.1",
+            "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "bibo:status": "bibo:draft",
-            "pav:version": "0.9.1",
-            "$schema": "http://json-schema.org/draft-04/schema#",
             "skos:prefLabel": "Data Stream Data Source Identifier",
-            "schema:identifier": "data_stream_data_source_identifier"
+            "schema:identifier": "data_stream_data_source_identifier",
+            "$schema": "http://json-schema.org/draft-04/schema#"
           }
         },
         "required": [
@@ -14176,12 +14176,12 @@
         "pav:createdBy": "https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014",
         "pav:lastUpdatedOn": "2022-10-13T12:45:10-07:00",
         "oslc:modifiedBy": "https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014",
+        "pav:version": "0.0.1",
+        "bibo:status": "bibo:draft",
         "schema:schemaVersion": "1.6.0",
         "additionalProperties": false,
-        "bibo:status": "bibo:draft",
-        "pav:version": "0.0.1",
-        "$schema": "http://json-schema.org/draft-04/schema#",
-        "schema:identifier": "data_stream"
+        "schema:identifier": "data_stream",
+        "$schema": "http://json-schema.org/draft-04/schema#"
       }
     },
     "Data File Creation Process": {
@@ -14365,13 +14365,13 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "pav:version": "0.9.1",
+            "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "bibo:status": "bibo:draft",
-            "pav:version": "0.9.1",
-            "$schema": "http://json-schema.org/draft-04/schema#",
             "skos:prefLabel": "Process Name",
-            "schema:identifier": "process_name"
+            "schema:identifier": "process_name",
+            "$schema": "http://json-schema.org/draft-04/schema#"
           },
           "Process IRI": {
             "@id": "https://repo.metadatacenter.org/template-fields/8c82bea3-17a8-45e0-af8d-45b36ce4634e",
@@ -14446,13 +14446,13 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "pav:version": "0.9.1",
+            "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "bibo:status": "bibo:draft",
-            "pav:version": "0.9.1",
-            "$schema": "http://json-schema.org/draft-04/schema#",
             "skos:prefLabel": "Process IRI",
-            "schema:identifier": "process_iri"
+            "schema:identifier": "process_iri",
+            "$schema": "http://json-schema.org/draft-04/schema#"
           },
           "Process Version": {
             "@id": "https://repo.metadatacenter.org/template-fields/93270f75-349c-4bbd-b298-943bb196f88f",
@@ -14527,13 +14527,13 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "pav:version": "0.9.1",
+            "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "bibo:status": "bibo:draft",
-            "pav:version": "0.9.1",
-            "$schema": "http://json-schema.org/draft-04/schema#",
             "skos:prefLabel": "Process Version",
-            "schema:identifier": "process_version"
+            "schema:identifier": "process_version",
+            "$schema": "http://json-schema.org/draft-04/schema#"
           },
           "Process Execution Identifier": {
             "@id": "https://repo.metadatacenter.org/template-fields/bd81c603-98a7-4813-b5b0-1ffca00da3a1",
@@ -14608,13 +14608,13 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "pav:version": "0.9.1",
+            "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "bibo:status": "bibo:draft",
-            "pav:version": "0.9.1",
-            "$schema": "http://json-schema.org/draft-04/schema#",
             "skos:prefLabel": "Process Execution Identifier",
-            "schema:identifier": "process_execution_identifier"
+            "schema:identifier": "process_execution_identifier",
+            "$schema": "http://json-schema.org/draft-04/schema#"
           }
         },
         "required": [
@@ -14631,12 +14631,12 @@
         "pav:createdBy": "https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014",
         "pav:lastUpdatedOn": "2022-10-13T12:45:10-07:00",
         "oslc:modifiedBy": "https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014",
+        "pav:version": "0.0.1",
+        "bibo:status": "bibo:draft",
         "schema:schemaVersion": "1.6.0",
         "additionalProperties": false,
-        "bibo:status": "bibo:draft",
-        "pav:version": "0.0.1",
-        "$schema": "http://json-schema.org/draft-04/schema#",
-        "schema:identifier": "data_file_creation_process"
+        "schema:identifier": "data_file_creation_process",
+        "$schema": "http://json-schema.org/draft-04/schema#"
       }
     },
     "Data File Temporal Coverage": {
@@ -14821,13 +14821,13 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "pav:version": "0.9.1",
+            "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "bibo:status": "bibo:draft",
-            "pav:version": "0.9.1",
-            "$schema": "http://json-schema.org/draft-04/schema#",
             "skos:prefLabel": "Temporal Extent Minimum Value",
-            "schema:identifier": "temporal_extent_minimum_value"
+            "schema:identifier": "temporal_extent_minimum_value",
+            "$schema": "http://json-schema.org/draft-04/schema#"
           },
           "Temporal Extent Maximum Value": {
             "@id": "https://repo.metadatacenter.org/template-fields/f89531c3-019a-432f-adc4-9c595af6e78d",
@@ -14903,13 +14903,13 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "pav:version": "0.9.1",
+            "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "bibo:status": "bibo:draft",
-            "pav:version": "0.9.1",
-            "$schema": "http://json-schema.org/draft-04/schema#",
             "skos:prefLabel": "Temporal Extent Maximum Value",
-            "schema:identifier": "temporal_extent_maximum_value"
+            "schema:identifier": "temporal_extent_maximum_value",
+            "$schema": "http://json-schema.org/draft-04/schema#"
           },
           "Temporal Resolution": {
             "@id": "https://repo.metadatacenter.org/template-fields/680eaad0-188f-4696-a48f-5b5d82ebb323",
@@ -14984,13 +14984,13 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "pav:version": "0.9.1",
+            "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "bibo:status": "bibo:draft",
-            "pav:version": "0.9.1",
-            "$schema": "http://json-schema.org/draft-04/schema#",
             "skos:prefLabel": "Temporal Resolution",
-            "schema:identifier": "temporal_resolution"
+            "schema:identifier": "temporal_resolution",
+            "$schema": "http://json-schema.org/draft-04/schema#"
           },
           "Duration": {
             "@id": "https://repo.metadatacenter.org/template-fields/4951019a-a0d7-439e-af64-82e6ed1ec8a3",
@@ -15065,13 +15065,13 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "pav:version": "0.9.1",
+            "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "bibo:status": "bibo:draft",
-            "pav:version": "0.9.1",
-            "$schema": "http://json-schema.org/draft-04/schema#",
             "skos:prefLabel": "Duration",
-            "schema:identifier": "duration"
+            "schema:identifier": "duration",
+            "$schema": "http://json-schema.org/draft-04/schema#"
           }
         },
         "required": [
@@ -15088,12 +15088,12 @@
         "pav:createdBy": "https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014",
         "pav:lastUpdatedOn": "2022-10-13T12:45:10-07:00",
         "oslc:modifiedBy": "https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014",
+        "pav:version": "0.0.1",
+        "bibo:status": "bibo:draft",
         "schema:schemaVersion": "1.6.0",
         "additionalProperties": false,
-        "bibo:status": "bibo:draft",
-        "pav:version": "0.0.1",
-        "$schema": "http://json-schema.org/draft-04/schema#",
-        "schema:identifier": "data_file_temporal_coverage"
+        "schema:identifier": "data_file_temporal_coverage",
+        "$schema": "http://json-schema.org/draft-04/schema#"
       }
     },
     "Data File Spatial Coverage": {
@@ -15376,13 +15376,13 @@
                   "pav:createdBy": null,
                   "pav:lastUpdatedOn": null,
                   "oslc:modifiedBy": null,
+                  "pav:version": "0.9.1",
+                  "bibo:status": "bibo:draft",
                   "schema:schemaVersion": "1.6.0",
                   "additionalProperties": false,
-                  "bibo:status": "bibo:draft",
-                  "pav:version": "0.9.1",
-                  "$schema": "http://json-schema.org/draft-04/schema#",
                   "skos:prefLabel": "Maximum Latitude",
-                  "schema:identifier": "maximum_latitude"
+                  "schema:identifier": "maximum_latitude",
+                  "$schema": "http://json-schema.org/draft-04/schema#"
                 },
                 "Minimum Latitude": {
                   "@id": "https://repo.metadatacenter.org/template-fields/53543694-a05b-4a2b-91f7-72d001a63a1f",
@@ -15457,13 +15457,13 @@
                   "pav:createdBy": null,
                   "pav:lastUpdatedOn": null,
                   "oslc:modifiedBy": null,
+                  "pav:version": "0.9.1",
+                  "bibo:status": "bibo:draft",
                   "schema:schemaVersion": "1.6.0",
                   "additionalProperties": false,
-                  "bibo:status": "bibo:draft",
-                  "pav:version": "0.9.1",
-                  "$schema": "http://json-schema.org/draft-04/schema#",
                   "skos:prefLabel": "Minimum Latitude",
-                  "schema:identifier": "minimum_latitude"
+                  "schema:identifier": "minimum_latitude",
+                  "$schema": "http://json-schema.org/draft-04/schema#"
                 },
                 "Minimum Longitude": {
                   "@id": "https://repo.metadatacenter.org/template-fields/352ce0cd-ace8-4f66-b906-4b872ac83043",
@@ -15538,13 +15538,13 @@
                   "pav:createdBy": null,
                   "pav:lastUpdatedOn": null,
                   "oslc:modifiedBy": null,
+                  "pav:version": "0.9.1",
+                  "bibo:status": "bibo:draft",
                   "schema:schemaVersion": "1.6.0",
                   "additionalProperties": false,
-                  "bibo:status": "bibo:draft",
-                  "pav:version": "0.9.1",
-                  "$schema": "http://json-schema.org/draft-04/schema#",
                   "skos:prefLabel": "Minimum Longitude",
-                  "schema:identifier": "minimum_longitude"
+                  "schema:identifier": "minimum_longitude",
+                  "$schema": "http://json-schema.org/draft-04/schema#"
                 },
                 "Maximum Longitude": {
                   "@id": "https://repo.metadatacenter.org/template-fields/43c450de-7361-415f-9732-5a8998ef599a",
@@ -15619,13 +15619,13 @@
                   "pav:createdBy": null,
                   "pav:lastUpdatedOn": null,
                   "oslc:modifiedBy": null,
+                  "pav:version": "0.9.1",
+                  "bibo:status": "bibo:draft",
                   "schema:schemaVersion": "1.6.0",
                   "additionalProperties": false,
-                  "bibo:status": "bibo:draft",
-                  "pav:version": "0.9.1",
-                  "$schema": "http://json-schema.org/draft-04/schema#",
                   "skos:prefLabel": "Maximum Longitude",
-                  "schema:identifier": "maximum_longitude"
+                  "schema:identifier": "maximum_longitude",
+                  "$schema": "http://json-schema.org/draft-04/schema#"
                 }
               },
               "required": [
@@ -15642,12 +15642,12 @@
               "pav:createdBy": null,
               "pav:lastUpdatedOn": null,
               "oslc:modifiedBy": null,
+              "pav:version": "0.0.1",
+              "bibo:status": "bibo:draft",
               "schema:schemaVersion": "1.6.0",
               "additionalProperties": false,
-              "bibo:status": "bibo:draft",
-              "pav:version": "0.0.1",
-              "$schema": "http://json-schema.org/draft-04/schema#",
-              "schema:identifier": "bounding_box"
+              "schema:identifier": "bounding_box",
+              "$schema": "http://json-schema.org/draft-04/schema#"
             }
           },
           "Bounding Shape": {
@@ -15824,13 +15824,13 @@
                   "pav:createdBy": null,
                   "pav:lastUpdatedOn": null,
                   "oslc:modifiedBy": null,
+                  "pav:version": "0.9.1",
+                  "bibo:status": "bibo:draft",
                   "schema:schemaVersion": "1.6.0",
                   "additionalProperties": false,
-                  "bibo:status": "bibo:draft",
-                  "pav:version": "0.9.1",
-                  "$schema": "http://json-schema.org/draft-04/schema#",
                   "skos:prefLabel": "Point Number",
-                  "schema:identifier": "point_number"
+                  "schema:identifier": "point_number",
+                  "$schema": "http://json-schema.org/draft-04/schema#"
                 },
                 "Latitude": {
                   "@id": "https://repo.metadatacenter.org/template-fields/560f1c82-11b3-4e7d-a510-4bf7deb131b2",
@@ -15907,13 +15907,13 @@
                   "pav:createdBy": null,
                   "pav:lastUpdatedOn": null,
                   "oslc:modifiedBy": null,
+                  "pav:version": "0.9.1",
+                  "bibo:status": "bibo:draft",
                   "schema:schemaVersion": "1.6.0",
                   "additionalProperties": false,
-                  "bibo:status": "bibo:draft",
-                  "pav:version": "0.9.1",
-                  "$schema": "http://json-schema.org/draft-04/schema#",
                   "skos:prefLabel": "Latitude",
-                  "schema:identifier": "latitude"
+                  "schema:identifier": "latitude",
+                  "$schema": "http://json-schema.org/draft-04/schema#"
                 },
                 "Longitude": {
                   "@id": "https://repo.metadatacenter.org/template-fields/7889386a-9f94-4ca6-ae4b-479e5ed3f7cd",
@@ -15990,13 +15990,13 @@
                   "pav:createdBy": null,
                   "pav:lastUpdatedOn": null,
                   "oslc:modifiedBy": null,
+                  "pav:version": "0.9.1",
+                  "bibo:status": "bibo:draft",
                   "schema:schemaVersion": "1.6.0",
                   "additionalProperties": false,
-                  "bibo:status": "bibo:draft",
-                  "pav:version": "0.9.1",
-                  "$schema": "http://json-schema.org/draft-04/schema#",
                   "skos:prefLabel": "Longitude",
-                  "schema:identifier": "longitude"
+                  "schema:identifier": "longitude",
+                  "$schema": "http://json-schema.org/draft-04/schema#"
                 }
               },
               "required": [
@@ -16012,12 +16012,12 @@
               "pav:createdBy": null,
               "pav:lastUpdatedOn": null,
               "oslc:modifiedBy": null,
+              "pav:version": "0.0.1",
+              "bibo:status": "bibo:draft",
               "schema:schemaVersion": "1.6.0",
               "additionalProperties": false,
-              "bibo:status": "bibo:draft",
-              "pav:version": "0.0.1",
-              "$schema": "http://json-schema.org/draft-04/schema#",
-              "schema:identifier": "bounding_shape"
+              "schema:identifier": "bounding_shape",
+              "$schema": "http://json-schema.org/draft-04/schema#"
             }
           },
           "Data File Geopolitical Coverage": {
@@ -16177,13 +16177,13 @@
                     "pav:createdBy": null,
                     "pav:lastUpdatedOn": null,
                     "oslc:modifiedBy": null,
+                    "pav:version": "0.9.1",
+                    "bibo:status": "bibo:draft",
                     "schema:schemaVersion": "1.6.0",
                     "additionalProperties": false,
-                    "bibo:status": "bibo:draft",
-                    "pav:version": "0.9.1",
-                    "$schema": "http://json-schema.org/draft-04/schema#",
                     "skos:prefLabel": "Geopolitical region ",
-                    "schema:identifier": "geopolitical_region_"
+                    "schema:identifier": "geopolitical_region_",
+                    "$schema": "http://json-schema.org/draft-04/schema#"
                   }
                 }
               },
@@ -16198,12 +16198,12 @@
               "pav:createdBy": null,
               "pav:lastUpdatedOn": null,
               "oslc:modifiedBy": null,
+              "pav:version": "0.0.1",
+              "bibo:status": "bibo:draft",
               "schema:schemaVersion": "1.6.0",
               "additionalProperties": false,
-              "bibo:status": "bibo:draft",
-              "pav:version": "0.0.1",
-              "$schema": "http://json-schema.org/draft-04/schema#",
-              "schema:identifier": "data_file_geopolitical_coverage"
+              "schema:identifier": "data_file_geopolitical_coverage",
+              "$schema": "http://json-schema.org/draft-04/schema#"
             }
           }
         },
@@ -16220,12 +16220,12 @@
         "pav:createdBy": "https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014",
         "pav:lastUpdatedOn": "2022-10-13T12:45:10-07:00",
         "oslc:modifiedBy": "https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014",
+        "pav:version": "0.0.1",
+        "bibo:status": "bibo:draft",
         "schema:schemaVersion": "1.6.0",
         "additionalProperties": false,
-        "bibo:status": "bibo:draft",
-        "pav:version": "0.0.1",
-        "$schema": "http://json-schema.org/draft-04/schema#",
-        "schema:identifier": "data_file_spatial_coverage"
+        "schema:identifier": "data_file_spatial_coverage",
+        "$schema": "http://json-schema.org/draft-04/schema#"
       }
     },
     "Data File Elevation Coverage": {
@@ -16411,13 +16411,13 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "pav:version": "0.9.1",
+            "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "bibo:status": "bibo:draft",
-            "pav:version": "0.9.1",
-            "$schema": "http://json-schema.org/draft-04/schema#",
             "skos:prefLabel": "Vertical Extent Minimum Value",
-            "schema:identifier": "vertical_extent_minimum_value"
+            "schema:identifier": "vertical_extent_minimum_value",
+            "$schema": "http://json-schema.org/draft-04/schema#"
           },
           "Vertical Extent Maximum Value": {
             "@id": "https://repo.metadatacenter.org/template-fields/4f2a8bcb-533e-4b32-b5a7-99af45a93a6a",
@@ -16494,13 +16494,13 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "pav:version": "0.9.1",
+            "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "bibo:status": "bibo:draft",
-            "pav:version": "0.9.1",
-            "$schema": "http://json-schema.org/draft-04/schema#",
             "skos:prefLabel": "Vertical Extent Maximum Value",
-            "schema:identifier": "vertical_extent_maximum_value"
+            "schema:identifier": "vertical_extent_maximum_value",
+            "$schema": "http://json-schema.org/draft-04/schema#"
           },
           "Vertical Extent Datum": {
             "@id": "https://repo.metadatacenter.org/template-fields/c3cab018-6b2a-4e84-809c-8e96ad58704e",
@@ -16575,13 +16575,13 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "pav:version": "0.9.1",
+            "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "bibo:status": "bibo:draft",
-            "pav:version": "0.9.1",
-            "$schema": "http://json-schema.org/draft-04/schema#",
             "skos:prefLabel": "Vertical Extent Datum",
-            "schema:identifier": "vertical_extent_datum"
+            "schema:identifier": "vertical_extent_datum",
+            "$schema": "http://json-schema.org/draft-04/schema#"
           },
           "Vertical Extent Datum IRI": {
             "@id": "https://repo.metadatacenter.org/template-fields/d72f7eb3-319d-4006-ba62-297aabb51c62",
@@ -16655,13 +16655,13 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "pav:version": "0.9.1",
+            "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "bibo:status": "bibo:draft",
-            "pav:version": "0.9.1",
-            "$schema": "http://json-schema.org/draft-04/schema#",
             "skos:prefLabel": "Vertical Extent Datum IRI",
-            "schema:identifier": "vertical_extent_datum_iri"
+            "schema:identifier": "vertical_extent_datum_iri",
+            "$schema": "http://json-schema.org/draft-04/schema#"
           }
         },
         "required": [
@@ -16678,12 +16678,12 @@
         "pav:createdBy": "https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014",
         "pav:lastUpdatedOn": "2022-10-13T12:45:10-07:00",
         "oslc:modifiedBy": "https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014",
+        "pav:version": "0.0.1",
+        "bibo:status": "bibo:draft",
         "schema:schemaVersion": "1.6.0",
         "additionalProperties": false,
-        "bibo:status": "bibo:draft",
-        "pav:version": "0.0.1",
-        "$schema": "http://json-schema.org/draft-04/schema#",
-        "schema:identifier": "data_file_elevation_coverage"
+        "schema:identifier": "data_file_elevation_coverage",
+        "$schema": "http://json-schema.org/draft-04/schema#"
       }
     },
     "Auxiliary Metadata": {
@@ -16820,13 +16820,13 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "pav:version": "0.9.1",
+            "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "bibo:status": "bibo:draft",
-            "pav:version": "0.9.1",
-            "$schema": "http://json-schema.org/draft-04/schema#",
             "skos:prefLabel": "Data File Descriptive Key-Value Pair",
-            "schema:identifier": "data_file_descriptive_key-value_pair"
+            "schema:identifier": "data_file_descriptive_key-value_pair",
+            "$schema": "http://json-schema.org/draft-04/schema#"
           }
         },
         "Additional Commentary": {
@@ -16904,13 +16904,13 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "pav:version": "0.9.1",
+            "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "bibo:status": "bibo:draft",
-            "pav:version": "0.9.1",
-            "$schema": "http://json-schema.org/draft-04/schema#",
             "skos:prefLabel": "Additional Commentary",
-            "schema:identifier": "additional_commentary"
+            "schema:identifier": "additional_commentary",
+            "$schema": "http://json-schema.org/draft-04/schema#"
           }
         }
       },
@@ -16925,6 +16925,8 @@
       "pav:createdBy": "https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014",
       "pav:lastUpdatedOn": "2022-10-13T12:45:10-07:00",
       "oslc:modifiedBy": "https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014",
+      "pav:version": "0.0.1",
+      "bibo:status": "bibo:draft",
       "schema:schemaVersion": "1.6.0",
       "additionalProperties": {
         "type": "object",
@@ -16945,10 +16947,8 @@
         ],
         "additionalProperties": false
       },
-      "bibo:status": "bibo:draft",
-      "pav:version": "0.0.1",
-      "$schema": "http://json-schema.org/draft-04/schema#",
-      "schema:identifier": "auxiliary_metadata"
+      "schema:identifier": "auxiliary_metadata",
+      "$schema": "http://json-schema.org/draft-04/schema#"
     }
   },
   "required": [
@@ -16992,10 +16992,10 @@
   "pav:createdBy": "https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014",
   "pav:lastUpdatedOn": "2022-10-13T12:45:10-07:00",
   "oslc:modifiedBy": "https://metadatacenter.org/users/819b3cfd-49a9-4e72-b5d5-18166366f014",
+  "pav:version": "0.0.1",
+  "bibo:status": "bibo:draft",
   "schema:schemaVersion": "1.6.0",
   "additionalProperties": false,
-  "bibo:status": "bibo:draft",
-  "pav:version": "0.0.1",
-  "$schema": "http://json-schema.org/draft-04/schema#",
-  "schema:identifier": "Template"
+  "schema:identifier": "Template",
+  "$schema": "http://json-schema.org/draft-04/schema#"
 }

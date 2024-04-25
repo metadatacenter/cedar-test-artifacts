@@ -535,8 +535,8 @@
             "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "$schema": "http://json-schema.org/draft-04/schema#",
-            "skos:prefLabel": "Read & Understood"
+            "skos:prefLabel": "Read & Understood",
+            "$schema": "http://json-schema.org/draft-04/schema#"
           }
         }
       },
@@ -551,12 +551,12 @@
       "pav:createdBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
       "pav:lastUpdatedOn": "2022-06-19T21:59:19-07:00",
       "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
+      "pav:version": "0.0.1",
+      "bibo:status": "bibo:draft",
       "schema:schemaVersion": "1.6.0",
       "additionalProperties": false,
-      "bibo:status": "bibo:draft",
-      "pav:version": "0.0.1",
-      "$schema": "http://json-schema.org/draft-04/schema#",
-      "pav:derivedFrom": "https://repo.metadatacenter.org/template-elements/0f91041a-b334-41d2-abb4-ec1b5da6d180"
+      "pav:derivedFrom": "https://repo.metadatacenter.org/template-elements/0f91041a-b334-41d2-abb4-ec1b5da6d180",
+      "$schema": "http://json-schema.org/draft-04/schema#"
     },
     "catalogTitleRT": {
       "@id": "https://repo.metadatacenter.org/template-fields/4ea2fcc8-6d20-4376-b9e2-1655a946081b",
@@ -659,8 +659,8 @@
       "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
       "schema:schemaVersion": "1.6.0",
       "additionalProperties": false,
-      "$schema": "http://json-schema.org/draft-04/schema#",
-      "skos:prefLabel": "Catalog Title"
+      "skos:prefLabel": "Catalog Title",
+      "$schema": "http://json-schema.org/draft-04/schema#"
     },
     "catalogDescriptionRT": {
       "@id": "https://repo.metadatacenter.org/template-fields/412039ca-6049-4d17-ab19-ccbd1b7fd189",
@@ -763,8 +763,8 @@
       "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
       "schema:schemaVersion": "1.6.0",
       "additionalProperties": false,
-      "$schema": "http://json-schema.org/draft-04/schema#",
-      "skos:prefLabel": "Catalog Description"
+      "skos:prefLabel": "Catalog Description",
+      "$schema": "http://json-schema.org/draft-04/schema#"
     },
     "publisherRT": {
       "@id": "https://repo.metadatacenter.org/template-fields/ae2c88e6-6e72-4257-8a1c-5b41e31a98d4",
@@ -867,8 +867,8 @@
       "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
       "schema:schemaVersion": "1.6.0",
       "additionalProperties": false,
-      "$schema": "http://json-schema.org/draft-04/schema#",
-      "skos:prefLabel": "Publisher"
+      "skos:prefLabel": "Publisher",
+      "$schema": "http://json-schema.org/draft-04/schema#"
     },
     "licenseRT": {
       "@id": "https://repo.metadatacenter.org/template-fields/11983fc0-9bac-426c-8e8a-847191c996e5",
@@ -984,8 +984,8 @@
       "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
       "schema:schemaVersion": "1.6.0",
       "additionalProperties": false,
-      "$schema": "http://json-schema.org/draft-04/schema#",
-      "skos:prefLabel": "License"
+      "skos:prefLabel": "License",
+      "$schema": "http://json-schema.org/draft-04/schema#"
     },
     "datasetMetadataInstanceIDRT": {
       "@id": "https://repo.metadatacenter.org/template-fields/5d16c3a5-547b-4803-ae9d-6811badf1906",
@@ -1091,8 +1091,8 @@
         "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
         "schema:schemaVersion": "1.6.0",
         "additionalProperties": false,
-        "$schema": "http://json-schema.org/draft-04/schema#",
-        "skos:prefLabel": "Dataset Metadata Instance ID (1..N)"
+        "skos:prefLabel": "Dataset Metadata Instance ID (1..N)",
+        "$schema": "http://json-schema.org/draft-04/schema#"
       }
     }
   },
@@ -1119,10 +1119,10 @@
   "pav:createdBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
   "pav:lastUpdatedOn": "2022-06-19T21:59:19-07:00",
   "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
+  "pav:version": "0.0.1",
+  "bibo:status": "bibo:published",
   "schema:schemaVersion": "1.6.0",
   "additionalProperties": false,
-  "bibo:status": "bibo:published",
-  "pav:version": "0.0.1",
-  "$schema": "http://json-schema.org/draft-04/schema#",
-  "pav:derivedFrom": "https://repo.metadatacenter.org/templates/2ef5e58f-0770-484d-80ae-23768cc1fda2"
+  "pav:derivedFrom": "https://repo.metadatacenter.org/templates/2ef5e58f-0770-484d-80ae-23768cc1fda2",
+  "$schema": "http://json-schema.org/draft-04/schema#"
 }

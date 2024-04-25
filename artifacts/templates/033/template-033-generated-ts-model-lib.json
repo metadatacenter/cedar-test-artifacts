@@ -358,10 +358,10 @@
       "pav:createdBy": "https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95",
       "pav:lastUpdatedOn": "2024-04-23T10:51:00-07:00",
       "oslc:modifiedBy": "https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95",
+      "pav:version": "0.0.1",
+      "bibo:status": "bibo:draft",
       "schema:schemaVersion": "1.6.0",
       "additionalProperties": false,
-      "bibo:status": "bibo:draft",
-      "pav:version": "0.0.1",
       "$schema": "http://json-schema.org/draft-04/schema#"
     }
   },
@@ -383,11 +383,11 @@
   "pav:createdBy": null,
   "pav:lastUpdatedOn": null,
   "oslc:modifiedBy": null,
+  "pav:version": "0.0.2",
+  "bibo:status": "bibo:published",
   "schema:schemaVersion": "1.6.0",
   "additionalProperties": false,
-  "bibo:status": "bibo:published",
-  "pav:version": "0.0.2",
-  "$schema": "http://json-schema.org/draft-04/schema#",
   "schema:identifier": "e0ef7a86-8a58-485b-ab7f-3e4fffcba6f1",
-  "pav:previousVersion": "0.0.1"
+  "pav:previousVersion": "0.0.1",
+  "$schema": "http://json-schema.org/draft-04/schema#"
 }

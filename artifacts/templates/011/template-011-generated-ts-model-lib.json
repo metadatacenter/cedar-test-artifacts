@@ -362,12 +362,12 @@
         "oslc:modifiedBy": "https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95",
         "schema:schemaVersion": "1.6.0",
         "additionalProperties": false,
-        "$schema": "http://json-schema.org/draft-04/schema#",
+        "skos:prefLabel": "TextField 1 preferred label",
         "skos:altLabel": [
           "TextField1 Alt1",
           "TextField1 Alt2"
         ],
-        "skos:prefLabel": "TextField 1 preferred label"
+        "$schema": "http://json-schema.org/draft-04/schema#"
       }
     }
   },
@@ -389,9 +389,9 @@
   "pav:createdBy": "https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95",
   "pav:lastUpdatedOn": "2024-03-06T12:46:44-08:00",
   "oslc:modifiedBy": "https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95",
+  "pav:version": "0.0.1",
+  "bibo:status": "bibo:draft",
   "schema:schemaVersion": "1.6.0",
   "additionalProperties": false,
-  "bibo:status": "bibo:draft",
-  "pav:version": "0.0.1",
   "$schema": "http://json-schema.org/draft-04/schema#"
 }
