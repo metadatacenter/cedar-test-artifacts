@@ -66,12 +66,12 @@
           ]
         }
       },
-      "additionalProperties": false,
       "required": [
         "Text field",
         "Email",
         "Numeric"
-      ]
+      ],
+      "additionalProperties": false
     },
     "@id": {
       "type": "string",
@@ -95,6 +95,7 @@
       ]
     },
     "Text field": {
+      "@id": "https://repo.metadatacenter.org/template-fields/fae6da00-d104-4787-bf62-1506a79ce4f8",
       "@type": "https://schema.metadatacenter.org/core/TemplateField",
       "@context": {
         "xsd": "http://www.w3.org/2001/XMLSchema#",
@@ -167,10 +168,10 @@
       "oslc:modifiedBy": "https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95",
       "schema:schemaVersion": "1.6.0",
       "additionalProperties": false,
-      "@id": "https://repo.metadatacenter.org/template-fields/fae6da00-d104-4787-bf62-1506a79ce4f8",
       "$schema": "http://json-schema.org/draft-04/schema#"
     },
     "Email": {
+      "@id": "https://repo.metadatacenter.org/template-fields/d1da1935-5bb8-4800-92f3-bd1020e551d0",
       "@type": "https://schema.metadatacenter.org/core/TemplateField",
       "@context": {
         "xsd": "http://www.w3.org/2001/XMLSchema#",
@@ -243,10 +244,10 @@
       "oslc:modifiedBy": "https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95",
       "schema:schemaVersion": "1.6.0",
       "additionalProperties": false,
-      "@id": "https://repo.metadatacenter.org/template-fields/d1da1935-5bb8-4800-92f3-bd1020e551d0",
       "$schema": "http://json-schema.org/draft-04/schema#"
     },
     "Numeric": {
+      "@id": "https://repo.metadatacenter.org/template-fields/c200faae-8a7c-40a1-88ea-5d385230f242",
       "@type": "https://schema.metadatacenter.org/core/TemplateField",
       "@context": {
         "xsd": "http://www.w3.org/2001/XMLSchema#",
@@ -321,12 +322,9 @@
       "oslc:modifiedBy": "https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95",
       "schema:schemaVersion": "1.6.0",
       "additionalProperties": false,
-      "@id": "https://repo.metadatacenter.org/template-fields/c200faae-8a7c-40a1-88ea-5d385230f242",
       "$schema": "http://json-schema.org/draft-04/schema#"
     }
   },
-  "schema:name": "#002 Element with three fields",
-  "schema:description": "",
   "required": [
     "@context",
     "@id",
@@ -334,13 +332,15 @@
     "Email",
     "Numeric"
   ],
+  "schema:name": "#002 Element with three fields",
+  "schema:description": "",
   "pav:createdOn": "2024-03-12T12:22:22-07:00",
   "pav:createdBy": "https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95",
   "pav:lastUpdatedOn": "2024-03-12T12:23:36-07:00",
   "oslc:modifiedBy": "https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95",
-  "schema:schemaVersion": "1.6.0",
-  "additionalProperties": false,
   "pav:version": "0.0.1",
   "bibo:status": "bibo:draft",
+  "schema:schemaVersion": "1.6.0",
+  "additionalProperties": false,
   "$schema": "http://json-schema.org/draft-04/schema#"
 }

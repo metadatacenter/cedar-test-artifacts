@@ -74,6 +74,7 @@
       "type": "array",
       "minItems": 0,
       "items": {
+        "@id": "https://repo.metadatacenter.org/template-fields/162ab456-e5ec-400c-a713-c46c29adf3b8",
         "@type": "https://schema.metadatacenter.org/core/TemplateField",
         "@context": {
           "xsd": "http://www.w3.org/2001/XMLSchema#",
@@ -121,21 +122,22 @@
         "oslc:modifiedBy": "https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95",
         "schema:schemaVersion": "1.6.0",
         "additionalProperties": false,
-        "@id": "https://repo.metadatacenter.org/template-fields/162ab456-e5ec-400c-a713-c46c29adf3b8",
         "$schema": "http://json-schema.org/draft-04/schema#"
       }
     }
   },
-  "schema:name": "#001 Element with attribute-value",
-  "schema:description": "",
   "required": [
     "@context",
     "@id"
   ],
+  "schema:name": "#001 Element with attribute-value",
+  "schema:description": "",
   "pav:createdOn": "2024-03-08T12:32:06-08:00",
   "pav:createdBy": "https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95",
   "pav:lastUpdatedOn": "2024-03-08T12:32:06-08:00",
   "oslc:modifiedBy": "https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95",
+  "pav:version": "0.0.1",
+  "bibo:status": "bibo:draft",
   "schema:schemaVersion": "1.6.0",
   "additionalProperties": {
     "type": "object",
@@ -156,7 +158,5 @@
     ],
     "additionalProperties": false
   },
-  "pav:version": "0.0.1",
-  "bibo:status": "bibo:draft",
   "$schema": "http://json-schema.org/draft-04/schema#"
 }
