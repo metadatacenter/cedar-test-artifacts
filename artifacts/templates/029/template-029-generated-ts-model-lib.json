@@ -632,6 +632,12 @@
                 "type": "string",
                 "format": "uri"
               },
+              "rdfs:label": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
               "@value": {
                 "type": [
                   "string",
@@ -1454,6 +1460,12 @@
                 "type": "string",
                 "format": "uri"
               },
+              "rdfs:label": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
               "@value": {
                 "type": [
                   "string",
@@ -1661,6 +1673,12 @@
               "type": "string",
               "format": "uri"
             },
+            "rdfs:label": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
             "@value": {
               "type": [
                 "string",
@@ -1835,6 +1853,12 @@
               "type": "string",
               "format": "uri"
             },
+            "rdfs:label": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
             "@value": {
               "type": [
                 "string",
@@ -1915,6 +1939,12 @@
             "@type": {
               "type": "string",
               "format": "uri"
+            },
+            "rdfs:label": {
+              "type": [
+                "string",
+                "null"
+              ]
             },
             "@value": {
               "type": [
@@ -2177,6 +2207,12 @@
             "@type": {
               "type": "string",
               "format": "uri"
+            },
+            "rdfs:label": {
+              "type": [
+                "string",
+                "null"
+              ]
             },
             "@value": {
               "type": [
@@ -3106,6 +3142,12 @@
               "type": "string",
               "format": "uri"
             },
+            "rdfs:label": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
             "@value": {
               "type": [
                 "string",
@@ -3927,6 +3969,12 @@
               "type": "string",
               "format": "uri"
             },
+            "rdfs:label": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
             "@value": {
               "type": [
                 "string",
@@ -4229,6 +4277,12 @@
                 "type": "string",
                 "format": "uri"
               },
+              "rdfs:label": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
               "@value": {
                 "type": [
                   "string",
@@ -4311,6 +4365,12 @@
                 "type": "string",
                 "format": "uri"
               },
+              "rdfs:label": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
               "@value": {
                 "type": [
                   "string",
@@ -4391,6 +4451,12 @@
               "@type": {
                 "type": "string",
                 "format": "uri"
+              },
+              "rdfs:label": {
+                "type": [
+                  "string",
+                  "null"
+                ]
               },
               "@value": {
                 "type": [
@@ -4593,6 +4659,12 @@
               "@type": {
                 "type": "string",
                 "format": "uri"
+              },
+              "rdfs:label": {
+                "type": [
+                  "string",
+                  "null"
+                ]
               },
               "@value": {
                 "type": [
@@ -5415,6 +5487,12 @@
                 "type": "string",
                 "format": "uri"
               },
+              "rdfs:label": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
               "@value": {
                 "type": [
                   "string",
@@ -5693,6 +5771,12 @@
             "@type": {
               "type": "string",
               "format": "uri"
+            },
+            "rdfs:label": {
+              "type": [
+                "string",
+                "null"
+              ]
             },
             "@value": {
               "type": [
@@ -6080,6 +6164,12 @@
                 "type": "string",
                 "format": "uri"
               },
+              "rdfs:label": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
               "@value": {
                 "type": [
                   "string",
@@ -6160,6 +6250,12 @@
               "@type": {
                 "type": "string",
                 "format": "uri"
+              },
+              "rdfs:label": {
+                "type": [
+                  "string",
+                  "null"
+                ]
               },
               "@value": {
                 "type": [
@@ -6242,6 +6338,12 @@
                 "type": "string",
                 "format": "uri"
               },
+              "rdfs:label": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
               "@value": {
                 "type": [
                   "string",
@@ -6322,6 +6424,12 @@
               "@type": {
                 "type": "string",
                 "format": "uri"
+              },
+              "rdfs:label": {
+                "type": [
+                  "string",
+                  "null"
+                ]
               },
               "@value": {
                 "type": [
@@ -6577,6 +6685,12 @@
                 "type": "string",
                 "format": "uri"
               },
+              "rdfs:label": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
               "@value": {
                 "type": [
                   "string",
@@ -6658,6 +6772,12 @@
                 "type": "string",
                 "format": "uri"
               },
+              "rdfs:label": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
               "@value": {
                 "type": [
                   "string",
@@ -6738,6 +6858,12 @@
               "@type": {
                 "type": "string",
                 "format": "uri"
+              },
+              "rdfs:label": {
+                "type": [
+                  "string",
+                  "null"
+                ]
               },
               "@value": {
                 "type": [
@@ -7236,6 +7362,12 @@
                 "type": "string",
                 "format": "uri"
               },
+              "rdfs:label": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
               "@value": {
                 "type": [
                   "string",
@@ -7410,6 +7542,12 @@
                 "type": "string",
                 "format": "uri"
               },
+              "rdfs:label": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
               "@value": {
                 "type": [
                   "string",
@@ -7583,6 +7721,12 @@
               "@type": {
                 "type": "string",
                 "format": "uri"
+              },
+              "rdfs:label": {
+                "type": [
+                  "string",
+                  "null"
+                ]
               },
               "@value": {
                 "type": [
@@ -7975,6 +8119,12 @@
                 "type": "string",
                 "format": "uri"
               },
+              "rdfs:label": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
               "@value": {
                 "type": [
                   "string",
@@ -8055,6 +8205,12 @@
               "@type": {
                 "type": "string",
                 "format": "uri"
+              },
+              "rdfs:label": {
+                "type": [
+                  "string",
+                  "null"
+                ]
               },
               "@value": {
                 "type": [
@@ -8137,6 +8293,12 @@
                 "type": "string",
                 "format": "uri"
               },
+              "rdfs:label": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
               "@value": {
                 "type": [
                   "string",
@@ -8217,6 +8379,12 @@
               "@type": {
                 "type": "string",
                 "format": "uri"
+              },
+              "rdfs:label": {
+                "type": [
+                  "string",
+                  "null"
+                ]
               },
               "@value": {
                 "type": [
@@ -8473,6 +8641,12 @@
                 "type": "string",
                 "format": "uri"
               },
+              "rdfs:label": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
               "@value": {
                 "type": [
                   "string",
@@ -8553,6 +8727,12 @@
               "@type": {
                 "type": "string",
                 "format": "uri"
+              },
+              "rdfs:label": {
+                "type": [
+                  "string",
+                  "null"
+                ]
               },
               "@value": {
                 "type": [
@@ -8807,6 +8987,12 @@
               "@type": {
                 "type": "string",
                 "format": "uri"
+              },
+              "rdfs:label": {
+                "type": [
+                  "string",
+                  "null"
+                ]
               },
               "@value": {
                 "type": [
@@ -9287,6 +9473,12 @@
                 "type": "string",
                 "format": "uri"
               },
+              "rdfs:label": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
               "@value": {
                 "type": [
                   "string",
@@ -9574,6 +9766,12 @@
                 "type": "string",
                 "format": "uri"
               },
+              "rdfs:label": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
               "@value": {
                 "type": [
                   "string",
@@ -9811,6 +10009,12 @@
                 "type": "string",
                 "format": "uri"
               },
+              "rdfs:label": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
               "@value": {
                 "type": [
                   "string",
@@ -9891,6 +10095,12 @@
               "@type": {
                 "type": "string",
                 "format": "uri"
+              },
+              "rdfs:label": {
+                "type": [
+                  "string",
+                  "null"
+                ]
               },
               "@value": {
                 "type": [
@@ -10147,6 +10357,12 @@
                 "type": "string",
                 "format": "uri"
               },
+              "rdfs:label": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
               "@value": {
                 "type": [
                   "string",
@@ -10229,6 +10445,12 @@
                 "type": "string",
                 "format": "uri"
               },
+              "rdfs:label": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
               "@value": {
                 "type": [
                   "string",
@@ -10310,6 +10532,12 @@
               "@type": {
                 "type": "string",
                 "format": "uri"
+              },
+              "rdfs:label": {
+                "type": [
+                  "string",
+                  "null"
+                ]
               },
               "@value": {
                 "type": [
@@ -10553,6 +10781,12 @@
                 "type": "string",
                 "format": "uri"
               },
+              "rdfs:label": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
               "@value": {
                 "type": [
                   "string",
@@ -10714,6 +10948,12 @@
                 "type": "string",
                 "format": "uri"
               },
+              "rdfs:label": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
               "@value": {
                 "type": [
                   "string",
@@ -10795,6 +11035,12 @@
                 "type": "string",
                 "format": "uri"
               },
+              "rdfs:label": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
               "@value": {
                 "type": [
                   "string",
@@ -10875,6 +11121,12 @@
               "@type": {
                 "type": "string",
                 "format": "uri"
+              },
+              "rdfs:label": {
+                "type": [
+                  "string",
+                  "null"
+                ]
               },
               "@value": {
                 "type": [
@@ -11346,6 +11598,12 @@
                 "type": "string",
                 "format": "uri"
               },
+              "rdfs:label": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
               "@value": {
                 "type": [
                   "string",
@@ -11426,6 +11684,12 @@
               "@type": {
                 "type": "string",
                 "format": "uri"
+              },
+              "rdfs:label": {
+                "type": [
+                  "string",
+                  "null"
+                ]
               },
               "@value": {
                 "type": [
@@ -11682,6 +11946,12 @@
                 "type": "string",
                 "format": "uri"
               },
+              "rdfs:label": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
               "@value": {
                 "type": [
                   "string",
@@ -11855,6 +12125,12 @@
               "@type": {
                 "type": "string",
                 "format": "uri"
+              },
+              "rdfs:label": {
+                "type": [
+                  "string",
+                  "null"
+                ]
               },
               "@value": {
                 "type": [
@@ -12030,6 +12306,12 @@
                 "type": "string",
                 "format": "uri"
               },
+              "rdfs:label": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
               "@value": {
                 "type": [
                   "string",
@@ -12110,6 +12392,12 @@
               "@type": {
                 "type": "string",
                 "format": "uri"
+              },
+              "rdfs:label": {
+                "type": [
+                  "string",
+                  "null"
+                ]
               },
               "@value": {
                 "type": [
@@ -12192,6 +12480,12 @@
                 "type": "string",
                 "format": "uri"
               },
+              "rdfs:label": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
               "@value": {
                 "type": [
                   "string",
@@ -12272,6 +12566,12 @@
               "@type": {
                 "type": "string",
                 "format": "uri"
+              },
+              "rdfs:label": {
+                "type": [
+                  "string",
+                  "null"
+                ]
               },
               "@value": {
                 "type": [
@@ -12441,6 +12741,12 @@
                   "@type": {
                     "type": "string",
                     "format": "uri"
+                  },
+                  "rdfs:label": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
                   },
                   "@value": {
                     "type": [
@@ -12692,6 +12998,11 @@
               "enum": [
                 "http://purl.org/radx-terms/metadata-terms/dataCharacteristicsTableInTsv"
               ]
+            },
+            "Data Characteristics Table in Key-Value Pairs": {
+              "enum": [
+                "https://schema.metadatacenter.org/properties/7ca56d90-7c21-4a3e-8fa7-1a09060624ea"
+              ]
             }
           },
           "required": [
@@ -12774,6 +13085,12 @@
               "type": "string",
               "format": "uri"
             },
+            "rdfs:label": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
             "@value": {
               "type": [
                 "string",
@@ -12853,6 +13170,12 @@
             "@type": {
               "type": "string",
               "format": "uri"
+            },
+            "rdfs:label": {
+              "type": [
+                "string",
+                "null"
+              ]
             },
             "@value": {
               "type": [
@@ -12934,6 +13257,12 @@
             "@type": {
               "type": "string",
               "format": "uri"
+            },
+            "rdfs:label": {
+              "type": [
+                "string",
+                "null"
+              ]
             },
             "@value": {
               "type": [
@@ -13031,7 +13360,8 @@
         "@id",
         "Data Characteristics Table in HTML",
         "Data Characteristics Table in CSV",
-        "Data Characteristics Table in TSV"
+        "Data Characteristics Table in TSV",
+        "Data Characteristics Table in Key-Value Pairs"
       ],
       "schema:name": "Data Characteristics Summary",
       "schema:description": "Characteristics of the data within the data file, particularly of the cohorts in the data file. This section provides multiple ways to enter such information; it is only necessary to enter the information in one of these formats.",
@@ -13222,6 +13552,12 @@
                 "type": "string",
                 "format": "uri"
               },
+              "rdfs:label": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
               "@value": {
                 "type": [
                   "string",
@@ -13302,6 +13638,12 @@
               "@type": {
                 "type": "string",
                 "format": "uri"
+              },
+              "rdfs:label": {
+                "type": [
+                  "string",
+                  "null"
+                ]
               },
               "@value": {
                 "type": [
@@ -13707,6 +14049,12 @@
                 "type": "string",
                 "format": "uri"
               },
+              "rdfs:label": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
               "@value": {
                 "type": [
                   "string",
@@ -13787,6 +14135,12 @@
               "@type": {
                 "type": "string",
                 "format": "uri"
+              },
+              "rdfs:label": {
+                "type": [
+                  "string",
+                  "null"
+                ]
               },
               "@value": {
                 "type": [
@@ -14046,6 +14400,12 @@
                   "type": "string",
                   "format": "uri"
                 },
+                "rdfs:label": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
                 "@value": {
                   "type": [
                     "string",
@@ -14127,6 +14487,12 @@
               "@type": {
                 "type": "string",
                 "format": "uri"
+              },
+              "rdfs:label": {
+                "type": [
+                  "string",
+                  "null"
+                ]
               },
               "@value": {
                 "type": [
@@ -14342,6 +14708,12 @@
                 "type": "string",
                 "format": "uri"
               },
+              "rdfs:label": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
               "@value": {
                 "type": [
                   "string",
@@ -14422,6 +14794,12 @@
               "@type": {
                 "type": "string",
                 "format": "uri"
+              },
+              "rdfs:label": {
+                "type": [
+                  "string",
+                  "null"
+                ]
               },
               "@value": {
                 "type": [
@@ -14504,6 +14882,12 @@
                 "type": "string",
                 "format": "uri"
               },
+              "rdfs:label": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
               "@value": {
                 "type": [
                   "string",
@@ -14584,6 +14968,12 @@
               "@type": {
                 "type": "string",
                 "format": "uri"
+              },
+              "rdfs:label": {
+                "type": [
+                  "string",
+                  "null"
+                ]
               },
               "@value": {
                 "type": [
@@ -14798,6 +15188,12 @@
                 "type": "string",
                 "format": "uri"
               },
+              "rdfs:label": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
               "@value": {
                 "type": [
                   "string",
@@ -14880,6 +15276,12 @@
                 "type": "string",
                 "format": "uri"
               },
+              "rdfs:label": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
               "@value": {
                 "type": [
                   "string",
@@ -14961,6 +15363,12 @@
                 "type": "string",
                 "format": "uri"
               },
+              "rdfs:label": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
               "@value": {
                 "type": [
                   "string",
@@ -15041,6 +15449,12 @@
               "@type": {
                 "type": "string",
                 "format": "uri"
+              },
+              "rdfs:label": {
+                "type": [
+                  "string",
+                  "null"
+                ]
               },
               "@value": {
                 "type": [
@@ -15353,6 +15767,12 @@
                       "type": "string",
                       "format": "uri"
                     },
+                    "rdfs:label": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
                     "@value": {
                       "type": [
                         "string",
@@ -15433,6 +15853,12 @@
                     "@type": {
                       "type": "string",
                       "format": "uri"
+                    },
+                    "rdfs:label": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
                     },
                     "@value": {
                       "type": [
@@ -15515,6 +15941,12 @@
                       "type": "string",
                       "format": "uri"
                     },
+                    "rdfs:label": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
                     "@value": {
                       "type": [
                         "string",
@@ -15595,6 +16027,12 @@
                     "@type": {
                       "type": "string",
                       "format": "uri"
+                    },
+                    "rdfs:label": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
                     },
                     "@value": {
                       "type": [
@@ -15800,6 +16238,12 @@
                       "type": "string",
                       "format": "uri"
                     },
+                    "rdfs:label": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
                     "@value": {
                       "type": [
                         "string",
@@ -15883,6 +16327,12 @@
                       "type": "string",
                       "format": "uri"
                     },
+                    "rdfs:label": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
                     "@value": {
                       "type": [
                         "string",
@@ -15965,6 +16415,12 @@
                     "@type": {
                       "type": "string",
                       "format": "uri"
+                    },
+                    "rdfs:label": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
                     },
                     "@value": {
                       "type": [
@@ -16153,6 +16609,12 @@
                       "@type": {
                         "type": "string",
                         "format": "uri"
+                      },
+                      "rdfs:label": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
                       },
                       "@value": {
                         "type": [
@@ -16387,6 +16849,12 @@
                 "type": "string",
                 "format": "uri"
               },
+              "rdfs:label": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
               "@value": {
                 "type": [
                   "string",
@@ -16470,6 +16938,12 @@
                 "type": "string",
                 "format": "uri"
               },
+              "rdfs:label": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
               "@value": {
                 "type": [
                   "string",
@@ -16551,6 +17025,12 @@
               "@type": {
                 "type": "string",
                 "format": "uri"
+              },
+              "rdfs:label": {
+                "type": [
+                  "string",
+                  "null"
+                ]
               },
               "@value": {
                 "type": [
@@ -16735,6 +17215,11 @@
         "@context": {
           "type": "object",
           "properties": {
+            "Data File Descriptive Key-Value Pair": {
+              "enum": [
+                "https://schema.metadatacenter.org/properties/880d32df-5a49-4200-8f66-e2b53723a360"
+              ]
+            },
             "Additional Commentary": {
               "enum": [
                 "http://purl.org/radx-terms/metadata-terms/auxiliaryMetadataCommentary"
@@ -16881,6 +17366,12 @@
                 "type": "string",
                 "format": "uri"
               },
+              "rdfs:label": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
               "@value": {
                 "type": [
                   "string",
@@ -16917,6 +17408,7 @@
       "required": [
         "@context",
         "@id",
+        "Data File Descriptive Key-Value Pair",
         "Additional Commentary"
       ],
       "schema:name": "Auxiliary Metadata",

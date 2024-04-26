@@ -213,7 +213,8 @@
         "pav:createdOn",
         "pav:createdBy",
         "pav:lastUpdatedOn",
-        "oslc:modifiedBy"
+        "oslc:modifiedBy",
+        "ATTR-Value"
       ],
       "additionalProperties": {
         "type": "string",
@@ -353,7 +354,8 @@
     "pav:createdOn",
     "pav:createdBy",
     "pav:lastUpdatedOn",
-    "oslc:modifiedBy"
+    "oslc:modifiedBy",
+    "ATTR-Value"
   ],
   "schema:name": "#022 Template with AttributeValue",
   "schema:description": "",

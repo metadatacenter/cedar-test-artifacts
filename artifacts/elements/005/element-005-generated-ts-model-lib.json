@@ -144,6 +144,12 @@
           "type": "string",
           "format": "uri"
         },
+        "rdfs:label": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
         "@value": {
           "type": [
             "string",
@@ -219,6 +225,12 @@
         "@type": {
           "type": "string",
           "format": "uri"
+        },
+        "rdfs:label": {
+          "type": [
+            "string",
+            "null"
+          ]
         },
         "@value": {
           "type": [
@@ -296,6 +308,12 @@
         "@type": {
           "type": "string",
           "format": "uri"
+        },
+        "rdfs:label": {
+          "type": [
+            "string",
+            "null"
+          ]
         },
         "@value": {
           "type": [
