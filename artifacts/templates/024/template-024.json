@@ -345,8 +345,7 @@
               "source": "MESH"
             }
           ],
-          "branches": [],
-          "multipleChoice": false
+          "branches": []
         },
         "properties": {
           "@type": {

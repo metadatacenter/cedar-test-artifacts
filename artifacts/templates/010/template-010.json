@@ -374,7 +374,8 @@
         }
       },
       "required": [
-        "@value"
+        "@value",
+        "@type"
       ],
       "schema:name": "Simple date",
       "schema:description": "Help text",
@@ -461,7 +462,8 @@
         }
       },
       "required": [
-        "@value"
+        "@value",
+        "@type"
       ],
       "schema:name": "Simple time",
       "schema:description": "Help Text",
@@ -551,7 +553,8 @@
           }
         },
         "required": [
-          "@value"
+          "@value",
+          "@type"
         ],
         "additionalProperties": false,
         "pav:createdOn": "2024-03-06T14:35:02-08:00",

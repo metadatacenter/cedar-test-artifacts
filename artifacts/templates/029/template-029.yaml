@@ -347,7 +347,7 @@ children:
         description: |-
           The identifier type used to identify the resource being described.
 
-          This need not be provided if the identifier is either a DOI that begins with "doi:" or "http://doi.org/", or it is an IRI that begins with either "http://" or "https://" 
+          This need not be provided if the identifier is either a DOI that begins with "doi:" or "http://doi.org/", or it is an IRI that begins with either "http://" or "https://"
         identifier: identifier_type
         id: https://repo.metadatacenter.org/template-fields/d90894d0-63e2-4768-b36b-f6a1cac21067
         status: draft
@@ -1014,7 +1014,6 @@ children:
             acronym: MESH
             ontologyName: MESH
             iri: https://bioportal.bioontology.org/ontologies/MESH
-            numTerms: 0
         configuration:
           propertyIri: http://purl.org/radx-terms/metadata-terms/subjectIdentifier
       - key: Subject Identifier Scheme
@@ -1401,7 +1400,7 @@ children:
         description: |-
           The file name of the Data Dictionary file that defines the Data File's data elements.
 
-          Each file submitted should have its own data dictionary. For example, survery_results_origcopy.csv and survery_results_transformcopy.csv should both have data dictionary files (survery_results_origcopy_DICT.csv and survery_results_transformcopy_DICT.csv) associated with them. 
+          Each file submitted should have its own data dictionary. For example, survery_results_origcopy.csv and survery_results_transformcopy.csv should both have data dictionary files (survery_results_origcopy_DICT.csv and survery_results_transformcopy_DICT.csv) associated with them.
         identifier: data_dictionary_file_name
         id: https://repo.metadatacenter.org/template-fields/42ce24ab-21fc-4566-9daa-9280022e12de
         status: draft
@@ -3303,7 +3302,7 @@ children:
         description: |-
           The minimum vertical extent of the data file collection, specified in meters. 
 
-          In case of depth, this is the maximum depth of data file collection (that is, it is a negative number of greater absolute magnitude than the Vertical Extent Maximum Value if that is also a depth). 
+          In case of depth, this is the maximum depth of data file collection (that is, it is a negative number of greater absolute magnitude than the Vertical Extent Maximum Value if that is also a depth).
         identifier: vertical_extent_minimum_value
         id: https://repo.metadatacenter.org/template-fields/a7b181ae-df04-463f-81fe-7d0825b428a0
         status: draft
@@ -3318,9 +3317,9 @@ children:
         type: numeric-field
         name: Vertical Extent Maximum Value
         description: |-
-          The maximum vertical extent of the collected, specified in meters. 
+          The maximum vertical extent of the collected, specified in meters.
 
-          In case of depth, this is the minimum depth of data file collection (that is, it is a negative number of lesser absolute magnitude than the Vertical Extent Minimum Value). 
+          In case of depth, this is the minimum depth of data file collection (that is, it is a negative number of lesser absolute magnitude than the Vertical Extent Minimum Value).
         identifier: vertical_extent_maximum_value
         id: https://repo.metadatacenter.org/template-fields/4f2a8bcb-533e-4b32-b5a7-99af45a93a6a
         status: draft

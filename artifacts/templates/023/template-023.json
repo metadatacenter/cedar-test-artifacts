@@ -361,7 +361,6 @@
             "maxDepth": 0
           }
         ],
-        "multipleChoice": false,
         "defaultValue": {
           "termUri": "http://purl.bioontology.org/ontology/MESH/C039047",
           "rdfs:label": "2,3,6-trichlorotoluene"

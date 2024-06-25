@@ -343,7 +343,7 @@ children:
       - key: Identifier Type
         type: controlled-term-field
         name: Identifier Type
-        description: "The identifier type used to identify the resource being described.\n\nThis need not be provided if the identifier is either a DOI that begins with \"doi:\" or \"http://doi.org/\", or it is an IRI that begins with either \"http://\" or \"https://\" "
+        description: "The identifier type used to identify the resource being described.\n\nThis need not be provided if the identifier is either a DOI that begins with \"doi:\" or \"http://doi.org/\", or it is an IRI that begins with either \"http://\" or \"https://\""
         identifier: identifier_type
         id: https://repo.metadatacenter.org/template-fields/d90894d0-63e2-4768-b36b-f6a1cac21067
         status: draft

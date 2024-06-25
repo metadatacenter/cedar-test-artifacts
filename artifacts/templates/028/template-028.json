@@ -731,8 +731,7 @@
           "uri" : "http://vocab.fairdatacollective.org/gdmt/LicenseIdentifier",
           "name" : "License Identifier",
           "maxDepth" : 0
-        } ],
-        "multipleChoice" : false
+        } ]
       },
       "properties": {
         "@type": {
