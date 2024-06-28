@@ -721,7 +721,7 @@ children:
         configuration:
           propertyIri: http://purl.org/radx-terms/metadata-terms/primaryLanguage
       - key: Other Language
-        type: single-select-list-field
+        type: multi-select-list-field
         name: Other Language
         description: A language in which the data file being described is provided.
         identifier: other_language
