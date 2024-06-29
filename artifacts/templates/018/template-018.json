@@ -296,7 +296,7 @@
     },
     "My checkbox 2": {
       "type": "array",
-      "minItems": 1,
+      "minItems": 0,
       "items": {
         "type": "object",
         "@type": "https://schema.metadatacenter.org/core/TemplateField",
