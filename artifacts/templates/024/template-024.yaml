@@ -23,7 +23,6 @@ children:
         termType: class
         termLabel: Music
         iri: http://purl.bioontology.org/ontology/MESH/D009146
-    valueRecommendation: true
     createdOn: 2024-03-11T16:27:51-07:00
     createdBy: https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95
     modifiedOn: 2024-03-11T16:27:51-07:00
@@ -31,6 +30,7 @@ children:
     configuration:
       required: true
       propertyIri: https://schema.metadatacenter.org/properties/21a47ba3-18dc-4e6c-bcd3-63a4976f7658
+      valueRecommendation: true
       multiple: true
       minItems: 4
       maxItems: 7
