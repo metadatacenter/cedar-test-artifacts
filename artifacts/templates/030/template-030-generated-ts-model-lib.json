@@ -327,34 +327,33 @@
         "inputType": "textfield"
       },
       "_valueConstraints": {
-        "requiredValue": false,
         "ontologies": [
           {
+            "uri": "https://data.bioontology.org/ontologies/HOME",
             "acronym": "HOME",
             "name": "Health Ontology for Minority Equity",
-            "uri": "https://data.bioontology.org/ontologies/HOME",
             "numTerms": 82
           }
         ],
+        "valueSets": [],
         "classes": [
           {
-            "label": "Verbal_Abuse",
+            "uri": "http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Verbal_Abuse",
             "source": "HOME",
-            "type": "OntologyClass",
+            "label": "Verbal_Abuse",
             "prefLabel": "Verbal_Abuse",
-            "uri": "http://www.semanticweb.org/navyarenjith/ontologies/2021/3/untitled-ontology-5#Verbal_Abuse"
+            "type": "OntologyClass"
           }
         ],
         "branches": [
           {
+            "uri": "http://www.semanticweb.org/jbagwell/ontologies/2017/9/untitled-ontology-6#calories",
             "source": "undefined (CWD)",
             "acronym": "CWD",
             "name": "calories",
-            "uri": "http://www.semanticweb.org/jbagwell/ontologies/2017/9/untitled-ontology-6#calories",
             "maxDepth": 0
           }
         ],
-        "valueSets": [],
         "actions": [
           {
             "action": "delete",
@@ -409,7 +408,7 @@
             "type": "OntologyClass"
           }
         ],
-        "multipleChoice": false
+        "requiredValue": false
       },
       "properties": {
         "@type": {
@@ -456,6 +455,7 @@
     "oslc:modifiedBy",
     "Untitled"
   ],
+  "additionalProperties": false,
   "schema:name": "#030 Template with actions",
   "schema:description": "",
   "pav:createdOn": "2024-03-26T13:22:10-07:00",
@@ -465,6 +465,5 @@
   "pav:version": "0.0.1",
   "bibo:status": "bibo:draft",
   "schema:schemaVersion": "1.6.0",
-  "additionalProperties": false,
   "$schema": "http://json-schema.org/draft-04/schema#"
 }

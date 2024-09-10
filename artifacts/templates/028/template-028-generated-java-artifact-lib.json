@@ -44,57 +44,36 @@
       "datasetMetadataInstanceIdentifier"
     ],
     "propertyLabels": {
-      "catalogDescription": "catalogDescription",
-      "publisher": "publisher",
-      "catalogDescriptionRT": "catalogDescriptionRT",
-      "publisherRT": "publisherRT",
-      "datasetMetadataInstanceIdentifier": "datasetMetadataInstanceIdentifier",
-      "datasetMetadataInstanceIDRT": "datasetMetadataInstanceIDRT",
-      "catalogTitle": "catalogTitle",
+      "Read & Understood Catalog": "Read & Understood Catalog",
       "catalogTitleRT": "catalogTitleRT",
-      "license": "license",
+      "catalogTitle": "catalogTitle",
+      "catalogDescriptionRT": "catalogDescriptionRT",
+      "catalogDescription": "catalogDescription",
+      "publisherRT": "publisherRT",
+      "publisher": "publisher",
       "licenseRT": "licenseRT",
-      "Read & Understood Catalog": "Read & Understood Catalog"
+      "license": "license",
+      "datasetMetadataInstanceIDRT": "datasetMetadataInstanceIDRT",
+      "datasetMetadataInstanceIdentifier": "datasetMetadataInstanceIdentifier"
     },
     "propertyDescriptions": {
-      "catalogDescription": "",
-      "publisher": "",
-      "catalogDescriptionRT": "",
-      "publisherRT": "",
-      "datasetMetadataInstanceIdentifier": "",
-      "datasetMetadataInstanceIDRT": "Help Text",
-      "catalogTitle": "",
-      "catalogTitleRT": "",
       "Read & Understood Catalog": "",
+      "catalogTitleRT": "",
+      "catalogTitle": "",
+      "catalogDescriptionRT": "",
+      "catalogDescription": "",
+      "publisherRT": "",
+      "publisher": "",
+      "licenseRT": "Help Text",
       "license": "",
-      "licenseRT": "Help Text"
+      "datasetMetadataInstanceIDRT": "Help Text",
+      "datasetMetadataInstanceIdentifier": ""
     }
   },
   "properties": {
     "@context": {
       "type": "object",
       "properties": {
-        "schema": {
-          "type": "string",
-          "format": "uri",
-          "enum": [
-            "http://schema.org/"
-          ]
-        },
-        "oslc": {
-          "type": "string",
-          "format": "uri",
-          "enum": [
-            "http://open-services.net/ns/core#"
-          ]
-        },
-        "pav": {
-          "type": "string",
-          "format": "uri",
-          "enum": [
-            "http://purl.org/pav/"
-          ]
-        },
         "rdfs": {
           "type": "string",
           "format": "uri",
@@ -109,6 +88,27 @@
             "http://www.w3.org/2001/XMLSchema#"
           ]
         },
+        "pav": {
+          "type": "string",
+          "format": "uri",
+          "enum": [
+            "http://purl.org/pav/"
+          ]
+        },
+        "schema": {
+          "type": "string",
+          "format": "uri",
+          "enum": [
+            "http://schema.org/"
+          ]
+        },
+        "oslc": {
+          "type": "string",
+          "format": "uri",
+          "enum": [
+            "http://open-services.net/ns/core#"
+          ]
+        },
         "skos": {
           "type": "string",
           "format": "uri",
@@ -117,6 +117,7 @@
           ]
         },
         "rdfs:label": {
+          "type": "object",
           "properties": {
             "@type": {
               "type": "string",
@@ -127,6 +128,7 @@
           }
         },
         "schema:isBasedOn": {
+          "type": "object",
           "properties": {
             "@type": {
               "type": "string",
@@ -137,6 +139,7 @@
           }
         },
         "schema:name": {
+          "type": "object",
           "properties": {
             "@type": {
               "type": "string",
@@ -147,6 +150,7 @@
           }
         },
         "schema:description": {
+          "type": "object",
           "properties": {
             "@type": {
               "type": "string",
@@ -157,6 +161,7 @@
           }
         },
         "pav:derivedFrom": {
+          "type": "object",
           "properties": {
             "@type": {
               "type": "string",
@@ -167,6 +172,7 @@
           }
         },
         "pav:createdOn": {
+          "type": "object",
           "properties": {
             "@type": {
               "type": "string",
@@ -177,6 +183,7 @@
           }
         },
         "pav:createdBy": {
+          "type": "object",
           "properties": {
             "@type": {
               "type": "string",
@@ -187,6 +194,7 @@
           }
         },
         "pav:lastUpdatedOn": {
+          "type": "object",
           "properties": {
             "@type": {
               "type": "string",
@@ -197,6 +205,7 @@
           }
         },
         "oslc:modifiedBy": {
+          "type": "object",
           "properties": {
             "@type": {
               "type": "string",
@@ -207,6 +216,7 @@
           }
         },
         "skos:notation": {
+          "type": "object",
           "properties": {
             "@type": {
               "type": "string",
@@ -268,6 +278,13 @@
       ],
       "additionalProperties": false
     },
+    "@id": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "uri"
+    },
     "@type": {
       "oneOf": [
         {
@@ -285,17 +302,6 @@
         }
       ]
     },
-    "@id": {
-      "type": [
-        "string",
-        "null"
-      ],
-      "format": "uri"
-    },
-    "pav:derivedFrom": {
-      "type": "string",
-      "format": "uri"
-    },
     "schema:isBasedOn": {
       "type": "string",
       "format": "uri"
@@ -306,6 +312,10 @@
     },
     "schema:description": {
       "type": "string"
+    },
+    "pav:derivedFrom": {
+      "type": "string",
+      "format": "uri"
     },
     "pav:createdOn": {
       "type": [
@@ -529,9 +539,9 @@
             "pav:createdBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
             "pav:lastUpdatedOn": "2022-06-19T17:25:06-07:00",
             "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
+            "skos:prefLabel": "Read & Understood",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "skos:prefLabel": "Read & Understood",
             "$schema": "http://json-schema.org/draft-04/schema#"
           }
         }
@@ -539,7 +549,6 @@
       "required": [
         "@context",
         "@id",
-        "Read & Understood - RT",
         "Read & Understood"
       ],
       "schema:name": "Read & Understood Catalog",
@@ -577,9 +586,9 @@
       "pav:createdBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
       "pav:lastUpdatedOn": "2022-06-19T21:59:19-07:00",
       "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
+      "skos:prefLabel": "Catalog Title RT",
       "schema:schemaVersion": "1.6.0",
       "additionalProperties": false,
-      "skos:prefLabel": "Catalog Title RT",
       "$schema": "http://json-schema.org/draft-04/schema#"
     },
     "catalogTitle": {
@@ -660,9 +669,9 @@
       "pav:createdBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
       "pav:lastUpdatedOn": "2022-06-19T21:59:19-07:00",
       "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
+      "skos:prefLabel": "Catalog Title",
       "schema:schemaVersion": "1.6.0",
       "additionalProperties": false,
-      "skos:prefLabel": "Catalog Title",
       "$schema": "http://json-schema.org/draft-04/schema#"
     },
     "catalogDescriptionRT": {
@@ -687,9 +696,9 @@
       "pav:createdBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
       "pav:lastUpdatedOn": "2022-06-19T21:59:19-07:00",
       "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
+      "skos:prefLabel": "Catalog Description RT",
       "schema:schemaVersion": "1.6.0",
       "additionalProperties": false,
-      "skos:prefLabel": "Catalog Description RT",
       "$schema": "http://json-schema.org/draft-04/schema#"
     },
     "catalogDescription": {
@@ -770,9 +779,9 @@
       "pav:createdBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
       "pav:lastUpdatedOn": "2022-06-19T21:59:19-07:00",
       "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
+      "skos:prefLabel": "Catalog Description",
       "schema:schemaVersion": "1.6.0",
       "additionalProperties": false,
-      "skos:prefLabel": "Catalog Description",
       "$schema": "http://json-schema.org/draft-04/schema#"
     },
     "publisherRT": {
@@ -797,9 +806,9 @@
       "pav:createdBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
       "pav:lastUpdatedOn": "2022-06-19T21:59:19-07:00",
       "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
+      "skos:prefLabel": "Publisher RT",
       "schema:schemaVersion": "1.6.0",
       "additionalProperties": false,
-      "skos:prefLabel": "Publisher RT",
       "$schema": "http://json-schema.org/draft-04/schema#"
     },
     "publisher": {
@@ -851,15 +860,21 @@
           "type": "string",
           "format": "uri"
         },
+        "@id": {
+          "type": "string",
+          "format": "uri"
+        },
         "rdfs:label": {
           "type": [
             "string",
             "null"
           ]
         },
-        "@id": {
-          "type": "string",
-          "format": "uri"
+        "skos:notation": {
+          "type": [
+            "string",
+            "null"
+          ]
         }
       },
       "schema:name": "publisher",
@@ -868,9 +883,9 @@
       "pav:createdBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
       "pav:lastUpdatedOn": "2022-06-19T21:59:19-07:00",
       "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
+      "skos:prefLabel": "Publisher",
       "schema:schemaVersion": "1.6.0",
       "additionalProperties": false,
-      "skos:prefLabel": "Publisher",
       "$schema": "http://json-schema.org/draft-04/schema#"
     },
     "licenseRT": {
@@ -895,9 +910,9 @@
       "pav:createdBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
       "pav:lastUpdatedOn": "2022-06-19T21:59:19-07:00",
       "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
+      "skos:prefLabel": "License RT",
       "schema:schemaVersion": "1.6.0",
       "additionalProperties": false,
-      "skos:prefLabel": "License RT",
       "$schema": "http://json-schema.org/draft-04/schema#"
     },
     "license": {
@@ -942,9 +957,9 @@
         "inputType": "textfield"
       },
       "_valueConstraints": {
-        "ontologies": [ ],
-        "valueSets": [ ],
-        "classes": [ ],
+        "ontologies": [],
+        "valueSets": [],
+        "classes": [],
         "branches": [
           {
             "uri": "http://vocab.fairdatacollective.org/gdmt/LicenseIdentifier",
@@ -954,11 +969,14 @@
             "maxDepth": 0
           }
         ],
-        "actions": [ ],
         "requiredValue": false
       },
       "properties": {
         "@type": {
+          "type": "string",
+          "format": "uri"
+        },
+        "@id": {
           "type": "string",
           "format": "uri"
         },
@@ -968,9 +986,11 @@
             "null"
           ]
         },
-        "@id": {
-          "type": "string",
-          "format": "uri"
+        "skos:notation": {
+          "type": [
+            "string",
+            "null"
+          ]
         }
       },
       "schema:name": "license",
@@ -979,9 +999,9 @@
       "pav:createdBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
       "pav:lastUpdatedOn": "2022-06-19T21:59:19-07:00",
       "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
+      "skos:prefLabel": "License",
       "schema:schemaVersion": "1.6.0",
       "additionalProperties": false,
-      "skos:prefLabel": "License",
       "$schema": "http://json-schema.org/draft-04/schema#"
     },
     "datasetMetadataInstanceIDRT": {
@@ -1006,9 +1026,9 @@
       "pav:createdBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
       "pav:lastUpdatedOn": "2022-06-19T21:59:19-07:00",
       "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
+      "skos:prefLabel": "Dataset Metadata Instance ID RT",
       "schema:schemaVersion": "1.6.0",
       "additionalProperties": false,
-      "skos:prefLabel": "Dataset Metadata Instance ID RT",
       "$schema": "http://json-schema.org/draft-04/schema#"
     },
     "datasetMetadataInstanceIdentifier": {
@@ -1063,15 +1083,21 @@
             "type": "string",
             "format": "uri"
           },
+          "@id": {
+            "type": "string",
+            "format": "uri"
+          },
           "rdfs:label": {
             "type": [
               "string",
               "null"
             ]
           },
-          "@id": {
-            "type": "string",
-            "format": "uri"
+          "skos:notation": {
+            "type": [
+              "string",
+              "null"
+            ]
           }
         },
         "schema:name": "datasetMetadataInstanceIdentifier",
@@ -1080,9 +1106,9 @@
         "pav:createdBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
         "pav:lastUpdatedOn": "2022-06-19T21:59:19-07:00",
         "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
+        "skos:prefLabel": "Dataset Metadata Instance ID (1..N)",
         "schema:schemaVersion": "1.6.0",
         "additionalProperties": false,
-        "skos:prefLabel": "Dataset Metadata Instance ID (1..N)",
         "$schema": "http://json-schema.org/draft-04/schema#"
       }
     }
@@ -1098,15 +1124,10 @@
     "pav:lastUpdatedOn",
     "oslc:modifiedBy",
     "Read & Understood Catalog",
-    "catalogTitleRT",
     "catalogTitle",
-    "catalogDescriptionRT",
     "catalogDescription",
-    "publisherRT",
     "publisher",
-    "licenseRT",
     "license",
-    "datasetMetadataInstanceIDRT",
     "datasetMetadataInstanceIdentifier"
   ],
   "additionalProperties": false,

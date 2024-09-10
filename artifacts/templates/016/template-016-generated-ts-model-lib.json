@@ -385,6 +385,7 @@
     "oslc:modifiedBy",
     "Paragraph"
   ],
+  "additionalProperties": false,
   "schema:name": "#016 Template with Paragraph",
   "schema:description": "",
   "pav:createdOn": "2024-03-07T11:45:47-08:00",
@@ -394,6 +395,5 @@
   "pav:version": "0.0.1",
   "bibo:status": "bibo:draft",
   "schema:schemaVersion": "1.6.0",
-  "additionalProperties": false,
   "$schema": "http://json-schema.org/draft-04/schema#"
 }

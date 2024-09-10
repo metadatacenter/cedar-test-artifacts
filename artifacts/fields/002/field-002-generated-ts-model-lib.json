@@ -76,10 +76,10 @@
   "pav:createdBy": "https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95",
   "pav:lastUpdatedOn": "2024-03-13T18:32:24-07:00",
   "oslc:modifiedBy": "https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95",
+  "skos:prefLabel": "TextArea preferred",
   "pav:version": "0.0.1",
   "bibo:status": "bibo:draft",
   "schema:schemaVersion": "1.6.0",
   "additionalProperties": false,
-  "skos:prefLabel": "TextArea preferred",
   "$schema": "http://json-schema.org/draft-04/schema#"
 }

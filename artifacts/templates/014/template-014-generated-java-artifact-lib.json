@@ -38,45 +38,24 @@
       "Float"
     ],
     "propertyLabels": {
+      "Decimal": "Decimal",
       "Long": "Long",
       "Integer": "Integer",
       "Double": "Double",
-      "Float": "Float",
-      "Decimal": "Decimal"
+      "Float": "Float"
     },
     "propertyDescriptions": {
+      "Decimal": "Help Text",
       "Long": "Help Text",
       "Integer": "Help Text",
       "Double": "Help Text",
-      "Float": "Help Text",
-      "Decimal": "Help Text"
+      "Float": "Help Text"
     }
   },
   "properties": {
     "@context": {
       "type": "object",
       "properties": {
-        "schema": {
-          "type": "string",
-          "format": "uri",
-          "enum": [
-            "http://schema.org/"
-          ]
-        },
-        "oslc": {
-          "type": "string",
-          "format": "uri",
-          "enum": [
-            "http://open-services.net/ns/core#"
-          ]
-        },
-        "pav": {
-          "type": "string",
-          "format": "uri",
-          "enum": [
-            "http://purl.org/pav/"
-          ]
-        },
         "rdfs": {
           "type": "string",
           "format": "uri",
@@ -91,6 +70,27 @@
             "http://www.w3.org/2001/XMLSchema#"
           ]
         },
+        "pav": {
+          "type": "string",
+          "format": "uri",
+          "enum": [
+            "http://purl.org/pav/"
+          ]
+        },
+        "schema": {
+          "type": "string",
+          "format": "uri",
+          "enum": [
+            "http://schema.org/"
+          ]
+        },
+        "oslc": {
+          "type": "string",
+          "format": "uri",
+          "enum": [
+            "http://open-services.net/ns/core#"
+          ]
+        },
         "skos": {
           "type": "string",
           "format": "uri",
@@ -99,6 +99,7 @@
           ]
         },
         "rdfs:label": {
+          "type": "object",
           "properties": {
             "@type": {
               "type": "string",
@@ -109,6 +110,7 @@
           }
         },
         "schema:isBasedOn": {
+          "type": "object",
           "properties": {
             "@type": {
               "type": "string",
@@ -119,6 +121,7 @@
           }
         },
         "schema:name": {
+          "type": "object",
           "properties": {
             "@type": {
               "type": "string",
@@ -129,6 +132,7 @@
           }
         },
         "schema:description": {
+          "type": "object",
           "properties": {
             "@type": {
               "type": "string",
@@ -139,6 +143,7 @@
           }
         },
         "pav:derivedFrom": {
+          "type": "object",
           "properties": {
             "@type": {
               "type": "string",
@@ -149,6 +154,7 @@
           }
         },
         "pav:createdOn": {
+          "type": "object",
           "properties": {
             "@type": {
               "type": "string",
@@ -159,6 +165,7 @@
           }
         },
         "pav:createdBy": {
+          "type": "object",
           "properties": {
             "@type": {
               "type": "string",
@@ -169,6 +176,7 @@
           }
         },
         "pav:lastUpdatedOn": {
+          "type": "object",
           "properties": {
             "@type": {
               "type": "string",
@@ -179,6 +187,7 @@
           }
         },
         "oslc:modifiedBy": {
+          "type": "object",
           "properties": {
             "@type": {
               "type": "string",
@@ -189,6 +198,7 @@
           }
         },
         "skos:notation": {
+          "type": "object",
           "properties": {
             "@type": {
               "type": "string",
@@ -244,6 +254,13 @@
       ],
       "additionalProperties": false
     },
+    "@id": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "uri"
+    },
     "@type": {
       "oneOf": [
         {
@@ -261,17 +278,6 @@
         }
       ]
     },
-    "@id": {
-      "type": [
-        "string",
-        "null"
-      ],
-      "format": "uri"
-    },
-    "pav:derivedFrom": {
-      "type": "string",
-      "format": "uri"
-    },
     "schema:isBasedOn": {
       "type": "string",
       "format": "uri"
@@ -282,6 +288,10 @@
     },
     "schema:description": {
       "type": "string"
+    },
+    "pav:derivedFrom": {
+      "type": "string",
+      "format": "uri"
     },
     "pav:createdOn": {
       "type": [

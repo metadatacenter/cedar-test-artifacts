@@ -374,6 +374,7 @@
     "oslc:modifiedBy",
     "Linkfield"
   ],
+  "additionalProperties": false,
   "schema:name": "Template with simple link",
   "schema:description": "",
   "pav:createdOn": "2024-02-29T00:22:05-08:00",
@@ -383,6 +384,5 @@
   "pav:version": "0.0.1",
   "bibo:status": "bibo:draft",
   "schema:schemaVersion": "1.6.0",
-  "additionalProperties": false,
   "$schema": "http://json-schema.org/draft-04/schema#"
 }

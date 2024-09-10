@@ -43,13 +43,7 @@
   "properties": {
     "@context": {
       "type": "object",
-      "properties": {
-        "Attribute-Value": {
-          "enum": [
-            "https://schema.metadatacenter.org/properties/567002c1-5ce2-4c12-b468-86cb585e474a"
-          ]
-        }
-      },
+      "properties": {},
       "additionalProperties": {
         "type": "string",
         "format": "uri"
@@ -134,8 +128,7 @@
   },
   "required": [
     "@context",
-    "@id",
-    "Attribute-Value"
+    "@id"
   ],
   "schema:name": "#001 Element with attribute-value",
   "schema:description": "",

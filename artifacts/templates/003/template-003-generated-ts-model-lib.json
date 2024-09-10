@@ -34,10 +34,10 @@
       "TextfieldChild"
     ],
     "propertyLabels": {
-      "TextfieldChild": null
+      "TextfieldChild": "Textfield"
     },
     "propertyDescriptions": {
-      "TextfieldChild": null
+      "TextfieldChild": ""
     }
   },
   "properties": {
@@ -198,7 +198,7 @@
         },
         "TextfieldChild": {
           "enum": [
-            null
+            "https://schema.metadatacenter.org/properties/TextfieldChild"
           ]
         }
       },
@@ -380,6 +380,7 @@
     "oslc:modifiedBy",
     "TextfieldChild"
   ],
+  "additionalProperties": false,
   "schema:name": "Untitled",
   "schema:description": "Untitled description",
   "pav:createdOn": "2024-02-26T17:56:13-08:00",
@@ -389,6 +390,5 @@
   "pav:version": "0.0.1",
   "bibo:status": "bibo:draft",
   "schema:schemaVersion": "1.6.0",
-  "additionalProperties": false,
   "$schema": "http://json-schema.org/draft-04/schema#"
 }

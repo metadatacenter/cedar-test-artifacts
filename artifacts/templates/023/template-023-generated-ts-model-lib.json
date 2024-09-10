@@ -327,46 +327,45 @@
         "inputType": "textfield"
       },
       "_valueConstraints": {
-        "requiredValue": false,
-        "defaultValue": {
-          "termUri": "http://purl.bioontology.org/ontology/MESH/C039047",
-          "rdfs:label": "2,3,6-trichlorotoluene"
-        },
         "ontologies": [
           {
+            "uri": "https://data.bioontology.org/ontologies/MESH",
             "acronym": "MESH",
             "name": "Medical Subject Headings",
-            "uri": "https://data.bioontology.org/ontologies/MESH",
             "numTerms": 353825
-          }
-        ],
-        "classes": [
-          {
-            "label": "Music UI Label added in the editor",
-            "source": "MESH",
-            "type": "OntologyClass",
-            "prefLabel": "Music",
-            "uri": "http://purl.bioontology.org/ontology/MESH/D009146"
-          }
-        ],
-        "branches": [
-          {
-            "source": "Medical Subject Headings (MESH)",
-            "acronym": "MESH",
-            "name": "Mathematical Concepts",
-            "uri": "http://purl.bioontology.org/ontology/MESH/D055641",
-            "maxDepth": 0
           }
         ],
         "valueSets": [
           {
+            "uri": "https://cadsr.nci.nih.gov/metadata/CADSR-VS/ad5886076616ec6c35558648aca5abf942d6147a",
             "vsCollection": "CADSR-VS",
             "name": "Progressive Disease",
-            "uri": "https://cadsr.nci.nih.gov/metadata/CADSR-VS/ad5886076616ec6c35558648aca5abf942d6147a",
             "numTerms": 0
           }
         ],
-        "multipleChoice": false
+        "classes": [
+          {
+            "uri": "http://purl.bioontology.org/ontology/MESH/D009146",
+            "source": "MESH",
+            "label": "Music UI Label added in the editor",
+            "prefLabel": "Music",
+            "type": "OntologyClass"
+          }
+        ],
+        "branches": [
+          {
+            "uri": "http://purl.bioontology.org/ontology/MESH/D055641",
+            "source": "Medical Subject Headings (MESH)",
+            "acronym": "MESH",
+            "name": "Mathematical Concepts",
+            "maxDepth": 0
+          }
+        ],
+        "defaultValue": {
+          "rdfs:label": "2,3,6-trichlorotoluene",
+          "termUri": "http://purl.bioontology.org/ontology/MESH/C039047"
+        },
+        "requiredValue": false
       },
       "properties": {
         "@type": {
@@ -396,12 +395,12 @@
       "pav:createdBy": "https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95",
       "pav:lastUpdatedOn": "2024-03-11T15:26:26-07:00",
       "oslc:modifiedBy": "https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95",
-      "schema:schemaVersion": "1.6.0",
-      "additionalProperties": false,
       "skos:altLabel": [
         "ALT label 1",
         "ALT label 2"
       ],
+      "schema:schemaVersion": "1.6.0",
+      "additionalProperties": false,
       "$schema": "http://json-schema.org/draft-04/schema#"
     }
   },
@@ -417,6 +416,7 @@
     "oslc:modifiedBy",
     "Controlled 1"
   ],
+  "additionalProperties": false,
   "schema:name": "#023 Template with controlled field",
   "schema:description": "",
   "pav:createdOn": "2024-03-11T15:20:18-07:00",
@@ -426,6 +426,5 @@
   "pav:version": "0.0.1",
   "bibo:status": "bibo:draft",
   "schema:schemaVersion": "1.6.0",
-  "additionalProperties": false,
   "$schema": "http://json-schema.org/draft-04/schema#"
 }

@@ -327,8 +327,6 @@
         "inputType": "list"
       },
       "_valueConstraints": {
-        "requiredValue": true,
-        "multipleChoice": false,
         "literals": [
           {
             "label": "Option 1"
@@ -340,7 +338,9 @@
           {
             "label": "Option 3"
           }
-        ]
+        ],
+        "requiredValue": true,
+        "multipleChoice": false
       },
       "properties": {
         "@type": {
@@ -376,9 +376,9 @@
       "pav:createdBy": "https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95",
       "pav:lastUpdatedOn": "2024-03-07T13:44:58-08:00",
       "oslc:modifiedBy": "https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95",
+      "skos:prefLabel": "Pick from a list",
       "schema:schemaVersion": "1.6.0",
       "additionalProperties": false,
-      "skos:prefLabel": "Pick from a list",
       "$schema": "http://json-schema.org/draft-04/schema#"
     }
   },
@@ -394,6 +394,7 @@
     "oslc:modifiedBy",
     "Pick from"
   ],
+  "additionalProperties": false,
   "schema:name": "#019 Template with Pick from a list SingleSelect",
   "schema:description": "",
   "pav:createdOn": "2024-03-07T13:35:07-08:00",
@@ -403,6 +404,5 @@
   "pav:version": "0.0.1",
   "bibo:status": "bibo:draft",
   "schema:schemaVersion": "1.6.0",
-  "additionalProperties": false,
   "$schema": "http://json-schema.org/draft-04/schema#"
 }

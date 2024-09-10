@@ -363,9 +363,9 @@
       "pav:createdBy": "https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95",
       "pav:lastUpdatedOn": "2024-03-07T13:09:55-08:00",
       "oslc:modifiedBy": "https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95",
+      "skos:prefLabel": "Phone number preferred label",
       "schema:schemaVersion": "1.6.0",
       "additionalProperties": false,
-      "skos:prefLabel": "Phone number preferred label",
       "$schema": "http://json-schema.org/draft-04/schema#"
     }
   },
@@ -381,6 +381,7 @@
     "oslc:modifiedBy",
     "Phone number"
   ],
+  "additionalProperties": false,
   "schema:name": "#017 Template with phone",
   "schema:description": "",
   "pav:createdOn": "2024-03-07T13:09:55-08:00",
@@ -390,6 +391,5 @@
   "pav:version": "0.0.1",
   "bibo:status": "bibo:draft",
   "schema:schemaVersion": "1.6.0",
-  "additionalProperties": false,
   "$schema": "http://json-schema.org/draft-04/schema#"
 }

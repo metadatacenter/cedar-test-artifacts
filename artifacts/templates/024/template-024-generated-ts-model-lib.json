@@ -332,20 +332,19 @@
           "valueRecommendationEnabled": true
         },
         "_valueConstraints": {
-          "requiredValue": true,
           "ontologies": [],
+          "valueSets": [],
           "classes": [
             {
-              "label": "Music",
+              "uri": "http://purl.bioontology.org/ontology/MESH/D009146",
               "source": "MESH",
-              "type": "OntologyClass",
+              "label": "Music",
               "prefLabel": "Music",
-              "uri": "http://purl.bioontology.org/ontology/MESH/D009146"
+              "type": "OntologyClass"
             }
           ],
           "branches": [],
-          "valueSets": [],
-          "multipleChoice": false
+          "requiredValue": true
         },
         "properties": {
           "@type": {
@@ -393,6 +392,7 @@
     "oslc:modifiedBy",
     "Controlled"
   ],
+  "additionalProperties": false,
   "schema:name": "#024 Template with simple controlled field",
   "schema:description": "",
   "pav:createdOn": "2024-03-11T16:27:51-07:00",
@@ -402,6 +402,5 @@
   "pav:version": "0.0.1",
   "bibo:status": "bibo:draft",
   "schema:schemaVersion": "1.6.0",
-  "additionalProperties": false,
   "$schema": "http://json-schema.org/draft-04/schema#"
 }

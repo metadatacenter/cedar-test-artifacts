@@ -301,8 +301,8 @@
         "inputType": "numeric"
       },
       "_valueConstraints": {
-        "requiredValue": false,
-        "numberType": "xsd:decimal"
+        "numberType": "xsd:decimal",
+        "requiredValue": false
       },
       "properties": {
         "@type": {

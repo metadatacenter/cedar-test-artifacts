@@ -328,8 +328,8 @@
         "hidden": true
       },
       "_valueConstraints": {
-        "requiredValue": false,
-        "defaultValue": "default value"
+        "defaultValue": "default value",
+        "requiredValue": false
       },
       "properties": {
         "@type": {
@@ -365,9 +365,9 @@
       "pav:createdBy": "https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95",
       "pav:lastUpdatedOn": "2024-03-14T11:40:40-07:00",
       "oslc:modifiedBy": "https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95",
+      "skos:prefLabel": "Hidden field preferred",
       "schema:schemaVersion": "1.6.0",
       "additionalProperties": false,
-      "skos:prefLabel": "Hidden field preferred",
       "$schema": "http://json-schema.org/draft-04/schema#"
     }
   },
@@ -383,6 +383,7 @@
     "oslc:modifiedBy",
     "Hidden field"
   ],
+  "additionalProperties": false,
   "schema:name": "#025 Template with hidden field",
   "schema:description": "",
   "pav:createdOn": "2024-03-14T11:33:45-07:00",
@@ -392,6 +393,5 @@
   "pav:version": "0.0.1",
   "bibo:status": "bibo:draft",
   "schema:schemaVersion": "1.6.0",
-  "additionalProperties": false,
   "$schema": "http://json-schema.org/draft-04/schema#"
 }

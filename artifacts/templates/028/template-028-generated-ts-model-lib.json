@@ -444,11 +444,11 @@
           },
           "schema:name": "Read & Understood - RT",
           "schema:description": "",
-          "schema:schemaVersion": "1.6.0",
           "pav:createdOn": "2022-06-19T17:25:06-07:00",
           "pav:createdBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
           "pav:lastUpdatedOn": "2022-06-19T17:25:06-07:00",
           "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
+          "schema:schemaVersion": "1.6.0",
           "additionalProperties": false,
           "$schema": "http://json-schema.org/draft-04/schema#"
         },
@@ -497,13 +497,13 @@
               "inputType": "checkbox"
             },
             "_valueConstraints": {
-              "requiredValue": true,
-              "multipleChoice": true,
               "literals": [
                 {
                   "label": "I have read & understood"
                 }
-              ]
+              ],
+              "requiredValue": true,
+              "multipleChoice": true
             },
             "properties": {
               "@type": {
@@ -539,9 +539,9 @@
             "pav:createdBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
             "pav:lastUpdatedOn": "2022-06-19T17:25:06-07:00",
             "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
+            "skos:prefLabel": "Read & Understood",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "skos:prefLabel": "Read & Understood",
             "$schema": "http://json-schema.org/draft-04/schema#"
           }
         }
@@ -559,9 +559,9 @@
       "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
       "pav:version": "0.0.1",
       "bibo:status": "bibo:draft",
+      "pav:derivedFrom": "https://repo.metadatacenter.org/template-elements/0f91041a-b334-41d2-abb4-ec1b5da6d180",
       "schema:schemaVersion": "1.6.0",
       "additionalProperties": false,
-      "pav:derivedFrom": "https://repo.metadatacenter.org/template-elements/0f91041a-b334-41d2-abb4-ec1b5da6d180",
       "$schema": "http://json-schema.org/draft-04/schema#"
     },
     "catalogTitleRT": {
@@ -582,14 +582,14 @@
       },
       "schema:name": "catalogTitleRT",
       "schema:description": "",
-      "schema:schemaVersion": "1.6.0",
       "pav:createdOn": "2022-06-19T21:59:19-07:00",
       "pav:createdBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
       "pav:lastUpdatedOn": "2022-06-19T21:59:19-07:00",
       "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
+      "skos:prefLabel": "Catalog Title RT",
+      "schema:schemaVersion": "1.6.0",
       "additionalProperties": false,
-      "$schema": "http://json-schema.org/draft-04/schema#",
-      "skos:prefLabel": "Catalog Title RT"
+      "$schema": "http://json-schema.org/draft-04/schema#"
     },
     "catalogTitle": {
       "@id": "https://repo.metadatacenter.org/template-fields/2b0906ae-2761-4a4c-b85c-78c9275426f6",
@@ -669,9 +669,9 @@
       "pav:createdBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
       "pav:lastUpdatedOn": "2022-06-19T21:59:19-07:00",
       "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
+      "skos:prefLabel": "Catalog Title",
       "schema:schemaVersion": "1.6.0",
       "additionalProperties": false,
-      "skos:prefLabel": "Catalog Title",
       "$schema": "http://json-schema.org/draft-04/schema#"
     },
     "catalogDescriptionRT": {
@@ -692,14 +692,14 @@
       },
       "schema:name": "catalogDescriptionRT",
       "schema:description": "",
-      "schema:schemaVersion": "1.6.0",
       "pav:createdOn": "2022-06-19T21:59:19-07:00",
       "pav:createdBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
       "pav:lastUpdatedOn": "2022-06-19T21:59:19-07:00",
       "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
+      "skos:prefLabel": "Catalog Description RT",
+      "schema:schemaVersion": "1.6.0",
       "additionalProperties": false,
-      "$schema": "http://json-schema.org/draft-04/schema#",
-      "skos:prefLabel": "Catalog Description RT"
+      "$schema": "http://json-schema.org/draft-04/schema#"
     },
     "catalogDescription": {
       "@id": "https://repo.metadatacenter.org/template-fields/2a3a851f-2e9c-4b22-8923-4f24c6bd977e",
@@ -779,9 +779,9 @@
       "pav:createdBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
       "pav:lastUpdatedOn": "2022-06-19T21:59:19-07:00",
       "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
+      "skos:prefLabel": "Catalog Description",
       "schema:schemaVersion": "1.6.0",
       "additionalProperties": false,
-      "skos:prefLabel": "Catalog Description",
       "$schema": "http://json-schema.org/draft-04/schema#"
     },
     "publisherRT": {
@@ -802,14 +802,14 @@
       },
       "schema:name": "publisherRT",
       "schema:description": "",
-      "schema:schemaVersion": "1.6.0",
       "pav:createdOn": "2022-06-19T21:59:19-07:00",
       "pav:createdBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
       "pav:lastUpdatedOn": "2022-06-19T21:59:19-07:00",
       "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
+      "skos:prefLabel": "Publisher RT",
+      "schema:schemaVersion": "1.6.0",
       "additionalProperties": false,
-      "$schema": "http://json-schema.org/draft-04/schema#",
-      "skos:prefLabel": "Publisher RT"
+      "$schema": "http://json-schema.org/draft-04/schema#"
     },
     "publisher": {
       "@id": "https://repo.metadatacenter.org/template-fields/64f8b236-9127-41fb-9b2a-dacecfa9ee37",
@@ -883,9 +883,9 @@
       "pav:createdBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
       "pav:lastUpdatedOn": "2022-06-19T21:59:19-07:00",
       "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
+      "skos:prefLabel": "Publisher",
       "schema:schemaVersion": "1.6.0",
       "additionalProperties": false,
-      "skos:prefLabel": "Publisher",
       "$schema": "http://json-schema.org/draft-04/schema#"
     },
     "licenseRT": {
@@ -906,14 +906,14 @@
       },
       "schema:name": "licenseRT",
       "schema:description": "Help Text",
-      "schema:schemaVersion": "1.6.0",
       "pav:createdOn": "2022-06-19T21:59:19-07:00",
       "pav:createdBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
       "pav:lastUpdatedOn": "2022-06-19T21:59:19-07:00",
       "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
+      "skos:prefLabel": "License RT",
+      "schema:schemaVersion": "1.6.0",
       "additionalProperties": false,
-      "$schema": "http://json-schema.org/draft-04/schema#",
-      "skos:prefLabel": "License RT"
+      "$schema": "http://json-schema.org/draft-04/schema#"
     },
     "license": {
       "@id": "https://repo.metadatacenter.org/template-fields/54d38f5c-dd5b-4b3e-82ef-7c2e577b1fba",
@@ -957,20 +957,19 @@
         "inputType": "textfield"
       },
       "_valueConstraints": {
-        "requiredValue": false,
         "ontologies": [],
+        "valueSets": [],
         "classes": [],
         "branches": [
           {
+            "uri": "http://vocab.fairdatacollective.org/gdmt/LicenseIdentifier",
             "source": "Ontology for Generic Dataset Metadata Template (FDC-GDMT)",
             "acronym": "FDC-GDMT",
             "name": "License Identifier",
-            "uri": "http://vocab.fairdatacollective.org/gdmt/LicenseIdentifier",
             "maxDepth": 0
           }
         ],
-        "valueSets": [],
-        "multipleChoice": false
+        "requiredValue": false
       },
       "properties": {
         "@type": {
@@ -1000,9 +999,9 @@
       "pav:createdBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
       "pav:lastUpdatedOn": "2022-06-19T21:59:19-07:00",
       "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
+      "skos:prefLabel": "License",
       "schema:schemaVersion": "1.6.0",
       "additionalProperties": false,
-      "skos:prefLabel": "License",
       "$schema": "http://json-schema.org/draft-04/schema#"
     },
     "datasetMetadataInstanceIDRT": {
@@ -1023,14 +1022,14 @@
       },
       "schema:name": "datasetMetadataInstanceIDRT",
       "schema:description": "Help Text",
-      "schema:schemaVersion": "1.6.0",
       "pav:createdOn": "2022-06-19T21:59:19-07:00",
       "pav:createdBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
       "pav:lastUpdatedOn": "2022-06-19T21:59:19-07:00",
       "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
+      "skos:prefLabel": "Dataset Metadata Instance ID RT",
+      "schema:schemaVersion": "1.6.0",
       "additionalProperties": false,
-      "$schema": "http://json-schema.org/draft-04/schema#",
-      "skos:prefLabel": "Dataset Metadata Instance ID RT"
+      "$schema": "http://json-schema.org/draft-04/schema#"
     },
     "datasetMetadataInstanceIdentifier": {
       "type": "array",
@@ -1107,9 +1106,9 @@
         "pav:createdBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
         "pav:lastUpdatedOn": "2022-06-19T21:59:19-07:00",
         "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
+        "skos:prefLabel": "Dataset Metadata Instance ID (1..N)",
         "schema:schemaVersion": "1.6.0",
         "additionalProperties": false,
-        "skos:prefLabel": "Dataset Metadata Instance ID (1..N)",
         "$schema": "http://json-schema.org/draft-04/schema#"
       }
     }
@@ -1131,6 +1130,7 @@
     "license",
     "datasetMetadataInstanceIdentifier"
   ],
+  "additionalProperties": false,
   "schema:name": "Catalog",
   "schema:description": "DCAT v3 template for data catalog metadata",
   "pav:createdOn": "2022-06-19T09:15:48-07:00",
@@ -1139,8 +1139,7 @@
   "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
   "pav:version": "0.0.1",
   "bibo:status": "bibo:published",
-  "schema:schemaVersion": "1.6.0",
-  "additionalProperties": false,
   "pav:derivedFrom": "https://repo.metadatacenter.org/templates/2ef5e58f-0770-484d-80ae-23768cc1fda2",
+  "schema:schemaVersion": "1.6.0",
   "$schema": "http://json-schema.org/draft-04/schema#"
 }

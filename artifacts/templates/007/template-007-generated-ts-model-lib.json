@@ -388,6 +388,7 @@
     "oslc:modifiedBy",
     "Text field"
   ],
+  "additionalProperties": false,
   "schema:name": "Template with extra",
   "schema:description": "Template desc",
   "pav:createdOn": "2024-02-29T14:25:48-08:00",
@@ -397,7 +398,6 @@
   "pav:version": "0.0.1",
   "bibo:status": "bibo:draft",
   "schema:schemaVersion": "1.6.0",
-  "additionalProperties": false,
   "schema:identifier": "template-identifier",
   "$schema": "http://json-schema.org/draft-04/schema#"
 }

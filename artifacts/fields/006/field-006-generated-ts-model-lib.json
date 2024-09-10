@@ -40,11 +40,11 @@
     "inputType": "boolean"
   },
   "_valueConstraints": {
-    "requiredValue": false,
     "labels": {
       "true": "True",
       "false": "False"
-    }
+    },
+    "requiredValue": false
   },
   "properties": {
     "@type": {
@@ -80,10 +80,10 @@
   "pav:createdBy": null,
   "pav:lastUpdatedOn": null,
   "oslc:modifiedBy": null,
+  "skos:prefLabel": "Boolean Preferred",
   "pav:version": "0.0.1",
   "bibo:status": "bibo:draft",
   "schema:schemaVersion": "1.6.0",
   "additionalProperties": false,
-  "skos:prefLabel": "Boolean Preferred",
   "$schema": "http://json-schema.org/draft-04/schema#"
 }

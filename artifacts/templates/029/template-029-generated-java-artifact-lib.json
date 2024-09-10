@@ -113,27 +113,6 @@
     "@context": {
       "type": "object",
       "properties": {
-        "schema": {
-          "type": "string",
-          "format": "uri",
-          "enum": [
-            "http://schema.org/"
-          ]
-        },
-        "oslc": {
-          "type": "string",
-          "format": "uri",
-          "enum": [
-            "http://open-services.net/ns/core#"
-          ]
-        },
-        "pav": {
-          "type": "string",
-          "format": "uri",
-          "enum": [
-            "http://purl.org/pav/"
-          ]
-        },
         "rdfs": {
           "type": "string",
           "format": "uri",
@@ -148,6 +127,27 @@
             "http://www.w3.org/2001/XMLSchema#"
           ]
         },
+        "pav": {
+          "type": "string",
+          "format": "uri",
+          "enum": [
+            "http://purl.org/pav/"
+          ]
+        },
+        "schema": {
+          "type": "string",
+          "format": "uri",
+          "enum": [
+            "http://schema.org/"
+          ]
+        },
+        "oslc": {
+          "type": "string",
+          "format": "uri",
+          "enum": [
+            "http://open-services.net/ns/core#"
+          ]
+        },
         "skos": {
           "type": "string",
           "format": "uri",
@@ -156,6 +156,7 @@
           ]
         },
         "rdfs:label": {
+          "type": "object",
           "properties": {
             "@type": {
               "type": "string",
@@ -166,6 +167,7 @@
           }
         },
         "schema:isBasedOn": {
+          "type": "object",
           "properties": {
             "@type": {
               "type": "string",
@@ -176,6 +178,7 @@
           }
         },
         "schema:name": {
+          "type": "object",
           "properties": {
             "@type": {
               "type": "string",
@@ -186,6 +189,7 @@
           }
         },
         "schema:description": {
+          "type": "object",
           "properties": {
             "@type": {
               "type": "string",
@@ -196,6 +200,7 @@
           }
         },
         "pav:derivedFrom": {
+          "type": "object",
           "properties": {
             "@type": {
               "type": "string",
@@ -206,6 +211,7 @@
           }
         },
         "pav:createdOn": {
+          "type": "object",
           "properties": {
             "@type": {
               "type": "string",
@@ -216,6 +222,7 @@
           }
         },
         "pav:createdBy": {
+          "type": "object",
           "properties": {
             "@type": {
               "type": "string",
@@ -226,6 +233,7 @@
           }
         },
         "pav:lastUpdatedOn": {
+          "type": "object",
           "properties": {
             "@type": {
               "type": "string",
@@ -236,6 +244,7 @@
           }
         },
         "oslc:modifiedBy": {
+          "type": "object",
           "properties": {
             "@type": {
               "type": "string",
@@ -246,6 +255,7 @@
           }
         },
         "skos:notation": {
+          "type": "object",
           "properties": {
             "@type": {
               "type": "string",
@@ -415,6 +425,13 @@
       ],
       "additionalProperties": false
     },
+    "@id": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "uri"
+    },
     "@type": {
       "oneOf": [
         {
@@ -432,17 +449,6 @@
         }
       ]
     },
-    "@id": {
-      "type": [
-        "string",
-        "null"
-      ],
-      "format": "uri"
-    },
-    "pav:derivedFrom": {
-      "type": "string",
-      "format": "uri"
-    },
     "schema:isBasedOn": {
       "type": "string",
       "format": "uri"
@@ -453,6 +459,10 @@
     },
     "schema:description": {
       "type": "string"
+    },
+    "pav:derivedFrom": {
+      "type": "string",
+      "format": "uri"
     },
     "pav:createdOn": {
       "type": [
@@ -614,7 +624,6 @@
               "inputType": "textfield"
             },
             "_valueConstraints": {
-              "defaultValue": "",
               "requiredValue": true
             },
             "properties": {
@@ -651,11 +660,11 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "skos:prefLabel": "Title",
             "pav:version": "0.9.1",
             "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "skos:prefLabel": "Title",
             "schema:identifier": "title",
             "$schema": "http://json-schema.org/draft-04/schema#"
           },
@@ -1442,7 +1451,8 @@
                   "label": "zu"
                 }
               ],
-              "requiredValue": false
+              "requiredValue": false,
+              "multipleChoice": false
             },
             "properties": {
               "@type": {
@@ -1478,11 +1488,11 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "skos:prefLabel": "Language",
             "pav:version": "0.9.1",
             "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "skos:prefLabel": "Language",
             "schema:identifier": "language",
             "$schema": "http://json-schema.org/draft-04/schema#"
           }
@@ -1553,7 +1563,7 @@
         },
         "propertyDescriptions": {
           "Identifier": "A globally unique string that identifies the Data File being described. It is typically a DOI (Digital Object Identifier) or IRI (International Resource Identifier, or Web address). The identifier is typically generated by data providers or data publishers who wish to have a citable and Web-accessible resource.\n\nExample DOIs are `doi:10.1000/182` or `https://doi.org/10.1000/182`, both of which identify the DOI Handbook, which has a DOI of 10.1000/182\n\nSee also:  [https://en.wikipedia.org/wiki/Digital_object_identifier](https://en.wikipedia.org/wiki/Digital_object_identifier)",
-          "Identifier Type": "The identifier type used to identify the resource being described.\n\nThis need not be provided if the identifier is either a DOI that begins with \"doi:\" or \"http://doi.org/\", or it is an IRI that begins with either \"http://\" or \"https://\" ",
+          "Identifier Type": "The identifier type used to identify the resource being described.\n\nThis need not be provided if the identifier is either a DOI that begins with \"doi:\" or \"http://doi.org/\", or it is an IRI that begins with either \"http://\" or \"https://\"",
           "File Name ": "The local name of the resource (for example, in a file-based operating system or web service).",
           "SHA256 digest": "A SHA256 digest of the Data File contents. This is a 64 characters long hexadecimal string. \n\nFor example, the SHA256 digest of the string, \"RADx Data Hub\" is `ebff8d3da88b292622d3bfc36bdac4c4537ddc56cb07f344c5223d6b6f9cd011`.\n\nOn macOS the following command may be used to generate the SHA256 digest of a file\n\n```\nshasum -a 256 /path/to/file\n```"
         }
@@ -1654,7 +1664,6 @@
             "inputType": "textfield"
           },
           "_valueConstraints": {
-            "defaultValue": "",
             "requiredValue": false
           },
           "properties": {
@@ -1691,11 +1700,11 @@
           "pav:createdBy": null,
           "pav:lastUpdatedOn": null,
           "oslc:modifiedBy": null,
+          "skos:prefLabel": "Identifier",
           "pav:version": "0.9.1",
           "bibo:status": "bibo:draft",
           "schema:schemaVersion": "1.6.0",
           "additionalProperties": false,
-          "skos:prefLabel": "Identifier",
           "schema:identifier": "identifier",
           "$schema": "http://json-schema.org/draft-04/schema#"
         },
@@ -1741,9 +1750,9 @@
             "inputType": "textfield"
           },
           "_valueConstraints": {
-            "ontologies": [ ],
-            "valueSets": [ ],
-            "classes": [ ],
+            "ontologies": [],
+            "valueSets": [],
+            "classes": [],
             "branches": [
               {
                 "uri": "http://vocab.fairdatacollective.org/gdmt/IdentifierType",
@@ -1753,11 +1762,14 @@
                 "maxDepth": 2147483647
               }
             ],
-            "actions": [ ],
             "requiredValue": false
           },
           "properties": {
             "@type": {
+              "type": "string",
+              "format": "uri"
+            },
+            "@id": {
               "type": "string",
               "format": "uri"
             },
@@ -1767,22 +1779,24 @@
                 "null"
               ]
             },
-            "@id": {
-              "type": "string",
-              "format": "uri"
+            "skos:notation": {
+              "type": [
+                "string",
+                "null"
+              ]
             }
           },
           "schema:name": "Identifier Type",
-          "schema:description": "The identifier type used to identify the resource being described.\n\nThis need not be provided if the identifier is either a DOI that begins with \"doi:\" or \"http://doi.org/\", or it is an IRI that begins with either \"http://\" or \"https://\" ",
+          "schema:description": "The identifier type used to identify the resource being described.\n\nThis need not be provided if the identifier is either a DOI that begins with \"doi:\" or \"http://doi.org/\", or it is an IRI that begins with either \"http://\" or \"https://\"",
           "pav:createdOn": null,
           "pav:createdBy": null,
           "pav:lastUpdatedOn": null,
           "oslc:modifiedBy": null,
+          "skos:prefLabel": "Identifier Type",
           "pav:version": "0.9.1",
           "bibo:status": "bibo:draft",
           "schema:schemaVersion": "1.6.0",
           "additionalProperties": false,
-          "skos:prefLabel": "Identifier Type",
           "schema:identifier": "identifier_type",
           "$schema": "http://json-schema.org/draft-04/schema#"
         },
@@ -1828,7 +1842,6 @@
             "inputType": "textfield"
           },
           "_valueConstraints": {
-            "defaultValue": "",
             "requiredValue": false
           },
           "properties": {
@@ -1865,11 +1878,11 @@
           "pav:createdBy": null,
           "pav:lastUpdatedOn": null,
           "oslc:modifiedBy": null,
+          "skos:prefLabel": "File Name ",
           "pav:version": "0.9.1",
           "bibo:status": "bibo:draft",
           "schema:schemaVersion": "1.6.0",
           "additionalProperties": false,
-          "skos:prefLabel": "File Name ",
           "schema:identifier": "file_name_",
           "$schema": "http://json-schema.org/draft-04/schema#"
         },
@@ -1915,7 +1928,6 @@
             "inputType": "textfield"
           },
           "_valueConstraints": {
-            "defaultValue": "",
             "requiredValue": false
           },
           "properties": {
@@ -1952,11 +1964,11 @@
           "pav:createdBy": null,
           "pav:lastUpdatedOn": null,
           "oslc:modifiedBy": null,
+          "skos:prefLabel": "SHA256 digest",
           "pav:version": "0.9.1",
           "bibo:status": "bibo:draft",
           "schema:schemaVersion": "1.6.0",
           "additionalProperties": false,
-          "skos:prefLabel": "SHA256 digest",
           "schema:identifier": "sha256_digest",
           "$schema": "http://json-schema.org/draft-04/schema#"
         }
@@ -2014,15 +2026,14 @@
       "title": "Element(Data File Content)",
       "description": "Generated by CSV2CEDAR.",
       "_ui": {
-        "order": [ ],
-        "propertyLabels": { },
-        "propertyDescriptions": { }
+        "order": [],
+        "propertyLabels": {},
+        "propertyDescriptions": {}
       },
       "properties": {
         "@context": {
           "type": "object",
-          "properties": { },
-          "required": [ ],
+          "properties": {},
           "additionalProperties": false
         },
         "@id": {
@@ -2184,7 +2195,6 @@
             "inputType": "textfield"
           },
           "_valueConstraints": {
-            "defaultValue": "",
             "requiredValue": false
           },
           "properties": {
@@ -2221,11 +2231,11 @@
           "pav:createdBy": null,
           "pav:lastUpdatedOn": null,
           "oslc:modifiedBy": null,
+          "skos:prefLabel": "Version",
           "pav:version": "0.9.1",
           "bibo:status": "bibo:draft",
           "schema:schemaVersion": "1.6.0",
           "additionalProperties": false,
-          "skos:prefLabel": "Version",
           "schema:identifier": "version",
           "$schema": "http://json-schema.org/draft-04/schema#"
         }
@@ -3118,7 +3128,8 @@
                 "label": "zu"
               }
             ],
-            "requiredValue": false
+            "requiredValue": false,
+            "multipleChoice": false
           },
           "properties": {
             "@type": {
@@ -3154,11 +3165,11 @@
           "pav:createdBy": null,
           "pav:lastUpdatedOn": null,
           "oslc:modifiedBy": null,
+          "skos:prefLabel": "Primary Language",
           "pav:version": "0.9.1",
           "bibo:status": "bibo:draft",
           "schema:schemaVersion": "1.6.0",
           "additionalProperties": false,
-          "skos:prefLabel": "Primary Language",
           "schema:identifier": "primary_language",
           "$schema": "http://json-schema.org/draft-04/schema#"
         },
@@ -3947,7 +3958,8 @@
                   "label": "zu"
                 }
               ],
-              "requiredValue": false
+              "requiredValue": false,
+              "multipleChoice": true
             },
             "properties": {
               "@type": {
@@ -3983,11 +3995,11 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "skos:prefLabel": "Other Language",
             "pav:version": "0.9.1",
             "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "skos:prefLabel": "Other Language",
             "schema:identifier": "other_language",
             "$schema": "http://json-schema.org/draft-04/schema#"
           }
@@ -4169,14 +4181,17 @@
                   "name": "MESH"
                 }
               ],
-              "valueSets": [ ],
-              "classes": [ ],
-              "branches": [ ],
-              "actions": [ ],
+              "valueSets": [],
+              "classes": [],
+              "branches": [],
               "requiredValue": false
             },
             "properties": {
               "@type": {
+                "type": "string",
+                "format": "uri"
+              },
+              "@id": {
                 "type": "string",
                 "format": "uri"
               },
@@ -4186,9 +4201,11 @@
                   "null"
                 ]
               },
-              "@id": {
-                "type": "string",
-                "format": "uri"
+              "skos:notation": {
+                "type": [
+                  "string",
+                  "null"
+                ]
               }
             },
             "schema:name": "Subject Identifier",
@@ -4197,11 +4214,11 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "skos:prefLabel": "Subject Identifier",
             "pav:version": "0.9.1",
             "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "skos:prefLabel": "Subject Identifier",
             "schema:identifier": "subject_identifier",
             "$schema": "http://json-schema.org/draft-04/schema#"
           },
@@ -4245,11 +4262,9 @@
             "description": "Generated by CSV2CEDAR.",
             "_ui": {
               "inputType": "textfield",
-              "hidden": true,
-              "continuePreviousLine": true
+              "hidden": true
             },
             "_valueConstraints": {
-              "defaultValue": "",
               "requiredValue": false
             },
             "properties": {
@@ -4286,11 +4301,11 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "skos:prefLabel": "Subject Identifier Scheme",
             "pav:version": "0.9.1",
             "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "skos:prefLabel": "Subject Identifier Scheme",
             "schema:identifier": "subject_identifier_scheme",
             "$schema": "http://json-schema.org/draft-04/schema#"
           },
@@ -4334,11 +4349,9 @@
             "description": "Generated by CSV2CEDAR.",
             "_ui": {
               "inputType": "textfield",
-              "hidden": true,
-              "continuePreviousLine": true
+              "hidden": true
             },
             "_valueConstraints": {
-              "defaultValue": "",
               "requiredValue": false
             },
             "properties": {
@@ -4375,11 +4388,11 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "skos:prefLabel": "Subject Identifier Scheme Identifier",
             "pav:version": "0.9.1",
             "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "skos:prefLabel": "Subject Identifier Scheme Identifier",
             "schema:identifier": "subject_identifier_scheme_identifier",
             "$schema": "http://json-schema.org/draft-04/schema#"
           },
@@ -4425,7 +4438,6 @@
               "inputType": "textfield"
             },
             "_valueConstraints": {
-              "defaultValue": "",
               "requiredValue": false
             },
             "properties": {
@@ -4462,11 +4474,11 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "skos:prefLabel": "Keyword",
             "pav:version": "0.9.1",
             "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "skos:prefLabel": "Keyword",
             "schema:identifier": "keyword",
             "$schema": "http://json-schema.org/draft-04/schema#"
           }
@@ -4634,7 +4646,6 @@
               "inputType": "textarea"
             },
             "_valueConstraints": {
-              "defaultValue": "",
               "requiredValue": false
             },
             "properties": {
@@ -4671,11 +4682,11 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "skos:prefLabel": "Description",
             "pav:version": "0.9.1",
             "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "skos:prefLabel": "Description",
             "schema:identifier": "description",
             "$schema": "http://json-schema.org/draft-04/schema#"
           },
@@ -5461,7 +5472,8 @@
                   "label": "zu"
                 }
               ],
-              "requiredValue": false
+              "requiredValue": false,
+              "multipleChoice": false
             },
             "properties": {
               "@type": {
@@ -5497,11 +5509,11 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "skos:prefLabel": "Description Language",
             "pav:version": "0.9.1",
             "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "skos:prefLabel": "Description Language",
             "schema:identifier": "description_language",
             "$schema": "http://json-schema.org/draft-04/schema#"
           },
@@ -5545,13 +5557,12 @@
             "description": "Generated by CSV2CEDAR.",
             "_ui": {
               "inputType": "textfield",
-              "hidden": true,
-              "continuePreviousLine": true
+              "hidden": true
             },
             "_valueConstraints": {
-              "ontologies": [ ],
-              "valueSets": [ ],
-              "classes": [ ],
+              "ontologies": [],
+              "valueSets": [],
+              "classes": [],
               "branches": [
                 {
                   "uri": "http://vocab.fairdatacollective.org/gdmt/ResourceTypeCategory",
@@ -5561,15 +5572,18 @@
                   "maxDepth": 2147483647
                 }
               ],
-              "actions": [ ],
               "defaultValue": {
-                "rdfs:label": "Dataset",
-                "termUri": "http://vocab.fairdatacollective.org/gdmt/Dataset"
+                "termUri": "http://vocab.fairdatacollective.org/gdmt/Dataset",
+                "rdfs:label": "Dataset"
               },
               "requiredValue": false
             },
             "properties": {
               "@type": {
+                "type": "string",
+                "format": "uri"
+              },
+              "@id": {
                 "type": "string",
                 "format": "uri"
               },
@@ -5579,9 +5593,11 @@
                   "null"
                 ]
               },
-              "@id": {
-                "type": "string",
-                "format": "uri"
+              "skos:notation": {
+                "type": [
+                  "string",
+                  "null"
+                ]
               }
             },
             "schema:name": "Type Of Content",
@@ -5590,11 +5606,11 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "skos:prefLabel": "Type Of Content",
             "pav:version": "0.9.1",
             "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "skos:prefLabel": "Type Of Content",
             "schema:identifier": "type_of_content",
             "$schema": "http://json-schema.org/draft-04/schema#"
           }
@@ -5659,7 +5675,7 @@
           "Data Dictionary File Name": "Data Dictionary File Name"
         },
         "propertyDescriptions": {
-          "Data Dictionary File Name": "The file name of the Data Dictionary file that defines the Data File's data elements.\n\nEach file submitted should have its own data dictionary. For example, survery_results_origcopy.csv and survery_results_transformcopy.csv should both have data dictionary files (survery_results_origcopy_DICT.csv and survery_results_transformcopy_DICT.csv) associated with them. "
+          "Data Dictionary File Name": "The file name of the Data Dictionary file that defines the Data File's data elements.\n\nEach file submitted should have its own data dictionary. For example, survery_results_origcopy.csv and survery_results_transformcopy.csv should both have data dictionary files (survery_results_origcopy_DICT.csv and survery_results_transformcopy_DICT.csv) associated with them."
         }
       },
       "properties": {
@@ -5740,7 +5756,6 @@
             "inputType": "textfield"
           },
           "_valueConstraints": {
-            "defaultValue": "",
             "requiredValue": false
           },
           "properties": {
@@ -5772,16 +5787,16 @@
             "@value"
           ],
           "schema:name": "Data Dictionary File Name",
-          "schema:description": "The file name of the Data Dictionary file that defines the Data File's data elements.\n\nEach file submitted should have its own data dictionary. For example, survery_results_origcopy.csv and survery_results_transformcopy.csv should both have data dictionary files (survery_results_origcopy_DICT.csv and survery_results_transformcopy_DICT.csv) associated with them. ",
+          "schema:description": "The file name of the Data Dictionary file that defines the Data File's data elements.\n\nEach file submitted should have its own data dictionary. For example, survery_results_origcopy.csv and survery_results_transformcopy.csv should both have data dictionary files (survery_results_origcopy_DICT.csv and survery_results_transformcopy_DICT.csv) associated with them.",
           "pav:createdOn": null,
           "pav:createdBy": null,
           "pav:lastUpdatedOn": null,
           "oslc:modifiedBy": null,
+          "skos:prefLabel": "Data Dictionary File Name",
           "pav:version": "0.9.1",
           "bibo:status": "bibo:draft",
           "schema:schemaVersion": "1.6.0",
           "additionalProperties": false,
-          "skos:prefLabel": "Data Dictionary File Name",
           "schema:identifier": "data_dictionary_file_name",
           "$schema": "http://json-schema.org/draft-04/schema#"
         }
@@ -6035,9 +6050,9 @@
               "inputType": "textfield"
             },
             "_valueConstraints": {
-              "ontologies": [ ],
-              "valueSets": [ ],
-              "classes": [ ],
+              "ontologies": [],
+              "valueSets": [],
+              "classes": [],
               "branches": [
                 {
                   "uri": "http://vocab.fairdatacollective.org/gdmt/ResourceCreatorType",
@@ -6047,15 +6062,18 @@
                   "maxDepth": 2147483647
                 }
               ],
-              "actions": [ ],
               "defaultValue": {
-                "rdfs:label": "Person",
-                "termUri": "http://vocab.fairdatacollective.org/gdmt/Person"
+                "termUri": "http://vocab.fairdatacollective.org/gdmt/Person",
+                "rdfs:label": "Person"
               },
               "requiredValue": false
             },
             "properties": {
               "@type": {
+                "type": "string",
+                "format": "uri"
+              },
+              "@id": {
                 "type": "string",
                 "format": "uri"
               },
@@ -6065,9 +6083,11 @@
                   "null"
                 ]
               },
-              "@id": {
-                "type": "string",
-                "format": "uri"
+              "skos:notation": {
+                "type": [
+                  "string",
+                  "null"
+                ]
               }
             },
             "schema:name": "Creator Type",
@@ -6076,11 +6096,11 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "skos:prefLabel": "Creator Type",
             "pav:version": "0.9.1",
             "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "skos:prefLabel": "Creator Type",
             "schema:identifier": "creator_type",
             "$schema": "http://json-schema.org/draft-04/schema#"
           },
@@ -6126,7 +6146,6 @@
               "inputType": "textfield"
             },
             "_valueConstraints": {
-              "defaultValue": "",
               "requiredValue": false
             },
             "properties": {
@@ -6163,11 +6182,11 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "skos:prefLabel": "Creator Name",
             "pav:version": "0.9.1",
             "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "skos:prefLabel": "Creator Name",
             "schema:identifier": "creator_name",
             "$schema": "http://json-schema.org/draft-04/schema#"
           },
@@ -6213,7 +6232,6 @@
               "inputType": "textfield"
             },
             "_valueConstraints": {
-              "defaultValue": "",
               "requiredValue": false
             },
             "properties": {
@@ -6250,11 +6268,11 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "skos:prefLabel": "Creator Given Name",
             "pav:version": "0.9.1",
             "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "skos:prefLabel": "Creator Given Name",
             "schema:identifier": "creator_given_name",
             "$schema": "http://json-schema.org/draft-04/schema#"
           },
@@ -6300,7 +6318,6 @@
               "inputType": "textfield"
             },
             "_valueConstraints": {
-              "defaultValue": "",
               "requiredValue": false
             },
             "properties": {
@@ -6337,11 +6354,11 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "skos:prefLabel": "Creator Family Name",
             "pav:version": "0.9.1",
             "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "skos:prefLabel": "Creator Family Name",
             "schema:identifier": "creator_family_name",
             "$schema": "http://json-schema.org/draft-04/schema#"
           },
@@ -6387,7 +6404,6 @@
               "inputType": "textfield"
             },
             "_valueConstraints": {
-              "defaultValue": "",
               "requiredValue": false
             },
             "properties": {
@@ -6424,11 +6440,11 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "skos:prefLabel": "Creator Identifier",
             "pav:version": "0.9.1",
             "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "skos:prefLabel": "Creator Identifier",
             "schema:identifier": "creator_identifier",
             "$schema": "http://json-schema.org/draft-04/schema#"
           },
@@ -6474,9 +6490,9 @@
               "inputType": "textfield"
             },
             "_valueConstraints": {
-              "ontologies": [ ],
-              "valueSets": [ ],
-              "classes": [ ],
+              "ontologies": [],
+              "valueSets": [],
+              "classes": [],
               "branches": [
                 {
                   "uri": "http://vocab.fairdatacollective.org/gdmt/IdentifierScheme",
@@ -6486,11 +6502,14 @@
                   "maxDepth": 2147483647
                 }
               ],
-              "actions": [ ],
               "requiredValue": false
             },
             "properties": {
               "@type": {
+                "type": "string",
+                "format": "uri"
+              },
+              "@id": {
                 "type": "string",
                 "format": "uri"
               },
@@ -6500,9 +6519,11 @@
                   "null"
                 ]
               },
-              "@id": {
-                "type": "string",
-                "format": "uri"
+              "skos:notation": {
+                "type": [
+                  "string",
+                  "null"
+                ]
               }
             },
             "schema:name": "Creator Identifier Scheme",
@@ -6511,11 +6532,11 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "skos:prefLabel": "Creator Identifier Scheme",
             "pav:version": "0.9.1",
             "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "skos:prefLabel": "Creator Identifier Scheme",
             "schema:identifier": "creator_identifier_scheme",
             "$schema": "http://json-schema.org/draft-04/schema#"
           },
@@ -6559,8 +6580,7 @@
             "description": "Generated by CSV2CEDAR.",
             "_ui": {
               "inputType": "link",
-              "hidden": true,
-              "continuePreviousLine": true
+              "hidden": true
             },
             "_valueConstraints": {
               "requiredValue": false
@@ -6570,15 +6590,21 @@
                 "type": "string",
                 "format": "uri"
               },
+              "@id": {
+                "type": "string",
+                "format": "uri"
+              },
               "rdfs:label": {
                 "type": [
                   "string",
                   "null"
                 ]
               },
-              "@id": {
-                "type": "string",
-                "format": "uri"
+              "skos:notation": {
+                "type": [
+                  "string",
+                  "null"
+                ]
               }
             },
             "schema:name": "Creator Identifier Scheme Identifier",
@@ -6587,11 +6613,11 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "skos:prefLabel": "Creator Identifier Scheme Identifier",
             "pav:version": "0.9.1",
             "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "skos:prefLabel": "Creator Identifier Scheme Identifier",
             "schema:identifier": "creator_identifier_scheme_identifier",
             "$schema": "http://json-schema.org/draft-04/schema#"
           },
@@ -6673,11 +6699,11 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "skos:prefLabel": "Creator Email",
             "pav:version": "0.9.1",
             "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "skos:prefLabel": "Creator Email",
             "schema:identifier": "creator_email",
             "$schema": "http://json-schema.org/draft-04/schema#"
           },
@@ -6723,7 +6749,6 @@
               "inputType": "textfield"
             },
             "_valueConstraints": {
-              "defaultValue": "",
               "requiredValue": false
             },
             "properties": {
@@ -6760,11 +6785,11 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "skos:prefLabel": "Creator Affiliation",
             "pav:version": "0.9.1",
             "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "skos:prefLabel": "Creator Affiliation",
             "schema:identifier": "creator_affiliation",
             "$schema": "http://json-schema.org/draft-04/schema#"
           },
@@ -6810,7 +6835,6 @@
               "inputType": "textfield"
             },
             "_valueConstraints": {
-              "defaultValue": "",
               "requiredValue": false
             },
             "properties": {
@@ -6847,11 +6871,11 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "skos:prefLabel": "Creator Affiliation Identifier",
             "pav:version": "0.9.1",
             "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "skos:prefLabel": "Creator Affiliation Identifier",
             "schema:identifier": "creator_affiliation_identifier",
             "$schema": "http://json-schema.org/draft-04/schema#"
           },
@@ -6897,9 +6921,9 @@
               "inputType": "textfield"
             },
             "_valueConstraints": {
-              "ontologies": [ ],
-              "valueSets": [ ],
-              "classes": [ ],
+              "ontologies": [],
+              "valueSets": [],
+              "classes": [],
               "branches": [
                 {
                   "uri": "http://vocab.fairdatacollective.org/gdmt/IdentifierScheme",
@@ -6909,11 +6933,14 @@
                   "maxDepth": 2147483647
                 }
               ],
-              "actions": [ ],
               "requiredValue": false
             },
             "properties": {
               "@type": {
+                "type": "string",
+                "format": "uri"
+              },
+              "@id": {
                 "type": "string",
                 "format": "uri"
               },
@@ -6923,9 +6950,11 @@
                   "null"
                 ]
               },
-              "@id": {
-                "type": "string",
-                "format": "uri"
+              "skos:notation": {
+                "type": [
+                  "string",
+                  "null"
+                ]
               }
             },
             "schema:name": "Creator Affiliation Identifier Scheme",
@@ -6934,11 +6963,11 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "skos:prefLabel": "Creator Affiliation Identifier Scheme",
             "pav:version": "0.9.1",
             "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "skos:prefLabel": "Creator Affiliation Identifier Scheme",
             "schema:identifier": "creator_affiliation_identifier_scheme",
             "$schema": "http://json-schema.org/draft-04/schema#"
           },
@@ -6982,8 +7011,7 @@
             "description": "Generated by CSV2CEDAR.",
             "_ui": {
               "inputType": "link",
-              "hidden": true,
-              "continuePreviousLine": true
+              "hidden": true
             },
             "_valueConstraints": {
               "requiredValue": false
@@ -6993,15 +7021,21 @@
                 "type": "string",
                 "format": "uri"
               },
+              "@id": {
+                "type": "string",
+                "format": "uri"
+              },
               "rdfs:label": {
                 "type": [
                   "string",
                   "null"
                 ]
               },
-              "@id": {
-                "type": "string",
-                "format": "uri"
+              "skos:notation": {
+                "type": [
+                  "string",
+                  "null"
+                ]
               }
             },
             "schema:name": "Creator Affiliation Identifier Scheme Identifier",
@@ -7010,11 +7044,11 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "skos:prefLabel": "Creator Affiliation Identifier Scheme Identifier",
             "pav:version": "0.9.1",
             "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "skos:prefLabel": "Creator Affiliation Identifier Scheme Identifier",
             "schema:identifier": "creator_affiliation_identifier_scheme_identifier",
             "$schema": "http://json-schema.org/draft-04/schema#"
           },
@@ -7060,9 +7094,9 @@
               "inputType": "textfield"
             },
             "_valueConstraints": {
-              "ontologies": [ ],
-              "valueSets": [ ],
-              "classes": [ ],
+              "ontologies": [],
+              "valueSets": [],
+              "classes": [],
               "branches": [
                 {
                   "uri": "http://vocab.fairdatacollective.org/gdmt/ContributorRole",
@@ -7072,11 +7106,14 @@
                   "maxDepth": 2147483647
                 }
               ],
-              "actions": [ ],
               "requiredValue": false
             },
             "properties": {
               "@type": {
+                "type": "string",
+                "format": "uri"
+              },
+              "@id": {
                 "type": "string",
                 "format": "uri"
               },
@@ -7086,9 +7123,11 @@
                   "null"
                 ]
               },
-              "@id": {
-                "type": "string",
-                "format": "uri"
+              "skos:notation": {
+                "type": [
+                  "string",
+                  "null"
+                ]
               }
             },
             "schema:name": "Creator Role",
@@ -7097,11 +7136,11 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "skos:prefLabel": "Creator Role",
             "pav:version": "0.9.1",
             "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "skos:prefLabel": "Creator Role",
             "schema:identifier": "creator_role",
             "$schema": "http://json-schema.org/draft-04/schema#"
           }
@@ -7296,7 +7335,6 @@
               "inputType": "textfield"
             },
             "_valueConstraints": {
-              "defaultValue": "",
               "requiredValue": false
             },
             "properties": {
@@ -7333,11 +7371,11 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "skos:prefLabel": "Related Resource Identifier",
             "pav:version": "0.9.1",
             "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "skos:prefLabel": "Related Resource Identifier",
             "schema:identifier": "related_resource_identifier",
             "$schema": "http://json-schema.org/draft-04/schema#"
           },
@@ -7383,9 +7421,9 @@
               "inputType": "textfield"
             },
             "_valueConstraints": {
-              "ontologies": [ ],
-              "valueSets": [ ],
-              "classes": [ ],
+              "ontologies": [],
+              "valueSets": [],
+              "classes": [],
               "branches": [
                 {
                   "uri": "http://vocab.fairdatacollective.org/gdmt/IdentifierType",
@@ -7395,11 +7433,14 @@
                   "maxDepth": 2147483647
                 }
               ],
-              "actions": [ ],
               "requiredValue": false
             },
             "properties": {
               "@type": {
+                "type": "string",
+                "format": "uri"
+              },
+              "@id": {
                 "type": "string",
                 "format": "uri"
               },
@@ -7409,9 +7450,11 @@
                   "null"
                 ]
               },
-              "@id": {
-                "type": "string",
-                "format": "uri"
+              "skos:notation": {
+                "type": [
+                  "string",
+                  "null"
+                ]
               }
             },
             "schema:name": "Related Resource Identifier Type",
@@ -7420,11 +7463,11 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "skos:prefLabel": "Related Resource Identifier Type",
             "pav:version": "0.9.1",
             "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "skos:prefLabel": "Related Resource Identifier Type",
             "schema:identifier": "related_resource_identifier_type",
             "$schema": "http://json-schema.org/draft-04/schema#"
           },
@@ -7470,7 +7513,6 @@
               "inputType": "textfield"
             },
             "_valueConstraints": {
-              "defaultValue": "",
               "requiredValue": false
             },
             "properties": {
@@ -7507,11 +7549,11 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "skos:prefLabel": "Related Resource File Name",
             "pav:version": "0.9.1",
             "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "skos:prefLabel": "Related Resource File Name",
             "schema:identifier": "related_resource_file_name",
             "$schema": "http://json-schema.org/draft-04/schema#"
           },
@@ -7557,9 +7599,9 @@
               "inputType": "textfield"
             },
             "_valueConstraints": {
-              "ontologies": [ ],
-              "valueSets": [ ],
-              "classes": [ ],
+              "ontologies": [],
+              "valueSets": [],
+              "classes": [],
               "branches": [
                 {
                   "uri": "http://vocab.fairdatacollective.org/gdmt/ResourceTypeCategory",
@@ -7569,11 +7611,14 @@
                   "maxDepth": 2147483647
                 }
               ],
-              "actions": [ ],
               "requiredValue": false
             },
             "properties": {
               "@type": {
+                "type": "string",
+                "format": "uri"
+              },
+              "@id": {
                 "type": "string",
                 "format": "uri"
               },
@@ -7583,9 +7628,11 @@
                   "null"
                 ]
               },
-              "@id": {
-                "type": "string",
-                "format": "uri"
+              "skos:notation": {
+                "type": [
+                  "string",
+                  "null"
+                ]
               }
             },
             "schema:name": "Resource Type Category",
@@ -7594,11 +7641,11 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "skos:prefLabel": "Resource Type Category",
             "pav:version": "0.9.1",
             "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "skos:prefLabel": "Resource Type Category",
             "schema:identifier": "resource_type_category",
             "$schema": "http://json-schema.org/draft-04/schema#"
           },
@@ -7644,7 +7691,6 @@
               "inputType": "textfield"
             },
             "_valueConstraints": {
-              "defaultValue": "",
               "requiredValue": false
             },
             "properties": {
@@ -7681,11 +7727,11 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "skos:prefLabel": "Relation of Resource to Data File",
             "pav:version": "0.9.1",
             "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "skos:prefLabel": "Relation of Resource to Data File",
             "schema:identifier": "relation_of_resource_to_data_file",
             "$schema": "http://json-schema.org/draft-04/schema#"
           }
@@ -7944,9 +7990,9 @@
               "inputType": "textfield"
             },
             "_valueConstraints": {
-              "ontologies": [ ],
-              "valueSets": [ ],
-              "classes": [ ],
+              "ontologies": [],
+              "valueSets": [],
+              "classes": [],
               "branches": [
                 {
                   "uri": "http://vocab.fairdatacollective.org/gdmt/ResourceCreatorType",
@@ -7956,15 +8002,18 @@
                   "maxDepth": 2147483647
                 }
               ],
-              "actions": [ ],
               "defaultValue": {
-                "rdfs:label": "Person",
-                "termUri": "http://vocab.fairdatacollective.org/gdmt/Person"
+                "termUri": "http://vocab.fairdatacollective.org/gdmt/Person",
+                "rdfs:label": "Person"
               },
               "requiredValue": false
             },
             "properties": {
               "@type": {
+                "type": "string",
+                "format": "uri"
+              },
+              "@id": {
                 "type": "string",
                 "format": "uri"
               },
@@ -7974,9 +8023,11 @@
                   "null"
                 ]
               },
-              "@id": {
-                "type": "string",
-                "format": "uri"
+              "skos:notation": {
+                "type": [
+                  "string",
+                  "null"
+                ]
               }
             },
             "schema:name": "Contributor Type",
@@ -7985,11 +8036,11 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "skos:prefLabel": "Contributor Type",
             "pav:version": "0.9.1",
             "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "skos:prefLabel": "Contributor Type",
             "schema:identifier": "contributor_type",
             "$schema": "http://json-schema.org/draft-04/schema#"
           },
@@ -8035,7 +8086,6 @@
               "inputType": "textfield"
             },
             "_valueConstraints": {
-              "defaultValue": "",
               "requiredValue": false
             },
             "properties": {
@@ -8072,11 +8122,11 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "skos:prefLabel": "Contributor Name",
             "pav:version": "0.9.1",
             "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "skos:prefLabel": "Contributor Name",
             "schema:identifier": "contributor_name",
             "$schema": "http://json-schema.org/draft-04/schema#"
           },
@@ -8122,7 +8172,6 @@
               "inputType": "textfield"
             },
             "_valueConstraints": {
-              "defaultValue": "",
               "requiredValue": false
             },
             "properties": {
@@ -8159,11 +8208,11 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "skos:prefLabel": "Contributor Given Name",
             "pav:version": "0.9.1",
             "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "skos:prefLabel": "Contributor Given Name",
             "schema:identifier": "contributor_given_name",
             "$schema": "http://json-schema.org/draft-04/schema#"
           },
@@ -8209,7 +8258,6 @@
               "inputType": "textfield"
             },
             "_valueConstraints": {
-              "defaultValue": "",
               "requiredValue": false
             },
             "properties": {
@@ -8246,11 +8294,11 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "skos:prefLabel": "Contributor Family Name",
             "pav:version": "0.9.1",
             "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "skos:prefLabel": "Contributor Family Name",
             "schema:identifier": "contributor_family_name",
             "$schema": "http://json-schema.org/draft-04/schema#"
           },
@@ -8296,7 +8344,6 @@
               "inputType": "textfield"
             },
             "_valueConstraints": {
-              "defaultValue": "",
               "requiredValue": false
             },
             "properties": {
@@ -8333,11 +8380,11 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "skos:prefLabel": "Contributor Identifier",
             "pav:version": "0.9.1",
             "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "skos:prefLabel": "Contributor Identifier",
             "schema:identifier": "contributor_identifier",
             "$schema": "http://json-schema.org/draft-04/schema#"
           },
@@ -8383,9 +8430,9 @@
               "inputType": "textfield"
             },
             "_valueConstraints": {
-              "ontologies": [ ],
-              "valueSets": [ ],
-              "classes": [ ],
+              "ontologies": [],
+              "valueSets": [],
+              "classes": [],
               "branches": [
                 {
                   "uri": "http://vocab.fairdatacollective.org/gdmt/IdentifierScheme",
@@ -8395,11 +8442,14 @@
                   "maxDepth": 2147483647
                 }
               ],
-              "actions": [ ],
               "requiredValue": false
             },
             "properties": {
               "@type": {
+                "type": "string",
+                "format": "uri"
+              },
+              "@id": {
                 "type": "string",
                 "format": "uri"
               },
@@ -8409,9 +8459,11 @@
                   "null"
                 ]
               },
-              "@id": {
-                "type": "string",
-                "format": "uri"
+              "skos:notation": {
+                "type": [
+                  "string",
+                  "null"
+                ]
               }
             },
             "schema:name": "Contributor Identifier Scheme",
@@ -8420,11 +8472,11 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "skos:prefLabel": "Contributor Identifier Scheme",
             "pav:version": "0.9.1",
             "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "skos:prefLabel": "Contributor Identifier Scheme",
             "schema:identifier": "contributor_identifier_scheme",
             "$schema": "http://json-schema.org/draft-04/schema#"
           },
@@ -8468,8 +8520,7 @@
             "description": "Generated by CSV2CEDAR.",
             "_ui": {
               "inputType": "link",
-              "hidden": true,
-              "continuePreviousLine": true
+              "hidden": true
             },
             "_valueConstraints": {
               "requiredValue": false
@@ -8479,15 +8530,21 @@
                 "type": "string",
                 "format": "uri"
               },
+              "@id": {
+                "type": "string",
+                "format": "uri"
+              },
               "rdfs:label": {
                 "type": [
                   "string",
                   "null"
                 ]
               },
-              "@id": {
-                "type": "string",
-                "format": "uri"
+              "skos:notation": {
+                "type": [
+                  "string",
+                  "null"
+                ]
               }
             },
             "schema:name": "Contributor Identifier Scheme IRI",
@@ -8496,11 +8553,11 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "skos:prefLabel": "Contributor Identifier Scheme IRI",
             "pav:version": "0.9.1",
             "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "skos:prefLabel": "Contributor Identifier Scheme IRI",
             "schema:identifier": "contributor_identifier_scheme_iri",
             "$schema": "http://json-schema.org/draft-04/schema#"
           },
@@ -8546,7 +8603,6 @@
               "inputType": "textfield"
             },
             "_valueConstraints": {
-              "defaultValue": "",
               "requiredValue": false
             },
             "properties": {
@@ -8583,11 +8639,11 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "skos:prefLabel": "Contributor Affiliation",
             "pav:version": "0.9.1",
             "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "skos:prefLabel": "Contributor Affiliation",
             "schema:identifier": "contributor_affiliation",
             "$schema": "http://json-schema.org/draft-04/schema#"
           },
@@ -8633,7 +8689,6 @@
               "inputType": "textfield"
             },
             "_valueConstraints": {
-              "defaultValue": "",
               "requiredValue": false
             },
             "properties": {
@@ -8670,11 +8725,11 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "skos:prefLabel": "Contributor Affiliation Identifier",
             "pav:version": "0.9.1",
             "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "skos:prefLabel": "Contributor Affiliation Identifier",
             "schema:identifier": "contributor_affiliation_identifier",
             "$schema": "http://json-schema.org/draft-04/schema#"
           },
@@ -8720,9 +8775,9 @@
               "inputType": "textfield"
             },
             "_valueConstraints": {
-              "ontologies": [ ],
-              "valueSets": [ ],
-              "classes": [ ],
+              "ontologies": [],
+              "valueSets": [],
+              "classes": [],
               "branches": [
                 {
                   "uri": "http://vocab.fairdatacollective.org/gdmt/IdentifierScheme",
@@ -8732,11 +8787,14 @@
                   "maxDepth": 2147483647
                 }
               ],
-              "actions": [ ],
               "requiredValue": false
             },
             "properties": {
               "@type": {
+                "type": "string",
+                "format": "uri"
+              },
+              "@id": {
                 "type": "string",
                 "format": "uri"
               },
@@ -8746,9 +8804,11 @@
                   "null"
                 ]
               },
-              "@id": {
-                "type": "string",
-                "format": "uri"
+              "skos:notation": {
+                "type": [
+                  "string",
+                  "null"
+                ]
               }
             },
             "schema:name": "Contributor Affiliation Identifier Scheme",
@@ -8757,11 +8817,11 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "skos:prefLabel": "Contributor Affiliation Identifier Scheme",
             "pav:version": "0.9.1",
             "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "skos:prefLabel": "Contributor Affiliation Identifier Scheme",
             "schema:identifier": "contributor_affiliation_identifier_scheme",
             "$schema": "http://json-schema.org/draft-04/schema#"
           },
@@ -8805,8 +8865,7 @@
             "description": "Generated by CSV2CEDAR.",
             "_ui": {
               "inputType": "link",
-              "hidden": true,
-              "continuePreviousLine": true
+              "hidden": true
             },
             "_valueConstraints": {
               "requiredValue": false
@@ -8816,15 +8875,21 @@
                 "type": "string",
                 "format": "uri"
               },
+              "@id": {
+                "type": "string",
+                "format": "uri"
+              },
               "rdfs:label": {
                 "type": [
                   "string",
                   "null"
                 ]
               },
-              "@id": {
-                "type": "string",
-                "format": "uri"
+              "skos:notation": {
+                "type": [
+                  "string",
+                  "null"
+                ]
               }
             },
             "schema:name": "Contributor Affiliation Identifier Scheme IRI",
@@ -8833,11 +8898,11 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "skos:prefLabel": "Contributor Affiliation Identifier Scheme IRI",
             "pav:version": "0.9.1",
             "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "skos:prefLabel": "Contributor Affiliation Identifier Scheme IRI",
             "schema:identifier": "contributor_affiliation_identifier_scheme_iri",
             "$schema": "http://json-schema.org/draft-04/schema#"
           },
@@ -8919,11 +8984,11 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "skos:prefLabel": "Contributor Email",
             "pav:version": "0.9.1",
             "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "skos:prefLabel": "Contributor Email",
             "schema:identifier": "contributor_email",
             "$schema": "http://json-schema.org/draft-04/schema#"
           },
@@ -8969,9 +9034,9 @@
               "inputType": "textfield"
             },
             "_valueConstraints": {
-              "ontologies": [ ],
-              "valueSets": [ ],
-              "classes": [ ],
+              "ontologies": [],
+              "valueSets": [],
+              "classes": [],
               "branches": [
                 {
                   "uri": "http://vocab.fairdatacollective.org/gdmt/ContributorRole",
@@ -8981,11 +9046,14 @@
                   "maxDepth": 2147483647
                 }
               ],
-              "actions": [ ],
               "requiredValue": false
             },
             "properties": {
               "@type": {
+                "type": "string",
+                "format": "uri"
+              },
+              "@id": {
                 "type": "string",
                 "format": "uri"
               },
@@ -8995,9 +9063,11 @@
                   "null"
                 ]
               },
-              "@id": {
-                "type": "string",
-                "format": "uri"
+              "skos:notation": {
+                "type": [
+                  "string",
+                  "null"
+                ]
               }
             },
             "schema:name": "Contributor Role",
@@ -9006,11 +9076,11 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "skos:prefLabel": "Contributor Role",
             "pav:version": "0.9.1",
             "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "skos:prefLabel": "Contributor Role",
             "schema:identifier": "contributor_role",
             "$schema": "http://json-schema.org/draft-04/schema#"
           }
@@ -9187,9 +9257,9 @@
               "inputType": "textfield"
             },
             "_valueConstraints": {
-              "ontologies": [ ],
-              "valueSets": [ ],
-              "classes": [ ],
+              "ontologies": [],
+              "valueSets": [],
+              "classes": [],
               "branches": [
                 {
                   "uri": "http://vocab.fairdatacollective.org/gdmt/LicenseIdentifier",
@@ -9199,11 +9269,14 @@
                   "maxDepth": 2147483647
                 }
               ],
-              "actions": [ ],
               "requiredValue": false
             },
             "properties": {
               "@type": {
+                "type": "string",
+                "format": "uri"
+              },
+              "@id": {
                 "type": "string",
                 "format": "uri"
               },
@@ -9213,9 +9286,11 @@
                   "null"
                 ]
               },
-              "@id": {
-                "type": "string",
-                "format": "uri"
+              "skos:notation": {
+                "type": [
+                  "string",
+                  "null"
+                ]
               }
             },
             "schema:name": "License Name",
@@ -9224,11 +9299,11 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "skos:prefLabel": "License Name",
             "pav:version": "0.9.1",
             "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "skos:prefLabel": "License Name",
             "schema:identifier": "license_name",
             "$schema": "http://json-schema.org/draft-04/schema#"
           },
@@ -9272,8 +9347,7 @@
             "description": "Generated by CSV2CEDAR.",
             "_ui": {
               "inputType": "link",
-              "hidden": true,
-              "continuePreviousLine": true
+              "hidden": true
             },
             "_valueConstraints": {
               "requiredValue": false
@@ -9283,15 +9357,21 @@
                 "type": "string",
                 "format": "uri"
               },
+              "@id": {
+                "type": "string",
+                "format": "uri"
+              },
               "rdfs:label": {
                 "type": [
                   "string",
                   "null"
                 ]
               },
-              "@id": {
-                "type": "string",
-                "format": "uri"
+              "skos:notation": {
+                "type": [
+                  "string",
+                  "null"
+                ]
               }
             },
             "schema:name": "License Identifier",
@@ -9300,11 +9380,11 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "skos:prefLabel": "License Identifier",
             "pav:version": "0.9.1",
             "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "skos:prefLabel": "License Identifier",
             "schema:identifier": "license_identifier",
             "$schema": "http://json-schema.org/draft-04/schema#"
           },
@@ -9350,7 +9430,6 @@
               "inputType": "textfield"
             },
             "_valueConstraints": {
-              "defaultValue": "",
               "requiredValue": false
             },
             "properties": {
@@ -9387,11 +9466,11 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "skos:prefLabel": "License Text",
             "pav:version": "0.9.1",
             "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "skos:prefLabel": "License Text",
             "schema:identifier": "license_text",
             "$schema": "http://json-schema.org/draft-04/schema#"
           }
@@ -9549,9 +9628,9 @@
               "inputType": "textfield"
             },
             "_valueConstraints": {
-              "ontologies": [ ],
-              "valueSets": [ ],
-              "classes": [ ],
+              "ontologies": [],
+              "valueSets": [],
+              "classes": [],
               "branches": [
                 {
                   "uri": "http://vocab.fairdatacollective.org/gdmt/DateType",
@@ -9561,11 +9640,14 @@
                   "maxDepth": 2147483647
                 }
               ],
-              "actions": [ ],
               "requiredValue": false
             },
             "properties": {
               "@type": {
+                "type": "string",
+                "format": "uri"
+              },
+              "@id": {
                 "type": "string",
                 "format": "uri"
               },
@@ -9575,9 +9657,11 @@
                   "null"
                 ]
               },
-              "@id": {
-                "type": "string",
-                "format": "uri"
+              "skos:notation": {
+                "type": [
+                  "string",
+                  "null"
+                ]
               }
             },
             "schema:name": "Event Type",
@@ -9586,11 +9670,11 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "skos:prefLabel": "Event Type",
             "pav:version": "0.9.1",
             "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "skos:prefLabel": "Event Type",
             "schema:identifier": "event_type",
             "$schema": "http://json-schema.org/draft-04/schema#"
           },
@@ -9634,9 +9718,7 @@
             "description": "Generated by CSV2CEDAR.",
             "_ui": {
               "inputType": "temporal",
-              "temporalGranularity": "day",
-              "inputTimeFormat": "12h",
-              "timezoneEnabled": false
+              "temporalGranularity": "day"
             },
             "_valueConstraints": {
               "temporalType": "xsd:date",
@@ -9677,11 +9759,11 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "skos:prefLabel": "Date",
             "pav:version": "0.9.1",
             "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "skos:prefLabel": "Date",
             "schema:identifier": "date",
             "$schema": "http://json-schema.org/draft-04/schema#"
           }
@@ -9883,7 +9965,6 @@
               "inputType": "textfield"
             },
             "_valueConstraints": {
-              "defaultValue": "",
               "requiredValue": true
             },
             "properties": {
@@ -9920,11 +10001,11 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "skos:prefLabel": "PHS Identifier",
             "pav:version": "0.9.1",
             "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "skos:prefLabel": "PHS Identifier",
             "schema:identifier": "phs_identifier",
             "$schema": "http://json-schema.org/draft-04/schema#"
           },
@@ -9970,7 +10051,6 @@
               "inputType": "textfield"
             },
             "_valueConstraints": {
-              "defaultValue": "",
               "requiredValue": false
             },
             "properties": {
@@ -10007,11 +10087,11 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "skos:prefLabel": "Study Identifier",
             "pav:version": "0.9.1",
             "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "skos:prefLabel": "Study Identifier",
             "schema:identifier": "study_identifier",
             "$schema": "http://json-schema.org/draft-04/schema#"
           },
@@ -10057,9 +10137,9 @@
               "inputType": "textfield"
             },
             "_valueConstraints": {
-              "ontologies": [ ],
-              "valueSets": [ ],
-              "classes": [ ],
+              "ontologies": [],
+              "valueSets": [],
+              "classes": [],
               "branches": [
                 {
                   "uri": "http://vocab.fairdatacollective.org/gdmt/IdentifierType",
@@ -10069,11 +10149,14 @@
                   "maxDepth": 2147483647
                 }
               ],
-              "actions": [ ],
               "requiredValue": false
             },
             "properties": {
               "@type": {
+                "type": "string",
+                "format": "uri"
+              },
+              "@id": {
                 "type": "string",
                 "format": "uri"
               },
@@ -10083,9 +10166,11 @@
                   "null"
                 ]
               },
-              "@id": {
-                "type": "string",
-                "format": "uri"
+              "skos:notation": {
+                "type": [
+                  "string",
+                  "null"
+                ]
               }
             },
             "schema:name": "Study Identifier Scheme",
@@ -10094,11 +10179,11 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "skos:prefLabel": "Study Identifier Scheme",
             "pav:version": "0.9.1",
             "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "skos:prefLabel": "Study Identifier Scheme",
             "schema:identifier": "study_identifier_scheme",
             "$schema": "http://json-schema.org/draft-04/schema#"
           },
@@ -10142,8 +10227,7 @@
             "description": "Generated by CSV2CEDAR.",
             "_ui": {
               "inputType": "link",
-              "hidden": true,
-              "continuePreviousLine": true
+              "hidden": true
             },
             "_valueConstraints": {
               "requiredValue": false
@@ -10153,15 +10237,21 @@
                 "type": "string",
                 "format": "uri"
               },
+              "@id": {
+                "type": "string",
+                "format": "uri"
+              },
               "rdfs:label": {
                 "type": [
                   "string",
                   "null"
                 ]
               },
-              "@id": {
-                "type": "string",
-                "format": "uri"
+              "skos:notation": {
+                "type": [
+                  "string",
+                  "null"
+                ]
               }
             },
             "schema:name": "Study Identifier Scheme IRI",
@@ -10170,11 +10260,11 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "skos:prefLabel": "Study Identifier Scheme IRI",
             "pav:version": "0.9.1",
             "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "skos:prefLabel": "Study Identifier Scheme IRI",
             "schema:identifier": "study_identifier_scheme_iri",
             "$schema": "http://json-schema.org/draft-04/schema#"
           },
@@ -10220,7 +10310,6 @@
               "inputType": "textfield"
             },
             "_valueConstraints": {
-              "defaultValue": "",
               "requiredValue": false
             },
             "properties": {
@@ -10257,11 +10346,11 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "skos:prefLabel": "Study Name",
             "pav:version": "0.9.1",
             "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "skos:prefLabel": "Study Name",
             "schema:identifier": "study_name",
             "$schema": "http://json-schema.org/draft-04/schema#"
           },
@@ -10305,9 +10394,7 @@
             "description": "Generated by CSV2CEDAR.",
             "_ui": {
               "inputType": "temporal",
-              "temporalGranularity": "day",
-              "inputTimeFormat": "12h",
-              "timezoneEnabled": false
+              "temporalGranularity": "day"
             },
             "_valueConstraints": {
               "temporalType": "xsd:date",
@@ -10348,11 +10435,11 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "skos:prefLabel": "Study Start Date",
             "pav:version": "0.9.1",
             "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "skos:prefLabel": "Study Start Date",
             "schema:identifier": "study_start_date",
             "$schema": "http://json-schema.org/draft-04/schema#"
           },
@@ -10396,9 +10483,7 @@
             "description": "Generated by CSV2CEDAR.",
             "_ui": {
               "inputType": "temporal",
-              "temporalGranularity": "day",
-              "inputTimeFormat": "12h",
-              "timezoneEnabled": false
+              "temporalGranularity": "day"
             },
             "_valueConstraints": {
               "temporalType": "xsd:date",
@@ -10439,11 +10524,11 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "skos:prefLabel": "Study End Date",
             "pav:version": "0.9.1",
             "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "skos:prefLabel": "Study End Date",
             "schema:identifier": "study_end_date",
             "$schema": "http://json-schema.org/draft-04/schema#"
           }
@@ -10650,7 +10735,6 @@
               "inputType": "textfield"
             },
             "_valueConstraints": {
-              "defaultValue": "",
               "requiredValue": false
             },
             "properties": {
@@ -10687,11 +10771,11 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "skos:prefLabel": "Award Title",
             "pav:version": "0.9.1",
             "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "skos:prefLabel": "Award Title",
             "schema:identifier": "award_title",
             "$schema": "http://json-schema.org/draft-04/schema#"
           },
@@ -10744,15 +10828,21 @@
                 "type": "string",
                 "format": "uri"
               },
+              "@id": {
+                "type": "string",
+                "format": "uri"
+              },
               "rdfs:label": {
                 "type": [
                   "string",
                   "null"
                 ]
               },
-              "@id": {
-                "type": "string",
-                "format": "uri"
+              "skos:notation": {
+                "type": [
+                  "string",
+                  "null"
+                ]
               }
             },
             "schema:name": "Award Page URL",
@@ -10761,11 +10851,11 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "skos:prefLabel": "Award Page URL",
             "pav:version": "0.9.1",
             "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "skos:prefLabel": "Award Page URL",
             "schema:identifier": "award_page_url",
             "$schema": "http://json-schema.org/draft-04/schema#"
           },
@@ -10811,7 +10901,6 @@
               "inputType": "textfield"
             },
             "_valueConstraints": {
-              "defaultValue": "",
               "requiredValue": false
             },
             "properties": {
@@ -10848,11 +10937,11 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "skos:prefLabel": "Award Local Identifier",
             "pav:version": "0.9.1",
             "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "skos:prefLabel": "Award Local Identifier",
             "schema:identifier": "award_local_identifier",
             "$schema": "http://json-schema.org/draft-04/schema#"
           },
@@ -10898,7 +10987,6 @@
               "inputType": "textfield"
             },
             "_valueConstraints": {
-              "defaultValue": "",
               "requiredValue": false
             },
             "properties": {
@@ -10935,11 +11023,11 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "skos:prefLabel": "Funder Name",
             "pav:version": "0.9.1",
             "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "skos:prefLabel": "Funder Name",
             "schema:identifier": "funder_name",
             "$schema": "http://json-schema.org/draft-04/schema#"
           },
@@ -10985,7 +11073,6 @@
               "inputType": "textfield"
             },
             "_valueConstraints": {
-              "defaultValue": "",
               "requiredValue": false
             },
             "properties": {
@@ -11022,11 +11109,11 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "skos:prefLabel": "Funder Identifier",
             "pav:version": "0.9.1",
             "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "skos:prefLabel": "Funder Identifier",
             "schema:identifier": "funder_identifier",
             "$schema": "http://json-schema.org/draft-04/schema#"
           },
@@ -11072,9 +11159,9 @@
               "inputType": "textfield"
             },
             "_valueConstraints": {
-              "ontologies": [ ],
-              "valueSets": [ ],
-              "classes": [ ],
+              "ontologies": [],
+              "valueSets": [],
+              "classes": [],
               "branches": [
                 {
                   "uri": "http://vocab.fairdatacollective.org/gdmt/IdentifierScheme",
@@ -11084,11 +11171,14 @@
                   "maxDepth": 2147483647
                 }
               ],
-              "actions": [ ],
               "requiredValue": false
             },
             "properties": {
               "@type": {
+                "type": "string",
+                "format": "uri"
+              },
+              "@id": {
                 "type": "string",
                 "format": "uri"
               },
@@ -11098,9 +11188,11 @@
                   "null"
                 ]
               },
-              "@id": {
-                "type": "string",
-                "format": "uri"
+              "skos:notation": {
+                "type": [
+                  "string",
+                  "null"
+                ]
               }
             },
             "schema:name": "Funder Identifier Scheme",
@@ -11109,11 +11201,11 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "skos:prefLabel": "Funder Identifier Scheme",
             "pav:version": "0.9.1",
             "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "skos:prefLabel": "Funder Identifier Scheme",
             "schema:identifier": "funder_identifier_scheme",
             "$schema": "http://json-schema.org/draft-04/schema#"
           },
@@ -11157,8 +11249,7 @@
             "description": "Generated by CSV2CEDAR.",
             "_ui": {
               "inputType": "link",
-              "hidden": true,
-              "continuePreviousLine": true
+              "hidden": true
             },
             "_valueConstraints": {
               "requiredValue": false
@@ -11168,15 +11259,21 @@
                 "type": "string",
                 "format": "uri"
               },
+              "@id": {
+                "type": "string",
+                "format": "uri"
+              },
               "rdfs:label": {
                 "type": [
                   "string",
                   "null"
                 ]
               },
-              "@id": {
-                "type": "string",
-                "format": "uri"
+              "skos:notation": {
+                "type": [
+                  "string",
+                  "null"
+                ]
               }
             },
             "schema:name": "Funder Identifier Scheme IRI",
@@ -11185,11 +11282,11 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "skos:prefLabel": "Funder Identifier Scheme IRI",
             "pav:version": "0.9.1",
             "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "skos:prefLabel": "Funder Identifier Scheme IRI",
             "schema:identifier": "funder_identifier_scheme_iri",
             "$schema": "http://json-schema.org/draft-04/schema#"
           }
@@ -11450,7 +11547,6 @@
               "inputType": "textfield"
             },
             "_valueConstraints": {
-              "defaultValue": "",
               "requiredValue": false
             },
             "properties": {
@@ -11487,11 +11583,11 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "skos:prefLabel": "Distribution Publisher",
             "pav:version": "0.9.1",
             "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "skos:prefLabel": "Distribution Publisher",
             "schema:identifier": "distribution_publisher",
             "$schema": "http://json-schema.org/draft-04/schema#"
           },
@@ -11537,7 +11633,6 @@
               "inputType": "textfield"
             },
             "_valueConstraints": {
-              "defaultValue": "",
               "requiredValue": false
             },
             "properties": {
@@ -11574,11 +11669,11 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "skos:prefLabel": "Distribution Publisher Identifier",
             "pav:version": "0.9.1",
             "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "skos:prefLabel": "Distribution Publisher Identifier",
             "schema:identifier": "distribution_publisher_identifier",
             "$schema": "http://json-schema.org/draft-04/schema#"
           },
@@ -11624,9 +11719,9 @@
               "inputType": "textfield"
             },
             "_valueConstraints": {
-              "ontologies": [ ],
-              "valueSets": [ ],
-              "classes": [ ],
+              "ontologies": [],
+              "valueSets": [],
+              "classes": [],
               "branches": [
                 {
                   "uri": "http://vocab.fairdatacollective.org/gdmt/IdentifierScheme",
@@ -11636,11 +11731,14 @@
                   "maxDepth": 2147483647
                 }
               ],
-              "actions": [ ],
               "requiredValue": false
             },
             "properties": {
               "@type": {
+                "type": "string",
+                "format": "uri"
+              },
+              "@id": {
                 "type": "string",
                 "format": "uri"
               },
@@ -11650,9 +11748,11 @@
                   "null"
                 ]
               },
-              "@id": {
-                "type": "string",
-                "format": "uri"
+              "skos:notation": {
+                "type": [
+                  "string",
+                  "null"
+                ]
               }
             },
             "schema:name": "Distribution Publisher Identifier Scheme",
@@ -11661,11 +11761,11 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "skos:prefLabel": "Distribution Publisher Identifier Scheme",
             "pav:version": "0.9.1",
             "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "skos:prefLabel": "Distribution Publisher Identifier Scheme",
             "schema:identifier": "distribution_publisher_identifier_scheme",
             "$schema": "http://json-schema.org/draft-04/schema#"
           },
@@ -11709,8 +11809,7 @@
             "description": "Generated by CSV2CEDAR.",
             "_ui": {
               "inputType": "link",
-              "hidden": true,
-              "continuePreviousLine": true
+              "hidden": true
             },
             "_valueConstraints": {
               "requiredValue": false
@@ -11720,15 +11819,21 @@
                 "type": "string",
                 "format": "uri"
               },
+              "@id": {
+                "type": "string",
+                "format": "uri"
+              },
               "rdfs:label": {
                 "type": [
                   "string",
                   "null"
                 ]
               },
-              "@id": {
-                "type": "string",
-                "format": "uri"
+              "skos:notation": {
+                "type": [
+                  "string",
+                  "null"
+                ]
               }
             },
             "schema:name": "Distribution Publisher Identifier Scheme IRI",
@@ -11737,11 +11842,11 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "skos:prefLabel": "Distribution Publisher Identifier Scheme IRI",
             "pav:version": "0.9.1",
             "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "skos:prefLabel": "Distribution Publisher Identifier Scheme IRI",
             "schema:identifier": "distribution_publisher_identifier_scheme_iri",
             "$schema": "http://json-schema.org/draft-04/schema#"
           },
@@ -11787,7 +11892,6 @@
               "inputType": "textfield"
             },
             "_valueConstraints": {
-              "defaultValue": "",
               "requiredValue": false
             },
             "properties": {
@@ -11824,11 +11928,11 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "skos:prefLabel": "Distribution Identifier",
             "pav:version": "0.9.1",
             "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "skos:prefLabel": "Distribution Identifier",
             "schema:identifier": "distribution_identifier",
             "$schema": "http://json-schema.org/draft-04/schema#"
           },
@@ -11874,9 +11978,9 @@
               "inputType": "textfield"
             },
             "_valueConstraints": {
-              "ontologies": [ ],
-              "valueSets": [ ],
-              "classes": [ ],
+              "ontologies": [],
+              "valueSets": [],
+              "classes": [],
               "branches": [
                 {
                   "uri": "http://vocab.fairdatacollective.org/gdmt/IdentifierType",
@@ -11886,11 +11990,14 @@
                   "maxDepth": 2147483647
                 }
               ],
-              "actions": [ ],
               "requiredValue": false
             },
             "properties": {
               "@type": {
+                "type": "string",
+                "format": "uri"
+              },
+              "@id": {
                 "type": "string",
                 "format": "uri"
               },
@@ -11900,9 +12007,11 @@
                   "null"
                 ]
               },
-              "@id": {
-                "type": "string",
-                "format": "uri"
+              "skos:notation": {
+                "type": [
+                  "string",
+                  "null"
+                ]
               }
             },
             "schema:name": "Distribution Identifier Type",
@@ -11911,11 +12020,11 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "skos:prefLabel": "Distribution Identifier Type",
             "pav:version": "0.9.1",
             "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "skos:prefLabel": "Distribution Identifier Type",
             "schema:identifier": "distribution_identifier_type",
             "$schema": "http://json-schema.org/draft-04/schema#"
           },
@@ -11961,7 +12070,6 @@
               "inputType": "textfield"
             },
             "_valueConstraints": {
-              "defaultValue": "",
               "requiredValue": false
             },
             "properties": {
@@ -11998,11 +12106,11 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "skos:prefLabel": "Distribution Format",
             "pav:version": "0.9.1",
             "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "skos:prefLabel": "Distribution Format",
             "schema:identifier": "distribution_format",
             "$schema": "http://json-schema.org/draft-04/schema#"
           },
@@ -12048,9 +12156,9 @@
               "inputType": "textfield"
             },
             "_valueConstraints": {
-              "ontologies": [ ],
-              "valueSets": [ ],
-              "classes": [ ],
+              "ontologies": [],
+              "valueSets": [],
+              "classes": [],
               "branches": [
                 {
                   "uri": "http://vocab.fairdatacollective.org/gdmt/MIMEType",
@@ -12060,11 +12168,14 @@
                   "maxDepth": 2147483647
                 }
               ],
-              "actions": [ ],
               "requiredValue": false
             },
             "properties": {
               "@type": {
+                "type": "string",
+                "format": "uri"
+              },
+              "@id": {
                 "type": "string",
                 "format": "uri"
               },
@@ -12074,9 +12185,11 @@
                   "null"
                 ]
               },
-              "@id": {
-                "type": "string",
-                "format": "uri"
+              "skos:notation": {
+                "type": [
+                  "string",
+                  "null"
+                ]
               }
             },
             "schema:name": "Distribution Media Type",
@@ -12085,11 +12198,11 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "skos:prefLabel": "Distribution Media Type",
             "pav:version": "0.9.1",
             "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "skos:prefLabel": "Distribution Media Type",
             "schema:identifier": "distribution_media_type",
             "$schema": "http://json-schema.org/draft-04/schema#"
           },
@@ -12135,7 +12248,6 @@
               "inputType": "textfield"
             },
             "_valueConstraints": {
-              "defaultValue": "",
               "requiredValue": false
             },
             "properties": {
@@ -12172,11 +12284,11 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "skos:prefLabel": "Distribution Size",
             "pav:version": "0.9.1",
             "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "skos:prefLabel": "Distribution Size",
             "schema:identifier": "distribution_size",
             "$schema": "http://json-schema.org/draft-04/schema#"
           },
@@ -12222,7 +12334,6 @@
               "inputType": "textfield"
             },
             "_valueConstraints": {
-              "defaultValue": "",
               "requiredValue": false
             },
             "properties": {
@@ -12259,11 +12370,11 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "skos:prefLabel": "Distribution Access Protocol",
             "pav:version": "0.9.1",
             "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "skos:prefLabel": "Distribution Access Protocol",
             "schema:identifier": "distribution_access_protocol",
             "$schema": "http://json-schema.org/draft-04/schema#"
           },
@@ -12309,7 +12420,6 @@
               "inputType": "textfield"
             },
             "_valueConstraints": {
-              "defaultValue": "",
               "requiredValue": false
             },
             "properties": {
@@ -12346,11 +12456,11 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "skos:prefLabel": "Distribution Access Configuration",
             "pav:version": "0.9.1",
             "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "skos:prefLabel": "Distribution Access Configuration",
             "schema:identifier": "distribution_access_configuration",
             "$schema": "http://json-schema.org/draft-04/schema#"
           },
@@ -12396,7 +12506,6 @@
               "inputType": "textfield"
             },
             "_valueConstraints": {
-              "defaultValue": "",
               "requiredValue": false
             },
             "properties": {
@@ -12433,11 +12542,11 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "skos:prefLabel": "Distribution Query Statement",
             "pav:version": "0.9.1",
             "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "skos:prefLabel": "Distribution Query Statement",
             "schema:identifier": "distribution_query_statement",
             "$schema": "http://json-schema.org/draft-04/schema#"
           },
@@ -12568,9 +12677,7 @@
                 "description": "Generated by CSV2CEDAR.",
                 "_ui": {
                   "inputType": "temporal",
-                  "temporalGranularity": "day",
-                  "inputTimeFormat": "12h",
-                  "timezoneEnabled": false
+                  "temporalGranularity": "day"
                 },
                 "_valueConstraints": {
                   "temporalType": "xsd:date",
@@ -12611,11 +12718,11 @@
                 "pav:createdBy": null,
                 "pav:lastUpdatedOn": null,
                 "oslc:modifiedBy": null,
+                "skos:prefLabel": "Data File Publication Date",
                 "pav:version": "0.9.1",
                 "bibo:status": "bibo:draft",
                 "schema:schemaVersion": "1.6.0",
                 "additionalProperties": false,
-                "skos:prefLabel": "Data File Publication Date",
                 "schema:identifier": "data_file_publication_date",
                 "$schema": "http://json-schema.org/draft-04/schema#"
               },
@@ -12659,13 +12766,12 @@
                 "description": "Generated by CSV2CEDAR.",
                 "_ui": {
                   "inputType": "textfield",
-                  "hidden": true,
-                  "continuePreviousLine": true
+                  "hidden": true
                 },
                 "_valueConstraints": {
-                  "ontologies": [ ],
-                  "valueSets": [ ],
-                  "classes": [ ],
+                  "ontologies": [],
+                  "valueSets": [],
+                  "classes": [],
                   "branches": [
                     {
                       "uri": "http://vocab.fairdatacollective.org/gdmt/DataType",
@@ -12675,15 +12781,18 @@
                       "maxDepth": 2147483647
                     }
                   ],
-                  "actions": [ ],
                   "defaultValue": {
-                    "rdfs:label": "Published",
-                    "termUri": "http://vocab.fairdatacollective.org/gdmt/Published"
+                    "termUri": "http://vocab.fairdatacollective.org/gdmt/Published",
+                    "rdfs:label": "Published"
                   },
                   "requiredValue": false
                 },
                 "properties": {
                   "@type": {
+                    "type": "string",
+                    "format": "uri"
+                  },
+                  "@id": {
                     "type": "string",
                     "format": "uri"
                   },
@@ -12693,9 +12802,11 @@
                       "null"
                     ]
                   },
-                  "@id": {
-                    "type": "string",
-                    "format": "uri"
+                  "skos:notation": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
                   }
                 },
                 "schema:name": "Publication Date Type",
@@ -12704,11 +12815,11 @@
                 "pav:createdBy": null,
                 "pav:lastUpdatedOn": null,
                 "oslc:modifiedBy": null,
+                "skos:prefLabel": "Publication Date Type",
                 "pav:version": "0.9.1",
                 "bibo:status": "bibo:draft",
                 "schema:schemaVersion": "1.6.0",
                 "additionalProperties": false,
-                "skos:prefLabel": "Publication Date Type",
                 "schema:identifier": "publication_date_type",
                 "$schema": "http://json-schema.org/draft-04/schema#"
               }
@@ -12833,20 +12944,17 @@
               "enum": [
                 "http://purl.org/radx-terms/metadata-terms/dataCharacteristicsTableInTsv"
               ]
-            },
-            "Data Characteristics Table in Key-Value Pairs": {
-              "enum": [
-                "https://schema.metadatacenter.org/properties/7ca56d90-7c21-4a3e-8fa7-1a09060624ea"
-              ]
             }
           },
           "required": [
             "Data Characteristics Table in HTML",
             "Data Characteristics Table in CSV",
-            "Data Characteristics Table in TSV",
-            "Data Characteristics Table in Key-Value Pairs"
+            "Data Characteristics Table in TSV"
           ],
-          "additionalProperties": false
+          "additionalProperties": {
+            "type": "string",
+            "format": "uri"
+          }
         },
         "@id": {
           "type": "string",
@@ -12911,7 +13019,6 @@
             "inputType": "textarea"
           },
           "_valueConstraints": {
-            "defaultValue": "",
             "requiredValue": false
           },
           "properties": {
@@ -12948,11 +13055,11 @@
           "pav:createdBy": null,
           "pav:lastUpdatedOn": null,
           "oslc:modifiedBy": null,
+          "skos:prefLabel": "Data Characteristics Table in HTML",
           "pav:version": "0.9.1",
           "bibo:status": "bibo:draft",
           "schema:schemaVersion": "1.6.0",
           "additionalProperties": false,
-          "skos:prefLabel": "Data Characteristics Table in HTML",
           "schema:identifier": "data_characteristics_table_in_html",
           "$schema": "http://json-schema.org/draft-04/schema#"
         },
@@ -12998,7 +13105,6 @@
             "inputType": "textarea"
           },
           "_valueConstraints": {
-            "defaultValue": "",
             "requiredValue": false
           },
           "properties": {
@@ -13035,11 +13141,11 @@
           "pav:createdBy": null,
           "pav:lastUpdatedOn": null,
           "oslc:modifiedBy": null,
+          "skos:prefLabel": "Data Characteristics Table in CSV",
           "pav:version": "0.9.1",
           "bibo:status": "bibo:draft",
           "schema:schemaVersion": "1.6.0",
           "additionalProperties": false,
-          "skos:prefLabel": "Data Characteristics Table in CSV",
           "schema:identifier": "data_characteristics_table_in_csv",
           "$schema": "http://json-schema.org/draft-04/schema#"
         },
@@ -13085,7 +13191,6 @@
             "inputType": "textfield"
           },
           "_valueConstraints": {
-            "defaultValue": "",
             "requiredValue": false
           },
           "properties": {
@@ -13122,11 +13227,11 @@
           "pav:createdBy": null,
           "pav:lastUpdatedOn": null,
           "oslc:modifiedBy": null,
+          "skos:prefLabel": "Data Characteristics Table in TSV",
           "pav:version": "0.9.1",
           "bibo:status": "bibo:draft",
           "schema:schemaVersion": "1.6.0",
           "additionalProperties": false,
-          "skos:prefLabel": "Data Characteristics Table in TSV",
           "schema:identifier": "data_characteristics_table_in_tsv",
           "$schema": "http://json-schema.org/draft-04/schema#"
         },
@@ -13180,11 +13285,11 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "skos:prefLabel": "Data Characteristics Table in Key-Value Pairs",
             "pav:version": "0.9.1",
             "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "skos:prefLabel": "Data Characteristics Table in Key-Value Pairs",
             "schema:identifier": "data_characteristics_table_in_key-value_pairs",
             "$schema": "http://json-schema.org/draft-04/schema#"
           }
@@ -13195,8 +13300,7 @@
         "@id",
         "Data Characteristics Table in HTML",
         "Data Characteristics Table in CSV",
-        "Data Characteristics Table in TSV",
-        "Data Characteristics Table in Key-Value Pairs"
+        "Data Characteristics Table in TSV"
       ],
       "schema:name": "Data Characteristics Summary",
       "schema:description": "Characteristics of the data within the data file, particularly of the cohorts in the data file. This section provides multiple ways to enter such information; it is only necessary to enter the information in one of these formats.",
@@ -13379,7 +13483,6 @@
               "inputType": "textfield"
             },
             "_valueConstraints": {
-              "defaultValue": "",
               "requiredValue": false
             },
             "properties": {
@@ -13416,11 +13519,11 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "skos:prefLabel": "Data Source Name",
             "pav:version": "0.9.1",
             "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "skos:prefLabel": "Data Source Name",
             "schema:identifier": "data_source_name",
             "$schema": "http://json-schema.org/draft-04/schema#"
           },
@@ -13466,7 +13569,6 @@
               "inputType": "textfield"
             },
             "_valueConstraints": {
-              "defaultValue": "",
               "requiredValue": false
             },
             "properties": {
@@ -13503,11 +13605,11 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "skos:prefLabel": "Data Source Identifier",
             "pav:version": "0.9.1",
             "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "skos:prefLabel": "Data Source Identifier",
             "schema:identifier": "data_source_identifier",
             "$schema": "http://json-schema.org/draft-04/schema#"
           },
@@ -13553,9 +13655,9 @@
               "inputType": "textfield"
             },
             "_valueConstraints": {
-              "ontologies": [ ],
-              "valueSets": [ ],
-              "classes": [ ],
+              "ontologies": [],
+              "valueSets": [],
+              "classes": [],
               "branches": [
                 {
                   "uri": "http://vocab.fairdatacollective.org/gdmt/IdentifierType",
@@ -13565,11 +13667,14 @@
                   "maxDepth": 2147483647
                 }
               ],
-              "actions": [ ],
               "requiredValue": false
             },
             "properties": {
               "@type": {
+                "type": "string",
+                "format": "uri"
+              },
+              "@id": {
                 "type": "string",
                 "format": "uri"
               },
@@ -13579,9 +13684,11 @@
                   "null"
                 ]
               },
-              "@id": {
-                "type": "string",
-                "format": "uri"
+              "skos:notation": {
+                "type": [
+                  "string",
+                  "null"
+                ]
               }
             },
             "schema:name": "Data Source Identifier Scheme",
@@ -13590,11 +13697,11 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "skos:prefLabel": "Data Source Identifier Scheme",
             "pav:version": "0.9.1",
             "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "skos:prefLabel": "Data Source Identifier Scheme",
             "schema:identifier": "data_source_identifier_scheme",
             "$schema": "http://json-schema.org/draft-04/schema#"
           },
@@ -13638,8 +13745,7 @@
             "description": "Generated by CSV2CEDAR.",
             "_ui": {
               "inputType": "link",
-              "hidden": true,
-              "continuePreviousLine": true
+              "hidden": true
             },
             "_valueConstraints": {
               "requiredValue": false
@@ -13649,15 +13755,21 @@
                 "type": "string",
                 "format": "uri"
               },
+              "@id": {
+                "type": "string",
+                "format": "uri"
+              },
               "rdfs:label": {
                 "type": [
                   "string",
                   "null"
                 ]
               },
-              "@id": {
-                "type": "string",
-                "format": "uri"
+              "skos:notation": {
+                "type": [
+                  "string",
+                  "null"
+                ]
               }
             },
             "schema:name": "Data Source Identifier Scheme IRI",
@@ -13666,11 +13778,11 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "skos:prefLabel": "Data Source Identifier Scheme IRI",
             "pav:version": "0.9.1",
             "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "skos:prefLabel": "Data Source Identifier Scheme IRI",
             "schema:identifier": "data_source_identifier_scheme_iri",
             "$schema": "http://json-schema.org/draft-04/schema#"
           }
@@ -13865,7 +13977,6 @@
               "inputType": "textfield"
             },
             "_valueConstraints": {
-              "defaultValue": "",
               "requiredValue": false
             },
             "properties": {
@@ -13902,11 +14013,11 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "skos:prefLabel": "Data Stream Name",
             "pav:version": "0.9.1",
             "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "skos:prefLabel": "Data Stream Name",
             "schema:identifier": "data_stream_name",
             "$schema": "http://json-schema.org/draft-04/schema#"
           },
@@ -13952,7 +14063,6 @@
               "inputType": "textfield"
             },
             "_valueConstraints": {
-              "defaultValue": "",
               "requiredValue": false
             },
             "properties": {
@@ -13989,11 +14099,11 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "skos:prefLabel": "Data Stream Identifier",
             "pav:version": "0.9.1",
             "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "skos:prefLabel": "Data Stream Identifier",
             "schema:identifier": "data_stream_identifier",
             "$schema": "http://json-schema.org/draft-04/schema#"
           },
@@ -14039,9 +14149,9 @@
               "inputType": "textfield"
             },
             "_valueConstraints": {
-              "ontologies": [ ],
-              "valueSets": [ ],
-              "classes": [ ],
+              "ontologies": [],
+              "valueSets": [],
+              "classes": [],
               "branches": [
                 {
                   "uri": "http://vocab.fairdatacollective.org/gdmt/IdentifierType",
@@ -14051,11 +14161,14 @@
                   "maxDepth": 2147483647
                 }
               ],
-              "actions": [ ],
               "requiredValue": false
             },
             "properties": {
               "@type": {
+                "type": "string",
+                "format": "uri"
+              },
+              "@id": {
                 "type": "string",
                 "format": "uri"
               },
@@ -14065,9 +14178,11 @@
                   "null"
                 ]
               },
-              "@id": {
-                "type": "string",
-                "format": "uri"
+              "skos:notation": {
+                "type": [
+                  "string",
+                  "null"
+                ]
               }
             },
             "schema:name": "Data Stream Identifier Scheme",
@@ -14076,11 +14191,11 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "skos:prefLabel": "Data Stream Identifier Scheme",
             "pav:version": "0.9.1",
             "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "skos:prefLabel": "Data Stream Identifier Scheme",
             "schema:identifier": "data_stream_identifier_scheme",
             "$schema": "http://json-schema.org/draft-04/schema#"
           },
@@ -14124,8 +14239,7 @@
             "description": "Generated by CSV2CEDAR.",
             "_ui": {
               "inputType": "link",
-              "hidden": true,
-              "continuePreviousLine": true
+              "hidden": true
             },
             "_valueConstraints": {
               "requiredValue": false
@@ -14135,15 +14249,21 @@
                 "type": "string",
                 "format": "uri"
               },
+              "@id": {
+                "type": "string",
+                "format": "uri"
+              },
               "rdfs:label": {
                 "type": [
                   "string",
                   "null"
                 ]
               },
-              "@id": {
-                "type": "string",
-                "format": "uri"
+              "skos:notation": {
+                "type": [
+                  "string",
+                  "null"
+                ]
               }
             },
             "schema:name": "Data Stream Identifier Scheme IRI",
@@ -14152,11 +14272,11 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "skos:prefLabel": "Data Stream Identifier Scheme IRI",
             "pav:version": "0.9.1",
             "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "skos:prefLabel": "Data Stream Identifier Scheme IRI",
             "schema:identifier": "data_stream_identifier_scheme_iri",
             "$schema": "http://json-schema.org/draft-04/schema#"
           },
@@ -14205,9 +14325,7 @@
                 "inputType": "textfield"
               },
               "_valueConstraints": {
-                "defaultValue": "",
-                "requiredValue": false,
-                "multipleChoice": true
+                "requiredValue": false
               },
               "properties": {
                 "@type": {
@@ -14243,11 +14361,11 @@
               "pav:createdBy": null,
               "pav:lastUpdatedOn": null,
               "oslc:modifiedBy": null,
+              "skos:prefLabel": "Data Stream Variable Name",
               "pav:version": "0.9.1",
               "bibo:status": "bibo:draft",
               "schema:schemaVersion": "1.6.0",
               "additionalProperties": false,
-              "skos:prefLabel": "Data Stream Variable Name",
               "schema:identifier": "data_stream_variable_name",
               "$schema": "http://json-schema.org/draft-04/schema#"
             }
@@ -14294,7 +14412,6 @@
               "inputType": "textfield"
             },
             "_valueConstraints": {
-              "defaultValue": "",
               "requiredValue": false
             },
             "properties": {
@@ -14331,11 +14448,11 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "skos:prefLabel": "Data Stream Data Source Identifier",
             "pav:version": "0.9.1",
             "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "skos:prefLabel": "Data Stream Data Source Identifier",
             "schema:identifier": "data_stream_data_source_identifier",
             "$schema": "http://json-schema.org/draft-04/schema#"
           }
@@ -14514,7 +14631,6 @@
               "inputType": "textfield"
             },
             "_valueConstraints": {
-              "defaultValue": "",
               "requiredValue": false
             },
             "properties": {
@@ -14551,11 +14667,11 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "skos:prefLabel": "Process Name",
             "pav:version": "0.9.1",
             "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "skos:prefLabel": "Process Name",
             "schema:identifier": "process_name",
             "$schema": "http://json-schema.org/draft-04/schema#"
           },
@@ -14601,7 +14717,6 @@
               "inputType": "textfield"
             },
             "_valueConstraints": {
-              "defaultValue": "",
               "requiredValue": false
             },
             "properties": {
@@ -14638,11 +14753,11 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "skos:prefLabel": "Process IRI",
             "pav:version": "0.9.1",
             "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "skos:prefLabel": "Process IRI",
             "schema:identifier": "process_iri",
             "$schema": "http://json-schema.org/draft-04/schema#"
           },
@@ -14688,7 +14803,6 @@
               "inputType": "textfield"
             },
             "_valueConstraints": {
-              "defaultValue": "",
               "requiredValue": false
             },
             "properties": {
@@ -14725,11 +14839,11 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "skos:prefLabel": "Process Version",
             "pav:version": "0.9.1",
             "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "skos:prefLabel": "Process Version",
             "schema:identifier": "process_version",
             "$schema": "http://json-schema.org/draft-04/schema#"
           },
@@ -14775,7 +14889,6 @@
               "inputType": "textfield"
             },
             "_valueConstraints": {
-              "defaultValue": "",
               "requiredValue": false
             },
             "properties": {
@@ -14812,11 +14925,11 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "skos:prefLabel": "Process Execution Identifier",
             "pav:version": "0.9.1",
             "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "skos:prefLabel": "Process Execution Identifier",
             "schema:identifier": "process_execution_identifier",
             "$schema": "http://json-schema.org/draft-04/schema#"
           }
@@ -14991,9 +15104,7 @@
             "description": "Generated by CSV2CEDAR.",
             "_ui": {
               "inputType": "temporal",
-              "temporalGranularity": "day",
-              "inputTimeFormat": "12h",
-              "timezoneEnabled": false
+              "temporalGranularity": "day"
             },
             "_valueConstraints": {
               "temporalType": "xsd:date",
@@ -15034,11 +15145,11 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "skos:prefLabel": "Temporal Extent Minimum Value",
             "pav:version": "0.9.1",
             "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "skos:prefLabel": "Temporal Extent Minimum Value",
             "schema:identifier": "temporal_extent_minimum_value",
             "$schema": "http://json-schema.org/draft-04/schema#"
           },
@@ -15082,9 +15193,7 @@
             "description": "Generated by CSV2CEDAR.",
             "_ui": {
               "inputType": "temporal",
-              "temporalGranularity": "day",
-              "inputTimeFormat": "12h",
-              "timezoneEnabled": false
+              "temporalGranularity": "day"
             },
             "_valueConstraints": {
               "temporalType": "xsd:date",
@@ -15125,11 +15234,11 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "skos:prefLabel": "Temporal Extent Maximum Value",
             "pav:version": "0.9.1",
             "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "skos:prefLabel": "Temporal Extent Maximum Value",
             "schema:identifier": "temporal_extent_maximum_value",
             "$schema": "http://json-schema.org/draft-04/schema#"
           },
@@ -15175,7 +15284,6 @@
               "inputType": "textfield"
             },
             "_valueConstraints": {
-              "defaultValue": "",
               "requiredValue": false
             },
             "properties": {
@@ -15212,11 +15320,11 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "skos:prefLabel": "Temporal Resolution",
             "pav:version": "0.9.1",
             "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "skos:prefLabel": "Temporal Resolution",
             "schema:identifier": "temporal_resolution",
             "$schema": "http://json-schema.org/draft-04/schema#"
           },
@@ -15262,7 +15370,6 @@
               "inputType": "textfield"
             },
             "_valueConstraints": {
-              "defaultValue": "",
               "requiredValue": false
             },
             "properties": {
@@ -15299,11 +15406,11 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "skos:prefLabel": "Duration",
             "pav:version": "0.9.1",
             "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "skos:prefLabel": "Duration",
             "schema:identifier": "duration",
             "$schema": "http://json-schema.org/draft-04/schema#"
           }
@@ -15616,11 +15723,11 @@
                   "pav:createdBy": null,
                   "pav:lastUpdatedOn": null,
                   "oslc:modifiedBy": null,
+                  "skos:prefLabel": "Maximum Latitude",
                   "pav:version": "0.9.1",
                   "bibo:status": "bibo:draft",
                   "schema:schemaVersion": "1.6.0",
                   "additionalProperties": false,
-                  "skos:prefLabel": "Maximum Latitude",
                   "schema:identifier": "maximum_latitude",
                   "$schema": "http://json-schema.org/draft-04/schema#"
                 },
@@ -15666,7 +15773,6 @@
                     "inputType": "textfield"
                   },
                   "_valueConstraints": {
-                    "defaultValue": "",
                     "requiredValue": false
                   },
                   "properties": {
@@ -15703,11 +15809,11 @@
                   "pav:createdBy": null,
                   "pav:lastUpdatedOn": null,
                   "oslc:modifiedBy": null,
+                  "skos:prefLabel": "Minimum Latitude",
                   "pav:version": "0.9.1",
                   "bibo:status": "bibo:draft",
                   "schema:schemaVersion": "1.6.0",
                   "additionalProperties": false,
-                  "skos:prefLabel": "Minimum Latitude",
                   "schema:identifier": "minimum_latitude",
                   "$schema": "http://json-schema.org/draft-04/schema#"
                 },
@@ -15753,7 +15859,6 @@
                     "inputType": "textfield"
                   },
                   "_valueConstraints": {
-                    "defaultValue": "",
                     "requiredValue": false
                   },
                   "properties": {
@@ -15790,11 +15895,11 @@
                   "pav:createdBy": null,
                   "pav:lastUpdatedOn": null,
                   "oslc:modifiedBy": null,
+                  "skos:prefLabel": "Minimum Longitude",
                   "pav:version": "0.9.1",
                   "bibo:status": "bibo:draft",
                   "schema:schemaVersion": "1.6.0",
                   "additionalProperties": false,
-                  "skos:prefLabel": "Minimum Longitude",
                   "schema:identifier": "minimum_longitude",
                   "$schema": "http://json-schema.org/draft-04/schema#"
                 },
@@ -15840,7 +15945,6 @@
                     "inputType": "textfield"
                   },
                   "_valueConstraints": {
-                    "defaultValue": "",
                     "requiredValue": false
                   },
                   "properties": {
@@ -15877,11 +15981,11 @@
                   "pav:createdBy": null,
                   "pav:lastUpdatedOn": null,
                   "oslc:modifiedBy": null,
+                  "skos:prefLabel": "Maximum Longitude",
                   "pav:version": "0.9.1",
                   "bibo:status": "bibo:draft",
                   "schema:schemaVersion": "1.6.0",
                   "additionalProperties": false,
-                  "skos:prefLabel": "Maximum Longitude",
                   "schema:identifier": "maximum_longitude",
                   "$schema": "http://json-schema.org/draft-04/schema#"
                 }
@@ -16088,11 +16192,11 @@
                   "pav:createdBy": null,
                   "pav:lastUpdatedOn": null,
                   "oslc:modifiedBy": null,
+                  "skos:prefLabel": "Point Number",
                   "pav:version": "0.9.1",
                   "bibo:status": "bibo:draft",
                   "schema:schemaVersion": "1.6.0",
                   "additionalProperties": false,
-                  "skos:prefLabel": "Point Number",
                   "schema:identifier": "point_number",
                   "$schema": "http://json-schema.org/draft-04/schema#"
                 },
@@ -16177,11 +16281,11 @@
                   "pav:createdBy": null,
                   "pav:lastUpdatedOn": null,
                   "oslc:modifiedBy": null,
+                  "skos:prefLabel": "Latitude",
                   "pav:version": "0.9.1",
                   "bibo:status": "bibo:draft",
                   "schema:schemaVersion": "1.6.0",
                   "additionalProperties": false,
-                  "skos:prefLabel": "Latitude",
                   "schema:identifier": "latitude",
                   "$schema": "http://json-schema.org/draft-04/schema#"
                 },
@@ -16266,11 +16370,11 @@
                   "pav:createdBy": null,
                   "pav:lastUpdatedOn": null,
                   "oslc:modifiedBy": null,
+                  "skos:prefLabel": "Longitude",
                   "pav:version": "0.9.1",
                   "bibo:status": "bibo:draft",
                   "schema:schemaVersion": "1.6.0",
                   "additionalProperties": false,
-                  "skos:prefLabel": "Longitude",
                   "schema:identifier": "longitude",
                   "$schema": "http://json-schema.org/draft-04/schema#"
                 }
@@ -16422,9 +16526,7 @@
                       "inputType": "textfield"
                     },
                     "_valueConstraints": {
-                      "defaultValue": "",
-                      "requiredValue": false,
-                      "multipleChoice": true
+                      "requiredValue": false
                     },
                     "properties": {
                       "@type": {
@@ -16460,11 +16562,11 @@
                     "pav:createdBy": null,
                     "pav:lastUpdatedOn": null,
                     "oslc:modifiedBy": null,
+                    "skos:prefLabel": "Geopolitical region ",
                     "pav:version": "0.9.1",
                     "bibo:status": "bibo:draft",
                     "schema:schemaVersion": "1.6.0",
                     "additionalProperties": false,
-                    "skos:prefLabel": "Geopolitical region ",
                     "schema:identifier": "geopolitical_region_",
                     "$schema": "http://json-schema.org/draft-04/schema#"
                   }
@@ -16559,8 +16661,8 @@
             "Vertical Extent Datum IRI": "Vertical Extent Datum IRI"
           },
           "propertyDescriptions": {
-            "Vertical Extent Minimum Value": "The minimum vertical extent of the data file collection, specified in meters. \n\nIn case of depth, this is the maximum depth of data file collection (that is, it is a negative number of greater absolute magnitude than the Vertical Extent Maximum Value if that is also a depth). ",
-            "Vertical Extent Maximum Value": "The maximum vertical extent of the collected, specified in meters. \n\nIn case of depth, this is the minimum depth of data file collection (that is, it is a negative number of lesser absolute magnitude than the Vertical Extent Minimum Value). ",
+            "Vertical Extent Minimum Value": "The minimum vertical extent of the data file collection, specified in meters. \n\nIn case of depth, this is the maximum depth of data file collection (that is, it is a negative number of greater absolute magnitude than the Vertical Extent Maximum Value if that is also a depth).",
+            "Vertical Extent Maximum Value": "The maximum vertical extent of the collected, specified in meters.\n\nIn case of depth, this is the minimum depth of data file collection (that is, it is a negative number of lesser absolute magnitude than the Vertical Extent Minimum Value).",
             "Vertical Extent Datum": "The name of the Datum (reference frame) used for the Vertical Extent values.",
             "Vertical Extent Datum IRI": "The IRI (Internationalized Resource Identifier) of the Datum (reference frame) used for the Vertical Extent values."
           }
@@ -16695,16 +16797,16 @@
               "@type"
             ],
             "schema:name": "Vertical Extent Minimum Value",
-            "schema:description": "The minimum vertical extent of the data file collection, specified in meters. \n\nIn case of depth, this is the maximum depth of data file collection (that is, it is a negative number of greater absolute magnitude than the Vertical Extent Maximum Value if that is also a depth). ",
+            "schema:description": "The minimum vertical extent of the data file collection, specified in meters. \n\nIn case of depth, this is the maximum depth of data file collection (that is, it is a negative number of greater absolute magnitude than the Vertical Extent Maximum Value if that is also a depth).",
             "pav:createdOn": null,
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "skos:prefLabel": "Vertical Extent Minimum Value",
             "pav:version": "0.9.1",
             "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "skos:prefLabel": "Vertical Extent Minimum Value",
             "schema:identifier": "vertical_extent_minimum_value",
             "$schema": "http://json-schema.org/draft-04/schema#"
           },
@@ -16784,16 +16886,16 @@
               "@type"
             ],
             "schema:name": "Vertical Extent Maximum Value",
-            "schema:description": "The maximum vertical extent of the collected, specified in meters. \n\nIn case of depth, this is the minimum depth of data file collection (that is, it is a negative number of lesser absolute magnitude than the Vertical Extent Minimum Value). ",
+            "schema:description": "The maximum vertical extent of the collected, specified in meters.\n\nIn case of depth, this is the minimum depth of data file collection (that is, it is a negative number of lesser absolute magnitude than the Vertical Extent Minimum Value).",
             "pav:createdOn": null,
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "skos:prefLabel": "Vertical Extent Maximum Value",
             "pav:version": "0.9.1",
             "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "skos:prefLabel": "Vertical Extent Maximum Value",
             "schema:identifier": "vertical_extent_maximum_value",
             "$schema": "http://json-schema.org/draft-04/schema#"
           },
@@ -16839,7 +16941,6 @@
               "inputType": "textfield"
             },
             "_valueConstraints": {
-              "defaultValue": "",
               "requiredValue": false
             },
             "properties": {
@@ -16876,11 +16977,11 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "skos:prefLabel": "Vertical Extent Datum",
             "pav:version": "0.9.1",
             "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "skos:prefLabel": "Vertical Extent Datum",
             "schema:identifier": "vertical_extent_datum",
             "$schema": "http://json-schema.org/draft-04/schema#"
           },
@@ -16933,15 +17034,21 @@
                 "type": "string",
                 "format": "uri"
               },
+              "@id": {
+                "type": "string",
+                "format": "uri"
+              },
               "rdfs:label": {
                 "type": [
                   "string",
                   "null"
                 ]
               },
-              "@id": {
-                "type": "string",
-                "format": "uri"
+              "skos:notation": {
+                "type": [
+                  "string",
+                  "null"
+                ]
               }
             },
             "schema:name": "Vertical Extent Datum IRI",
@@ -16950,11 +17057,11 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "skos:prefLabel": "Vertical Extent Datum IRI",
             "pav:version": "0.9.1",
             "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "skos:prefLabel": "Vertical Extent Datum IRI",
             "schema:identifier": "vertical_extent_datum_iri",
             "$schema": "http://json-schema.org/draft-04/schema#"
           }
@@ -17030,11 +17137,6 @@
         "@context": {
           "type": "object",
           "properties": {
-            "Data File Descriptive Key-Value Pair": {
-              "enum": [
-                "https://schema.metadatacenter.org/properties/880d32df-5a49-4200-8f66-e2b53723a360"
-              ]
-            },
             "Additional Commentary": {
               "enum": [
                 "http://purl.org/radx-terms/metadata-terms/auxiliaryMetadataCommentary"
@@ -17042,10 +17144,12 @@
             }
           },
           "required": [
-            "Data File Descriptive Key-Value Pair",
             "Additional Commentary"
           ],
-          "additionalProperties": false
+          "additionalProperties": {
+            "type": "string",
+            "format": "uri"
+          }
         },
         "@id": {
           "type": "string",
@@ -17118,11 +17222,11 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "skos:prefLabel": "Data File Descriptive Key-Value Pair",
             "pav:version": "0.9.1",
             "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "skos:prefLabel": "Data File Descriptive Key-Value Pair",
             "schema:identifier": "data_file_descriptive_key-value_pair",
             "$schema": "http://json-schema.org/draft-04/schema#"
           }
@@ -17172,9 +17276,7 @@
               "inputType": "textarea"
             },
             "_valueConstraints": {
-              "defaultValue": "",
-              "requiredValue": false,
-              "multipleChoice": true
+              "requiredValue": false
             },
             "properties": {
               "@type": {
@@ -17210,11 +17312,11 @@
             "pav:createdBy": null,
             "pav:lastUpdatedOn": null,
             "oslc:modifiedBy": null,
+            "skos:prefLabel": "Additional Commentary",
             "pav:version": "0.9.1",
             "bibo:status": "bibo:draft",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
-            "skos:prefLabel": "Additional Commentary",
             "schema:identifier": "additional_commentary",
             "$schema": "http://json-schema.org/draft-04/schema#"
           }
@@ -17223,7 +17325,6 @@
       "required": [
         "@context",
         "@id",
-        "Data File Descriptive Key-Value Pair",
         "Additional Commentary"
       ],
       "schema:name": "Auxiliary Metadata",

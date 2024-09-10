@@ -328,11 +328,11 @@
         "valueRecommendationEnabled": true
       },
       "_valueConstraints": {
-        "requiredValue": false,
-        "regex": "^[A-Z][^A-Z]*$",
         "defaultValue": "Default Value",
         "minLength": 10,
-        "maxLength": 100
+        "maxLength": 100,
+        "requiredValue": false,
+        "regex": "^[A-Z][^A-Z]*$"
       },
       "properties": {
         "@type": {
@@ -368,15 +368,15 @@
       "pav:createdBy": "https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95",
       "pav:lastUpdatedOn": "2024-03-01T13:44:25-08:00",
       "oslc:modifiedBy": "https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95",
-      "pav:version": "0.0.1",
-      "bibo:status": "bibo:draft",
-      "schema:schemaVersion": "1.6.0",
-      "additionalProperties": false,
       "skos:prefLabel": "Preferred label value",
       "skos:altLabel": [
         "Alternate label 1",
         "Alternate label 2"
       ],
+      "pav:version": "0.0.1",
+      "bibo:status": "bibo:draft",
+      "schema:schemaVersion": "1.6.0",
+      "additionalProperties": false,
       "$schema": "http://json-schema.org/draft-04/schema#"
     }
   },
@@ -392,6 +392,7 @@
     "oslc:modifiedBy",
     "Text Field 1"
   ],
+  "additionalProperties": false,
   "schema:name": "Template with Text Field 1",
   "schema:description": "",
   "pav:createdOn": "2024-03-01T13:44:25-08:00",
@@ -401,6 +402,5 @@
   "pav:version": "0.0.1",
   "bibo:status": "bibo:draft",
   "schema:schemaVersion": "1.6.0",
-  "additionalProperties": false,
   "$schema": "http://json-schema.org/draft-04/schema#"
 }

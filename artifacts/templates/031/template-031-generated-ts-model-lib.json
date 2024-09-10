@@ -587,8 +587,8 @@
             "inputType": "numeric"
           },
           "_valueConstraints": {
-            "requiredValue": false,
-            "numberType": "xsd:decimal"
+            "numberType": "xsd:decimal",
+            "requiredValue": false
           },
           "properties": {
             "@type": {
@@ -662,6 +662,7 @@
     "oslc:modifiedBy",
     "#002 Element with three fields"
   ],
+  "additionalProperties": false,
   "schema:name": "#101 Template with one elements",
   "schema:description": "",
   "pav:createdOn": "2024-03-12T12:21:43-07:00",
@@ -671,6 +672,5 @@
   "pav:version": "0.0.1",
   "bibo:status": "bibo:draft",
   "schema:schemaVersion": "1.6.0",
-  "additionalProperties": false,
   "$schema": "http://json-schema.org/draft-04/schema#"
 }

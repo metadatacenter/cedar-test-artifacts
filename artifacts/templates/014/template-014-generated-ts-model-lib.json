@@ -363,8 +363,8 @@
         "inputType": "numeric"
       },
       "_valueConstraints": {
-        "requiredValue": false,
-        "numberType": "xsd:decimal"
+        "numberType": "xsd:decimal",
+        "requiredValue": false
       },
       "properties": {
         "@type": {
@@ -447,8 +447,8 @@
         "inputType": "numeric"
       },
       "_valueConstraints": {
-        "requiredValue": false,
-        "numberType": "xsd:long"
+        "numberType": "xsd:long",
+        "requiredValue": false
       },
       "properties": {
         "@type": {
@@ -531,8 +531,8 @@
         "inputType": "numeric"
       },
       "_valueConstraints": {
-        "requiredValue": false,
-        "numberType": "xsd:int"
+        "numberType": "xsd:int",
+        "requiredValue": false
       },
       "properties": {
         "@type": {
@@ -615,8 +615,8 @@
         "inputType": "numeric"
       },
       "_valueConstraints": {
-        "requiredValue": false,
-        "numberType": "xsd:double"
+        "numberType": "xsd:double",
+        "requiredValue": false
       },
       "properties": {
         "@type": {
@@ -699,8 +699,8 @@
         "inputType": "numeric"
       },
       "_valueConstraints": {
-        "requiredValue": false,
-        "numberType": "xsd:float"
+        "numberType": "xsd:float",
+        "requiredValue": false
       },
       "properties": {
         "@type": {
@@ -758,6 +758,7 @@
     "Double",
     "Float"
   ],
+  "additionalProperties": false,
   "schema:name": "#014 Template with various numbers",
   "schema:description": "",
   "pav:createdOn": "2024-03-06T16:54:29-08:00",
@@ -767,6 +768,5 @@
   "pav:version": "0.0.1",
   "bibo:status": "bibo:draft",
   "schema:schemaVersion": "1.6.0",
-  "additionalProperties": false,
   "$schema": "http://json-schema.org/draft-04/schema#"
 }

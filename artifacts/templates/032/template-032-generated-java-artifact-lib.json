@@ -44,27 +44,6 @@
     "@context": {
       "type": "object",
       "properties": {
-        "schema": {
-          "type": "string",
-          "format": "uri",
-          "enum": [
-            "http://schema.org/"
-          ]
-        },
-        "oslc": {
-          "type": "string",
-          "format": "uri",
-          "enum": [
-            "http://open-services.net/ns/core#"
-          ]
-        },
-        "pav": {
-          "type": "string",
-          "format": "uri",
-          "enum": [
-            "http://purl.org/pav/"
-          ]
-        },
         "rdfs": {
           "type": "string",
           "format": "uri",
@@ -79,6 +58,27 @@
             "http://www.w3.org/2001/XMLSchema#"
           ]
         },
+        "pav": {
+          "type": "string",
+          "format": "uri",
+          "enum": [
+            "http://purl.org/pav/"
+          ]
+        },
+        "schema": {
+          "type": "string",
+          "format": "uri",
+          "enum": [
+            "http://schema.org/"
+          ]
+        },
+        "oslc": {
+          "type": "string",
+          "format": "uri",
+          "enum": [
+            "http://open-services.net/ns/core#"
+          ]
+        },
         "skos": {
           "type": "string",
           "format": "uri",
@@ -87,6 +87,7 @@
           ]
         },
         "rdfs:label": {
+          "type": "object",
           "properties": {
             "@type": {
               "type": "string",
@@ -97,6 +98,7 @@
           }
         },
         "schema:isBasedOn": {
+          "type": "object",
           "properties": {
             "@type": {
               "type": "string",
@@ -107,6 +109,7 @@
           }
         },
         "schema:name": {
+          "type": "object",
           "properties": {
             "@type": {
               "type": "string",
@@ -117,6 +120,7 @@
           }
         },
         "schema:description": {
+          "type": "object",
           "properties": {
             "@type": {
               "type": "string",
@@ -127,6 +131,7 @@
           }
         },
         "pav:derivedFrom": {
+          "type": "object",
           "properties": {
             "@type": {
               "type": "string",
@@ -137,6 +142,7 @@
           }
         },
         "pav:createdOn": {
+          "type": "object",
           "properties": {
             "@type": {
               "type": "string",
@@ -147,6 +153,7 @@
           }
         },
         "pav:createdBy": {
+          "type": "object",
           "properties": {
             "@type": {
               "type": "string",
@@ -157,6 +164,7 @@
           }
         },
         "pav:lastUpdatedOn": {
+          "type": "object",
           "properties": {
             "@type": {
               "type": "string",
@@ -167,6 +175,7 @@
           }
         },
         "oslc:modifiedBy": {
+          "type": "object",
           "properties": {
             "@type": {
               "type": "string",
@@ -177,6 +186,7 @@
           }
         },
         "skos:notation": {
+          "type": "object",
           "properties": {
             "@type": {
               "type": "string",
@@ -208,6 +218,13 @@
       ],
       "additionalProperties": false
     },
+    "@id": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "uri"
+    },
     "@type": {
       "oneOf": [
         {
@@ -225,17 +242,6 @@
         }
       ]
     },
-    "@id": {
-      "type": [
-        "string",
-        "null"
-      ],
-      "format": "uri"
-    },
-    "pav:derivedFrom": {
-      "type": "string",
-      "format": "uri"
-    },
     "schema:isBasedOn": {
       "type": "string",
       "format": "uri"
@@ -246,6 +252,10 @@
     },
     "schema:description": {
       "type": "string"
+    },
+    "pav:derivedFrom": {
+      "type": "string",
+      "format": "uri"
     },
     "pav:createdOn": {
       "type": [
@@ -353,9 +363,9 @@
       "pav:createdBy": "https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95",
       "pav:lastUpdatedOn": "2024-04-23T10:51:00-07:00",
       "oslc:modifiedBy": "https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95",
+      "skos:prefLabel": "preferred label",
       "schema:schemaVersion": "1.6.0",
       "additionalProperties": false,
-      "skos:prefLabel": "preferred label",
       "$schema": "http://json-schema.org/draft-04/schema#"
     }
   },

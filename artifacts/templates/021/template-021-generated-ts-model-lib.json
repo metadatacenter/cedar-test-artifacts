@@ -336,8 +336,6 @@
         "inputType": "radio"
       },
       "_valueConstraints": {
-        "requiredValue": false,
-        "multipleChoice": false,
         "literals": [
           {
             "label": "Option 1"
@@ -355,7 +353,9 @@
           {
             "label": "Option 5"
           }
-        ]
+        ],
+        "requiredValue": false,
+        "multipleChoice": false
       },
       "properties": {
         "@type": {
@@ -437,8 +437,6 @@
         "inputType": "radio"
       },
       "_valueConstraints": {
-        "requiredValue": true,
-        "multipleChoice": false,
         "literals": [
           {
             "label": "Option 1"
@@ -446,7 +444,9 @@
           {
             "label": "Option2"
           }
-        ]
+        ],
+        "requiredValue": true,
+        "multipleChoice": false
       },
       "properties": {
         "@type": {
@@ -500,6 +500,7 @@
     "Multiple choice with default",
     "Multiple choice without default"
   ],
+  "additionalProperties": false,
   "schema:name": "#021 Template with MultipleChoice",
   "schema:description": "",
   "pav:createdOn": "2024-03-07T13:51:41-08:00",
@@ -509,6 +510,5 @@
   "pav:version": "0.0.1",
   "bibo:status": "bibo:draft",
   "schema:schemaVersion": "1.6.0",
-  "additionalProperties": false,
   "$schema": "http://json-schema.org/draft-04/schema#"
 }

@@ -383,6 +383,7 @@
     "oslc:modifiedBy",
     "Title"
   ],
+  "additionalProperties": false,
   "schema:name": "Test Template",
   "schema:description": "",
   "pav:createdOn": null,
@@ -391,9 +392,8 @@
   "oslc:modifiedBy": null,
   "pav:version": "0.0.2",
   "bibo:status": "bibo:published",
-  "schema:schemaVersion": "1.6.0",
-  "additionalProperties": false,
-  "schema:identifier": "e0ef7a86-8a58-485b-ab7f-3e4fffcba6f1",
   "pav:previousVersion": "0.0.1",
+  "schema:schemaVersion": "1.6.0",
+  "schema:identifier": "e0ef7a86-8a58-485b-ab7f-3e4fffcba6f1",
   "$schema": "http://json-schema.org/draft-04/schema#"
 }

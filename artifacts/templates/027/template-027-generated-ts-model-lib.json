@@ -285,6 +285,12 @@
     "pav:lastUpdatedOn",
     "oslc:modifiedBy"
   ],
+  "additionalProperties": false,
+  "_annotations": {
+    "https://datacite.com/doi": {
+      "@id": "https://doi.org/10.82658/8vc1-qf27"
+    }
+  },
   "schema:name": "template 36",
   "schema:description": "",
   "pav:createdOn": "2024-02-15T11:21:09-08:00",
@@ -294,11 +300,5 @@
   "pav:version": "0.0.1",
   "bibo:status": "bibo:published",
   "schema:schemaVersion": "1.6.0",
-  "additionalProperties": false,
-  "$schema": "http://json-schema.org/draft-04/schema#",
-  "_annotations": {
-    "https://datacite.com/doi": {
-      "@id": "https://doi.org/10.82658/8vc1-qf27"
-    }
-  }
+  "$schema": "http://json-schema.org/draft-04/schema#"
 }
