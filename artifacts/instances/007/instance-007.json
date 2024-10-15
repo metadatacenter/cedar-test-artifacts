@@ -6,9 +6,6 @@
     "schema": "http://schema.org/",
     "oslc": "http://open-services.net/ns/core#",
     "skos": "http://www.w3.org/2004/02/skos/core#",
-    "rdfs:label": {
-      "@type": "xsd:string"
-    },
     "schema:isBasedOn": {
       "@type": "@id"
     },
@@ -32,9 +29,6 @@
     },
     "oslc:modifiedBy": {
       "@type": "@id"
-    },
-    "skos:notation": {
-      "@type": "xsd:string"
     },
     "Email field name": "https://schema.metadatacenter.org/properties/32b37d64-a819-4bb8-92ea-dca357b36447"
   },

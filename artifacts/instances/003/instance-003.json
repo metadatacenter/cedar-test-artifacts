@@ -6,9 +6,6 @@
     "schema": "http://schema.org/",
     "oslc": "http://open-services.net/ns/core#",
     "skos": "http://www.w3.org/2004/02/skos/core#",
-    "rdfs:label": {
-      "@type": "xsd:string"
-    },
     "schema:isBasedOn": {
       "@type": "@id"
     },
@@ -32,9 +29,6 @@
     },
     "oslc:modifiedBy": {
       "@type": "@id"
-    },
-    "skos:notation": {
-      "@type": "xsd:string"
     },
     "Multiple Required Field": "https://schema.metadatacenter.org/properties/fd02033a-5086-480e-b82f-a2ae51c2494c"
   },
