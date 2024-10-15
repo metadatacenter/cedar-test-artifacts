@@ -41,6 +41,7 @@
     }
   ],
   "Sample Element": {
+    "@id": "https://repo.metadatacenter.org/template-element-instances/4f63f0c1-3641-4290-9c4d-33d34d8a372a",
     "@context": {
       "Sample Text": "https://schema.metadatacenter.org/properties/90136184-431a-415e-bc97-ff541683f55e",
       "Sample Datetime": "https://schema.metadatacenter.org/properties/a6488127-223c-46c3-9684-210d0f1dff61",
