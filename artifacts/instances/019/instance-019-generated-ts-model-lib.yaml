@@ -17,6 +17,7 @@ children:
           - value: null
         Numeric Field Multiple Inside Paragraph Element:
           - datatype: "xsd:double"
+            value: null
     - id: "https://repo.metadatacenter.org/template-element-instances/ee691eea-c30b-4556-9ef2-42501ae30051"
       children:
         Paragraph Field Multiple Inside Element:
