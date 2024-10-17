@@ -6,3 +6,38 @@ createdOn: "2020-07-17T15:36:46-07:00"
 createdBy: "https://metadatacenter.org/users/2fa8910d-96e7-4e2f-ae60-4dfa8ec9877d"
 modifiedOn: "2020-07-17T15:36:46-07:00"
 modifiedBy: "https://metadatacenter.org/users/2fa8910d-96e7-4e2f-ae60-4dfa8ec9877d"
+children:
+  Sample Standalone Text:
+    values:
+      - value: "My sample default value"
+  Sample Element:
+    id: "https://repo.metadatacenter.org/template-element-instances/4f63f0c1-3641-4290-9c4d-33d34d8a372a"
+    children:
+      Sample Text:
+        values:
+          - id: "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C140659"
+            label: "Choroidal and Ciliary Body Melanoma by AJCC v8 Stage"
+          - id: "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C137649"
+            label: "Clinical Stage IA Cutaneous Melanoma AJCC v8"
+      Sample Datetime:
+        values:
+          - datatype: "xsd:dateTime"
+            value: "2023-08-01T16:32:59"
+          - datatype: "xsd:dateTime"
+            value: "2023-08-02T16:33:22"
+          - datatype: "xsd:dateTime"
+            value: "2023-08-03T16:33:26"
+      Sample Checkbox:
+        values:
+          - value: "Option 1"
+    Sample Attribute Value:
+      Attribute name 1:
+        value: "value 1"
+  Sample Email:
+    value: "email@domain.com"
+  Link Field:
+    values:
+      - type: "iri"
+        id: "https://metadatacenter.org"
+      - type: "iri"
+        id: "https://bioportal.bioontology.org/"

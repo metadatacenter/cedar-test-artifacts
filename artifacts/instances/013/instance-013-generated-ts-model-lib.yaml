@@ -6,3 +6,31 @@ createdOn: "2020-07-17T15:36:46-07:00"
 createdBy: "https://metadatacenter.org/users/2fa8910d-96e7-4e2f-ae60-4dfa8ec9877d"
 modifiedOn: "2020-07-17T15:36:46-07:00"
 modifiedBy: "https://metadatacenter.org/users/2fa8910d-96e7-4e2f-ae60-4dfa8ec9877d"
+children:
+  Attribute Value Element Multiple:
+    values:
+      - id: "https://repo.metadatacenter.org/template-element-instances/f0276a67-e20b-4819-9c85-1b045e12fcaa"
+        children:
+          Checkbox Field in Attribute Value:
+            values:
+              - value: "Option 2"
+              - value: "Option 4"
+  Attribute Value Element Single:
+    id: "https://repo.metadatacenter.org/template-element-instances/9e9b1a60-c0c4-4f29-b0e7-d927c520780c"
+    children:
+      Text Box Multiple:
+        values:
+          - value: "text box multiple 1"
+          - value: "text box multiple 2"
+    Attribute Value Field From Single:
+      Attribute Value Field Single 1:
+        value: "value 1"
+      Attribute Value Field Single 2:
+        value: "value 2"
+Attribute Value Field Root:
+  Attribute Value Field Root 1:
+    value: "value 1"
+  Attribute Value Field Root 2:
+    value: "value 2"
+  Attribute Value Field Root 3:
+    value: null
