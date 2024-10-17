@@ -12,8 +12,6 @@ children:
     label: "acute promyelocytic leukemia"
 annotations:
   https://datacite.com/doi:
-    datatype: "iri"
     id: "https://doi.org/10.82658/8vc1-abcd"
   foo:
-    datatype: "string"
     value: "bar"
