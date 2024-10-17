@@ -15,9 +15,13 @@ children:
             values:
               - value: "Para\ngraph\n1/1"
               - value: "Para\ngraph\n1/2"
+          Text Field in Paragraph Element:
+            values:
+              - value: null
           Numeric Field Multiple Inside Paragraph Element:
             values:
               - datatype: "xsd:double"
+                value: null
       - id: "https://repo.metadatacenter.org/template-element-instances/ee691eea-c30b-4556-9ef2-42501ae30051"
         children:
           Paragraph Field Multiple Inside Element:
@@ -30,3 +34,6 @@ children:
             values:
               - datatype: "xsd:double"
                 value: "120"
+  Paragraph Standalone:
+    values:
+      - value: null

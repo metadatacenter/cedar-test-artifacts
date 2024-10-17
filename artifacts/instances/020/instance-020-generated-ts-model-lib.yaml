@@ -37,7 +37,5 @@ children:
     value: "email@domain.com"
   Link Field:
     values:
-      - datatype: "iri"
-        id: "https://metadatacenter.org"
-      - datatype: "iri"
-        id: "https://bioportal.bioontology.org/"
+      - id: "https://metadatacenter.org"
+      - id: "https://bioportal.bioontology.org/"

@@ -17,3 +17,4 @@ children:
       - datatype: "xsd:long"
         value: "10000"
       - datatype: "xsd:long"
+        value: null
