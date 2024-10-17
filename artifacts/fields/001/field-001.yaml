@@ -23,5 +23,4 @@ annotations:
     type: "iri"
     value: "https://doi.org/10.82658/8vc1-abcd"
   - name: "foo"
-    type: "string"
     value: "bar"
