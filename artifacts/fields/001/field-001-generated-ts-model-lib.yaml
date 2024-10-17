@@ -19,8 +19,9 @@ createdBy: "https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c9
 modifiedOn: "2024-03-12T10:05:02-07:00"
 modifiedBy: "https://metadatacenter.org/users/c7dcc3ca-55fe-4ca8-b448-ab110bfe4c95"
 annotations:
-  - name: "https://datacite.com/doi"
-    type: "iri"
+  https://datacite.com/doi:
+    datatype: "iri"
     value: "https://doi.org/10.82658/8vc1-abcd"
-  - name: "foo"
+  foo:
+    datatype: "string"
     value: "bar"

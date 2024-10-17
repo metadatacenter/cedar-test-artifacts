@@ -31,8 +31,8 @@ children:
         values:
           - value: "Option 1"
     Sample Attribute Value:
-      - Attribute name 1:
-          value: "value 1"
+      Attribute name 1:
+        value: "value 1"
   Sample Email:
     value: "email@domain.com"
   Link Field:

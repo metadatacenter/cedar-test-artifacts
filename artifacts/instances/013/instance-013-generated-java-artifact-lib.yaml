@@ -23,13 +23,13 @@ children:
           - value: "text box multiple 1"
           - value: "text box multiple 2"
     Attribute Value Field From Single:
-      - Attribute Value Field Single 1:
-          value: "value 1"
-      - Attribute Value Field Single 2:
-          value: "value 2"
+      Attribute Value Field Single 1:
+        value: "value 1"
+      Attribute Value Field Single 2:
+        value: "value 2"
 Attribute Value Field Root:
-  - Attribute Value Field Root 1:
-      value: "value 1"
-  - Attribute Value Field Root 2:
-      value: "value 2"
-  - Attribute Value Field Root 3: { }
+  Attribute Value Field Root 1:
+    value: "value 1"
+  Attribute Value Field Root 2:
+    value: "value 2"
+  Attribute Value Field Root 3: {}
