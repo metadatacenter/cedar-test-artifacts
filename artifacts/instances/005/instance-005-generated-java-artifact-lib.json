@@ -53,11 +53,20 @@
     "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "skos": "http://www.w3.org/2004/02/skos/core#",
+    "rdfs:label": {
+      "@type": "xsd:string"
+    },
+    "schema:isBasedOn": {
+      "@type": "@id"
+    },
     "schema:name": {
       "@type": "xsd:string"
     },
     "schema:description": {
       "@type": "xsd:string"
+    },
+    "pav:derivedFrom": {
+      "@type": "@id"
     },
     "pav:createdOn": {
       "@type": "xsd:dateTime"
@@ -71,11 +80,8 @@
     "oslc:modifiedBy": {
       "@type": "@id"
     },
-    "pav:derivedFrom": {
-      "@type": "@id"
-    },
-    "schema:isBasedOn": {
-      "@type": "@id"
+    "skos:notation": {
+      "@type": "xsd:string"
     },
     "Text Field Simple": "https://schema.metadatacenter.org/properties/3e67578f-4488-4172-9ba5-b75e1a242c67",
     "Numeric Field Simple": "https://schema.metadatacenter.org/properties/8e976eaf-2aa2-4674-b907-1affaf139923",

@@ -71,17 +71,26 @@
     }
   ],
   "@context": {
-    "schema": "http://schema.org/",
-    "pav": "http://purl.org/pav/",
-    "oslc": "http://open-services.net/ns/core#",
     "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "pav": "http://purl.org/pav/",
+    "schema": "http://schema.org/",
+    "oslc": "http://open-services.net/ns/core#",
     "skos": "http://www.w3.org/2004/02/skos/core#",
+    "rdfs:label": {
+      "@type": "xsd:string"
+    },
+    "schema:isBasedOn": {
+      "@type": "@id"
+    },
     "schema:name": {
       "@type": "xsd:string"
     },
     "schema:description": {
       "@type": "xsd:string"
+    },
+    "pav:derivedFrom": {
+      "@type": "@id"
     },
     "pav:createdOn": {
       "@type": "xsd:dateTime"
@@ -95,11 +104,8 @@
     "oslc:modifiedBy": {
       "@type": "@id"
     },
-    "pav:derivedFrom": {
-      "@type": "@id"
-    },
-    "schema:isBasedOn": {
-      "@type": "@id"
+    "skos:notation": {
+      "@type": "xsd:string"
     },
     "Datetime Element": "https://schema.metadatacenter.org/properties/c84d6e5d-c6ca-4539-ba6c-9b3fc747fb6f",
     "Date Year Month": "https://schema.metadatacenter.org/properties/8cff0baf-29e0-4f57-9ce4-e360a6e32118",

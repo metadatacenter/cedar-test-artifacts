@@ -41,17 +41,26 @@
     "@value": "Last text box"
   },
   "@context": {
-    "schema": "http://schema.org/",
-    "pav": "http://purl.org/pav/",
-    "oslc": "http://open-services.net/ns/core#",
     "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "pav": "http://purl.org/pav/",
+    "schema": "http://schema.org/",
+    "oslc": "http://open-services.net/ns/core#",
     "skos": "http://www.w3.org/2004/02/skos/core#",
+    "rdfs:label": {
+      "@type": "xsd:string"
+    },
+    "schema:isBasedOn": {
+      "@type": "@id"
+    },
     "schema:name": {
       "@type": "xsd:string"
     },
     "schema:description": {
       "@type": "xsd:string"
+    },
+    "pav:derivedFrom": {
+      "@type": "@id"
     },
     "pav:createdOn": {
       "@type": "xsd:dateTime"
@@ -65,11 +74,8 @@
     "oslc:modifiedBy": {
       "@type": "@id"
     },
-    "pav:derivedFrom": {
-      "@type": "@id"
-    },
-    "schema:isBasedOn": {
-      "@type": "@id"
+    "skos:notation": {
+      "@type": "xsd:string"
     },
     "Rich Text Element": "https://schema.metadatacenter.org/properties/e9258304-14fe-4274-9bf5-6d887ae273c8",
     "Paragraph Field": "https://schema.metadatacenter.org/properties/486354e5-6150-4732-bfb2-1e31e288c13e",

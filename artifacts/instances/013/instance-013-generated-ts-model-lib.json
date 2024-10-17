@@ -60,17 +60,26 @@
     "@value": null
   },
   "@context": {
-    "schema": "http://schema.org/",
-    "pav": "http://purl.org/pav/",
-    "oslc": "http://open-services.net/ns/core#",
     "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "pav": "http://purl.org/pav/",
+    "schema": "http://schema.org/",
+    "oslc": "http://open-services.net/ns/core#",
     "skos": "http://www.w3.org/2004/02/skos/core#",
+    "rdfs:label": {
+      "@type": "xsd:string"
+    },
+    "schema:isBasedOn": {
+      "@type": "@id"
+    },
     "schema:name": {
       "@type": "xsd:string"
     },
     "schema:description": {
       "@type": "xsd:string"
+    },
+    "pav:derivedFrom": {
+      "@type": "@id"
     },
     "pav:createdOn": {
       "@type": "xsd:dateTime"
@@ -84,11 +93,8 @@
     "oslc:modifiedBy": {
       "@type": "@id"
     },
-    "pav:derivedFrom": {
-      "@type": "@id"
-    },
-    "schema:isBasedOn": {
-      "@type": "@id"
+    "skos:notation": {
+      "@type": "xsd:string"
     },
     "Attribute Value Element Multiple": "https://schema.metadatacenter.org/properties/990f2014-8fc4-4fad-b93c-06b9f803ad86",
     "Attribute Value Element Single": "https://schema.metadatacenter.org/properties/4d88ab5d-6a6a-4f23-b23b-6423ca45c926",
