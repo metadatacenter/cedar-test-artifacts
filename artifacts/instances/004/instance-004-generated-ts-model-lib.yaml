@@ -11,9 +11,8 @@ children:
     datatype: "xsd:decimal"
     value: "123.456"
   Number 2:
-    values:
-      - datatype: "xsd:long"
-        value: "20000"
-      - datatype: "xsd:long"
-        value: "10000"
-      - datatype: "xsd:long"
+    - datatype: "xsd:long"
+      value: "20000"
+    - datatype: "xsd:long"
+      value: "10000"
+    - datatype: "xsd:long"
