@@ -6,11 +6,11 @@
     "@value": "text value"
   },
   "@context": {
-    "schema": "http://schema.org/",
-    "pav": "http://purl.org/pav/",
-    "oslc": "http://open-services.net/ns/core#",
     "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "pav": "http://purl.org/pav/",
+    "schema": "http://schema.org/",
+    "oslc": "http://open-services.net/ns/core#",
     "skos": "http://www.w3.org/2004/02/skos/core#",
     "rdfs:label": {
       "@type": "xsd:string"
