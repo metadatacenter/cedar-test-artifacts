@@ -9,8 +9,5 @@ children:
     - children:
         Single Select in Element:
           value: "Option 2"
-    - children:
-        Single Select in Element:
-          value: null
   Single Select Standalone:
     value: "Option 4"

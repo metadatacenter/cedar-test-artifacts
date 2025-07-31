@@ -7,11 +7,8 @@ children:
         Paragraph Field Multiple Inside Element:
           - value: "Para\ngraph\n1/1"
           - value: "Para\ngraph\n1/2"
-        Text Field in Paragraph Element:
-          - value: null
         Numeric Field Multiple Inside Paragraph Element:
           - datatype: "xsd:double"
-            value: null
     - children:
         Paragraph Field Multiple Inside Element:
           - value: "Para\ngraph\n2/1"
@@ -20,5 +17,3 @@ children:
         Numeric Field Multiple Inside Paragraph Element:
           - datatype: "xsd:double"
             value: "120"
-  Paragraph Standalone:
-    - value: null

@@ -18,8 +18,5 @@ children:
     - children:
         Multiple Choice in Element (radio):
           value: "Option 5"
-    - children:
-        Multiple Choice in Element (radio):
-          value: null
   Multiple Choice Standalone:
     value: "Option 1"

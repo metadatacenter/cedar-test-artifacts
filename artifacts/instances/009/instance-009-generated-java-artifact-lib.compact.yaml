@@ -15,9 +15,6 @@ children:
           - value: "Option 3"
           - value: "Option 4"
           - value: "Option 5"
-    - children:
-        Checkbox in Element:
-          - value: null
   Checkbox Standalone:
     - value: "Option 1"
     - value: "Option 3"
