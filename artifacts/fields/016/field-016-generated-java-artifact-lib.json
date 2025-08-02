@@ -47,29 +47,23 @@
       "type": "string",
       "format": "uri"
     },
+    "@id": {
+      "type": "string",
+      "format": "uri"
+    },
     "rdfs:label": {
       "type": [
         "string",
         "null"
       ]
     },
-    "@value": {
+    "skos:notation": {
       "type": [
         "string",
         "null"
       ]
-    },
-    "@language": {
-      "type": [
-        "string",
-        "null"
-      ],
-      "minLength": 1
     }
   },
-  "required": [
-    "@value"
-  ],
   "schema:name": "PFAS Field",
   "schema:description": "PFAS Help",
   "pav:createdOn": "2025-07-31T11:31:34-07:00",
