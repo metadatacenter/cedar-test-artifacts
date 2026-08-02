@@ -3179,7 +3179,7 @@
         },
         "Other Language": {
           "type": "array",
-          "minItems": 0,
+          "minItems": 1,
           "items": {
             "@id": "https://repo.metadatacenter.org/template-fields/de68511a-d791-45d8-bccf-cb06b5c758c8",
             "@type": "https://schema.metadatacenter.org/core/TemplateField",
