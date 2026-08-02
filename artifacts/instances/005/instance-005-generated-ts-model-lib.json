@@ -85,7 +85,9 @@
     },
     "Text Field Simple": "https://schema.metadatacenter.org/properties/3e67578f-4488-4172-9ba5-b75e1a242c67",
     "Numeric Field Simple": "https://schema.metadatacenter.org/properties/8e976eaf-2aa2-4674-b907-1affaf139923",
-    "Phone Field Multiple": "https://schema.metadatacenter.org/properties/03ed1d58-9851-4696-aa65-4c3db57dd177"
+    "Phone Field Multiple": "https://schema.metadatacenter.org/properties/03ed1d58-9851-4696-aa65-4c3db57dd177",
+    "Element": "https://schema.metadatacenter.org/properties/d1969ccc-6d97-4d9f-9097-3e7619dc2527",
+    "Element1": "https://schema.metadatacenter.org/properties/09930ab1-1932-4e39-a44d-7909101f2e0b"
   },
   "schema:isBasedOn": "https://repo.metadatacenter.org/templates/a29c046d-3c19-4213-be02-f5b6457cac9b",
   "pav:createdOn": "2024-10-17T13:15:26-07:00",
