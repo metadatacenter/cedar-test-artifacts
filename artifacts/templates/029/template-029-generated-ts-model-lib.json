@@ -113,6 +113,12 @@
     "@context": {
       "type": "object",
       "properties": {
+        "_annotations": {
+          "type": "string",
+          "enum": [
+            "@nest"
+          ]
+        },
         "rdfs": {
           "type": "string",
           "format": "uri",
@@ -491,6 +497,40 @@
         "null"
       ],
       "format": "uri"
+    },
+    "_annotations": {
+      "type": "object",
+      "patternProperties": {
+        "^.+$": {
+          "oneOf": [
+            {
+              "type": "object",
+              "properties": {
+                "@id": {
+                  "type": "string",
+                  "format": "uri"
+                }
+              },
+              "additionalProperties": false
+            },
+            {
+              "type": "object",
+              "properties": {
+                "@value": {
+                  "type": [
+                    "string",
+                    "number",
+                    "boolean",
+                    "null"
+                  ]
+                }
+              },
+              "additionalProperties": false
+            }
+          ]
+        }
+      },
+      "additionalProperties": false
     },
     "Data File Title": {
       "type": "array",
@@ -6582,8 +6622,8 @@
                 }
               ],
               "defaultValue": {
-                "rdfs:label": "Dataset",
-                "termUri": "http://vocab.fairdatacollective.org/gdmt/Dataset"
+                "termUri": "http://vocab.fairdatacollective.org/gdmt/Dataset",
+                "rdfs:label": "Dataset"
               },
               "requiredValue": false
             },
@@ -7080,8 +7120,8 @@
                 }
               ],
               "defaultValue": {
-                "rdfs:label": "Person",
-                "termUri": "http://vocab.fairdatacollective.org/gdmt/Person"
+                "termUri": "http://vocab.fairdatacollective.org/gdmt/Person",
+                "rdfs:label": "Person"
               },
               "requiredValue": false
             },
@@ -9028,8 +9068,8 @@
                 }
               ],
               "defaultValue": {
-                "rdfs:label": "Person",
-                "termUri": "http://vocab.fairdatacollective.org/gdmt/Person"
+                "termUri": "http://vocab.fairdatacollective.org/gdmt/Person",
+                "rdfs:label": "Person"
               },
               "requiredValue": false
             },
@@ -13830,8 +13870,8 @@
                     }
                   ],
                   "defaultValue": {
-                    "rdfs:label": "Published",
-                    "termUri": "http://vocab.fairdatacollective.org/gdmt/Published"
+                    "termUri": "http://vocab.fairdatacollective.org/gdmt/Published",
+                    "rdfs:label": "Published"
                   },
                   "requiredValue": false
                 },
@@ -13993,6 +14033,11 @@
             "Data Characteristics Table in TSV": {
               "enum": [
                 "http://purl.org/radx-terms/metadata-terms/dataCharacteristicsTableInTsv"
+              ]
+            },
+            "Data Characteristics Table in Key-Value Pairs": {
+              "enum": [
+                "https://schema.metadatacenter.org/properties/7ca56d90-7c21-4a3e-8fa7-1a09060624ea"
               ]
             }
           },
@@ -18227,6 +18272,11 @@
         "@context": {
           "type": "object",
           "properties": {
+            "Data File Descriptive Key-Value Pair": {
+              "enum": [
+                "https://schema.metadatacenter.org/properties/880d32df-5a49-4200-8f66-e2b53723a360"
+              ]
+            },
             "Additional Commentary": {
               "enum": [
                 "http://purl.org/radx-terms/metadata-terms/auxiliaryMetadataCommentary"
