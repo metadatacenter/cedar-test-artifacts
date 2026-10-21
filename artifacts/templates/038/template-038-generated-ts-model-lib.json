@@ -98,6 +98,12 @@
     "@context": {
       "type": "object",
       "properties": {
+        "_annotations": {
+          "type": "string",
+          "enum": [
+            "@nest"
+          ]
+        },
         "rdfs": {
           "type": "string",
           "format": "uri",
@@ -446,6 +452,40 @@
         "null"
       ],
       "format": "uri"
+    },
+    "_annotations": {
+      "type": "object",
+      "patternProperties": {
+        "^.+$": {
+          "oneOf": [
+            {
+              "type": "object",
+              "properties": {
+                "@id": {
+                  "type": "string",
+                  "format": "uri"
+                }
+              },
+              "additionalProperties": false
+            },
+            {
+              "type": "object",
+              "properties": {
+                "@value": {
+                  "type": [
+                    "string",
+                    "number",
+                    "boolean",
+                    "null"
+                  ]
+                }
+              },
+              "additionalProperties": false
+            }
+          ]
+        }
+      },
+      "additionalProperties": false
     },
     "Text": {
       "@id": null,
@@ -2037,8 +2077,8 @@
         "classes": [],
         "branches": [],
         "defaultValue": {
-          "rdfs:label": "melanoma",
-          "termUri": "http://purl.obolibrary.org/obo/DOID_1909"
+          "termUri": "http://purl.obolibrary.org/obo/DOID_1909",
+          "rdfs:label": "melanoma"
         },
         "requiredValue": false
       },
